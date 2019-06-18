@@ -5,8 +5,8 @@
     <description>A modeller's random adventures in data-land</description>
     <link>https://julien-arino.github.io/</link>
     <atom:link href="https://julien-arino.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 18 Jun 2019 11:08:01 -0500</pubDate>
-    <lastBuildDate>Tue, 18 Jun 2019 11:08:01 -0500</lastBuildDate>
+    <pubDate>Tue, 18 Jun 2019 12:30:20 -0500</pubDate>
+    <lastBuildDate>Tue, 18 Jun 2019 12:30:20 -0500</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -18,7 +18,7 @@
 &lt;p&gt;First, we need the function that we will evaluate for a given point in parameter space. Note that we pass parameters as a list rather than an ordered t-uple of parameters; this allows to not have to worry about the order in which parameters are presented.&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;n&quot;&gt;R&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;beta&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;S&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gamma&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;beta&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;S&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gamma&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;The following function converts one or several parameter values given in the list by &lt;code class=&quot;highlighter-rouge&quot;&gt;lapply&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;parLapply&lt;/code&gt; into a value of $R_0$. Note the little trick, which allows to set as many parameters as are provided in the element of the list received as argument.&lt;/p&gt;
@@ -34,7 +34,6 @@
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;n&quot;&gt;param&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;param&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;beta&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1e-6&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;param&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;S&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;10000&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;param&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;70&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;365.25&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# Average duration of life&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;param&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gamma&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;4.5&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# Average duration of infection&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Set up the list of parameters that are going to vary. For illustration, we do 10,000 computations for varying values of $\beta$, 10,000 for varying values of $S_0$ and 10,000 simulations for varying values of both $\beta$ and $S_0$.&lt;/p&gt;
@@ -305,8 +304,8 @@ It took a few years for the effect to be felt, but now, we see regular small out
 &lt;h2 id=&quot;files&quot;&gt;Files&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Concatenated US Centers for Disease Control and Prevention Morbidity and Mortality Weekly Report for notifiable diseases, aggregated by year, from 1944 to 1993 and by month for 1994 and 1995: &lt;a href=&quot;/~jarino/blog/assets_data/CDC_MMWR_notifiableDiseasesYearly_1944_1995.txt&quot;&gt;file&lt;/a&gt;. This file contains the raw data.&lt;/li&gt;
-  &lt;li&gt;Yearly number of reported cases of measles in the USA from 1944 to 2019: &lt;a href=&quot;/~jarino/blog/assets_data/measles_reportedCases_USA_1944_2019.csv&quot;&gt;file&lt;/a&gt;. For the period 1944 to 1995, the data comes from the file above. For the years following, data origates from more dynamic pages at &lt;a href=&quot;https://www.cdc.gov/measles/cases-outbreaks.html&quot;&gt;CDC&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Concatenated US Centers for Disease Control and Prevention Morbidity and Mortality Weekly Report for notifiable diseases, aggregated by year, from 1944 to 1993 and by month for 1994 and 1995: &lt;a href=&quot;https://raw.githubusercontent.com/julien-arino/datasets/master/CDC_MMWR_notifiableDiseasesYearly_1944_1995.txt&quot;&gt;file&lt;/a&gt;. This file contains the raw data.&lt;/li&gt;
+  &lt;li&gt;Yearly number of reported cases of measles in the USA from 1944 to 2019: &lt;a href=&quot;https://raw.githubusercontent.com/julien-arino/datasets/master/measles_reportedCases_USA_1944_2019.csv&quot;&gt;file&lt;/a&gt;. For the period 1944 to 1995, the data comes from the file above. For the years following, data originates from more dynamic pages at &lt;a href=&quot;https://www.cdc.gov/measles/cases-outbreaks.html&quot;&gt;CDC&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;some-remarks-about-the-plots&quot;&gt;Some remarks about the plots&lt;/h2&gt;
@@ -498,14 +497,10 @@ handling of the data. They are available in the full file, though.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;The main cleaned-up file, in CSV format (&lt;a href=&quot;/~jarino/blog/assets_data/SARS_data.csv&quot;&gt;file&lt;/a&gt;).&lt;/p&gt;
+    &lt;p&gt;The main cleaned-up file, in CSV format (&lt;a href=&quot;https://raw.githubusercontent.com/julien-arino/datasets/master/SARS_data.csv&quot;&gt;file&lt;/a&gt;).&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;A processed file with coutry by country dates of &lt;em&gt;events&lt;/em&gt;, i.e., dates at which the cumulative number
-of cases, the number of deaths or the number of recovered changes.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The raw, almost unprocessed &lt;a href=&quot;/~jarino/blog/assets_data/SARS_data.raw.txt&quot;&gt;file&lt;/a&gt; obtained by cutting and pasting the content of all the
+    &lt;p&gt;The raw, almost unprocessed &lt;a href=&quot;https://raw.githubusercontent.com/julien-arino/datasets/master/SARS_data.raw.txt&quot;&gt;file&lt;/a&gt; obtained by cutting and pasting the content of all the
 pages on the WHO site into a single file. The notes omitted in the cleaned-up file are present in this version.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
