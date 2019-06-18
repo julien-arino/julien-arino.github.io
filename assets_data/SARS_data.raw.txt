@@ -1,0 +1,3898 @@
+Cumulative number of reported suspect and probable cases (SARS)
+
+
+General notes (present in one form or another in many tables):
+1. Cumulative number of cases includes number of deaths.	
+2. It is possible for the status of a reported case to change over time. SARS is a diagnosis of exclusion. This means that whenever a known cause is found that could fully account for a patient's clinical condition, this patient should no longer be considered to be a case of SARS.
+3. Starting on 28 March 2003, the following change occurs: "The start of the period of surveillance has been changed to 1 November 2002 to capture cases of atypical pneumonia in China that are now recognized as being cases of SARS".
+
+
+
+
+
+From: 1 February 2003 To: 17 March 2003
+
+Country	Total number of case(s)	Number of deaths	Local transmission
+
+Germany	1	0	None*
+Canada	8	2	Yes
+Singapore	20	0	Yes
+Hong Kong SAR	95	1**	Yes
+Switzerland	2	0	To be determined
+Thailand	1	0	None*
+Viet Nam	40	1	Yes
+
+Total	167	4
+
+* Imported cases immediately isolated. Not to be considered as affected areas.
+**The death attributed to Hong Kong SAR occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 February 2003 To: 18 March 2003
+
+Country	Cumulative number of case(s) §	Number of deaths	Local transmission
+Germany	2	0	None*
+Canada	8	2	Yes
+China +	 	 	 
+Singapore	23	0	Yes
+Hong Kong SAR	123	1**	Yes
+Taiwan, China	3	0	Yes
+Thailand	1	0	None*
+Viet Nam	57	1	Yes
+Slovenia	1	0	None*
+United Kingdom	1	0	None*
+
+Total	219	4	 
+
+Two cases attributed to Switzerland on 17 March 2003 no longer fulfilled the case definition of SARS after further clinical assessment.
+
++The Chinese authorities have reported suspect and probable cases in Guangdong province. Figures are being updated.
+§ Cumulative number of cases includes number of deaths.
+* No documented secondary transmission in-country. No affected areas.
+**The death attributed to Hong Kong SAR occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Feb 2003 To: 19 Mar 2003, 16:00 GMT+1
+
+Country	Cumulative number of case(s) §	Number of deaths	Local transmission
+Canada	8	2	Yes
+China+	 	 	 
+Germany	1	0	None*
+Hong Kong SAR	150	5**	Yes
+Singapore	31	0	Yes
+Slovenia	1	0	None*
+Spain	1	0	To be determined
+Taiwan, China	3	0	Yes
+Thailand	1	0	None*
+United Kingdom	1	0	None*
+United States	11	0	To be determined
+Viet Nam	56	2	Yes
+
+Total	264	9	 
+
++The Chinese authorities have reported suspect and probable cases in Guangdong province. Figures are being updated. 
+§ Cumulative number of cases includes number of deaths. 
+* No documented secondary transmission in-country. No affected areas. 
+**One death attributed to Hong Kong SAR occurred in a case medically transferred from Viet Nam. 
+
+
+
+From: 1 Feb 2003 To: 20 Mar 2003, 13:00 GMT+1
+
+Country	Cumulative number of case(s) §	Number of deaths	Local transmission
+Canada	9	2	Yes
+China +	
+Germany	1	0	None*
+Hong Kong SAR	173	6**	Yes
+Singapore	34	0	Yes
+Slovenia	1	0	None*
+Spain	1	0	To be determined
+Switzerland	7	0	To be determined
+Taiwan, China	4	0	Yes
+Thailand	1	0	None*
+United Kingdom	2	0	To be determined
+United States	11	0	To be determined
+Viet Nam	62	2	Yes
+
+Total	306	10
+ 
++The Chinese authorities have reported suspect and probable cases in Guangdong province. Figures are being updated. 
+§ Cumulative number of cases includes number of deaths. 
+* No documented secondary transmission in-country. No affected areas. 
+**One death attributed to Hong Kong SAR occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Feb 2003 To: 21 Mar 2003, 15:00 GMT+1
+
+Country	Cumulative number of case(s) §	Number of deaths	Local transmission
+Canada	 9	 2	 Yes
+China +	 	 	 
+Germany	 1	 0	 None*
+Hong Kong SAR	 203	 6**	 Yes
+Italy	 1	 0	 None*
+Republic of Ireland	 1	 0	 None*
+Singapore	 39	 0	 Yes
+Slovenia	 1	 0	 None*
+Spain	 1	 0	 None*
+Switzerland	 7	 0	 To be determined
+Taiwan, China	 6	 0	 Yes
+Thailand	 4	 0	 To be determined
+United Kingdom	 2	 0	 None*
+United States	 13	 0	 To be determined
+Viet Nam	 62	 2	 Yes
+
+Total	350	10	 
+
++The Chinese authorities have reported suspect and probable cases in Guangdong province. Figures are being updated.
+§ Cumulative number of cases includes number of deaths. 
+* No documented secondary transmission in-country. No affected areas. 
+**One death attributed to Hong Kong SAR occurred in a case medically transferred from Viet Nam. 
+
+
+
+From: 1 Feb 2003 To: 22 Mar 2003, 14:00 GMT+1
+
+Country	Cumulative number of case(s) §	Number of deaths	Local transmission
+Canada	 9	 2	 Yes
+China +	 	 	 
+Germany	 2	 0	 None*
+Hong Kong SAR	 222	 7**	 Yes
+Italy	 2	 0	 None*
+Republic of Ireland	 1	 0	 None*
+Singapore	 44	 0	 Yes
+Slovenia	 1	 0	 None*
+Spain	 1	 0	 None*
+Switzerland	 7	 0	 To be determined
+Taiwan, China	 6	 0	 Yes
+Thailand	 4	 0	 None*
+United Kingdom	 2	 0	 None*
+United States	 22	 0	 To be determined
+Viet Nam	 63	 2	 Yes
+
+Total	386	11	 
+
++The Chinese authorities have reported suspect and probable cases in Guangdong province. Figures are being updated.
+§ Cumulative number of cases includes number of deaths. 
+* No documented secondary transmission in-country. No affected areas. 
+**One death attributed to Hong Kong SAR occurred in a case medically transferred from Viet Nam. 
+
+
+
+From: 1 Feb 2003 To: 24 Mar 2003, 16:00 GMT+1
+
+Country	Cumulative number of case(s)	Number of deaths	Local transmission*
+Canada	 11	 3	 Yes
+China +	 	 	 
+France	 1	 0	 None
+Germany	 4	 0	 None
+Hong Kong SAR	 260	 10**	 Yes
+Italy	 2	 0	 None
+Republic of Ireland	 1	 0	 None
+Singapore	 65	 0	 Yes
+Spain	 1	 0	 None
+Switzerland	 2	 0	 To be determined
+Taiwan, China	 6	 0	 Yes
+Thailand	 5	 0	 None
+United Kingdom	 3	 0	 None
+United States	 37 §	 0	 To be determined
+Viet Nam	 58	 4	 Yes
+
+Total	456	17	 
+
+* National public health authorities report to WHO on the areas in which local chain(s) of transmission is/are occurring. These areas are provided on the list of Affected Areas (See http://www.who.int/csr/sars/areas/en/). 
++ The Chinese authorities have previously reported cases of atypical pneumonia in Guangdong province from 1 November 2002 to 9 February 2003. Further investigation is underway to update figures.	
+§ Due to differences in the case definitions being used at a national level, probable cases are reported by all countries except the United States of America, which is reporting suspect cases under investigation. 
+** One death attributed to Hong Kong SAR occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Feb 2003 To: 25 Mar 2003, 13:00 GMT+1
+
+Country	Cumulative number of case(s)	Number of deaths	Local transmission*
+Canada	 11	 3	 Yes
+China +	 	 	 
+France	 1	 0	 None
+Germany	 4	 0	 None
+Hong Kong SAR	 286	 10**	 Yes
+Italy	 2	 0	 None
+Republic of Ireland	 1	 0	 None
+Singapore	 69	 0	 Yes
+Switzerland	 2	 0	 To be determined
+Taiwan, China	 6	 0	 Yes
+Thailand	 5	 0	 None
+United Kingdom	 3	 0	 None
+United States	 39 §	 0	 To be determined
+Viet Nam	 58	 4	 Yes
+
+Total	487	17	 
+
+* National public health authorities report to WHO on the areas in which local chain(s) of transmission is/are occurring. These areas are provided on the list of Affected Areas. 
++ The Chinese authorities have previously reported cases of atypical pneumonia in Guangdong province from 1 November 2002 to 9 February 2003. Further investigation is underway to update figures.	
+§ Due to differences in the case definitions being used at a national level, probable cases are reported by all countries except the United States of America, which is reporting suspect cases under investigation. 
+** One death attributed to Hong Kong SAR occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Feb 2003 To: 26 Mar 2003, 13:00 GMT+1
+
+Country	Cumulative number of case(s)	Number of deaths	Local transmission*
+Canada	 19	 3	 Yes
+China, Guangdong Province+ 	792	31	Yes
+Hong Kong SAR 	 316	 10**	 Yes
+China, Taiwan	 6	 0	 Yes
+France	 1	 0	 None
+Germany	 4	 0	 None
+Italy	 3	 0	 None
+Republic of Ireland	 2	 0	 None
+Singapore	 74	 1	 Yes
+Switzerland	 2	 0	 To be determined
+Thailand	 3	 0	 None
+United Kingdom	 3	 0	 None
+United States	 40 §	 0	 To be determined
+Viet Nam	 58	 4	 Yes
+
+Total	1323	49	 
+
+*National public health authorities report to WHO on the areas in which local chain(s) of transmission is/are occurring. These areas are provided on the list of Affected Areas.
++This is an updated report of cases from 16 November 2002 to 28 February 2003 in Guangdong Province. The number of cases was compiled from investigations as well as hospital reports and may include suspect as well as probable cases of SARS.
+§Due to differences in the case definitions being used at a national level, probable cases are reported by all countries except the United States of America, which is reporting suspect cases under investigation. 
+**One death attributed to Hong Kong SAR occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Feb 2003 To: 27 Mar 2003, 17:30 GMT+1
+
+Country	Cumulative number of case(s)	Number of deaths	Local transmission*
+Canada	 28	 3	 Yes
+China + 	806	34	 Yes
+Hong Kong SAR 	 367	 10**	 Yes
+China, Taiwan	 6	 0	 Yes
+France	 1	 0	 None
+Germany	 4	 0	 None
+Italy	 2	 0	 None
+Republic of Ireland	 2	 0	 None
+Romania	 3	 0	 None
+Singapore	 78	 2	 Yes
+Switzerland	 2	 0	 To be determined
+Thailand	 3	 0	 None
+United Kingdom	 3	 0	 None
+United States	 45 §	 0	 To be determined
+Viet Nam	 58	 4	 Yes
+
+Total	1408	53	 
+
+*National public health authorities report to WHO on the areas in which local chain(s) of transmission is/are occurring. These areas are provided on the list of Affected Areas.
++ 792 cases, including 31 deaths, reported from Guangdong Province cover the period 16 November 2002 to 28 February 2003. These cases were compiled from investigations as well as hospital reports and may include suspect as well as probable cases of SARS. 
+§Due to differences in the case definitions being used at a national level, probable cases are reported by all countries except the United States of America, which is reporting suspect cases under investigation. 
+**One death attributed to Hong Kong SAR occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 28 Mar 2003, 14:00 GMT+1
+
+Country	Cumulative number of case(s)	Number of deaths	Local chain(s) of transmission2
+Canada	 29	 3	 Yes
+China3 	806	34	 Yes
+Hong Kong SAR 	 425	 10*	 Yes
+China, Taiwan	 10	 0	 Yes
+France	 1	 0	 None
+Germany	 4	 0	 None
+Italy	 2	 0	 None
+Republic of Ireland	 2	 0	 None
+Romania	 3	 0	 None
+Singapore	 86	 2	 Yes
+Switzerland	 2	 0	 None
+Thailand	 3	 0	 To be determined
+United Kingdom	 3	 0	 None
+United States	 51 §	 0	 To be determined
+Viet Nam	 58	 4	 Yes
+
+Total	1485	53	 
+
+2. National public health authorities report to WHO on the areas in which local chain(s) of transmission is/are occurring. These areas are provided on the list of Affected Areas.
+3. The reporting period from Guangdong Province is from 16 November 2002 to 28 February 2003. 
+§ Due to differences in the case definitions being used at a national level, probable cases are reported by all countries except the United States of America, which is reporting suspect cases under investigation. 
+* One death attributed to Hong Kong SAR occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 29 Mar 2003, 15:00 GMT+1
+
+Country	Cumulative number of case(s)	Number of deaths	Local chain(s) of transmission2
+Canada	 37	 3	 Yes
+China3 	806	34	 Yes
+Hong Kong SAR 	 470	 10*	 Yes
+China, Taiwan	 10	 0	 Yes
+France	 1	 0	 None
+Germany	 4	 0	 None
+Italy	 2	 0	 None
+Republic of Ireland	 2	 0	 None
+Romania	 3	 0	 None
+Singapore	 89	 2	 Yes
+Switzerland	 3	 0	 None
+Thailand	 3	 1	 None
+United Kingdom	 3	 0	 None
+United States	 59 §	 0	 To be determined
+Viet Nam	 58	 4	 Yes
+
+Total	1550	54	 
+
+2. National public health authorities report to WHO on the areas in which local chain(s) of transmission is/are occurring. These areas are provided on the list of Affected Areas.
+3. The reporting period from Guangdong Province is from 16 November 2002 to 28 February 2003. 
+§ Due to differences in the case definitions being used at a national level, probable cases are reported by all countries except the United States of America, which is reporting suspect cases under investigation. 
+* One death attributed to Hong Kong SAR occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 31 Mar 2003, 17:00 GMT+2
+
+Country	Cumulative number of case(s)	Number of deaths	Local chain(s) of transmission2
+Canada	 44	 4	 Yes
+China3 	806	34	 Yes
+Hong Kong SAR 	 530	 13*	 Yes
+China, Taiwan	 10	 0	 Yes
+France	 1	 0	 None
+Germany	 5	 0	 None
+Italy	 2	 0	 None
+Republic of Ireland	 2	 0	 None
+Romania	 3	 0	 None
+Singapore	 91	 2	 Yes
+Switzerland	 3	 0	 None
+Thailand	 5	 1	 None
+United Kingdom	 3	 0	 None
+United States	 59 §	 0	 To be determined
+Viet Nam	 58	 4	 Yes
+
+Total	1622	58	 
+
+2. National public health authorities report to WHO on the areas in which local chain(s) of transmission is/are occurring. These areas are provided on the list of Affected Areas.
+3. The reporting period from Guangdong Province is from 16 November 2002 to 28 February 2003. 
+§ Due to differences in the case definitions being used at a national level, probable cases are reported by all countries except the United States of America, which is reporting suspect cases under investigation. 
+* One death attributed to Hong Kong SAR occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 1 Apr 2003, 16:00 GMT+2
+
+Country	Cumulative number of case(s)	Number of deaths	Local chain(s) of transmission2
+Australia	 1	 0	 None
+Belgium	 1	 0	 None
+Canada	 53	 4	 Yes
+China3 	806	34	 Yes
+Hong Kong SAR 	 685	 16*	 Yes
+China, Taiwan	 13	 0	 Yes
+France	 1	 0	 None
+Germany	 5	 0	 None
+Italy	 3	 0	 None
+Republic of Ireland	 2	 0	 None
+Romania	 3	 0	 None
+Singapore	 92	 3	 Yes
+Switzerland	 3	 0	 None
+Thailand	 6	 1	 None
+United Kingdom	 3	 0	 None
+United States	 69 §	 0	 To be determined
+Viet Nam	 58	 4	 Yes
+
+Total	1804	62	 
+
+2. National public health authorities report to WHO on the areas in which local chain(s) of transmission is/are occurring. These areas are provided on the list of Affected Areas.
+3. The reporting period from Guangdong Province is from 16 November 2002 to 28 February 2003. 
+§ Due to differences in the case definitions being used at a national level, probable cases are reported by all countries except the United States of America, which is reporting suspect cases under investigation. 
+* One death attributed to Hong Kong SAR occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 2 Apr 2003, 16:00 GMT+2
+
+Country	Cumulative number of case(s)	Number of deaths	Local chain(s) of transmission2
+Australia	 1	 0	 None
+Belgium	 1	 0	 None
+Canada	 58	 6	 Yes
+China	 1190	 46	 Yes
+Hong Kong SAR	 708	 16*	 Yes
+China, Taiwan	 13	 0	 Yes
+France	 1	 0	 None
+Germany	 5	 0	 None
+Italy	 3	 0	 None
+Republic of Ireland	 2	 0	 None
+Romania	 3	 0	 None
+Singapore	 95	 4	 Yes
+Spain	 1	 0	 None
+Switzerland	 2	 0	 None
+Thailand	 7	 2	 None
+United Kingdom	 3	 0	 None
+United States	 72§	 0	 To be determined
+Viet Nam	 58	 4	 Yes
+
+Total	2223	78	 
+
+1. The start of the period of surveillance has been changed to 1 November 2002 to capture cases of atypical pneumonia in China that are now recognized as being cases of SARS.	
+2. National public health authorities report to WHO on the areas in which local chain(s) of transmission is/are occurring. These areas are provided on the list of Affected Areas. 
+§Due to differences in the case definitions being used at a national level, probable cases are reported by all countries except the United States of America, which is reporting suspect cases under investigation. 
+*One death attributed to Hong Kong SAR occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 3 Apr 2003, 17:00 GMT+2
+
+Country	Cumulative number of case(s)	Number of deaths	Local chain(s) of transmission2
+Australia	 1	 0	 None
+Belgium	 1	 0	 None
+Brazil	1	0	 None
+Canada	 62	 6	 Yes
+China	 1190	 46	 Yes
+Hong Kong SAR	 734	 17*	 Yes
+China, Taiwan	 14	 0	 Yes
+France	 3	 0	 None
+Germany	 5	 0	 None
+Italy	 3	 0	 None
+Republic of Ireland	 1	 0	 None
+Romania	 1	 0	 None
+Singapore	 98	 4	 Yes
+Switzerland	 2	 0	 None
+Thailand	 7	 2	 None
+United Kingdom	 3	 0	 None
+United States	 85§	 0	 Being determined
+Viet Nam	 59	 4	 Yes
+
+Total	2270	79	 
+
+1. The start of the period of surveillance has been changed to 1 November 2002 to capture cases of atypical pneumonia in China that are now recognized as being cases of SARS.	
+2. National public health authorities report to WHO on the areas in which local chain(s) of transmission is/are occurring. These areas are provided on the list of Affected Areas. 
+§Due to differences in the case definitions being used at a national level, probable cases are reported by all countries except the United States of America, which is reporting suspect cases under investigation. 
+*One death attributed to Hong Kong SAR occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 4 Apr 2003, 19:00 GMT+2
+
+Country	Cumulative number of case(s)	Number of deaths	Local chain(s) of transmission2
+Australia	 1	 0	 None
+Belgium	 1	 0	 None
+Brazil	1	0	 None
+Canada	 69	 7	 Yes
+China	 1220	 49	 Yes
+Hong Kong SAR	 761	 17*	 Yes
+China, Taiwan	 15	 0	 Yes
+France	 3	 0	 None
+Germany	 5	 0	 None
+Italy	 3	 0	 None
+Republic of Ireland	 1	 0	 None
+Romania	 1	 0	 None
+Singapore	 100	 5	 Yes
+Spain	 1	 0	 None
+Switzerland	 2	 0	 None
+Thailand	 7	 2	 None
+United Kingdom	 3	 0	 None
+United States	 100§	 0	 Being determined
+Viet Nam	 59	 4	 Yes
+
+Total	2353	84	 
+
+1. The start of the period of surveillance has been changed to 1 November 2002 to capture cases of atypical pneumonia in China that are now recognized as being cases of SARS. 
+2. National public health authorities report to WHO on the areas in which local chain(s) of transmission is/are occurring. These areas are provided on the list of Affected Areas. 
+§Due to differences in the case definitions being used at a national level, probable cases are reported by all countries except the United States of America, which is reporting suspect cases under investigation. 
+*One death attributed to Hong Kong SAR occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 5 Apr 2003, 17:00 GMT+2
+
+Country	Cumulative number of case(s)	Number of deaths	Local chain(s) of transmission 2
+Australia	 1	 0	 None
+Belgium	 1	 0	 None
+Brazil	 1	 0	 None
+Canada	 74	 7	 Yes
+China	 1220	 49	 Yes
+Hong Kong SAR	 800	 20*	 Yes
+China, Taiwan	 17	 0	 Yes
+France	 3	 0	 None
+Germany	 5	 0	 None
+Italy	 3	 0	 None
+Malaysia	 1	 1	 None
+Republic of Ireland	 1	 0	 None
+Romania	 1	 0	 None
+Singapore	 101	 6	 Yes
+Spain	 1	 0	 None
+Switzerland	 1	 0	 None
+Thailand	 7	 2	 None
+United Kingdom	 4	 0	 None
+United States	 115§	 0	 None
+Viet Nam	 59	 4	 Yes
+
+Total	2416	89	 
+
+2. National public health authorities report to WHO on the areas in which local chain(s) of transmission is/are occurring. These areas are provided on the list of Affected Areas (See http://www.who.int/csr/sars/areas/en/).
+§ Due to differences in the case definitions being used at a national level, probable cases are reported by all countries except the United States of America, which is reporting suspect cases under investigation.
+* One death attributed to Hong Kong SAR occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 7 Apr 2003, 18:00 GMT+2
+
+Country	Cumulative number of case(s)	Number of deaths	Local chain(s) of transmission 2
+Australia	 1	 0	 None
+Brazil	 1	 0	 None
+Canada	 90	 9	 Yes
+China	 1268	 53	 Yes
+Hong Kong SAR	 883	 23*	 Yes
+China, Taiwan	 21	 0	 Yes
+France	 3	 0	 None
+Germany	 5	 0	 None
+Italy	 3	 0	 None
+Malaysia	 1	 1	 None
+Republic of Ireland	 1	 0	 None
+Romania	 1	 0	 None
+Singapore	 106	 6	 Yes
+Spain	 1	 0	 None
+Switzerland	 1	 0	 None
+Thailand	 7	 2	 None
+United Kingdom	 5	 0	 None
+United States	 141§	 0	 None
+Viet Nam	 62	 4	 Yes
+
+Total	2601	98	 
+
+1. The start of the period of surveillance has been changed to 1 November 2002 to capture cases of atypical pneumonia in China that are now recognized as being cases of SARS. 
+2. National public health authorities report to WHO on the areas in which local chain(s) of transmission is/are occurring. These areas are provided on the list of Affected Areas. 
+§Due to differences in the case definitions being used at a national level, probable cases are reported by all countries except the United States of America, which is reporting suspect cases under investigation. 
+*One death attributed to Hong Kong SAR occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 8 Apr 2003, 14:30 GMT+2
+
+Country	Cumulative number of case(s)	Number of deaths	Local chain(s) of transmission 2
+Australia	 1	 0	 None
+Brazil	 1	 0	 None
+Canada	 91	 10	 Yes
+China	 1279	 53	 Yes
+Hong Kong SAR	 928	 25*	 Yes
+China, Taiwan	 19	 0	 Yes
+France	 4	 0	 None
+Germany	 5	 0	 None
+Italy	 3	 0	 None
+Malaysia	 1	 1	 None
+Republic of Ireland	 1	 0	 None
+Romania	 1	 0	 None
+Singapore	 113	 8	 Yes
+Spain	 1	 0	 None
+Switzerland	 1	 0	 None
+Thailand	 7	 2	 None
+United Kingdom	 5	 0	 None
+United States	 148§	 0	 None
+Viet Nam	 62	 4	 Yes
+
+Total	2671	103	 
+
+1. The start of the period of surveillance has been changed to 1 November 2002 to capture cases of atypical pneumonia in China that are now recognized as being cases of SARS. 
+2. National public health authorities report to WHO on the areas in which local chain(s) of transmission is/are occurring. These areas are provided on the list of Affected Areas. 
+§Due to differences in the case definitions being used at a national level, probable cases are reported by all countries except the United States of America, which is reporting suspect cases under investigation. 
+*One death attributed to Hong Kong SAR occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 9 Apr 2003, 15:00 GMT+2
+
+Country	Cumulative number of case(s)	Number of deaths	Local chain(s) of transmission 2
+Brazil	 1	 0	 None
+Canada	 94	 10	 Yes
+China	 1280	 53	 Yes
+Hong Kong SAR	 970	 27*	 Yes
+China, Taiwan	 19	 0	 Yes
+France	 4	 0	 None
+Germany	 5	 0	 None
+Italy	 3	 0	 None
+Malaysia	 1	 1	 None
+Republic of Ireland	 1	 0	 None
+Romania	 1	 0	 None
+Singapore	 118	 9	 Yes
+Spain	 1	 0	 None
+Switzerland	 1	 0	 None
+Thailand	 7	 2	 None
+United Kingdom	 5	 0	 None
+United States	 149	 0	 None
+Viet Nam	 62	 4	 Yes
+
+Total	2722	106	 
+
+1. The start of the period of surveillance has been changed to 1 November 2002 to capture cases of atypical pneumonia in China that are now recognized as being cases of SARS. 
+2. National public health authorities report to WHO on the areas in which local chain(s) of transmission is/are occurring. These areas are provided on the list of Affected Areas. 
+§Due to differences in the case definitions being used at a national level, probable cases are reported by all countries except the United States of America, which is reporting suspect cases under investigation. 
+*One death attributed to Hong Kong SAR occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 20022 To: 10 Apr 2003,14:30 GMT+2
+
+Country	Cumulative number of case(s)	Number of new cases since last WHO update	Final Status/Number of deaths	Final Status/Number recovered	Local chain(s) of transmission3
+Number of deaths	Number recovered
+Brazil	 2	 1	0	 0	None
+Canada	 97	 3	10	 22	 Yes
+China	 1290	 10	55	 1025	 Yes
+Hong Kong SAR 4	 998	 28	30	 154	 Yes
+China, Taiwan	 19	 0	0	 5	 Yes
+France	 4	 0	0	 0	 None
+Germany	 6	 1	0	 2	 None
+Italy	 3	 0	0	 1	 None
+Kuwait	 1	 1	0	 0	 None
+Malaysia	 3	 2	1	 0	 None
+Republic of Ireland	 1	 0	0	 1	 None
+Romania	 1	 0	0	 not available	 None
+Singapore	 126	 8	9	 75	 Yes
+Spain	 1	 0	0	 0	 None
+Switzerland	 1	 0	0	 1	 None
+Thailand	 7	 0	2	 5	 None
+United Kingdom	 5	 0	0	 3	 None
+United States	 154	 5	0	 not available	 None
+Viet Nam	 62	 0	4	 43	 Yes
+
+Total	2781	59	111	1337	 
+
+1. Due to differences in the case definitions being used at a national level, probable cases are reported by all countries except the United States of America, which is reporting suspected cases under investigation. 
+2. The start of the period of surveillance has been changed to 1 November 2002 to capture cases of atypical pneumonia in China that are now recognized as being cases of SARS.	
+3. National public health authorities report to WHO on the areas in which local chain(s) of transmission is/are occurring. These areas are provided on the list of Affected Areas. 
+4. One death attributed to Hong Kong SAR occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 20022 To: 11 Apr 2003,18:00 GMT+2
+
+Country	Cumulative number of case(s)	Number of new cases since last WHO update	Final Status/Number of deaths	Final Status/Number recovered	Local chain(s) of transmission3
+Brazil	 2	0	0	 0	None
+Canada	 98	1	10	25	 Yes
+China	 1309	19	58	 1037	 Yes
+Hong Kong SAR 4	 1059	61	32	 169	 Yes
+China, Taiwan	 21	 2	0	 6	 Yes
+France	 5	 1	0	 0	 None
+Germany	 6	 0	0	 4	 None
+Italy	 3	 0	0	2	 None
+Japan	4	4	0	0	None
+Kuwait	 1	 0	0	 0	 None
+Malaysia	 4	 1	1	 0	 None
+Republic of Ireland	 1	 0	0	 1	 None
+Romania	 1	 0	0	 not available	 None
+Singapore	 133	7	9	 77	 Yes
+South Africa	1	1	0	0	None
+Spain	 1	 0	0	 0	 None
+Switzerland	 1	 0	0	 1	 None
+Thailand	 7	 0	2	 5	 None
+United Kingdom	 5	 0	0	 3	 None
+United States	 166	12	0	 not available	 None
+Viet Nam	 62	 0	4	 43	 Yes
+
+Total	2890	109	116	1373	 
+
+1. Due to differences in the case definitions being used at a national level, probable cases are reported by all countries except the United States of America, which is reporting suspected cases under investigation. 
+2. The start of the period of surveillance has been changed to 1 November 2002 to capture cases of atypical pneumonia in China that are now recognized as being cases of SARS. 
+3. National public health authorities report to WHO on the areas in which local chain(s) of transmission is/are occurring. These areas are provided on the list of Affected Areas. 
+4. One death attributed to Hong Kong SAR occurred in a case medically transferred from Viet Nam.
+
+
+
+
+From: 1 Nov 20022 To: 12 Apr 2003,20:00 GMT+2 
+(Revised on 25 April 2003)
+
+Country	Cumulative number of case(s)	Number of new cases since last WHO update	Final Status/Number of deaths	Final Status/Number recovered	Local chain(s) of transmission3
+Brazil	 2	0	0	 0	None
+Canada	 101	3	10	26	 Yes
+China	 1309	0	58	 1037	 Yes
+Hong Kong SAR 4	1108	49	35	 215	 Yes
+China, Taiwan	23	 2	0	 7	 Yes
+France	 5	0	0	1	 None
+Germany	 6	 0	0	 4	 None
+Italy	 3	 0	0	2	 None
+Japan	4	0	0	0	None
+Kuwait	 1	 0	0	 0	 None
+Malaysia	 4	 0	1	 0	 None
+Republic of Ireland	 1	 0	0	 1	 None
+Romania	 1	 0	0	 not available	 None
+Singapore	147	14	9	 77	 Yes
+South Africa	1	0	0	0	None
+Spain	 1	 0	0	 0	 None
+Switzerland	 1	 0	0	 1	 None
+Thailand	 8	 1	2	 5	 None
+United Kingdom	 6	1	0	 3	 Yes
+United States	 166	0	0	 not available	Yes
+Viet Nam 5	 62	 0	4	 46	 Yes
+
+Total	2960	70	119	1425	 
+
+1. Due to differences in the case definitions being used at a national level, probable cases are reported by all countries except the United States of America, which is reporting suspected cases under investigation.
+2. The start of the period of surveillance has been changed to 1 November 2002 to capture cases of atypical pneumonia in China that are now recognized as being cases of SARS.
+3. National public health authorities report to WHO on the areas in which local chain(s) of transmission is/are occurring. These areas are provided on the list of Affected Areas (See http://www.who.int/csr/sars/areas/en/).
+4. One death attributed to Hong Kong SAR occurred in a case medically transferred from Viet Nam.
+5. One probable case was discarded and one new probable case identified, therefore the cumulative number of cases for Viet Nam has not changed.
+
+
+
+From: 1 Nov 20022 To: 14 Apr 2003, 16:00 GMT+2
+
+Country	Cumulative number of case(s)	Number of new cases since last WHO update	Final Status/Number of deaths	Final Status/Number recovered	Local chain(s) of transmission3
+Brazil	 2	0	0	 0	None
+Canada	 100	-1	13	27	 Yes
+China	 1418	109	64	 1088	 Yes
+Hong Kong SAR 4	1190	82	47	 229	 Yes
+China, Taiwan	23	 0	0	 7	 Yes
+France	 5	0	0	1	 None
+Germany	 6	 0	0	 4	 None
+Indonesia	 1	1	0	0	 None
+Italy	 3	 0	0	2	 None
+Kuwait	 1	 0	0	 0	 None
+Malaysia	 4	 0	1	 0	 None
+Philippines	 1	 1	0	 1	 None
+Republic of Ireland	 1	 0	0	 1	 None
+Romania	 1	 0	0	 not available	 None
+Singapore	158	11	12	 84	 Yes
+South Africa	1	0	0	0	None
+Spain	 1	 0	0	 0	 None
+Sweden	 1	 1	0	 0	 None
+Switzerland	 1	 0	0	 1	 None
+Thailand	 8	 0	2	 5	 None
+United Kingdom	 6	0	0	 3	 Yes
+United States	 174	8	0	 not available	Yes
+Viet Nam	 63	 1	5	 46	 Yes
+
+Total	3169	213	144	1499	 
+
+1. Due to differences in the case definitions being used at a national level, probable cases are reported by all countries except the United States of America, which is reporting suspected cases under investigation.
+2. The start of the period of surveillance has been changed to 1 November 2002 to capture cases of atypical pneumonia in China that are now recognized as being cases of SARS.
+3. National public health authorities report to WHO on the areas in which local chain(s) of transmission is/are occurring. These areas are provided on the list of (See Affected Areas ).
+4. One death attributed to Hong Kong SAR occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 20022 To: 15 Apr 2003, 17:00 GMT+2
+
+Country	Cumulative number of case(s)	Number of new cases since last WHO update	Final Status/Number of deaths	Final Status/Number recovered3	Local chain(s) of transmission4	Date of last report
+Brazil	 2	0	0	 0	None
+Canada	 100	0	13	27	 Yes
+China	 1418	0	64	 1088	 Yes
+Hong Kong SAR 5	1232	42	56	 243	 Yes
+China, Taiwan	23	 0	0	 7	 Yes
+France	 5	0	0	1	 None
+Germany	 6	 0	0	 4	 None
+Indonesia	 1	0	0	0	 None
+Italy	 3	 0	0	2	 None
+Japan	 1	 1	0	 0	 None
+Kuwait	 1	 0	0	 0	 None
+Malaysia	 4	 0	1	 0	 None
+Philippines	 1	 0	0	 1	 None
+Republic of Ireland	 1	 0	0	 1	 None
+Romania	 1	 0	0	 1	 None
+Singapore	162	4	13	 85	 Yes
+South Africa	1	0	0	0	None
+Spain	 1	 0	0	 0	 None
+Sweden	 1	 0	0	 0	 None
+Switzerland	 1	 0	0	 1	 None
+Thailand	 8	 0	2	 5	 None
+United Kingdom	 6	0	0	 3	 Yes
+United States	 193	19	0	 not available	Yes
+Viet Nam	 63	 0	5	 46	 Yes
+
+Total	3235	66	154	1515	 
+
+1. Due to differences in the case definitions being used at a national level, probable cases are reported by all countries except the United States of America, which is reporting suspected cases under investigation.
+2. The start of the period of surveillance has been changed to 1 November 2002 to capture cases of atypical pneumonia in China that are now recognized as being cases of SARS.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. National public health authorities report to WHO on the areas in which local chain(s) of transmission is/are occurring. These areas are provided on the list of (See Affected Areas ).
+5. One death attributed to Hong Kong SAR occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 20022 To: 16 Apr 2003, 12:00 GMT+2
+
+Country	Cumulative number of case(s)	Number of new cases since last WHO update	Final Status/Number of deaths	Final Status/Number recovered3	Local chain(s) of transmission4	Date of last report
+Brazil	 2	0	0	 0	None
+Canada	 103	3	13	37	 Yes
+China	 1432	14	64	 1094	 Yes
+Hong Kong SAR 5	1268	36	61	 257	 Yes
+China, Taiwan	27	 4	0	 10	 Yes
+France	 5	0	0	1	 None
+Germany	 6	 0	0	 4	 None
+Indonesia	 1	0	0	0	 None
+Italy	 3	 0	0	2	 None
+Japan	 1	 0	0	 0	 None
+Kuwait	 1	 0	0	 0	 None
+Malaysia	 5	 1	1	 0	 None
+Philippines	 1	 0	0	 1	 None
+Republic of Ireland	 1	 0	0	 1	 None
+Romania	 1	 0	0	 1	 None
+Singapore	162	0	13	 85	 Yes
+South Africa	1	0	0	0	None
+Spain	 1	 0	0	 0	 None
+Sweden	 1	 0	0	 0	 None
+Switzerland	 1	 0	0	 1	 None
+Thailand	 8	 0	2	 5	 None
+United Kingdom	 6	0	0	 3	 Yes
+United States	 193	0	0	 not available	Yes
+Viet Nam	 63	 0	5	 46	 Yes
+
+Total	3293	58	159	1548	 
+
+1. Due to differences in the case definitions being used at a national level, probable cases are reported by all countries except the United States of America, which is reporting suspected cases under investigation.
+2. The start of the period of surveillance has been changed to 1 November 2002 to capture cases of atypical pneumonia in China that are now recognized as being cases of SARS.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. National public health authorities report to WHO on the areas in which local chain(s) of transmission is/are occurring. These areas are provided on the list of (See Affected Areas ).
+5. One death attributed to Hong Kong SAR occurred in a case medically transferred from Viet Nam.
+
+
+
+
+From: 1 Nov 20022 To: 17 Apr 2003, 17:00 GMT+2 
+
+Country	Cumulative number of case(s)	Number of new cases since last WHO update	Final Status/Number of deaths	Final Status/Number recovered3	Local chain(s) of transmission4	Date of last report
+Australia	 3	3	0	 3	None	17 Apr 2003
+Brazil	 2	0	0	 0	None	16 Apr 2003
+Canada	 126	23	12	46	Yes	17 Apr 2003
+China	 1457	25	65	 1107	Yes	17 Apr 2003
+Hong Kong SAR 5	1297	29	65	 272	Yes	17 Apr 2003
+China, Taiwan	27	 0	0	 10	Yes	16 Apr 2003
+France	 5	0	0	1	None	17 Apr 2003
+Germany	 6	 0	0	 4	None	17 Apr 2003
+India	 1	1	0	0	None	17 Apr 2003
+Indonesia	 1	0	0	0	None	12 Apr 2003
+Italy	 3	 0	0	2	 None	17 Apr 2003
+Japan	 2	1	0	 0	 None	17 Apr 2003
+Kuwait	 1	 0	0	 0	 None	 9 Apr 2003
+Malaysia	 5	 0	1	 0	 None	 16 Apr 2003
+Mongolia	 3	 3	0	3	 None	 17 Apr 2003
+Philippines	 1	 0	0	 1	 None	 14 Apr 2003
+Republic of Ireland	 1	 0	0	 1	 None	 17 Apr 2003
+Romania	 1	 0	0	 1	 None	 17 Apr 2003
+Singapore	167	5	15	 91	 Yes	 17 Apr 2003
+South Africa	1	0	0	0	None	9 Apr 2003
+Spain	 1	 0	0	 0	 None	 17 Apr 2003
+Sweden	 1	 0	0	 0	 None	 17 Apr 2003
+Switzerland	 1	 0	0	 1	 None	 17 Apr 2003
+Thailand	 8	 0	2	 5	 None	17 Apr 2003
+United Kingdom	 6	0	0	 3	 Yes	 17 Apr 2003
+United States	 199	6	0	 not available	Yes	16 Apr 2003
+Viet Nam	 63	 0	5	 46	 Yes	 17 Apr 2003
+
+Total	3389	96	165	1597	 	 
+
+1. Due to differences in the case definitions being used at a national level, probable cases are reported by all countries except the United States of America, which is reporting suspected cases under investigation.
+2. The start of the period of surveillance has been changed to 1 November 2002 to capture cases of atypical pneumonia in China that are now recognized as being cases of SARS.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. National public health authorities report to WHO on the areas in which local chain(s) of transmission is/are occurring. These areas are provided on the list of (See Affected Areas ).
+5. One death attributed to Hong Kong SAR occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 20022 To: 18 Apr 2003, 15:00 GMT+2 
+
+Country	Cumulative number of case(s)	Number of new cases since last WHO update	Final Status/Number of deaths	Final Status/Number recovered3	Local chain(s) of transmission4	Date of last report
+Australia	 3	0	0	 3	None	17 Apr 2003
+Brazil	 2	0	0	 0	None	16 Apr 2003
+Canada	132	6	12	54	Yes	18 Apr 2003
+China	 1512	30	65	1140	Yes	19 Apr 2003
+Hong Kong SAR 5	1358	31	81	363	Yes	19 Apr 2003
+China, Taiwan	29	0	0	17	Yes	18 Apr 2003
+France	 5	0	0	1	None	18 Apr 2003
+Germany	 6	 0	0	 4	None	18 Apr 2003
+India	 1	0	0	1	None	18 Apr 2003
+Indonesia	 1	0	0	0	None	19 Apr 2003
+Italy	 3	 0	0	2	 None	18 Apr 2003
+Japan	 4	0	0	 0	 None	18 Apr 2003
+Kuwait	 1	 0	0	 0	 None	 9 Apr 2003
+Malaysia	 5	 0	1	 0	 None	 16 Apr 2003
+Mongolia	 3	 0	0	3	 None	 17 Apr 2003
+Philippines	 1	 0	0	 1	 None	 14 Apr 2003
+Republic of Ireland	 1	 0	0	 1	 None	 18 Apr 2003
+Romania	 1	 0	0	 1	 None	 18 Apr 2003
+Singapore	177	5	16	100	 Yes	 18 Apr 2003
+South Africa	1	0	0	0	None	9 Apr 2003
+Spain	 1	 0	0	 0	 None	 18 Apr 2003
+Sweden	3	2	0	 0	 None	 19 Apr 2003
+Switzerland	 1	 0	0	 1	 None	 18 Apr 2003
+Thailand	 7	0	2	 6	 None	18 Apr 2003
+United Kingdom	 6	0	0	 5	 Yes	 19 Apr 2003
+United States	220	12	0	 not available	Yes	18 Apr 2003
+Viet Nam	 63	 0	5	 46	 Yes	 17 Apr 2003
+
+Total	3547	86	182	1749	 	 
+
+Cumulative number of cases includes number of deaths.
+As SARS is a diagnosis of exclusion, the status of a reported case may change over time. This means that previously reported cases may be discarded after further investigation and follow-up.
+
+1. Due to differences in the case definitions being used at a national level, probable cases are reported by all countries except the United States of America, which is reporting suspected cases under investigation.
+2. The start of the period of surveillance has been changed to 1 November 2002 to capture cases of atypical pneumonia in China that are now recognized as being cases of SARS.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. National public health authorities report to WHO on the areas in which local chain(s) of transmission is/are occurring. These areas are provided on the list of (See Affected Areas ).
+5. One death attributed to Hong Kong SAR occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 20022 To: 19 Apr 2003, 18:00 GMT+2 
+(Revised on 25 April 2003)
+
+Country	Cumulative number of case(s)	Number of new cases since last WHO update	Final Status/Number of deaths	Final Status/Number recovered3	Local chain(s) of transmission4	Date of last report
+Australia	 3	0	0	 3	None	17 Apr 2003
+Brazil	 2	0	0	 0	None	16 Apr 2003
+Canada	132	6	12	54	Yes	19 Apr 2003
+China	 1512	30	65	1140	Yes	19 Apr 2003
+Hong Kong SAR 5	1358	31	81	363	Yes	19 Apr 2003
+China, Taiwan	29	0	0	17	Yes	18 Apr 2003
+France	 5	0	0	1	None	18 Apr 2003
+Germany	 6	 0	0	 4	None	18 Apr 2003
+India	 1	0	0	1	None	18 Apr 2003
+Indonesia	 1	0	0	0	None	18 Apr 2003
+Italy	 3	 0	0	2	 None	18 Apr 2003
+Japan	 4	0	0	 0	 None	18 Apr 2003
+Kuwait	 1	 0	0	 0	 None	 9 Apr 2003
+Malaysia	 5	 0	1	 0	 None	 16 Apr 2003
+Mongolia	 3	 0	0	3	 None	 17 Apr 2003
+Philippines	 1	 0	0	 1	 None	 14 Apr 2003
+Republic of Ireland	 1	 0	0	 1	 None	 18 Apr 2003
+Romania	 1	 0	0	 1	 None	 18 Apr 2003
+Singapore	177	5	16	100	 Yes	 18 Apr 2003
+South Africa	1	0	0	0	None	9 Apr 2003
+Spain	 1	 0	0	 0	 None	 18 Apr 2003
+Sweden	3	2	0	 0	 None	 19 Apr 2003
+Switzerland	 1	 0	0	 1	 None	 18 Apr 2003
+Thailand	 7	0	2	 6	 None	18 Apr 2003
+United Kingdom	 6	0	0	 5	 Yes	 19 Apr 2003
+United States	220	12	0	 not available	Yes	18 Apr 2003
+Viet Nam	 63	 0	5	 46	 Yes	 17 Apr 2003
+
+Total	3547	86	182	1749	 	 
+
+As SARS is a diagnosis of exclusion, the status of a reported case may change over time. This means that previously reported cases may be discarded after further investigation and follow-up.
+
+1. Due to differences in the case definitions being used at a national level, probable cases are reported by all countries except the United States of America, which is reporting suspected cases under investigation.
+2. The start of the period of surveillance has been changed to 1 November 2002 to capture cases of atypical pneumonia in China that are now recognized as being cases of SARS.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. National public health authorities report to WHO on the areas in which local chain(s) of transmission is/are occurring. These areas are provided on the list of (See Affected Areas ).
+5. One death attributed to Hong Kong SAR occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 21 Apr 2003, 17:00 GMT+2 
+
+Country	Cumulative number of case(s)	Number of new cases since last WHO update	Final Status/Number of deaths	Final Status/Number recovered2	Local chain(s) of transmission3	Date of last report
+Australia	 3	0	0	 3	None	17 Apr 2003
+Brazil	 2	0	0	 0	None	16 Apr 2003
+Canada	132	0	12	54	Yes	19 Apr 2003
+China	 1959	447	86	1187	Yes	21 Apr 2003
+Hong Kong SAR4	1402	44	94	436	Yes	21 Apr 2003
+China, Taiwan	29	0	0	17	Yes	18 Apr 2003
+France	 5	0	0	1	None	21 Apr 2003
+Germany	 6	 0	0	 4	None	21 Apr 2003
+India	 1	0	0	1	None	21 Apr 2003
+Indonesia	 1	0	0	0	None	19 Apr 2003
+Italy	 3	 0	0	2	 None	21 Apr 2003
+Japan	 5	1	0	 0	 None	21 Apr 2003
+Kuwait	 1	 0	0	 1	 None	 20 Apr 2003
+Malaysia	 6	 1	1	 0	 None	 21 Apr 2003
+Mongolia	 3	 0	0	3	 None	 17 Apr 2003
+Philippines	2	 1	1	 1	 None	 21 Apr 2003
+Republic of Ireland	 1	 0	0	 1	 None	 21 Apr 2003
+Romania	 1	 0	0	 1	 None	 21 Apr 2003
+Singapore	178	1	16	104	 Yes	 20 Apr 2003
+South Africa	1	0	0	0	None	9 Apr 2003
+Spain	 1	 0	0	 0	 None	 21 Apr 2003
+Sweden	3	0	0	 0	 None	 21 Apr 2003
+Switzerland	 1	 0	0	 1	 None	 21 Apr 2003
+Thailand	 7	0	2	 5	 None	21 Apr 2003
+United Kingdom	 6	0	0	 5	 Yes	 21 Apr 2003
+United States5	39	not applicable	0	 not available	Yes	21 Apr 2003
+Viet Nam	 63	 0	5	 46	 Yes	 17 Apr 2003
+
+Total	3861	495	217	1873	 	 
+
+As SARS is a diagnosis of exclusion, the status of a reported case may change over time. This means that previously reported cases may be discarded after further investigation and follow-up.
+
+2. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+3. National public health authorities report to WHO on the areas in which local chain(s) of transmission is/are occurring. These areas are provided on the list of (See Affected Areas ).
+4. One death attributed to Hong Kong SAR occurred in a case medically transferred from Viet Nam.
+5. Since 20 April 2003 the United States of America are reporting to WHO probable cases of SARS, therefore the number of new cases since last WHO update is not applicable.
+
+
+
+From: 1 Nov 2002 To: 22 Apr 2003, 17:00 GMT+2 
+
+Country	Cumulative number of case(s)	Number of new cases since last WHO update	Final Status/Number of deaths	Final Status/Number recovered2	Local chain(s) of transmission3	Date of last report
+Australia	3	0	0	 3	None	17 Apr 2003
+Brazil	2	0	0	 0	None	16 Apr 2003
+Canada	139	7	13	65	Yes	22 Apr 2003
+China	 2001	42	92	1201	Yes	22 Apr 2003
+Hong Kong SAR4	1434	32	99	461	Yes	22 Apr 2003
+China, Taiwan	29	0	0	21	Yes	22 Apr 2003
+France	 5	0	0	1	None	21 Apr 2003
+Germany	 7	 1	0	 6	None	22 Apr 2003
+India	 1	0	0	1	None	21 Apr 2003
+Indonesia	 1	0	0	0	None	19 Apr 2003
+Italy	 3	 0	0	2	 None	22 Apr 2003
+Japan	 2	-3	0	 0	 None	22 Apr 2003
+Kuwait	 1	 0	0	 1	 None	 20 Apr 2003
+Malaysia	 6	 0	1	 0	 None	 22 Apr 2003
+Mongolia	 3	 0	0	3	 None	 17 Apr 2003
+Philippines	2	 0	1	 1	 None	 21 Apr 2003
+Republic of Ireland	 1	 0	0	 1	 None	 21 Apr 2003
+Romania	 1	 0	0	 1	 None	 21 Apr 2003
+Singapore	186	2	16	110	 Yes	 22 Apr 2003
+South Africa	1	0	0	0	None	9 Apr 2003
+Spain	 1	 0	0	 0	 None	 21 Apr 2003
+Sweden	3	0	0	 0	 None	 21 Apr 2003
+Switzerland	 1	 0	0	 1	 None	 21 Apr 2003
+Thailand	 7	0	2	 5	 None	22 Apr 2003
+United Kingdom	 6	0	0	 5	 Yes	 22 Apr 2003
+United States	38	-1	0	 not available	Yes	21 Apr 2003
+Viet Nam	 63	 0	5	 46	 Yes	 17 Apr 2003
+
+Total	3947	80	229	1935	 	 
+
+As SARS is a diagnosis of exclusion, the status of a reported case may change over time. This means that previously reported cases may be discarded after further investigation and follow-up.
+
+2. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+3. National public health authorities report to WHO on the areas in which local chain(s) of transmission is/are occurring. These areas are provided on the list of (See Affected Areas ).
+4. One death attributed to Hong Kong SAR occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 23 Apr 2003, 16:00 GMT+2 
+(Revised on 25 April 2003)
+
+Country	Cumulative number of case(s)	Number of new cases since last WHO update	Final Status/Number of deaths	Final Status/Number recovered2	Local chain(s) of transmission3	Date of last report
+Australia	 4	1	0	 3	None	23 Apr 2003
+Brazil	 2	0	0	 0	None	16 Apr 2003
+Canada	140	1	13	65	Yes	23 Apr 2003
+China	 2305	304	106	1231	Yes	23 Apr 2003
+Hong Kong SAR4	1458	24	105	522	Yes	23 Apr 2003
+China, Taiwan	37	8	0	21	Yes	23 Apr 2003
+France	 5	0	0	1	None	21 Apr 2003
+Germany	 7	 0	0	 6	None	23 Apr 2003
+India	 1	0	0	1	None	21 Apr 2003
+Indonesia	 1	0	0	0	None	19 Apr 2003
+Italy	 3	 0	0	2	 None	23 Apr 2003
+Japan	 2	0	0	 0	 None	23 Apr 2003
+Kuwait	 1	 0	0	 1	 None	 20 Apr 2003
+Malaysia	 5	 -1	2	 2	 None	 23 Apr 2003
+Mongolia	 3	 0	0	3	 None	 17 Apr 2003
+Philippines	2	 0	1	 1	 None	 21 Apr 2003
+Republic of Ireland	 1	 0	0	 1	 None	 21 Apr 2003
+Romania	 1	 0	0	 1	 None	 21 Apr 2003
+Singapore	189	3	17	114	 Yes	 23 Apr 2003
+South Africa	1	0	0	0	None	9 Apr 2003
+Spain	 1	 0	0	 0	 None	 21 Apr 2003
+Sweden	3	0	0	 0	 None	 21 Apr 2003
+Switzerland	 1	 0	0	 1	 None	 21 Apr 2003
+Thailand	 7	0	2	 5	 None	22 Apr 2003
+United Kingdom	 6	0	0	 5	 Yes	 22 Apr 2003
+United States	39	1	0	 not available	Yes	22 Apr 2003
+Viet Nam	 63	 0	5	 46	 Yes	 17 Apr 2003
+
+Total	4288	341	251	2032	 	 
+
+As SARS is a diagnosis of exclusion, the status of a reported case may change over time. This means that previously reported cases may be discarded after further investigation and follow-up.
+
+2. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+3. National public health authorities report to WHO on the areas in which local chain(s) of transmission is/are occurring. These areas are provided on the list of (See Affected Areas ).
+4. One death attributed to Hong Kong SAR occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 24 Apr 2003, 16:00 GMT+2
+(Revised on 25 April 2003)
+
+Country	Cumulative number of case(s)	Number of new cases since last WHO update	Final Status/ Number of deaths	Final Status/ Number recovered^2	Local chain(s) of transmission^3	Date of last report
+Australia	4	0	0	3	None	23/Apr/2003
+Brazil	2	0	0	2	None	24/Apr/2003
+Bulgaria	1	1	0	0	None	24/Apr/2003
+Canada	140	0	15	67	Yes	24/Apr/2003
+China	2422	117	110	1254	Yes	24/Apr/2003
+Hong Kong SAR^4	1488	30	109	567	Yes	24/Apr/2003
+China, Taiwan	37	0	0	21	Yes	23/Apr/2003
+France	5	0	0	1	None	21/Apr/2003
+Germany	7	0	0	6	None	23/Apr/2003
+India	1	0	0	1	None	21/Apr/2003
+Indonesia	1	0	0	1	None	23/Apr/2003
+Italy	4	1	0	3	None	24/Apr/2003
+Japan	2	0	0	0	None	24/Apr/2003
+Kuwait	1	0	0	1	None	20/Apr/2003
+Malaysia	5	0	2	2	None	24/Apr/2003
+Mongolia	3	0	0	3	None	17/Apr/2003
+Philippines	2	0	1	1	None	21/Apr/2003
+Republic of Ireland	1	0	0	1	None	24/Apr/2003
+Romania	1	0	0	1	None	22/Apr/2003
+Singapore	192	3	19	118	Yes	24/Apr/2003
+South Africa	1	0	0	0	None	9/Apr/2003
+Spain	1	0	0	1	None	24/Apr/2003
+Sweden	3	0	0	2	None	23/Apr/2003
+Switzerland	1	0	0	1	None	21/Apr/2003
+Thailand	8	1	2	5	None	24/Apr/2003
+United Kingdom	6	0	0	6	Yes	24/Apr/2003
+United States	37	-2	0	not available	Yes	23/Apr/2003
+Viet Nam	63	0	5	49	Yes	24/Apr/2003
+
+Total	4439	151	263	2117		
+
+Cumulative number of cases includes number of deaths. As SARS is a diagnosis of exclusion, the status of a reported case may change over time. This means that previously reported cases may be discarded after further investigation and follow-up.
+
+2. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+3. National public health authorities report to WHO on the areas in which local chain(s) of transmission is/are occurring. These areas are provided on the list of Affected Areas.
+4. One death attributed to Hong Kong SAR occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 25 Apr 2003, 17:00 GMT+2
+
+Country	Cumulative number of case(s)	Number of new cases since last WHO update	Final status/ Number of deaths	Final status/ Number recovered^2	Local chain(s) of transmission^3	Date of last report
+Australia	4	0	0	3	None	23/Apr/2003
+Brazil	2	0	0	2	None	24/Apr/2003
+Bulgaria	1	0	0	0	None	24/Apr/2003
+Canada	140	0	15	74	Yes	25/Apr/2003
+China	2601	179	115	1277	Yes	25/Apr/2003
+Hong Kong SAR^4	1510	22	115	614	Yes	25/Apr/2003
+China, Taiwan	41	4	0	21	Yes	25/Apr/2003
+France	5	0	0	1	None	21/Apr/2003
+Germany	7	0	0	6	None	25/Apr/2003
+India	1	0	0	1	None	21/Apr/2003
+Indonesia	1	0	0	1	None	23/Apr/2003
+Italy	4	0	0	3	None	24/Apr/2003
+Japan	2	0	0	0	None	24/Apr/2003
+Kuwait	1	0	0	1	None	20/Apr/2003
+Malaysia	5	0	2	2	None	24/Apr/2003
+Mongolia	3	0	0	3	None	17/Apr/2003
+Philippines	2	0	1	1	None	21/Apr/2003
+Republic of Ireland	1	0	0	1	None	24/Apr/2003
+Romania	1	0	0	1	None	22/Apr/2003
+Singapore	195	3	19	126	Yes	25/Apr/2003
+South Africa	1	0	0	0	None	9/Apr/2003
+Spain	1	0	0	1	None	24/Apr/2003
+Sweden	3	0	0	2	None	23/Apr/2003
+Switzerland	1	0	0	1	None	21/Apr/2003
+Thailand	8	0	2	5	None	24/Apr/2003
+United Kingdom	6	0	0	6	Yes	25/Apr/2003
+United States	39	2	0	not available	Yes	24/Apr/2003
+Viet Nam	63	0	5	53	Yes	25/Apr/2003
+
+Total	4649	210	274	2206		
+
+Cumulative number of cases includes number of deaths. As SARS is a diagnosis of exclusion, the status of a reported case may change over time. This means that previously reported cases may be discarded after further investigation and follow-up.
+
+2. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+3. National public health authorities report to WHO on the areas in which local chain(s) of transmission is/are occurring. These areas are provided on the list of Affected Areas.
+4. One death attributed to Hong Kong SAR occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 26 Apr 2003, 17:00 GMT+2
+
+Country  	Cumulative number of case(s)2 	Number of new cases since last WHO update2  	Final status/ Number of deaths  	Final status/ Number recovered3	Local chain(s) of transmission4  	Date of last report  
+Australia  	4  	0  	0  	3  	None  	23-Apr-2003  
+Brazil  	2  	0  	0  	2  	None  	24-Apr-2003  
+Bulgaria  	1  	0  	0  	0  	None  	24-Apr-2003  
+Canada  	142 	2 	18 	77 	Yes  	26-Apr-2003  
+China  	2753 	154 	122 	1285 	Yes  	26-Apr-2003  
+Hong Kong SAR5  	1527 	17  	121  	632  	Yes  	26-Apr-2003  
+China, Taiwan  	49  	8  	0  	25  	Yes  	25-Apr-2003  
+France  	5  	0  	0  	1  	None  	21-Apr-2003  
+Germany  	7  	0  	0  	6  	None  	25-Apr-2003  
+India  	1  	0  	0  	1  	None  	21-Apr-2003  
+Indonesia  	1  	0  	0  	1  	None  	23-Apr-2003  
+Italy  	4  	0  	0  	3  	None  	24-Apr-2003  
+Japan  	2  	0  	0  	0  	None  	26-Apr-2003  
+Kuwait  	1  	0  	0  	1  	None  	20-Apr-2003  
+Malaysia  	5  	0  	2  	2  	None  	24-Apr-2003  
+Mongolia  	5  	2  	0  	3  	None  	26-Apr-2003  
+Philippines  	4  	2  	2  	1  	None  	26-Apr-2003  
+Republic of Ireland  	1  	0  	0  	1  	None  	24-Apr-2003  
+Romania  	1  	0  	0  	1  	None  	22-Apr-2003  
+Singapore  	198  	3  	21  	126  	Yes  	26-Apr-2003  
+South Africa  	1  	0  	0  	0  	None  	9-Apr-2003  
+Spain  	1  	0  	0  	1  	None  	24-Apr-2003  
+Sweden  	3  	0  	0  	2  	None  	23-Apr-2003  
+Switzerland  	1  	0  	0  	1  	None  	21-Apr-2003  
+Thailand  	7  	0  	2  	5  	None  	26-Apr-2003  
+United Kingdom  	6  	0  	0  	6  	Yes  	26-Apr-2003  
+United States  	41  	2  	0  	not available  	Yes  	25-Apr-2003  
+Viet Nam  	63  	0  	5  	53  	Yes  	26-Apr-2003  
+
+Total  	4836  	190  	293  	2239  	 	 
+
+Cumulative number of cases includes number of deaths. As SARS is a diagnosis of exclusion, the status of a reported case may change over time. This means that previously reported cases may be discarded after further investigation and follow-up.
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. National public health authorities report to WHO on the areas in which local chain(s) of transmission is/are occurring. These areas are provided on the list of Affected Areas.
+5. One death attributed to Hong Kong SAR occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 28 Apr 2003, 17:00 GMT+2
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update^2	Final status/ Number of deaths	Final status/ Number recovered^3	Local chain(s) of transmission^4	Date of last report
+Australia	4	0	0	3	None	28/Apr/2003
+Brazil	2	0	0	2	None	24/Apr/2003
+Bulgaria	1	0	0	0	None	24/Apr/2003
+Canada	142	0	18	77	Yes	28/Apr/2003
+China	2914	161	131	1299	Yes	27/Apr/2003
+Hong Kong SAR^5	1557	30	138	710	Yes	28/Apr/2003
+China, Taiwan	66	17	0	25	Yes	28/Apr/2003
+France	5	0	0	1	None	21/Apr/2003
+Germany	7	0	0	6	None	28/Apr/2003
+India	1	0	0	1	None	21/Apr/2003
+Indonesia	1	0	0	1	None	23/Apr/2003
+Italy	8	4	0	3	None	28/Apr/2003
+Japan	2	0	0	0	None	28/Apr/2003
+Kuwait	1	0	0	1	None	20/Apr/2003
+Malaysia	6	1	2	2	None	28/Apr/2003
+Mongolia	5	0	0	3	None	26/Apr/2003
+Philippines	4	0	2	1	None	28/Apr/2003
+Republic of Ireland	1	0	0	1	None	24/Apr/2003
+Romania	1	0	0	1	None	22/Apr/2003
+Singapore	199	1	23	137	Yes	28/Apr/2003
+South Africa	1	0	0	0	None	9/Apr/2003
+Spain	1	0	0	1	None	24/Apr/2003
+Sweden	3	0	0	2	None	23/Apr/2003
+Switzerland	1	0	0	1	None	21/Apr/2003
+Thailand	7	0	2	5	None	26/Apr/2003
+United Kingdom	6	0	0	6	Yes	28/Apr/2003
+United States	41	0	0	not available	Yes	25/Apr/2003
+Viet Nam	63	0	5	53	None	28/Apr/2003
+
+Total	5050	214	321	2342		
+
+Cumulative number of cases includes number of deaths. As SARS is a diagnosis of exclusion, the status of a reported case may change over time. This means that previously reported cases may be discarded after further investigation and follow-up.
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. National public health authorities report to WHO on the areas in which local chain(s) of transmission is/are occurring. These areas are provided on the list of Affected Areas.
+5. One death attributed to Hong Kong SAR occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 29 Apr 2003, 17:00 GMT+2
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update^2	Final status/ Number of deaths	Final status/ Number recovered^3	Local chain(s) of transmission^4	Date of last report
+Australia	4	0	0	3	None	28/Apr/2003
+Brazil	2	0	0	2	None	24/Apr/2003
+Bulgaria	1	0	0	0	None	24/Apr/2003
+Canada	146	4	20	86	Yes	29/Apr/2003
+China^5	3303	405	148	1322	Yes	29/Apr/2003
+Hong Kong SAR^6	1572	15	150	759	Yes	29/Apr/2003
+China, Taiwan	66	0	0	25	Yes	29/Apr/2003
+France	5	0	0	1	None	21/Apr/2003
+Germany	7	0	0	6	None	29/Apr/2003
+India	1	0	0	1	None	21/Apr/2003
+Indonesia	1	0	0	1	None	23/Apr/2003
+Italy	9	1	0	4	None	29/Apr/2003
+Japan	2	0	0	0	None	28/Apr/2003
+Kuwait	1	0	0	1	None	20/Apr/2003
+Malaysia	6	0	2	3	None	29/Apr/2003
+Mongolia	5	0	0	3	None	26/Apr/2003
+Philippines	4	0	2	1	None	28/Apr/2003
+Republic of Ireland	1	0	0	1	None	24/Apr/2003
+Republic of Korea	1	1	0	0	None	29/Apr/2003
+Romania	1	0	0	1	None	22/Apr/2003
+Singapore	201	2	24	139	Yes	29/Apr/2003
+South Africa	1	0	0	0	None	9/Apr/2003
+Spain	1	0	0	1	None	24/Apr/2003
+Sweden	3	0	0	2	None	23/Apr/2003
+Switzerland	1	0	0	1	None	21/Apr/2003
+Thailand	7	0	2	5	None	29/Apr/2003
+United Kingdom	6	1	0	6	Yes	29/Apr/2003
+United States	41	0	0	not available	Yes	25/Apr/2003
+Viet Nam	63	0	5	53	None	28/Apr/2003
+
+Total	5462	429	353	2427		
+
+Cumulative number of cases includes number of deaths. 
+
+As SARS is a diagnosis of exclusion, the status of a reported case may change over time. This means that previously reported cases may be discarded after further investigation and follow-up.
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. National public health authorities report to WHO on the areas in which local chain(s) of transmission is/are occurring. These areas are provided on the list of Affected Areas.
+5. The number of new cases reported from China includes reports received on 28 and 29 April 2003. The report of 28 April was not included in yesterday's update due to difficulties with information technology.
+6. One death attributed to Hong Kong SAR occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 30 Apr 2003, 16:00 GMT+2
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update^2	Final status/ Number of deaths	Final status/ Number recovered^3	Local chain(s) of transmission^4	Date of last report
+Australia	4	0	0	3	None	30/Apr/2003
+Brazil	2	0	0	2	None	24/Apr/2003
+Bulgaria	1	0	0	0	None	24/Apr/2003
+Canada	148	2	20	87	Yes	30/Apr/2003
+China	3460	166	159	1332	Yes	30/Apr/2003
+Hong Kong SAR^5	1589	17	157	791	Yes	30/Apr/2003
+China, Macao Special Administrative Region	1	1	0	0	None	30/Apr/2003
+China, Taiwan	78	12	1	25	Yes	30/Apr/2003
+France	5	0	0	1	None	21/Apr/2003
+Germany	7	0	0	7	None	30/Apr/2003
+Indonesia	2	1	0	1	None	30/Apr/2003
+Italy	9	0	0	4	None	30/Apr/2003
+Japan	2	0	0	0	None	30/Apr/2003
+Kuwait	1	0	0	1	None	20/Apr/2003
+Malaysia	6	0	2	3	None	30/Apr/2003
+Mongolia	6	1	0	3	None	30/Apr/2003
+Philippines	4	0	2	1	None	28/Apr/2003
+Republic of Ireland	1	0	0	1	None	24/Apr/2003
+Republic of Korea	1	0	0	0	None	30/Apr/2003
+Romania	1	0	0	1	None	22/Apr/2003
+Singapore	201	0	24	139	Yes	30/Apr/2003
+South Africa	1	0	0	0	None	9/Apr/2003
+Spain	1	0	0	1	None	24/Apr/2003
+Sweden	3	0	0	2	None	23/Apr/2003
+Switzerland	1	0	0	1	None	21/Apr/2003
+Thailand	7	0	2	5	None	30/Apr/2003
+United Kingdom	6	0	0	6	Yes	30/Apr/2003
+United States	52	11	0	not available	Yes	29/Apr/2003
+Viet Nam	63	0	5	53	None	28/Apr/2003
+
+Total	5663	211	372	2470		
+
+Cumulative number of cases includes number of deaths. 
+
+As SARS is a diagnosis of exclusion, the status of a reported case may change over time. This means that previously reported cases may be discarded after further investigation and follow-up.
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. National public health authorities report to WHO on the areas in which local chain(s) of transmission is/are occurring. These areas are provided on the list of Affected Areas.
+5. One death attributed to Hong Kong SAR occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 01 May 2003, 16:00 GMT+2
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update^2	Final status/ Number of deaths	Final status/ Number recovered^3	Local chain(s) of transmission^4	Date of last report
+Australia	4	0	0	4	None	1/May/2003
+Brazil	2	0	0	2	None	24/Apr/2003
+Bulgaria	1	0	0	0	None	28/Apr/2003
+Canada	147	0	20	87	Yes	1/May/2003
+China	3638	187	170	1351	Yes	1/May/2003
+Hong Kong SAR^5	1600	11	162	834	Yes	1/May/2003
+China, Macao Special Administrative Region	1	0	0	0	None	30/Apr/2003
+China, Taiwan	89	11	3	25	Yes	1/May/2003
+France	5	0	0	1	None	21/Apr/2003
+Germany	7	0	0	7	None	30/Apr/2003
+Indonesia	2	0	0	1	None	30/Apr/2003
+Italy	9	0	0	4	None	30/Apr/2003
+Japan	2	0	0	0	None	1/May/2003
+Kuwait	1	0	0	1	None	20/Apr/2003
+Malaysia	6	0	2	3	None	30/Apr/2003
+Mongolia	6	0	0	3	Yes	30/Apr/2003
+Philippines	4	0	2	1	None	28/Apr/2003
+Poland	1	1	0	0	None	1/May/2003
+Republic of Ireland	1	0	0	1	None	24/Apr/2003
+Republic of Korea	1	0	0	0	None	1/May/2003
+Romania	1	0	0	1	None	22/Apr/2003
+Singapore	201	0	25	143	Yes	1/May/2003
+South Africa	1	0	0	0	None	9/Apr/2003
+Spain	1	0	0	1	None	24/Apr/2003
+Sweden	3	0	0	2	None	23/Apr/2003
+Switzerland	1	0	0	1	None	1/May/2003
+Thailand	7	0	2	5	None	30/Apr/2003
+United Kingdom	6	0	0	6	None	1/May/2003
+United States	54	2	0	23	None	30/Apr/2003
+Viet Nam	63	0	5	56	None	1/May/2003
+
+Total	5865	212	391	2563		
+
+Cumulative number of cases includes number of deaths. 
+
+As SARS is a diagnosis of exclusion, the status of a reported case may change over time. This means that previously reported cases may be discarded after further investigation and follow-up.
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. National public health authorities report to WHO on the areas in which local chain(s) of transmission is/are occurring. These areas are provided on the list of Affected Areas.
+5. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 2 May 2003, 17:00 GMT+2
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update^2	Number of deaths	Number recovered^3	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	4	0	0	4	23/Apr/2003	2/May/2003
+Brazil	2	0	0	2	10/Apr/2003	24/Apr/2003
+Bulgaria	1	0	0	0	24/Apr/2003	28/Apr/2003
+Canada	149	2	22	93	1/May/2003	1/May/2003
+China	3799	176	181	1372	2/May/2003	2/May/2003
+Hong Kong SAR^4	1611	11	170	878	2/May/2003	2/May/2003
+China, Macao Special Administrative Region	1	0	0	0	30/Apr/2003	30/Apr/2003
+China, Taiwan	100	11	8	25	2/May/2003	2/May/2003
+France	5	0	0	4	11/Apr/2003	2/May/2003
+Germany	7	0	0	7	22/Apr/2003	2/May/2003
+Indonesia	2	0	0	1	23/Apr/2003	30/Apr/2003
+Italy	9	0	0	4	29/Apr/2003	2/May/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	6	0	2	3	28/Apr/2003	1/May/2003
+Mongolia	8	2	0	4	1/May/2003	1/May/2003
+New Zealand	1	1	0	1	30/Apr/2003	2/May/2003
+Philippines	3	0	2	1	28/Apr/2003	29/Apr/2003
+Poland	1	0	0	0	1/May/2003	1/May/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	24/Apr/2003
+Republic of Korea	1	0	0	0	29/Apr/2003	2/May/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Singapore	203	2	25	146	2/May/2003	2/May/2003
+South Africa	1	0	0	0	9/Apr/2003	9/Apr/2003
+Spain	1	0	0	1	2/Apr/2003	24/Apr/2003
+Sweden	3	0	0	2	18/Apr/2003	23/Apr/2003
+Switzerland	1	0	0	1	17/Mar/2003	1/May/2003
+Thailand	7	0	2	5	12/Apr/2003	30/Apr/2003
+United Kingdom	6	0	0	6	11/Apr/2003	1/May/2003
+United States	56	2	0	24	30/Apr/2003	30/Apr/2003
+Viet Nam	63	0	5	56	14/Apr/2003	2/May/2003
+
+Total	6054	207	417	2643		
+
+Cumulative number of cases includes number of deaths. As SARS is a diagnosis of exclusion, the status of a reported case may change over time. This means that previously reported cases may be discarded after further investigation and follow-up.
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 3 May 2003, 18:00 GMT+2
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update^2	Number of deaths	Number recovered^3	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	4	0	0	4	23/Apr/2003	2/May/2003
+Brazil	2	0	0	2	10/Apr/2003	24/Apr/2003
+Bulgaria	1	0	0	0	24/Apr/2003	28/Apr/2003
+Canada	149	0	22	94	1/May/2003	2/May/2003
+China	3971	181	190	1406	3/May/2003	3/May/2003
+Hong Kong SAR^4	1621	10	179	898	3/May/2003	3/May/2003
+China, Macao Special Administrative Region	1	0	0	0	30/Apr/2003	30/Apr/2003
+China, Taiwan	100	0	8	25	2/May/2003	2/May/2003
+France	5	0	0	4	11/Apr/2003	2/May/2003
+Germany	7	0	0	7	22/Apr/2003	2/May/2003
+Indonesia	2	0	0	1	23/Apr/2003	30/Apr/2003
+Italy	9	0	0	4	29/Apr/2003	2/May/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	6	0	2	3	28/Apr/2003	1/May/2003
+Mongolia	8	0	0	4	1/May/2003	1/May/2003
+New Zealand	1	0	0	1	30/Apr/2003	2/May/2003
+Philippines	3	0	2	1	28/Apr/2003	29/Apr/2003
+Poland	1	0	0	0	1/May/2003	1/May/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	24/Apr/2003
+Republic of Korea	1	0	0	0	29/Apr/2003	3/May/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Singapore	203	0	25	147	2/May/2003	3/May/2003
+South Africa	1	0	0	1	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	24/Apr/2003
+Sweden	3	0	0	2	18/Apr/2003	23/Apr/2003
+Switzerland	1	0	0	1	17/Mar/2003	1/May/2003
+Thailand	7	0	2	5	12/Apr/2003	30/Apr/2003
+United Kingdom	6	0	0	6	11/Apr/2003	1/May/2003
+United States	54	0	0	24	30/Apr/2003	1/May/2003
+Viet Nam	63	0	5	58	14/Apr/2003	3/May/2003
+
+Total	6234	191	435	2702		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 5 May 2003, 18:00 GMT+2
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update2,3	Number of deaths	Number recovered^4	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	4	0	0	4	23/Apr/2003	5/May/2003
+Brazil	2	0	0	2	10/Apr/2003	24/Apr/2003
+Bulgaria	1	0	0	0	24/Apr/2003	28/Apr/2003
+Canada	148	0	22	93	1/May/2003	4/May/2003
+China	4280	323	206	1433	5/May/2003	5/May/2003
+Hong Kong SAR^5	1637	16	187	930	5/May/2003	5/May/2003
+China, Macao Special Administrative Region	1	0	0	0	30/Apr/2003	5/May/2003
+China, Taiwan	116	16	8	25	5/May/2003	5/May/2003
+France	5	0	0	4	11/Apr/2003	2/May/2003
+Germany	7	0	0	7	22/Apr/2003	2/May/2003
+Indonesia	2	0	0	1	23/Apr/2003	5/May/2003
+Italy	9	0	0	4	29/Apr/2003	5/May/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	7	1	2	4	4/May/2003	5/May/2003
+Mongolia	8	0	0	4	1/May/2003	5/May/2003
+New Zealand	1	0	0	1	30/Apr/2003	2/May/2003
+Philippines	3	0	2	1	28/Apr/2003	29/Apr/2003
+Poland	1	0	0	0	1/May/2003	1/May/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	24/Apr/2003
+Republic of Korea	1	0	0	0	29/Apr/2003	3/May/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Singapore	204	1	26	149	5/May/2003	5/May/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	24/Apr/2003
+Sweden	3	0	0	2	18/Apr/2003	23/Apr/2003
+Switzerland	1	0	0	1	17/Mar/2003	5/May/2003
+Thailand	7	0	2	5	12/Apr/2003	4/May/2003
+United Kingdom	6	0	0	6	11/Apr/2003	5/May/2003
+United States	61	7	0	26	3/May/2003	4/May/2003
+Viet Nam	63	0	5	58	14/Apr/2003	4/May/2003
+
+Total	6583	364	461	2764		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. The number of new cases since last WHO update includes new cases reported for 4 and 5 May 2003, when these reports have been received.
+4. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+5. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 6 May 2003, 16:00 GMT+2
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update2,^3	Number of deaths	Number recovered^4	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	4	0	0	4	23/Apr/2003	6/May/2003
+Brazil	2	0	0	2	10/Apr/2003	24/Apr/2003
+Bulgaria	1	0	0	0	24/Apr/2003	28/Apr/2003
+Canada	148	0	22	93	4/May/2003	5/May/2003
+China	4409	138	214	1460	6/May/2003	6/May/2003
+Hong Kong SAR^5	1646	9	193	958	6/May/2003	6/May/2003
+China, Macao Special Administrative Region	1	0	0	0	30/Apr/2003	5/May/2003
+China, Taiwan	116	0	10	25	5/May/2003	6/May/2003
+Colombia	1	1	0	1	5/May/2003	5/May/2003
+France	5	0	0	4	11/Apr/2003	5/May/2003
+Germany	7	0	0	7	22/Apr/2003	6/May/2003
+India	1	1	0	0	5/May/2003	5/May/2003
+Indonesia	2	0	0	1	23/Apr/2003	5/May/2003
+Italy	9	0	0	4	29/Apr/2003	6/May/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	7	0	2	4	4/May/2003	6/May/2003
+Mongolia	8	0	0	4	1/May/2003	5/May/2003
+New Zealand	1	0	0	1	30/Apr/2003	2/May/2003
+Philippines	3	0	2	1	28/Apr/2003	29/Apr/2003
+Poland	1	0	0	0	1/May/2003	1/May/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	24/Apr/2003
+Republic of Korea	1	0	0	0	29/Apr/2003	4/May/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Singapore	204	0	27	149	5/May/2003	6/May/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	24/Apr/2003
+Sweden	3	0	0	2	18/Apr/2003	23/Apr/2003
+Switzerland	1	0	0	1	17/Mar/2003	5/May/2003
+Thailand	7	0	2	5	12/Apr/2003	5/May/2003
+United Kingdom	6	0	0	6	11/Apr/2003	6/May/2003
+United States	65	4	0	32	4/May/2003	4/May/2003
+Viet Nam	63	0	5	58	14/Apr/2003	4/May/2003
+
+Total	6727	153	478	2826		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. The number of new cases since last WHO update includes new cases reported for 4 and 5 May 2003, when these reports have been received.
+4. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+5. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 7 May 2003, 17:00 GMT+2
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update^2	Number of deaths	Number recovered^3	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	4	0	0	4	23/Apr/2003	6/May/2003
+Brazil	2	0	0	2	10/Apr/2003	24/Apr/2003
+Bulgaria	1	0	0	0	24/Apr/2003	28/Apr/2003
+Canada	146	0	22	93	4/May/2003	6/May/2003
+China	4560	159	219	1487	7/May/2003	7/May/2003
+Hong Kong SAR^4	1654	8	204	984	7/May/2003	7/May/2003
+China, Macao Special Administrative Region	1	0	0	0	30/Apr/2003	5/May/2003
+China, Taiwan	125	9	11	26	7/May/2003	7/May/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+France	6	1	0	4	6/May/2003	6/May/2003
+Germany	8	1	0	7	7/May/2003	7/May/2003
+India	1	0	0	0	5/May/2003	5/May/2003
+Indonesia	2	0	0	1	23/Apr/2003	6/May/2003
+Italy	9	0	0	5	29/Apr/2003	7/May/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	7	0	2	4	4/May/2003	7/May/2003
+Mongolia	9	1	0	6	6/May/2003	6/May/2003
+New Zealand	1	0	0	1	30/Apr/2003	7/May/2003
+Philippines	10	7	2	2	7/May/2003	7/May/2003
+Poland	1	0	0	0	1/May/2003	1/May/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	6/May/2003
+Republic of Korea	1	0	0	0	29/Apr/2003	7/May/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Singapore	204	0	27	150	5/May/2003	7/May/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	24/Apr/2003
+Sweden	3	0	0	2	18/Apr/2003	23/Apr/2003
+Switzerland	1	0	0	1	17/Mar/2003	5/May/2003
+Thailand	7	0	2	5	12/Apr/2003	6/May/2003
+United Kingdom	6	0	0	6	11/Apr/2003	7/May/2003
+United States	65	0	0	32	4/May/2003	5/May/2003
+Viet Nam	63	0	5	58	14/Apr/2003	4/May/2003
+
+Total	6903	186	495	2885		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 8 May 2003, 18:00 GMT+2
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update^2	Number of deaths	Number recovered^3	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	4	0	0	4	23/Apr/2003	6/May/2003
+Brazil	2	0	0	2	10/Apr/2003	24/Apr/2003
+Bulgaria	1	0	0	0	24/Apr/2003	28/Apr/2003
+Canada	146	0	22	95	4/May/2003	7/May/2003
+China	4698	146	224	1529	8/May/2003	8/May/2003
+Hong Kong SAR^4	1661	7	208	1008	8/May/2003	8/May/2003
+China, Macao Special Administrative Region	1	0	0	0	30/Apr/2003	5/May/2003
+China, Taiwan	131	6	13	26	8/May/2003	8/May/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	1	0	0	7/May/2003	7/May/2003
+France	6	0	0	4	6/May/2003	6/May/2003
+Germany	8	0	0	7	7/May/2003	7/May/2003
+India	1	0	0	0	5/May/2003	5/May/2003
+Indonesia	2	0	0	1	23/Apr/2003	6/May/2003
+Italy	9	0	0	6	29/Apr/2003	8/May/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	7	0	2	4	4/May/2003	7/May/2003
+Mongolia	9	0	0	6	6/May/2003	6/May/2003
+New Zealand	1	0	0	1	30/Apr/2003	8/May/2003
+Philippines	10	0	2	2	7/May/2003	7/May/2003
+Poland	1	0	0	0	1/May/2003	5/May/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	6/May/2003
+Republic of Korea	1	0	0	1	29/Apr/2003	8/May/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Singapore	204	0	27	153	5/May/2003	8/May/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	24/Apr/2003
+Sweden	3	0	0	2	18/Apr/2003	23/Apr/2003
+Switzerland	1	0	0	1	17/Mar/2003	5/May/2003
+Thailand	7	0	2	5	12/Apr/2003	7/May/2003
+United Kingdom	6	0	0	6	11/Apr/2003	8/May/2003
+United States	63	0	0	33	4/May/2003	6/May/2003
+Viet Nam	63	0	5	58	14/Apr/2003	4/May/2003
+
+Total	7053	160	506	2959		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 9 May 2003, 19:00 GMT+2
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update^2	Number of deaths	Number recovered^3	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	4	0	0	4	23/Apr/2003	6/May/2003
+Brazil	2	0	0	2	10/Apr/2003	24/Apr/2003
+Bulgaria	1	0	0	0	24/Apr/2003	28/Apr/2003
+Canada	145	0	22	94	4/May/2003	8/May/2003
+China	4805	118	230	1582	9/May/2003	9/May/2003
+Hong Kong SAR^4	1667	6	210	1015	9/May/2003	9/May/2003
+China, Macao Special Administrative Region	1	1	0	0	9/May/2003	9/May/2003
+China, Taiwan	149	18	13	26	9/May/2003	9/May/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	0	7/May/2003	9/May/2003
+France	6	0	0	4	6/May/2003	6/May/2003
+Germany	9	1	0	9	9/May/2003	9/May/2003
+India	1	0	0	0	5/May/2003	9/May/2003
+Indonesia	2	0	0	1	23/Apr/2003	6/May/2003
+Italy	9	0	0	9	29/Apr/2003	9/May/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	6	0	2	4	4/May/2003	8/May/2003
+Mongolia	9	0	0	6	6/May/2003	9/May/2003
+New Zealand	1	0	0	1	30/Apr/2003	9/May/2003
+Philippines	10	0	2	2	7/May/2003	7/May/2003
+Poland	1	0	0	0	1/May/2003	5/May/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	6/May/2003
+Republic of Korea	1	0	0	1	29/Apr/2003	9/May/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Singapore	204	0	27	153	5/May/2003	8/May/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	5/May/2003
+Sweden	3	0	0	2	18/Apr/2003	23/Apr/2003
+Switzerland	1	0	0	1	17/Mar/2003	9/May/2003
+Thailand	7	0	2	5	12/Apr/2003	8/May/2003
+United Kingdom	6	0	0	6	11/Apr/2003	8/May/2003
+United States	63	0	0	33	4/May/2003	8/May/2003
+Viet Nam	63	0	5	58	14/Apr/2003	4/May/2003
+
+Total	7183	144	514	3023		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 10 May 2003, 18:00 GMT+2
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update^2	Number of deaths	Number recovered^3	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	4	0	0	4	23/Apr/2003	6/May/2003
+Brazil	2	0	0	2	10/Apr/2003	24/Apr/2003
+Bulgaria	1	0	0	0	24/Apr/2003	28/Apr/2003
+Canada	145	0	22	97	4/May/2003	9/May/2003
+China	4884	85	235	1620	10/May/2003	10/May/2003
+Hong Kong SAR^4	1674	7	212	1035	10/May/2003	10/May/2003
+China, Macao Special Administrative Region	1	0	0	0	9/May/2003	9/May/2003
+China, Taiwan	172	23	18	26	10/May/2003	10/May/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	0	7/May/2003	9/May/2003
+France	7	1	0	4	9/May/2003	9/May/2003
+Germany	9	0	0	9	9/May/2003	9/May/2003
+India	1	0	0	0	5/May/2003	9/May/2003
+Indonesia	2	0	0	1	23/Apr/2003	6/May/2003
+Italy	9	0	0	9	29/Apr/2003	10/May/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	7	1	2	4	9/May/2003	10/May/2003
+Mongolia	9	0	0	6	6/May/2003	9/May/2003
+New Zealand	1	0	0	1	30/Apr/2003	9/May/2003
+Philippines	10	0	2	2	7/May/2003	7/May/2003
+Poland	1	0	0	0	1/May/2003	5/May/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	6/May/2003
+Republic of Korea	1	0	0	1	29/Apr/2003	9/May/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Singapore	205	1	27	155	9/May/2003	10/May/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	5/May/2003
+Sweden	3	0	0	2	18/Apr/2003	23/Apr/2003
+Switzerland	1	0	0	1	17/Mar/2003	9/May/2003
+Thailand	7	0	2	5	12/Apr/2003	8/May/2003
+United Kingdom	6	0	0	6	29/Apr/2003	9/May/2003
+United States	64	1	0	34	10/May/2003	10/May/2003
+Viet Nam	63	0	5	58	14/Apr/2003	4/May/2003
+
+Total	7296	119	526	3087		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 12 May 2003, 17:00 GMT+2
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update 2, 3	Number of deaths	Number recovered^4	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	6	2	0	6	12/May/2003	12/May/2003
+Brazil	2	0	0	2	10/Apr/2003	24/Apr/2003
+Bulgaria	1	0	0	0	24/Apr/2003	28/Apr/2003
+Canada	143	0	22	98	4/May/2003	11/May/2003
+China	5013	144	252	1693	12/May/2003	12/May/2003
+Hong Kong SAR^5	1683	9	218	1066	12/May/2003	12/May/2003
+China, Macao Special Administrative Region	1	0	0	0	9/May/2003	12/May/2003
+China, Taiwan	184	12	20	26	11/May/2003	11/May/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	0	7/May/2003	9/May/2003
+France	7	0	0	4	9/May/2003	9/May/2003
+Germany	9	0	0	9	9/May/2003	12/May/2003
+India	1	0	0	0	5/May/2003	9/May/2003
+Indonesia	2	0	0	1	23/Apr/2003	6/May/2003
+Italy	9	0	0	8	29/Apr/2003	12/May/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	7	0	2	4	9/May/2003	11/May/2003
+Mongolia	9	0	0	6	6/May/2003	9/May/2003
+New Zealand	1	0	0	1	30/Apr/2003	12/May/2003
+Philippines	10	0	2	3	7/May/2003	11/May/2003
+Poland	1	0	0	0	1/May/2003	5/May/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	12/May/2003
+Republic of Korea	2	1	0	1	12/May/2003	12/May/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Singapore	205	0	28	156	9/May/2003	12/May/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	5/May/2003
+Sweden	3	0	0	2	18/Apr/2003	23/Apr/2003
+Switzerland	1	0	0	1	17/Mar/2003	9/May/2003
+Thailand	7	0	2	5	12/Apr/2003	11/May/2003
+United Kingdom	6	0	0	6	29/Apr/2003	9/May/2003
+United States	64	0	0	34	10/May/2003	11/May/2003
+Viet Nam	63	0	5	58	14/Apr/2003	4/May/2003
+
+Total	7447	168	552	3195		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the disgarding of cases.
+3. The number of new cases since last WHO update includes new cases reported for 11 and 12 May 2003, when these reports have been recieved.
+4. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+5. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 13 May 2003, 17:00 GMT+2
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update^2	Number of deaths	Number recovered^3	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	6	0	0	6	12/May/2003	12/May/2003
+Brazil	2	0	0	2	10/Apr/2003	24/Apr/2003
+Bulgaria	1	0	0	0	24/Apr/2003	28/Apr/2003
+Canada	143	0	22	99	4/May/2003	12/May/2003
+China	5086	80	262	1765	13/May/2003	13/May/2003
+Hong Kong SAR^4	1689	6	225	1090	13/May/2003	13/May/2003
+China, Macao Special Administrative Region	1	0	0	0	9/May/2003	12/May/2003
+China, Taiwan	207	23	24	30	12/May/2003	12/May/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	0	7/May/2003	9/May/2003
+France	7	0	0	4	9/May/2003	9/May/2003
+Germany	9	0	0	9	9/May/2003	13/May/2003
+India	3	2	0	0	13/May/2003	13/May/2003
+Indonesia	2	0	0	1	23/Apr/2003	13/May/2003
+Italy	9	0	0	9	29/Apr/2003	13/May/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	7	0	2	4	9/May/2003	12/May/2003
+Mongolia	9	0	0	6	6/May/2003	9/May/2003
+New Zealand	1	0	0	1	30/Apr/2003	13/May/2003
+Philippines	10	0	2	3	7/May/2003	11/May/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	12/May/2003
+Republic of Korea	2	0	0	1	12/May/2003	13/May/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Singapore	205	0	28	157	9/May/2003	13/May/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	5/May/2003
+Sweden	3	0	0	3	18/Apr/2003	23/Apr/2003
+Switzerland	1	0	0	1	17/Mar/2003	9/May/2003
+Thailand	7	0	2	5	12/Apr/2003	13/May/2003
+United Kingdom	4	0	0	4	29/Apr/2003	13/May/2003
+United States	64	0	0	35	10/May/2003	12/May/2003
+Viet Nam	63	0	5	58	14/Apr/2003	4/May/2003
+
+Total	7548	111	573	3298		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 14 May 2003, 17:00 GMT+2
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update^2	Number of deaths	Number recovered^3	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	6	0	0	6	12/May/2003	14/May/2003
+Brazil	2	0	0	2	10/Apr/2003	24/Apr/2003
+Bulgaria	1	0	0	0	24/Apr/2003	28/Apr/2003
+Canada	143	0	23	104	4/May/2003	13/May/2003
+China	5124	55	267	1811	14/May/2003	14/May/2003
+Hong Kong SAR^4	1698	9	227	1128	14/May/2003	14/May/2003
+China, Macao Special Administrative Region	1	0	0	0	9/May/2003	14/May/2003
+China, Taiwan	238	31	30	38	14/May/2003	14/May/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	0	7/May/2003	9/May/2003
+France	7	0	0	4	9/May/2003	9/May/2003
+Germany	9	0	0	9	9/May/2003	14/May/2003
+India	3	0	0	0	13/May/2003	13/May/2003
+Indonesia	2	0	0	2	23/Apr/2003	14/May/2003
+Italy	9	0	0	9	29/Apr/2003	14/May/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	7	0	2	5	9/May/2003	14/May/2003
+Mongolia	9	0	0	6	6/May/2003	9/May/2003
+New Zealand	1	0	0	1	30/Apr/2003	14/May/2003
+Philippines	10	0	2	3	7/May/2003	14/May/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	14/May/2003
+Republic of Korea	3	1	0	1	14/May/2003	14/May/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Singapore	205	0	28	157	9/May/2003	13/May/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	5/May/2003
+Sweden	3	0	0	3	18/Apr/2003	13/May/2003
+Switzerland	1	0	0	1	17/Mar/2003	9/May/2003
+Thailand	8	1	2	5	13/May/2003	13/May/2003
+United Kingdom	4	0	0	4	29/Apr/2003	13/May/2003
+United States	64	0	0	35	10/May/2003	12/May/2003
+Viet Nam	63	0	5	58	14/Apr/2003	14/May/2003
+
+Total	7628	97	587	3397		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+
+4. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 15 May 2003, 18:00 GMT+2
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update^2	Number of deaths	Number recovered^3	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	6	0	0	6	12/May/2003	15/May/2003
+Brazil	2	0	0	2	10/Apr/2003	24/Apr/2003
+Bulgaria	1	0	0	0	24/Apr/2003	28/Apr/2003
+Canada	142	0	23	107	4/May/2003	14/May/2003
+China	5163	52	271	1858	15/May/2003	15/May/2003
+Hong Kong SAR^4	1703	5	234	1160	15/May/2003	15/May/2003
+China, Macao Special Administrative Region	1	0	0	0	9/May/2003	14/May/2003
+China, Taiwan	264	26	30	38	15/May/2003	15/May/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	0	7/May/2003	15/May/2003
+France	7	0	0	4	9/May/2003	9/May/2003
+Germany	9	0	0	9	9/May/2003	15/May/2003
+India	3	0	0	3	13/May/2003	14/May/2003
+Indonesia	2	0	0	2	23/Apr/2003	14/May/2003
+Italy	9	0	0	9	29/Apr/2003	15/May/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	7	0	2	5	9/May/2003	14/May/2003
+Mongolia	9	0	0	7	6/May/2003	15/May/2003
+New Zealand	1	0	0	1	30/Apr/2003	15/May/2003
+Philippines	12	2	2	4	15/May/2003	15/May/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	14/May/2003
+Republic of Korea	3	0	0	1	14/May/2003	15/May/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Singapore	205	0	28	157	9/May/2003	14/May/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	7/May/2003
+Sweden	3	0	0	3	18/Apr/2003	13/May/2003
+Switzerland	1	0	0	1	17/Mar/2003	9/May/2003
+Thailand	8	0	2	5	13/May/2003	13/May/2003
+United Kingdom	4	0	0	4	29/Apr/2003	15/May/2003
+United States	64	0	0	35	10/May/2003	13/May/2003
+Viet Nam	63	0	5	58	14/Apr/2003	14/May/2003
+
+Total	7699	85	598	3484		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 16 May 2003, 17:00 GMT+2
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update^2	Number of deaths	Number recovered^3	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	6	0	0	6	12/May/2003	15/May/2003
+Brazil	2	0	0	2	10/Apr/2003	24/Apr/2003
+Bulgaria	1	0	0	0	24/Apr/2003	28/Apr/2003
+Canada	140	0	23	106	4/May/2003	15/May/2003
+China	5191	39	275	1947	16/May/2003	16/May/2003
+Hong Kong SAR^4	1706	3	238	1171	16/May/2003	16/May/2003
+China, Macao Special Administrative Region	1	0	0	0	9/May/2003	15/May/2003
+China, Taiwan	274	10	35	46	16/May/2003	16/May/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	0	7/May/2003	15/May/2003
+France	7	0	0	4	9/May/2003	9/May/2003
+Germany	9	0	0	9	9/May/2003	16/May/2003
+India	3	0	0	3	13/May/2003	14/May/2003
+Indonesia	2	0	0	2	23/Apr/2003	16/May/2003
+Italy	9	0	0	9	29/Apr/2003	16/May/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	7	0	2	5	9/May/2003	16/May/2003
+Mongolia	9	0	0	7	6/May/2003	15/May/2003
+New Zealand	1	0	0	1	30/Apr/2003	16/May/2003
+Philippines	12	0	2	4	15/May/2003	16/May/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	14/May/2003
+Republic of Korea	3	0	0	1	14/May/2003	16/May/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Singapore	205	0	28	157	9/May/2003	16/May/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	7/May/2003
+Sweden	3	0	0	3	18/Apr/2003	13/May/2003
+Switzerland	1	0	0	1	17/Mar/2003	9/May/2003
+Thailand	8	0	2	5	13/May/2003	15/May/2003
+United Kingdom	4	0	0	4	29/Apr/2003	16/May/2003
+United States	65	2	0	34	10/May/2003	15/May/2003
+Viet Nam	63	0	5	58	14/Apr/2003	14/May/2003
+
+Total	7739	54	611	3590		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 17 May 2003, 14:00 GMT+2
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update^2	Number of deaths	Number recovered^3	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	6	0	0	6	12/May/2003	15/May/2003
+Brazil	2	0	0	2	10/Apr/2003	24/Apr/2003
+Canada	140	0	23	106	4/May/2003	16/May/2003
+China	5209	28	282	2009	17/May/2003	17/May/2003
+Hong Kong SAR^4	1710	4	243	1191	17/May/2003	17/May/2003
+China, Macao Special Administrative Region	1	0	0	0	9/May/2003	15/May/2003
+China, Taiwan	274	0	35	46	16/May/2003	16/May/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	0	7/May/2003	15/May/2003
+France	7	0	0	6	9/May/2003	16/May/2003
+Germany	9	0	0	9	9/May/2003	16/May/2003
+India	3	0	0	3	13/May/2003	14/May/2003
+Indonesia	2	0	0	2	23/Apr/2003	16/May/2003
+Italy	9	0	0	9	29/Apr/2003	16/May/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	7	0	2	5	9/May/2003	16/May/2003
+Mongolia	9	0	0	7	6/May/2003	15/May/2003
+New Zealand	1	0	0	1	30/Apr/2003	16/May/2003
+Philippines	12	0	2	4	15/May/2003	17/May/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	16/May/2003
+Republic of Korea	3	0	0	1	14/May/2003	17/May/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Singapore	205	0	28	157	9/May/2003	16/May/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	7/May/2003
+Sweden	3	0	0	3	18/Apr/2003	13/May/2003
+Switzerland	1	0	0	1	17/Mar/2003	16/May/2003
+Thailand	8	0	2	5	13/May/2003	15/May/2003
+United Kingdom	4	0	0	4	29/Apr/2003	16/May/2003
+United States	66	1	0	34	16/May/2003	16/May/2003
+Viet Nam	63	0	5	58	14/Apr/2003	14/May/2003
+
+Total	7761	33	623	3674		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 19 May 2003, 16:00 GMT+2
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update2.3	Number of deaths	Number recovered^4	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	6	0	0	6	12/May/2003	19/May/2003
+Brazil	2	0	0	2	10/Apr/2003	24/Apr/2003
+Canada	140	0	23	106	4/May/2003	16/May/2003
+China	5236	40	289	2148	19/May/2003	19/May/2003
+Hong Kong SAR^5	1714	4	251	1213	19/May/2003	19/May/2003
+China, Macao Special Administrative Region	1	0	0	0	9/May/2003	15/May/2003
+China, Taiwan	344	70	40	50	18/May/2003	18/May/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	0	7/May/2003	15/May/2003
+France	7	0	0	6	9/May/2003	16/May/2003
+Germany	9	0	0	9	9/May/2003	19/May/2003
+India	3	0	0	3	13/May/2003	14/May/2003
+Indonesia	2	0	0	2	23/Apr/2003	19/May/2003
+Italy	9	0	0	9	29/Apr/2003	19/May/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	7	0	2	5	9/May/2003	19/May/2003
+Mongolia	9	0	0	8	6/May/2003	19/May/2003
+New Zealand	1	0	0	1	30/Apr/2003	19/May/2003
+Philippines	12	0	2	8	15/May/2003	19/May/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	16/May/2003
+Republic of Korea	3	0	0	1	14/May/2003	19/May/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Singapore	206	1	28	160	18/May/2003	18/May/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	7/May/2003
+Sweden	3	0	0	3	18/Apr/2003	13/May/2003
+Switzerland	1	0	0	1	17/Mar/2003	16/May/2003
+Thailand	8	0	2	5	13/May/2003	18/May/2003
+United Kingdom	4	0	0	4	29/Apr/2003	16/May/2003
+United States	67	1	0	34	17/May/2003	17/May/2003
+Viet Nam	63	0	5	58	14/Apr/2003	14/May/2003
+
+Total	7864	116	643	3847		
+
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. The number of new cases since last WHO update includes new cases reported for 18 and 19 May 2003, when these reports have been received.
+4. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+5. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 20 May 2003, 16:00 GMT+2
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update^2	Number of deaths	Number recovered^3	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	6	0	0	6	12/May/2003	20/May/2003
+Brazil	2	0	0	2	10/Apr/2003	24/Apr/2003
+Canada	140	0	23	106	4/May/2003	16/May/2003
+China	5248	17	294	2254	20/May/2003	20/May/2003
+Hong Kong SAR^4	1718	4	253	1229	20/May/2003	20/May/2003
+China, Macao Special Administrative Region	1	0	0	0	9/May/2003	15/May/2003
+China, Taiwan	383	39	52	63	19/May/2003	19/May/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	0	7/May/2003	20/May/2003
+France	7	0	0	6	9/May/2003	16/May/2003
+Germany	9	0	0	9	9/May/2003	20/May/2003
+India	3	0	0	3	13/May/2003	14/May/2003
+Indonesia	2	0	0	2	23/Apr/2003	20/May/2003
+Italy	9	0	0	9	29/Apr/2003	19/May/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	7	0	2	5	9/May/2003	19/May/2003
+Mongolia	9	0	0	8	6/May/2003	19/May/2003
+New Zealand	1	0	0	1	30/Apr/2003	20/May/2003
+Philippines	12	0	2	8	15/May/2003	20/May/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	19/May/2003
+Republic of Korea	3	0	0	2	14/May/2003	20/May/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Singapore	206	0	28	161	18/May/2003	20/May/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	7/May/2003
+Sweden	3	0	0	3	18/Apr/2003	13/May/2003
+Switzerland	1	0	0	1	17/Mar/2003	16/May/2003
+Thailand	8	0	2	5	13/May/2003	19/May/2003
+United Kingdom	4	0	0	4	29/Apr/2003	20/May/2003
+United States	67	0	0	34	17/May/2003	19/May/2003
+Viet Nam	63	0	5	58	14/Apr/2003	14/May/2003
+
+Total	7919	60	662	3984		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 21 May 2003, 16:00 GMT+2
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update^2	Number of deaths	Number recovered^3	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	6	0	0	6	12/May/2003	21/May/2003
+Brazil	2	0	0	2	10/Apr/2003	24/Apr/2003
+Canada	140	0	23	108	4/May/2003	20/May/2003
+China	5249	12	296	2335	21/May/2003	21/May/2003
+Hong Kong SAR^4	1719	1	255	1237	21/May/2003	21/May/2003
+China, Macao Special Administrative Region	1	0	0	0	9/May/2003	15/May/2003
+China, Taiwan	418	35	52	71	20/May/2003	20/May/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	1	7/May/2003	20/May/2003
+France	7	0	0	6	9/May/2003	16/May/2003
+Germany	9	0	0	9	9/May/2003	21/May/2003
+India	3	0	0	3	13/May/2003	14/May/2003
+Indonesia	2	0	0	2	23/Apr/2003	21/May/2003
+Italy	9	0	0	9	29/Apr/2003	21/May/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	8	1	2	5	20/May/2003	21/May/2003
+Mongolia	9	0	0	8	6/May/2003	19/May/2003
+New Zealand	1	0	0	1	30/Apr/2003	21/May/2003
+Philippines	12	0	2	10	15/May/2003	21/May/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	19/May/2003
+Republic of Korea	3	0	0	2	14/May/2003	21/May/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Singapore	206	0	28	161	18/May/2003	20/May/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	7/May/2003
+Sweden	3	0	0	3	18/Apr/2003	13/May/2003
+Switzerland	1	0	0	1	17/Mar/2003	16/May/2003
+Thailand	8	0	2	5	13/May/2003	20/May/2003
+United Kingdom	4	0	0	4	29/Apr/2003	21/May/2003
+United States	66	0	0	33	17/May/2003	20/May/2003
+Viet Nam	63	0	5	58	14/Apr/2003	14/May/2003
+
+Total	7956	49	666	4085		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 22 May 2003, 17:00 GMT+2
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update^2	Number of deaths	Number recovered3	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	6	0	0	6	12/May/2003	22/May/2003
+Brazil	2	0	0	2	10/Apr/2003	24/Apr/2003
+Canada	140	0	23	109	4/May/2003	21/May/2003
+China	5271	26	300	2445	22/May/2003	22/May/2003
+Hong Kong SAR4	1722	3	258	1247	22/May/2003	22/May/2003
+China, Macao Special Administrative Region	2	1	0	0	21/May/2003	21/May/2003
+China, Taiwan	483	65	60	74	22/May/2003	22/May/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	1	7/May/2003	20/May/2003
+France	7	0	0	6	9/May/2003	22/May/2003
+Germany	9	0	0	9	9/May/2003	21/May/2003
+India	3	0	0	3	13/May/2003	14/May/2003
+Indonesia	2	0	0	2	23/Apr/2003	22/May/2003
+Italy	9	0	0	9	29/Apr/2003	22/May/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	8	0	2	5	20/May/2003	21/May/2003
+Mongolia	9	0	0	8	6/May/2003	19/May/2003
+New Zealand	1	0	0	1	30/Apr/2003	22/May/2003
+Philippines	12	0	2	10	15/May/2003	22/May/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	19/May/2003
+Republic of Korea	3	0	0	2	14/May/2003	22/May/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Singapore	206	0	29	162	18/May/2003	21/May/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	7/May/2003
+Sweden	3	0	0	3	18/Apr/2003	13/May/2003
+Switzerland	1	0	0	1	17/Mar/2003	16/May/2003
+Thailand	8	0	2	5	13/May/2003	21/May/2003
+United Kingdom	4	0	0	4	29/Apr/2003	22/May/2003
+United States	65	0	0	33	17/May/2003	21/May/2003
+Viet Nam	63	0	5	58	14/Apr/2003	14/May/2003
+
+Total	8046	95	682	4210		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 23 May 2003, 16:00 GMT+2
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update^2	Number of deaths	Number recovered^3	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	6	0	0	6	12/May/2003	22/May/2003
+Brazil	2	0	0	2	10/Apr/2003	24/Apr/2003
+Canada	140	0	23	109	4/May/2003	21/May/2003
+China	5285	20	303	2544	23/May/2003	23/May/2003
+Hong Kong SAR^4	1724	2	260	1255	23/May/2003	23/May/2003
+China, Macao Special Administrative Region	2	0	0	0	21/May/2003	23/May/2003
+China, Taiwan	538	55	60	82	22/May/2003	22/May/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	1	7/May/2003	20/May/2003
+France	7	0	0	6	9/May/2003	22/May/2003
+Germany	9	0	0	9	9/May/2003	21/May/2003
+India	3	0	0	3	13/May/2003	14/May/2003
+Indonesia	2	0	0	2	23/Apr/2003	23/May/2003
+Italy	9	0	0	9	29/Apr/2003	23/May/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	8	0	2	5	20/May/2003	23/May/2003
+Mongolia	9	0	0	8	6/May/2003	19/May/2003
+New Zealand	1	0	0	1	30/Apr/2003	23/May/2003
+Philippines	12	0	2	10	15/May/2003	23/May/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	19/May/2003
+Republic of Korea	3	0	0	2	14/May/2003	23/May/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Singapore	206	0	31	163	18/May/2003	23/May/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	7/May/2003
+Sweden	3	0	0	3	18/Apr/2003	13/May/2003
+Switzerland	1	0	0	1	17/Mar/2003	16/May/2003
+Thailand	8	0	2	5	13/May/2003	21/May/2003
+United Kingdom	4	0	0	4	29/Apr/2003	23/May/2003
+United States	65	0	0	33	17/May/2003	22/May/2003
+Viet Nam	63	0	5	58	14/Apr/2003	14/May/2003
+
+Total	8117	77	689	4326		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 24 May 2003, 19:00 GMT+2 
+Revised 26 May 2003
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update^2	Number of deaths	Number recovered^3	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	6	0	0	6	12/May/2003	22/May/2003
+Brazil	2	0	0	2	10/Apr/2003	24/Apr/2003
+Canada	140	0	23	109	4/May/2003	23/May/2003
+China	5309	34	308	2675	24/May/2003	24/May/2003
+Hong Kong SAR^4	1724	0	262	1266	23/May/2003	24/May/2003
+China, Macao Special Administrative Region	2	0	0	0	21/May/2003	23/May/2003
+China, Taiwan	538	0	60	82	22/May/2003	22/May/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	1	7/May/2003	20/May/2003
+France	7	0	0	6	9/May/2003	22/May/2003
+Germany	9	0	0	9	9/May/2003	23/May/2003
+India	3	0	0	3	13/May/2003	14/May/2003
+Indonesia	2	0	0	2	23/Apr/2003	23/May/2003
+Italy	9	0	0	9	29/Apr/2003	24/May/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	8	0	2	5	20/May/2003	23/May/2003
+Mongolia	9	0	0	8	6/May/2003	19/May/2003
+New Zealand	1	0	0	1	30/Apr/2003	23/May/2003
+Philippines	12	0	2	10	15/May/2003	24/May/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	23/May/2003
+Republic of Korea	3	0	0	2	14/May/2003	23/May/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Singapore	206	0	31	163	18/May/2003	23/May/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	7/May/2003
+Sweden	3	0	0	3	18/Apr/2003	13/May/2003
+Switzerland	1	0	0	1	17/Mar/2003	16/May/2003
+Thailand	8	0	2	5	13/May/2003	21/May/2003
+United Kingdom	4	0	0	4	29/Apr/2003	23/May/2003
+United States	65	0	0	33	17/May/2003	23/May/2003
+Viet Nam	63	0	5	58	14/Apr/2003	14/May/2003
+
+Total	8141	34	696	4468		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 26 May 2003, 17:00 GMT+2
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update2,^3	Number of deaths	Number recovered^4	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	6	0	0	6	12/May/2003	26/May/2003
+Brazil	2	0	0	2	10/Apr/2003	24/Apr/2003
+Canada	148	8	26	110	25/May/2003	25/May/2003
+China	5316	24	317	2829	26/May/2003	26/May/2003
+Hong Kong SAR^5	1726	2	267	1276	26/May/2003	26/May/2003
+China, Macao Special Administrative Region	2	0	0	0	21/May/2003	26/May/2003
+China, Taiwan	585	62	72	112	26/May/2003	26/May/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	1	7/May/2003	20/May/2003
+France	7	0	0	6	9/May/2003	22/May/2003
+Germany	9	0	0	9	9/May/2003	26/May/2003
+India	3	0	0	3	13/May/2003	14/May/2003
+Indonesia	2	0	0	2	23/Apr/2003	23/May/2003
+Italy	9	0	0	9	29/Apr/2003	24/May/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	5	0	2	3	20/May/2003	26/May/2003
+Mongolia	9	0	0	8	6/May/2003	19/May/2003
+New Zealand	1	0	0	1	30/Apr/2003	26/May/2003
+Philippines	12	0	2	10	15/May/2003	24/May/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	23/May/2003
+Republic of Korea	3	0	0	2	14/May/2003	26/May/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Singapore	206	0	31	163	18/May/2003	23/May/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	7/May/2003
+Sweden	3	0	0	3	18/Apr/2003	13/May/2003
+Switzerland	1	0	0	1	17/Mar/2003	16/May/2003
+Thailand	8	0	2	6	13/May/2003	25/May/2003
+United Kingdom	4	0	0	4	29/Apr/2003	23/May/2003
+United States	65	0	0	33	17/May/2003	23/May/2003
+Viet Nam	63	0	5	58	14/Apr/2003	14/May/2003
+
+Total	8202	96	725	4662		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. The number of new cases since last WHO update includes new cases reported for 25 and 26 May 2003, when these reports have been received.
+4. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+5. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 27 May 2003, 18:00 GMT+2
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update^2	Number of deaths	Number recovered^3	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	6	0	0	6	12/May/2003	27/May/2003
+Brazil	2	0	0	2	10/Apr/2003	24/Apr/2003
+Canada	148	0	26	111	25/May/2003	26/May/2003
+China	5322	9	321	2944	27/May/2003	27/May/2003
+Hong Kong SAR^4	1728	2	269	1285	27/May/2003	27/May/2003
+China, Macao Special Administrative Region	2	0	0	0	21/May/2003	27/May/2003
+China, Taiwan	596	13	76	112	27/May/2003	27/May/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	1	7/May/2003	20/May/2003
+France	7	0	0	6	9/May/2003	22/May/2003
+Germany	9	0	0	9	9/May/2003	26/May/2003
+India	3	0	0	3	13/May/2003	14/May/2003
+Indonesia	2	0	0	2	23/Apr/2003	23/May/2003
+Italy	9	0	0	9	29/Apr/2003	27/May/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	5	0	2	3	20/May/2003	26/May/2003
+Mongolia	9	0	0	9	6/May/2003	27/May/2003
+New Zealand	1	0	0	1	30/Apr/2003	27/May/2003
+Philippines	12	0	2	10	15/May/2003	27/May/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	23/May/2003
+Republic of Korea	3	0	0	2	14/May/2003	26/May/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Singapore	206	0	31	163	18/May/2003	23/May/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	7/May/2003
+Sweden	3	0	0	3	18/Apr/2003	13/May/2003
+Switzerland	1	0	0	1	17/Mar/2003	16/May/2003
+Thailand	8	0	2	6	13/May/2003	26/May/2003
+United Kingdom	4	0	0	4	29/Apr/2003	27/May/2003
+United States	65	0	0	32	17/May/2003	24/May/2003
+Viet Nam	63	0	5	58	14/Apr/2003	14/May/2003
+
+Total	8221	24	735	4787		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 28 May 2003, 18:00 GMT+2
+
+Country	Cumulative number of case(s)^1	Number of new cases since last WHO update^2	Number of deaths	Number recovered^3	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	6	0	0	6	12/May/2003	27/May/2003
+Brazil	2	0	0	2	10/Apr/2003	24/Apr/2003
+Canada	149	1	26	111	27/May/2003	27/May/2003
+China	5323	4	325	3036	28/May/2003	28/May/2003
+Hong Kong SAR^4	1730	2	270	1295	28/May/2003	28/May/2003
+China, Macao Special Administrative Region	2	0	0	0	21/May/2003	28/May/2003
+China, Taiwan	610	22	81	112	28/May/2003	28/May/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	1	7/May/2003	20/May/2003
+France	7	0	0	6	9/May/2003	22/May/2003
+Germany	9	0	0	9	9/May/2003	28/May/2003
+India	3	0	0	3	13/May/2003	14/May/2003
+Indonesia	2	0	0	2	23/Apr/2003	28/May/2003
+Italy	9	0	0	9	29/Apr/2003	28/May/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	5	0	2	3	20/May/2003	26/May/2003
+Mongolia	9	0	0	9	6/May/2003	27/May/2003
+New Zealand	1	0	0	1	30/Apr/2003	28/May/2003
+Philippines	12	0	2	10	15/May/2003	28/May/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	23/May/2003
+Republic of Korea	3	0	0	2	14/May/2003	28/May/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Singapore	206	0	31	165	18/May/2003	28/May/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	7/May/2003
+Sweden	3	0	0	3	18/Apr/2003	13/May/2003
+Switzerland	1	0	0	1	17/Mar/2003	16/May/2003
+Thailand	8	0	2	6	13/May/2003	27/May/2003
+United Kingdom	4	0	0	4	29/Apr/2003	28/May/2003
+United States	66	1	0	32	27/May/2003	27/May/2003
+Viet Nam	63	0	5	58	14/Apr/2003	14/May/2003
+
+Total	8240	30	745	4891		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 29 May 2003, 16:00 GMT+2
+Revised on 4 June 2003
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update^2	Number of deaths	Number recovered^3	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	6	0	0	6	12/May/2003	27/May/2003
+Brazil	2	0	0	2	10/Apr/2003	24/Apr/2003
+Canada	151	2	26	112	28/May/2003	28/May/2003
+China	5325	3	327	3121	29/May/2003	29/May/2003
+Hong Kong SAR^4	1732	2	273	1302	29/May/2003	29/May/2003
+China, Macao Special Administrative Region	1	0	0	0	21/May/2003	29/May/2003
+China, Taiwan	660	60	81	122	29/May/2003	29/May/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	1	7/May/2003	20/May/2003
+France	7	0	0	6	9/May/2003	22/May/2003
+Germany	9	0	0	9	9/May/2003	28/May/2003
+India	3	0	0	3	13/May/2003	14/May/2003
+Indonesia	2	0	0	2	23/Apr/2003	29/May/2003
+Italy	9	0	0	9	29/Apr/2003	28/May/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	5	0	2	3	20/May/2003	29/May/2003
+Mongolia	9	0	0	9	6/May/2003	27/May/2003
+New Zealand	1	0	0	1	30/Apr/2003	29/May/2003
+Philippines	12	0	2	10	15/May/2003	29/May/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	23/May/2003
+Republic of Korea	3	0	0	2	14/May/2003	29/May/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Singapore	206	0	31	165	18/May/2003	28/May/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	7/May/2003
+Sweden	3	0	0	3	18/Apr/2003	13/May/2003
+Switzerland	1	0	0	1	17/Mar/2003	16/May/2003
+Thailand	8	0	2	6	13/May/2003	28/May/2003
+United Kingdom	4	0	0	4	29/Apr/2003	28/May/2003
+United States	66	0	0	32	27/May/2003	28/May/2003
+Viet Nam	63	0	5	58	14/Apr/2003	14/May/2003
+
+Total	8295	67	750	4994		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 30 May 2003, 18:00 GMT+2
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update^2	Number of deaths	Number recovered^3	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	6	0	0	6	12/May/2003	27/May/2003
+Brazil	2	0	0	2	10/Apr/2003	24/Apr/2003
+Canada	159	8	28	112	29/May/2003	29/May/2003
+China	5328	7	328	3250	30/May/2003	30/May/2003
+Hong Kong SAR^4	1736	4	274	1304	30/May/2003	30/May/2003
+China, Macao Special Administrative Region	1	0	0	0	21/May/2003	30/May/2003
+China, Taiwan	667	7	81	125	30/May/2003	30/May/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	1	7/May/2003	20/May/2003
+France	7	0	0	6	9/May/2003	22/May/2003
+Germany	9	0	0	9	9/May/2003	28/May/2003
+India	3	0	0	3	13/May/2003	14/May/2003
+Indonesia	2	0	0	2	23/Apr/2003	29/May/2003
+Italy	9	0	0	9	29/Apr/2003	30/May/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	5	0	2	3	20/May/2003	29/May/2003
+Mongolia	9	0	0	9	6/May/2003	27/May/2003
+New Zealand	1	0	0	1	30/Apr/2003	30/May/2003
+Philippines	12	0	2	10	15/May/2003	30/May/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	23/May/2003
+Republic of Korea	3	0	0	3	14/May/2003	30/May/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Singapore	206	0	31	165	18/May/2003	29/May/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	7/May/2003
+Sweden	3	0	0	3	18/Apr/2003	13/May/2003
+Switzerland	1	0	0	1	17/Mar/2003	16/May/2003
+Thailand	8	0	2	6	13/May/2003	28/May/2003
+United Kingdom	4	0	0	4	29/Apr/2003	30/May/2003
+United States	66	0	0	32	27/May/2003	29/May/2003
+Viet Nam	63	0	5	58	14/Apr/2003	14/May/2003
+
+Total	8317	26	754	5129		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 31 May 2003, 14:00 GMT+2
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update^2	Number of deaths	Number recovered^3	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	6	0	0	6	12/May/2003	27/May/2003
+Brazil	2	0	0	2	10/Apr/2003	24/Apr/2003
+Canada^4	188	29	30	116	30/May/2003	30/May/2003
+China	5328	1	332	3371	31/May/2003	31/May/2003
+Hong Kong SAR^5	1739	3	278	1310	31/May/2003	31/May/2003
+China, Macao Special Administrative Region	1	0	0	0	21/May/2003	31/May/2003
+China, Taiwan	676	9	81	129	31/May/2003	31/May/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	1	7/May/2003	20/May/2003
+France	7	0	0	6	9/May/2003	22/May/2003
+Germany	10	1	0	9	30/May/2003	30/May/2003
+India	3	0	0	3	13/May/2003	14/May/2003
+Indonesia	2	0	0	2	23/Apr/2003	31/May/2003
+Italy	9	0	0	9	29/Apr/2003	30/May/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	5	0	2	3	20/May/2003	31/May/2003
+Mongolia	9	0	0	9	6/May/2003	27/May/2003
+New Zealand	1	0	0	1	30/Apr/2003	30/May/2003
+Philippines	12	0	2	10	15/May/2003	30/May/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	23/May/2003
+Republic of Korea	3	0	0	3	14/May/2003	31/May/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Russian Federation	1	1	0	0	31/May/2003	31/May/2003
+Singapore	206	0	31	165	18/May/2003	30/May/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	7/May/2003
+Sweden	3	0	0	3	18/Apr/2003	13/May/2003
+Switzerland	1	0	0	1	17/Mar/2003	16/May/2003
+Thailand	8	0	2	6	13/May/2003	28/May/2003
+United Kingdom	4	0	0	4	29/Apr/2003	30/May/2003
+United States	66	0	0	32	27/May/2003	29/May/2003
+Viet Nam	63	0	5	58	14/Apr/2003	14/May/2003
+
+Total	8360	44	764	5264		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. New case definition adopted by Canada on 30 May 2003.
+5. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 2 June 2003, 18:00 GMT+2 
+Revised on 4 June 2003, 14.00 GMT +2
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update2,3	Number of deaths	Number recovered^4	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	5	0	0	5	12/May/2003	2/Jun/2003
+Brazil	2	0	0	2	10/Apr/2003	24/Apr/2003
+Canada	198	10	30	116	1/Jun/2003	1/Jun/2003
+China	5328	2	334	3495	2/Jun/2003	2/Jun/2003
+China, Hong Kong Special Administrative Region^5	1746	7	282	1319	2/Jun/2003	2/Jun/2003
+China, Macao Special Administrative Region	1	0	0	1	21/May/2003	2/Jun/2003
+China, Taiwan	684	9	81	134	2/Jun/2003	2/Jun/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	1	7/May/2003	20/May/2003
+France	7	0	0	6	9/May/2003	22/May/2003
+Germany	10	0	0	9	30/May/2003	30/May/2003
+India	3	0	0	3	13/May/2003	14/May/2003
+Indonesia	2	0	0	2	23/Apr/2003	31/May/2003
+Italy	9	0	0	9	29/Apr/2003	30/May/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	5	0	2	3	20/May/2003	2/Jun/2003
+Mongolia	9	0	0	9	6/May/2003	27/May/2003
+New Zealand	1	0	0	1	30/Apr/2003	30/May/2003
+Philippines	12	0	2	10	15/May/2003	2/Jun/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	23/May/2003
+Republic of Korea	3	0	0	3	14/May/2003	2/Jun/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Russian Federation	1	0	0	0	31/May/2003	31/May/2003
+Singapore	206	0	31	165	18/May/2003	31/May/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	7/May/2003
+Sweden	3	0	0	3	18/Apr/2003	13/May/2003
+Switzerland	1	0	0	1	17/Mar/2003	16/May/2003
+Thailand	8	0	2	6	13/May/2003	1/Jun/2003
+United Kingdom	4	0	0	4	29/Apr/2003	30/May/2003
+United States	66	0	0	32	27/May/2003	30/May/2003
+Viet Nam	63	0	5	58	14/Apr/2003	14/May/2003
+
+Total	8384	28	770	5402		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. The number of new cases since last WHO update includes new cases reported for 01 and 02 June 2003, when these reports have been received.
+4. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+5. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 3 June 2003, 14:00 GMT+2 
+
+Country	Cumulative number of case(s)2	Number of new cases since last WHO update2	Number of deaths	Number recovered3	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	5	0	0	5	12/May/2003	3/Jun/2003
+Brazil	2	0	0	2	10/Apr/2003	24/Apr/2003
+Canada	213	15	31	116	2/Jun/2003	2/Jun/2003
+China	5329	3	334	3558	3/Jun/2003	3/Jun/2003
+China, Hong Kong Special Administrative Region4	1747	1	283	1326	3/Jun/2003	3/Jun/2003
+China, Macao Special Administrative Region	1	0	0	1	21/May/2003	3/Jun/2003
+China, Taiwan	679	1	81	136	3/Jun/2003	3/Jun/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	1	7/May/2003	20/May/2003
+France	7	0	0	6	9/May/2003	22/May/2003
+Germany	10	0	0	9	30/May/2003	3/Jun/2003
+India	3	0	0	3	13/May/2003	14/May/2003
+Indonesia	2	0	0	2	23/Apr/2003	3/Jun/2003
+Italy	9	0	0	9	29/Apr/2003	3/Jun/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	5	0	2	3	20/May/2003	2/Jun/2003
+Mongolia	9	0	0	9	6/May/2003	27/May/2003
+New Zealand	1	0	0	1	30/Apr/2003	3/Jun/2003
+Philippines	12	0	2	10	15/May/2003	3/Jun/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	23/May/2003
+Republic of Korea	3	0	0	3	14/May/2003	3/Jun/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Russian Federation	1	0	0	0	31/May/2003	31/May/2003
+Singapore	206	0	31	165	18/May/2003	31/May/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	7/May/2003
+Sweden	3	0	0	3	18/Apr/2003	13/May/2003
+Switzerland	1	0	0	1	17/Mar/2003	16/May/2003
+Thailand	8	0	2	6	13/May/2003	2/Jun/2003
+United Kingdom	4	0	0	4	29/Apr/2003	3/Jun/2003
+United States	68	2	0	33	2/Jun/2003	2/Jun/2003
+Viet Nam	63	0	5	58	14/Apr/2003	14/May/2003
+
+Total	8398	22	772	5475		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+Cumulative Number of Reported Probable Cases Of SARS
+
+
+
+From: 1 Nov 2002 To: 4 June 2003, 14:00 GMT+2 
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update^2	Number of deaths	Number recovered^3	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	5	0	0	5	12/May/2003	4/Jun/2003
+Brazil	2	0	0	2	10/Apr/2003	24/Apr/2003
+Canada	216	5	31	121	3/Jun/2003	3/Jun/2003
+China	5329	0	334	3674	3/Jun/2003	4/Jun/2003
+China, Hong Kong Special Administrative Region^4	1748	1	283	1339	4/Jun/2003	4/Jun/2003
+China, Macao Special Administrative Region	1	0	0	1	21/May/2003	3/Jun/2003
+China, Taiwan	678	2	81	272	4/Jun/2003	4/Jun/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	1	7/May/2003	20/May/2003
+France	7	0	0	6	9/May/2003	22/May/2003
+Germany	10	1	0	9	4/Jun/2003	4/Jun/2003
+India	3	0	0	3	13/May/2003	14/May/2003
+Indonesia	2	0	0	2	23/Apr/2003	4/Jun/2003
+Italy	9	0	0	9	29/Apr/2003	3/Jun/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	5	0	2	3	20/May/2003	4/Jun/2003
+Mongolia	9	0	0	9	6/May/2003	2/Jun/2003
+New Zealand	1	0	0	1	30/Apr/2003	4/Jun/2003
+Philippines	12	0	2	10	15/May/2003	4/Jun/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	23/May/2003
+Republic of Korea	3	0	0	3	14/May/2003	4/Jun/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Russian Federation	1	0	0	0	31/May/2003	31/May/2003
+Singapore	206	0	31	165	18/May/2003	31/May/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	7/May/2003
+Sweden	3	0	0	3	18/Apr/2003	13/May/2003
+Switzerland	1	0	0	1	17/Mar/2003	16/May/2003
+Thailand	8	0	2	6	13/May/2003	3/Jun/2003
+United Kingdom	4	0	0	4	29/Apr/2003	4/Jun/2003
+United States	69	1	0	34	3/Jun/2003	3/Jun/2003
+Viet Nam	63	0	5	58	14/Apr/2003	14/May/2003
+
+Total	8402	10	772	5746		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 5 June 2003, 14:00 GMT+2 
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update^2	Number of deaths	Number recovered^3	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	5	0	0	5	12/May/2003	5/Jun/2003
+Brazil	2	0	0	2	10/Apr/2003	24/Apr/2003
+Canada	218	5	31	120	4/Jun/2003	4/Jun/2003
+China	5329	0	336	3770	3/Jun/2003	5/Jun/2003
+China, Hong Kong Special Administrative Region^4	1748	0	284	1343	4/Jun/2003	5/Jun/2003
+China, Macao Special Administrative Region	1	0	0	1	21/May/2003	3/Jun/2003
+China, Taiwan	677	1	81	257	5/Jun/2003	5/Jun/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	1	7/May/2003	20/May/2003
+France	7	0	0	6	9/May/2003	22/May/2003
+Germany	10	0	0	9	4/Jun/2003	5/Jun/2003
+India	3	0	0	3	13/May/2003	14/May/2003
+Indonesia	2	0	0	2	23/Apr/2003	5/Jun/2003
+Italy	9	0	0	9	29/Apr/2003	5/Jun/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	5	0	2	3	20/May/2003	4/Jun/2003
+Mongolia	9	0	0	9	6/May/2003	2/Jun/2003
+New Zealand	1	0	0	1	30/Apr/2003	5/Jun/2003
+Philippines	12	0	2	10	15/May/2003	5/Jun/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	23/May/2003
+Republic of Korea	3	0	0	3	14/May/2003	5/Jun/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Russian Federation	1	0	0	0	31/May/2003	31/May/2003
+Singapore	206	0	31	165	18/May/2003	31/May/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	5/Jun/2003
+Sweden	3	0	0	3	18/Apr/2003	13/May/2003
+Switzerland	1	0	0	1	17/Mar/2003	16/May/2003
+Thailand	8	0	2	6	13/May/2003	4/Jun/2003
+United Kingdom	4	0	0	4	29/Apr/2003	4/Jun/2003
+United States	69	0	0	34	3/Jun/2003	3/Jun/2003
+Viet Nam	63	0	5	58	14/Apr/2003	14/May/2003
+
+Total	8403	6	775	5830		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 6 June 2003, 16:00 GMT+2 
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update^2	Number of deaths	Number recovered^3	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	5	0	0	5	12/May/2003	5/Jun/2003
+Brazil	2	0	0	2	10/Apr/2003	24/Apr/2003
+Canada	219	4	31	120	5/Jun/2003	5/Jun/2003
+China	5329	0	338	3869	3/Jun/2003	6/Jun/2003
+China, Hong Kong Special Administrative Region^4	1750	2	286	1350	6/Jun/2003	6/Jun/2003
+China, Macao Special Administrative Region	1	0	0	1	21/May/2003	3/Jun/2003
+China, Taiwan	676	1	81	257	6/Jun/2003	6/Jun/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	1	7/May/2003	20/May/2003
+France	7	0	0	6	9/May/2003	22/May/2003
+Germany	10	0	0	9	4/Jun/2003	6/Jun/2003
+India	3	0	0	3	13/May/2003	14/May/2003
+Indonesia	2	0	0	2	23/Apr/2003	5/Jun/2003
+Italy	9	0	0	9	29/Apr/2003	6/Jun/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	5	0	2	3	20/May/2003	4/Jun/2003
+Mongolia	9	0	0	9	6/May/2003	2/Jun/2003
+New Zealand	1	0	0	1	30/Apr/2003	6/Jun/2003
+Philippines	12	0	2	10	15/May/2003	6/Jun/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	23/May/2003
+Republic of Korea	3	0	0	3	14/May/2003	5/Jun/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Russian Federation	1	0	0	0	31/May/2003	31/May/2003
+Singapore	206	0	31	165	18/May/2003	31/May/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	5/Jun/2003
+Sweden	3	0	0	3	18/Apr/2003	13/May/2003
+Switzerland	1	0	0	1	17/Mar/2003	16/May/2003
+Thailand	8	0	2	6	13/May/2003	5/Jun/2003
+United Kingdom	4	0	0	4	29/Apr/2003	6/Jun/2003
+United States	68	1	0	35	5/Jun/2003	5/Jun/2003
+Viet Nam	63	0	5	58	14/Apr/2003	14/May/2003
+
+Total	8404	8	779	5937		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 9 June 2003, 18:00 GMT+2 
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update2,^3	Number of deaths	Number recovered^4	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	5	0	0	5	12/May/2003	5/Jun/2003
+Brazil	2	0	0	2	10/Apr/2003	24/Apr/2003
+Canada	229	11	32	128	8/Jun/2003	8/Jun/2003
+China	5328	1	340	4186	7/Jun/2003	9/Jun/2003
+China, Hong Kong Special Administrative Region^5	1753	3	288	1365	9/Jun/2003	9/Jun/2003
+China, Macao Special Administrative Region	1	0	0	1	21/May/2003	3/Jun/2003
+China, Taiwan	680	4	81	257	9/Jun/2003	9/Jun/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	1	7/May/2003	20/May/2003
+France	7	0	0	6	9/May/2003	22/May/2003
+Germany	10	0	0	9	4/Jun/2003	6/Jun/2003
+India	3	0	0	3	13/May/2003	14/May/2003
+Indonesia	2	0	0	2	23/Apr/2003	9/Jun/2003
+Italy	9	0	0	9	29/Apr/2003	9/Jun/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	5	0	2	3	20/May/2003	6/Jun/2003
+Mongolia	9	0	0	9	6/May/2003	2/Jun/2003
+New Zealand	1	0	0	1	30/Apr/2003	6/Jun/2003
+Philippines	12	0	2	10	15/May/2003	6/Jun/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	23/May/2003
+Republic of Korea	3	0	0	3	14/May/2003	9/Jun/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Russian Federation	1	0	0	0	31/May/2003	31/May/2003
+Singapore	206	0	31	168	18/May/2003	8/Jun/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	5/Jun/2003
+Sweden	3	0	0	3	18/Apr/2003	13/May/2003
+Switzerland	1	0	0	1	17/Mar/2003	16/May/2003
+Thailand	9	1	2	6	7/Jun/2003	9/Jun/2003
+United Kingdom	4	0	0	4	29/Apr/2003	9/Jun/2003
+United States	68	1	0	35	6/Jun/2003	6/Jun/2003
+Viet Nam	63	0	5	58	14/Apr/2003	7/Jun/2003
+
+Total	8421	21	784	6280		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. The number of new cases since last WHO update includes new cases reported for 07, 08 and 09 June 2003, when these reports have been received. 4. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+5. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 10 June 2003, 16:00 GMT+2 
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update^2	Number of deaths	Number recovered^3	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	5	0	0	5	12/May/2003	5/Jun/2003
+Brazil	3	1	0	2	9/Jun/2003	9/Jun/2003
+Canada	229	0	32	131	8/Jun/2003	9/Jun/2003
+China	5328	0	343	4294	7/Jun/2003	10/Jun/2003
+China, Hong Kong Special Administrative Region^4	1754	1	290	1368	10/Jun/2003	10/Jun/2003
+China, Macao Special Administrative Region	1	0	0	1	21/May/2003	3/Jun/2003
+China, Taiwan	686	6	81	319	10/Jun/2003	10/Jun/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	1	7/May/2003	20/May/2003
+France	7	0	0	6	9/May/2003	22/May/2003
+Germany	10	0	0	9	4/Jun/2003	10/Jun/2003
+India	3	0	0	3	13/May/2003	14/May/2003
+Indonesia	2	0	0	2	23/Apr/2003	10/Jun/2003
+Italy	9	0	0	9	29/Apr/2003	10/Jun/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	5	0	2	3	20/May/2003	9/Jun/2003
+Mongolia	9	0	0	9	6/May/2003	2/Jun/2003
+New Zealand	1	0	0	1	30/Apr/2003	10/Jun/2003
+Philippines	12	0	2	10	15/May/2003	6/Jun/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	23/May/2003
+Republic of Korea	3	0	0	3	14/May/2003	10/Jun/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Russian Federation	1	0	0	0	31/May/2003	31/May/2003
+Singapore	206	0	31	168	18/May/2003	10/Jun/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	5/Jun/2003
+Sweden	3	0	0	3	18/Apr/2003	13/May/2003
+Switzerland	1	0	0	1	17/Mar/2003	16/May/2003
+Thailand	9	0	2	6	7/Jun/2003	10/Jun/2003
+United Kingdom	4	0	0	4	29/Apr/2003	10/Jun/2003
+United States	69	1	0	36	9/Jun/2003	9/Jun/2003
+Viet Nam	63	0	5	58	14/Apr/2003	7/Jun/2003
+
+Total	8430	9	789	6457		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 11 June 2003, 14:00 GMT+2 
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update^2	Number of deaths	Number recovered^3	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	5	0	0	5	12/May/2003	5/Jun/2003
+Brazil	3	0	0	2	9/Jun/2003	9/Jun/2003
+Canada	230	1	32	134	10/Jun/2003	10/Jun/2003
+China	5329	1	343	4390	11/Jun/2003	11/Jun/2003
+China, Hong Kong Special Administrative Region^4	1754	0	290	1368	10/Jun/2003	10/Jun/2003
+China, Macao Special Administrative Region	1	0	0	1	21/May/2003	3/Jun/2003
+China, Taiwan	687	1	81	344	11/Jun/2003	11/Jun/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	1	7/May/2003	20/May/2003
+France	7	0	0	6	9/May/2003	22/May/2003
+Germany	10	0	0	9	4/Jun/2003	11/Jun/2003
+India	3	0	0	3	13/May/2003	14/May/2003
+Indonesia	2	0	0	2	23/Apr/2003	11/Jun/2003
+Italy	9	0	0	9	29/Apr/2003	10/Jun/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	5	0	2	3	20/May/2003	9/Jun/2003
+Mongolia	9	0	0	9	6/May/2003	2/Jun/2003
+New Zealand	1	0	0	1	30/Apr/2003	11/Jun/2003
+Philippines	12	0	2	10	15/May/2003	6/Jun/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	23/May/2003
+Republic of Korea	3	0	0	3	14/May/2003	11/Jun/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Russian Federation	1	0	0	0	31/May/2003	31/May/2003
+Singapore	206	0	31	168	18/May/2003	10/Jun/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	5/Jun/2003
+Sweden	3	0	0	3	18/Apr/2003	13/May/2003
+Switzerland	1	0	0	1	17/Mar/2003	16/May/2003
+Thailand	9	0	2	6	7/Jun/2003	10/Jun/2003
+United Kingdom	4	0	0	4	29/Apr/2003	11/Jun/2003
+United States	71	4	0	36	10/Jun/2003	10/Jun/2003
+Viet Nam	63	0	5	58	14/Apr/2003	7/Jun/2003
+
+Total	8435	7	789	6581		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 12 June 2003, 17:00 GMT+2 
+Revised 13 June 2003
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update^2	Number of deaths	Number recovered^3	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	5	0	0	5	12/May/2003	5/Jun/2003
+Brazil	3	0	0	2	9/Jun/2003	9/Jun/2003
+Canada	238	8	32	141	11/Jun/2003	11/Jun/2003
+China	5328	0	343	4457	11/Jun/2003	12/Jun/2003
+China, Hong Kong Special Administrative Region^4	1755	1	291	1377	11/Jun/2003	12/Jun/2003
+China, Macao Special Administrative Region	1	0	0	1	21/May/2003	12/Jun/2003
+China, Taiwan	688	2	81	347	12/Jun/2003	12/Jun/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	1	7/May/2003	20/May/2003
+France	7	0	0	6	9/May/2003	22/May/2003
+Germany	10	0	0	9	4/Jun/2003	12/Jun/2003
+India	3	0	0	3	13/May/2003	14/May/2003
+Indonesia	2	0	0	2	23/Apr/2003	11/Jun/2003
+Italy	9	0	0	9	29/Apr/2003	10/Jun/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	5	0	2	3	20/May/2003	9/Jun/2003
+Mongolia	9	0	0	9	6/May/2003	2/Jun/2003
+New Zealand	1	0	0	1	30/Apr/2003	12/Jun/2003
+Philippines^5	14	2	2	12	15/May/2003	12/Jun/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	12/Jun/2003
+Republic of Korea	3	0	0	3	14/May/2003	12/Jun/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Russian Federation	1	0	0	0	31/May/2003	31/May/2003
+Singapore	206	0	31	169	18/May/2003	11/Jun/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	5/Jun/2003
+Sweden	3	0	0	3	18/Apr/2003	13/May/2003
+Switzerland	1	0	0	1	17/Mar/2003	16/May/2003
+Thailand	9	0	2	6	7/Jun/2003	11/Jun/2003
+United Kingdom	4	0	0	4	29/Apr/2003	12/Jun/2003
+United States	70	0	0	36	10/Jun/2003	11/Jun/2003
+Viet Nam	63	0	5	58	14/Apr/2003	7/Jun/2003
+
+Total	8445	13	790	6670		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+5. These two new probable cases, with onsets of illness 25 and 27 February 2003, were identified retrospectively in the United Kingdom. They both most likely acquired their infection in Hong Kong SAR and became ill and recovered while in the Philippines.
+
+
+
+From: 1 Nov 2002 To: 13 June 2003, 17:00 GMT+2 
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update^2	Number of deaths	Number recovered^3	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	5	0	0	5	12/May/2003	13/Jun/2003
+Brazil	3	0	0	2	9/Jun/2003	9/Jun/2003
+Canada	242	4	32	150	12/Jun/2003	12/Jun/2003
+China	5327	0	343	4530	11/Jun/2003	13/Jun/2003
+China, Hong Kong Special Administrative Region^4	1755	0	293	1380	11/Jun/2003	13/Jun/2003
+China, Macao Special Administrative Region	1	0	0	1	21/May/2003	12/Jun/2003
+China, Taiwan	693	5	81	385	13/Jun/2003	13/Jun/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	1	7/May/2003	20/May/2003
+France	7	0	0	6	9/May/2003	22/May/2003
+Germany	10	0	0	9	4/Jun/2003	13/Jun/2003
+India	3	0	0	3	13/May/2003	14/May/2003
+Indonesia	2	0	0	2	23/Apr/2003	13/Jun/2003
+Italy	9	0	0	9	29/Apr/2003	12/Jun/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	5	0	2	3	20/May/2003	9/Jun/2003
+Mongolia	9	0	0	9	6/May/2003	2/Jun/2003
+New Zealand	1	0	0	1	30/Apr/2003	12/Jun/2003
+Philippines	14	0	2	12	15/May/2003	12/Jun/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	12/Jun/2003
+Republic of Korea	3	0	0	3	14/May/2003	13/Jun/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Russian Federation	1	0	0	0	31/May/2003	31/May/2003
+Singapore	206	0	31	169	18/May/2003	11/Jun/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	5/Jun/2003
+Sweden	3	0	0	3	18/Apr/2003	13/May/2003
+Switzerland	1	0	0	1	17/Mar/2003	16/May/2003
+Thailand	9	0	2	6	7/Jun/2003	11/Jun/2003
+United Kingdom	4	0	0	4	29/Apr/2003	13/Jun/2003
+United States	71	1	0	36	10/Jun/2003	12/Jun/2003
+Viet Nam	63	0	5	58	14/Apr/2003	7/Jun/2003
+
+Total	8454	10	792	6793		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 16 June 2003, 16:00 GMT+2
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update2,3	Number of deaths	Number recovered^4	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	5	0	0	5	12/May/2003	13/Jun/2003
+Brazil	3	0	0	2	9/Jun/2003	9/Jun/2003
+Canada	243	1	32	156	13/Jun/2003	13/Jun/2003
+China	5326	0	346	4656	11/Jun/2003	16/Jun/2003
+China, Hong Kong Special Administrative Region^5	1755	0	295	1386	11/Jun/2003	16/Jun/2003
+China, Macao Special Administrative Region	1	0	0	1	21/May/2003	12/Jun/2003
+China, Taiwan	698	6	83	443	15/Jun/2003	16/Jun/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	1	7/May/2003	20/May/2003
+France	7	0	0	6	9/May/2003	22/May/2003
+Germany	10	0	0	9	4/Jun/2003	16/Jun/2003
+India	3	0	0	3	13/May/2003	14/May/2003
+Indonesia	2	0	0	2	23/Apr/2003	16/Jun/2003
+Italy	9	0	0	9	29/Apr/2003	16/Jun/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	5	0	2	3	20/May/2003	9/Jun/2003
+Mongolia	9	0	0	9	6/May/2003	2/Jun/2003
+New Zealand	1	0	0	1	30/Apr/2003	16/Jun/2003
+Philippines	14	0	2	12	15/May/2003	12/Jun/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	12/Jun/2003
+Republic of Korea	3	0	0	3	14/May/2003	16/Jun/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Russian Federation	1	0	0	0	31/May/2003	31/May/2003
+Singapore	206	0	31	169	18/May/2003	11/Jun/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	5/Jun/2003
+Sweden	3	0	0	3	18/Apr/2003	13/May/2003
+Switzerland	1	0	0	1	17/Mar/2003	16/May/2003
+Thailand	9	0	2	6	7/Jun/2003	15/Jun/2003
+United Kingdom	4	0	0	4	29/Apr/2003	16/Jun/2003
+United States	72	1	0	36	13/Jun/2003	13/Jun/2003
+Viet Nam	63	0	5	58	14/Apr/2003	7/Jun/2003
+
+Total	8460	8	799	6989		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. The number of new cases since last WHO update includes new cases reported for 14, 15 and 16 June 2003, when these reports have been received.
+4. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+5. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 17 June 2003, 17:00 GMT+2
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update2,3	Number of deaths	Number recovered^4	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	5	0	0	5	12/May/2003	13/Jun/2003
+Brazil	3	0	0	2	9/Jun/2003	9/Jun/2003
+Canada	247	5	32	171	16/Jun/2003	16/Jun/2003
+China	5326	0	346	4725	11/Jun/2003	17/Jun/2003
+China, Hong Kong Special Administrative Region	1755	0	295	1387	11/Jun/2003	17/Jun/2003
+China, Macao Special Administrative Region	1	0	0	1	21/May/2003	12/Jun/2003
+China, Taiwan	697	0	83	460	15/Jun/2003	17/Jun/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	1	7/May/2003	20/May/2003
+France	7	0	0	6	9/May/2003	22/May/2003
+Germany	10	0	0	9	4/Jun/2003	17/Jun/2003
+India	3	0	0	3	13/May/2003	14/May/2003
+Indonesia	2	0	0	2	23/Apr/2003	16/Jun/2003
+Italy	9	0	0	9	29/Apr/2003	16/Jun/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	5	0	2	3	20/May/2003	16/Jun/2003
+Mongolia	9	0	0	9	6/May/2003	2/Jun/2003
+New Zealand	1	0	0	1	30/Apr/2003	17/Jun/2003
+Philippines	14	0	2	12	15/May/2003	12/Jun/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	12/Jun/2003
+Republic of Korea	3	0	0	3	14/May/2003	17/Jun/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Russian Federation	1	0	0	0	31/May/2003	31/May/2003
+Singapore	206	0	31	169	18/May/2003	11/Jun/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	5/Jun/2003
+Sweden	3	0	0	3	18/Apr/2003	13/May/2003
+Switzerland	1	0	0	1	17/Mar/2003	16/May/2003
+Thailand	9	0	2	6	7/Jun/2003	16/Jun/2003
+United Kingdom	4	0	0	4	29/Apr/2003	17/Jun/2003
+United States	73	1	0	36	16/Jun/2003	16/Jun/2003
+Viet Nam	63	0	5	58	14/Apr/2003	7/Jun/2003
+
+Total	8464	6	799	7091		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 18 June 2003, 17:00 GMT+2
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update^2	Number of deaths	Number recovered^3	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	5	0	0	5	12/May/2003	13/Jun/2003
+Brazil	3	0	0	2	9/Jun/2003	9/Jun/2003
+Canada	246	1	33	176	16/Jun/2003	17/Jun/2003
+China	5326	0	347	4762	11/Jun/2003	18/Jun/2003
+China, Hong Kong Special Administrative Region^4	1755	0	295	1393	11/Jun/2003	18/Jun/2003
+China, Macao Special Administrative Region	1	0	0	1	21/May/2003	12/Jun/2003
+China, Taiwan	697	0	83	469	15/Jun/2003	18/Jun/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	1	7/May/2003	20/May/2003
+France	7	0	0	6	9/May/2003	22/May/2003
+Germany	10	0	0	9	4/Jun/2003	18/Jun/2003
+India	3	0	0	3	13/May/2003	14/May/2003
+Indonesia	2	0	0	2	23/Apr/2003	18/Jun/2003
+Italy	9	0	0	9	29/Apr/2003	18/Jun/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	5	0	2	3	20/May/2003	17/Jun/2003
+Mongolia	9	0	0	9	6/May/2003	2/Jun/2003
+New Zealand	1	0	0	1	30/Apr/2003	17/Jun/2003
+Philippines	14	0	2	12	15/May/2003	12/Jun/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	12/Jun/2003
+Republic of Korea	3	0	0	3	14/May/2003	18/Jun/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Russian Federation	1	0	0	0	31/May/2003	31/May/2003
+Singapore	206	0	31	169	18/May/2003	11/Jun/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	5/Jun/2003
+Sweden	3	0	0	3	18/Apr/2003	13/May/2003
+Switzerland	1	0	0	1	17/Mar/2003	16/May/2003
+Thailand	9	0	2	6	7/Jun/2003	16/Jun/2003
+United Kingdom	4	0	0	4	29/Apr/2003	17/Jun/2003
+United States	75	2	0	36	17/Jun/2003	17/Jun/2003
+Viet Nam	63	0	5	58	14/Apr/2003	7/Jun/2003
+
+Total	8465	3	801	7148		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 19 June 2003, 16:00 GMT+2
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update^2	Number of deaths	Number recovered^3	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	5	0	0	5	12/May/2003	13/Jun/2003
+Brazil	3	0	0	2	9/Jun/2003	9/Jun/2003
+Canada	245	0	34	175	16/Jun/2003	18/Jun/2003
+China	5326	0	347	4786	11/Jun/2003	19/Jun/2003
+China, Hong Kong Special Administrative Region^4	1755	0	296	1396	11/Jun/2003	19/Jun/2003
+China, Macao Special Administrative Region	1	0	0	1	21/May/2003	18/Jun/2003
+China, Taiwan	695	2	84	472	19/Jun/2003	19/Jun/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	1	7/May/2003	20/May/2003
+France	7	0	0	6	9/May/2003	22/May/2003
+Germany	10	0	0	9	4/Jun/2003	19/Jun/2003
+India	3	0	0	3	13/May/2003	14/May/2003
+Indonesia	2	0	0	2	23/Apr/2003	19/Jun/2003
+Italy	9	0	0	9	29/Apr/2003	18/Jun/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	5	0	2	3	20/May/2003	17/Jun/2003
+Mongolia	9	0	0	9	6/May/2003	2/Jun/2003
+New Zealand	1	0	0	1	30/Apr/2003	19/Jun/2003
+Philippines	14	0	2	12	15/May/2003	12/Jun/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	12/Jun/2003
+Republic of Korea	3	0	0	3	14/May/2003	19/Jun/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Russian Federation	1	0	0	0	31/May/2003	31/May/2003
+Singapore	206	0	31	170	18/May/2003	18/Jun/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	5/Jun/2003
+Sweden	3	0	0	3	18/Apr/2003	13/May/2003
+Switzerland	1	0	0	1	17/Mar/2003	16/May/2003
+Thailand	9	0	2	6	7/Jun/2003	17/Jun/2003
+United Kingdom	4	0	0	4	29/Apr/2003	17/Jun/2003
+United States	75	0	0	36	17/Jun/2003	18/Jun/2003
+Viet Nam	63	0	5	58	14/Apr/2003	7/Jun/2003
+
+Total	8462	2	804	7178		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 20 June 2003, 16:00 GMT+2
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update^2	Number of deaths	Number recovered^3	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	5	0	0	5	12/May/2003	13/Jun/2003
+Brazil	3	0	0	2	9/Jun/2003	9/Jun/2003
+Canada	245	0	34	180	16/Jun/2003	19/Jun/2003
+China	5326	0	347	4806	11/Jun/2003	20/Jun/2003
+China, Hong Kong Special Administrative Region^4	1755	0	296	1403	11/Jun/2003	20/Jun/2003
+China, Macao Special Administrative Region	1	0	0	1	21/May/2003	18/Jun/2003
+China, Taiwan	695	0	84	480	19/Jun/2003	20/Jun/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	1	7/May/2003	20/May/2003
+France	7	0	0	6	9/May/2003	22/May/2003
+Germany	10	0	0	9	4/Jun/2003	19/Jun/2003
+India	3	0	0	3	13/May/2003	14/May/2003
+Indonesia	2	0	0	2	23/Apr/2003	19/Jun/2003
+Italy	9	0	0	9	29/Apr/2003	19/Jun/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	5	0	2	3	20/May/2003	19/Jun/2003
+Mongolia	9	0	0	9	6/May/2003	2/Jun/2003
+New Zealand	1	0	0	1	30/Apr/2003	19/Jun/2003
+Philippines	14	0	2	12	15/May/2003	20/Jun/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	12/Jun/2003
+Republic of Korea	3	0	0	3	14/May/2003	20/Jun/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Russian Federation	1	0	0	0	31/May/2003	31/May/2003
+Singapore	206	0	31	170	18/May/2003	18/Jun/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	5/Jun/2003
+Sweden	3	0	0	3	18/Apr/2003	13/May/2003
+Switzerland	1	0	0	1	17/Mar/2003	16/May/2003
+Thailand	9	0	2	6	7/Jun/2003	19/Jun/2003
+United Kingdom	4	0	0	4	29/Apr/2003	20/Jun/2003
+United States	74	0	0	36	17/Jun/2003	19/Jun/2003
+Viet Nam	63	0	5	58	14/Apr/2003	7/Jun/2003
+
+Total	8461	0	804	7218		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 23 June 2003, 16:00 GMT+2
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update2,^3	Number of deaths	Number recovered^4	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	5	0	0	5	12/May/2003	13/Jun/2003
+Brazil	3	0	0	2	9/Jun/2003	9/Jun/2003
+Canada	246	1	35	182	20/Jun/2003	20/Jun/2003
+China	5326	0	347	4895	11/Jun/2003	23/Jun/2003
+China, Hong Kong Special Administrative Region^5	1755	0	296	1411	11/Jun/2003	23/Jun/2003
+China, Macao Special Administrative Region	1	0	0	1	21/May/2003	23/Jun/2003
+China, Taiwan	692	0	84	486	19/Jun/2003	21/Jun/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	1	7/May/2003	20/May/2003
+France	7	0	0	6	9/May/2003	22/May/2003
+Germany	10	0	0	9	4/Jun/2003	23/Jun/2003
+India	3	0	0	3	13/May/2003	14/May/2003
+Indonesia	2	0	0	2	23/Apr/2003	19/Jun/2003
+Italy	9	0	0	9	29/Apr/2003	23/Jun/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	5	0	2	3	20/May/2003	20/Jun/2003
+Mongolia	9	0	0	9	6/May/2003	2/Jun/2003
+New Zealand	1	0	0	1	30/Apr/2003	19/Jun/2003
+Philippines	14	0	2	12	15/May/2003	23/Jun/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	12/Jun/2003
+Republic of Korea	3	0	0	3	14/May/2003	23/Jun/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Russian Federation	1	0	0	0	31/May/2003	31/May/2003
+Singapore	206	0	31	170	18/May/2003	18/Jun/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	5/Jun/2003
+Sweden	3	0	0	3	18/Apr/2003	13/May/2003
+Switzerland	1	0	0	1	17/Mar/2003	16/May/2003
+Thailand	9	0	2	7	7/Jun/2003	22/Jun/2003
+United Kingdom	4	0	0	4	29/Apr/2003	23/Jun/2003
+United States	74	1	0	36	17/Jun/2003	20/Jun/2003
+Viet Nam	63	0	5	58	14/Apr/2003	7/Jun/2003
+
+Total	8459	2	805	7324		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. The number of new cases since last WHO update includes new cases reported for 21, 22 and 23 June 2003, when these reports have been received.
+4. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+5. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 24 June 2003, 17:00 GMT+2
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update^2	Number of deaths	Number recovered^3	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	5	0	0	5	12/May/2003	13/Jun/2003
+Brazil	3	0	0	2	9/Jun/2003	9/Jun/2003
+Canada	249	3	37	188	23/Jun/2003	23/Jun/2003
+China	5326	0	347	4901	11/Jun/2003	24/Jun/2003
+China, Hong Kong Special Administrative Region^4	1755	0	296	1417	11/Jun/2003	24/Jun/2003
+China, Macao Special Administrative Region	1	0	0	1	21/May/2003	23/Jun/2003
+China, Taiwan	687	0	84	492	19/Jun/2003	24/Jun/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	1	7/May/2003	20/May/2003
+France	7	0	0	6	9/May/2003	22/May/2003
+Germany	10	0	0	9	4/Jun/2003	23/Jun/2003
+India	3	0	0	3	13/May/2003	14/May/2003
+Indonesia	2	0	0	2	23/Apr/2003	19/Jun/2003
+Italy	9	0	0	9	29/Apr/2003	24/Jun/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	5	0	2	3	20/May/2003	23/Jun/2003
+Mongolia	9	0	0	9	6/May/2003	2/Jun/2003
+New Zealand	1	0	0	1	30/Apr/2003	19/Jun/2003
+Philippines	14	0	2	12	15/May/2003	24/Jun/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	12/Jun/2003
+Republic of Korea	3	0	0	3	14/May/2003	23/Jun/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Russian Federation	1	0	0	0	31/May/2003	31/May/2003
+Singapore	206	0	31	170	18/May/2003	18/Jun/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	5/Jun/2003
+Sweden	3	0	0	3	18/Apr/2003	13/May/2003
+Switzerland	1	0	0	1	17/Mar/2003	16/May/2003
+Thailand	9	0	2	7	7/Jun/2003	23/Jun/2003
+United Kingdom	4	0	0	4	29/Apr/2003	23/Jun/2003
+United States	75	1	0	36	17/Jun/2003	23/Jun/2003
+Viet Nam	63	0	5	58	14/Apr/2003	7/Jun/2003
+
+Total	8458	4	807	7348		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 25 June 2003, 17:00 GMT+2
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update^2	Number of deaths	Number recovered^3	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	5	0	0	5	12/May/2003	13/Jun/2003
+Brazil	3	0	0	2	9/Jun/2003	9/Jun/2003
+Canada^4	250	1	37	188	24/Jun/2003	24/Jun/2003
+China^5	5327	1	348	4916	25/Jun/2003	25/Jun/2003
+China, Hong Kong Special Administrative Region^6	1755	0	296	1419	11/Jun/2003	25/Jun/2003
+China, Macao Special Administrative Region	1	0	0	1	21/May/2003	23/Jun/2003
+China, Taiwan	686	0	84	492	19/Jun/2003	25/Jun/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	1	7/May/2003	20/May/2003
+France	7	0	0	6	9/May/2003	22/May/2003
+Germany	10	0	0	9	4/Jun/2003	23/Jun/2003
+India	3	0	0	3	13/May/2003	14/May/2003
+Indonesia	2	0	0	2	23/Apr/2003	19/Jun/2003
+Italy	9	0	0	9	29/Apr/2003	25/Jun/2003
+Japan	1	1	0	0	25/Jun/2003	25/Jun/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	5	0	2	3	20/May/2003	23/Jun/2003
+Mongolia	9	0	0	9	6/May/2003	2/Jun/2003
+New Zealand	1	0	0	1	30/Apr/2003	25/Jun/2003
+Philippines	14	0	2	12	15/May/2003	25/Jun/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	12/Jun/2003
+Republic of Korea	3	0	0	3	14/May/2003	23/Jun/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Russian Federation	1	0	0	0	31/May/2003	31/May/2003
+Singapore	206	0	31	170	18/May/2003	18/Jun/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	5/Jun/2003
+Sweden	3	0	0	3	18/Apr/2003	13/May/2003
+Switzerland	1	0	0	1	17/Mar/2003	16/May/2003
+Thailand	9	0	2	7	7/Jun/2003	24/Jun/2003
+United Kingdom	4	0	0	4	29/Apr/2003	25/Jun/2003
+United States	75	0	0	36	23/Jun/2003	24/Jun/2003
+Viet Nam	63	0	5	58	14/Apr/2003	7/Jun/2003
+
+Total	8460	3	808	7365		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. The date of onset of the most recent probable SARS case in Canada was 12 June, the last date of isolation of a probable case SARS case was also June 12.
+5. The date of onset of the most recent probable SARS case in China was 3 June, the last date of isolation of a probable case SARS case was also June 3.
+6. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 26 June 2003, 17:00 GMT+2
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update^2	Number of deaths	Number recovered^3	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	5	0	0	5	12/May/2003	13/Jun/2003
+Brazil	3	0	0	2	9/Jun/2003	9/Jun/2003
+Canada^4	251	1	37	190	25/Jun/2003	25/Jun/2003
+China^5	5327	0	348	4921	25/Jun/2003	26/Jun/2003
+China, Hong Kong Special Administrative Region^6	1755	0	296	1419	11/Jun/2003	26/Jun/2003
+China, Macao Special Administrative Region	1	0	0	1	21/May/2003	23/Jun/2003
+China, Taiwan	682	0	84	491	19/Jun/2003	26/Jun/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	1	7/May/2003	20/May/2003
+France	7	0	0	6	9/May/2003	22/May/2003
+Germany	10	0	0	9	4/Jun/2003	23/Jun/2003
+India	3	0	0	3	13/May/2003	14/May/2003
+Indonesia	2	0	0	2	23/Apr/2003	19/Jun/2003
+Italy	9	0	0	9	29/Apr/2003	25/Jun/2003
+Japan	1	0	0	0	25/Jun/2003	26/Jun/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	5	0	2	3	20/May/2003	23/Jun/2003
+Mongolia	9	0	0	9	6/May/2003	2/Jun/2003
+New Zealand	1	0	0	1	30/Apr/2003	25/Jun/2003
+Philippines	14	0	2	12	15/May/2003	25/Jun/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	12/Jun/2003
+Republic of Korea	3	0	0	3	14/May/2003	23/Jun/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Russian Federation	1	0	0	0	31/May/2003	31/May/2003
+Singapore	206	0	32	170	18/May/2003	25/Jun/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	5/Jun/2003
+Sweden	3	0	0	3	18/Apr/2003	13/May/2003
+Switzerland	1	0	0	1	17/Mar/2003	16/May/2003
+Thailand	9	0	2	7	7/Jun/2003	25/Jun/2003
+United Kingdom	4	0	0	4	29/Apr/2003	25/Jun/2003
+United States	74	0	0	36	23/Jun/2003	25/Jun/2003
+Viet Nam	63	0	5	58	14/Apr/2003	7/Jun/2003
+
+Total	8456	1	809	7371		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. The date of onset of the most recent probable SARS case in Canada was 12 June, the last date of isolation of a probable case SARS case was also June 12.
+5. The date of onset of the most recent probable SARS case in China was June 3. The date of isolation of this case was June 6.
+6. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+
+
+
+From: 1 Nov 2002 To: 27 June 2003, 17:00 GMT+2
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update^2	Number of deaths	Number recovered^3	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	5	0	0	5	12/May/2003	27/Jun/2003
+Brazil	3	0	0	2	9/Jun/2003	9/Jun/2003
+Canada^4	251	0	37	191	25/Jun/2003	26/Jun/2003
+China^5	5327	0	348	4921	25/Jun/2003	27/Jun/2003
+China, Hong Kong Special Administrative Region^6	1755	0	297	1422	11/Jun/2003	27/Jun/2003
+China, Macao Special Administrative Region	1	0	0	1	21/May/2003	23/Jun/2003
+China, Taiwan	681	0	84	492	19/Jun/2003	27/Jun/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	1	7/May/2003	20/May/2003
+France	7	0	0	6	9/May/2003	22/May/2003
+Germany	10	0	0	9	4/Jun/2003	23/Jun/2003
+India	3	0	0	3	13/May/2003	14/May/2003
+Indonesia	2	0	0	2	23/Apr/2003	19/Jun/2003
+Italy	5	0	0	5	29/Apr/2003	27/Jun/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	5	0	2	3	20/May/2003	26/Jun/2003
+Mongolia	9	0	0	9	6/May/2003	2/Jun/2003
+New Zealand	1	0	0	1	30/Apr/2003	25/Jun/2003
+Philippines^7	14	0	2	12	15/May/2003	26/Jun/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	12/Jun/2003
+Republic of Korea	3	0	0	3	14/May/2003	23/Jun/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Russian Federation	1	0	0	0	31/May/2003	31/May/2003
+Singapore	206	0	32	171	18/May/2003	27/Jun/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	5/Jun/2003
+Sweden	3	0	0	3	18/Apr/2003	13/May/2003
+Switzerland	1	0	0	1	17/Mar/2003	16/May/2003
+Thailand	9	0	2	7	7/Jun/2003	26/Jun/2003
+United Kingdom	4	0	0	4	29/Apr/2003	26/Jun/2003
+United States^8	74	0	0	64	23/Jun/2003	26/Jun/2003
+Viet Nam	63	0	5	58	14/Apr/2003	7/Jun/2003
+
+Total	8450	0	810	7401		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. The date of onset of the most recent probable SARS case in Canada was June 12, the last date of isolation of a probable SARS case was also June 12.
+5. The date of onset of the most recent probable SARS case in China was 3 June 2003. The date of isolation of this case was 6 June 2003.
+6. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+7. These two new probable cases, with onsets of illness 25 and 27 February 2003, were identified retrospectively in the United Kingdom. They both most likely acquired their infection in Hong Kong SAR and became ill and recovered while in the Philippines.
+8. From 26 June 2003, the number of recovered represents all probable cases who were never hospitalized or who were hospitalized and reported as discharged from the hospital. The previous reports only counted those who had been hospitalized and discharged.
+
+
+
+From: 1 Nov 2002 To: 30 June 2003, 17:00 GMT+2
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update^2	Number of deaths	Number recovered^3	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	5	0	0	5	12/May/2003	27/Jun/2003
+Brazil	3	0	0	2	9/Jun/2003	9/Jun/2003
+Canada^4	252	1	37	192	27/Jun/2003	27/Jun/2003
+China^5	5327	0	348	4927	25/Jun/2003	29/Jun/2003
+China, Hong Kong Special Administrative Region^6	1755	0	298	1429	11/Jun/2003	30/Jun/2003
+China, Macao Special Administrative Region	1	0	0	1	21/May/2003	23/Jun/2003
+China, Taiwan	678	0	84	495	19/Jun/2003	30/Jun/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	1	7/May/2003	20/May/2003
+France	7	0	0	6	9/May/2003	22/May/2003
+Germany	10	0	0	9	4/Jun/2003	23/Jun/2003
+India	3	0	0	3	13/May/2003	14/May/2003
+Indonesia	2	0	0	2	23/Apr/2003	19/Jun/2003
+Italy	5	0	0	5	29/Apr/2003	27/Jun/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	5	0	2	3	20/May/2003	26/Jun/2003
+Mongolia	9	0	0	9	6/May/2003	2/Jun/2003
+New Zealand	1	0	0	1	30/Apr/2003	25/Jun/2003
+Philippines	14	0	2	12	15/May/2003	30/Jun/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	12/Jun/2003
+Republic of Korea	3	0	0	3	14/May/2003	23/Jun/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Russian Federation	1	0	0	0	31/May/2003	31/May/2003
+Singapore	206	0	32	171	18/May/2003	27/Jun/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	5/Jun/2003
+Sweden	3	0	0	3	18/Apr/2003	13/May/2003
+Switzerland	1	0	0	1	17/Mar/2003	16/May/2003
+Thailand	9	0	2	7	7/Jun/2003	26/Jun/2003
+United Kingdom	4	0	0	4	29/Apr/2003	30/Jun/2003
+United States^7	73	0	0	63	23/Jun/2003	27/Jun/2003
+Viet Nam	63	0	5	58	14/Apr/2003	7/Jun/2003
+
+Total	8447	1	811	7417		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. As of 27 June the cumulative number of cases includes one previously unreported case with date of onset before 12 of June. The date of onset of the most recent probable SARS case in Canada was 12 June, the last date of isolation of a probable SARS case was also 12 June.
+5. The date of onset of the most recent probable SARS case in China was 3 June 2003. The date of isolation of this case was 6 June 2003.
+6. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+7. From 26 June 2003, the number of recovered represents all probable cases who were never hospitalized or who were hospitalized and reported as discharged from the hospital. The previous reports only counted those who had been hospitalized and discharged.
+
+
+
+From: 1 Nov 2002 To: 1 July 2003, 17:00 GMT+2
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update^2	Number of deaths	Number recovered^3	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	5	0	0	5	12/May/2003	27/Jun/2003
+Brazil	1	0	0	1	9/Jun/2003	1/Jul/2003
+Canada^4	252	0	38	192	27/Jun/2003	30/Jun/2003
+China^5	5327	0	348	4930	25/Jun/2003	1/Jul/2003
+China, Hong Kong Special Administrative Region^6	1755	0	298	1429	11/Jun/2003	30/Jun/2003
+China, Macao Special Administrative Region	1	0	0	1	21/May/2003	23/Jun/2003
+China, Taiwan	678	0	84	498	19/Jun/2003	1/Jul/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	1	7/May/2003	20/May/2003
+France	7	0	0	6	9/May/2003	22/May/2003
+Germany	10	0	0	9	4/Jun/2003	23/Jun/2003
+India	3	0	0	3	13/May/2003	14/May/2003
+Indonesia	2	0	0	2	23/Apr/2003	19/Jun/2003
+Italy	5	0	0	5	29/Apr/2003	27/Jun/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	5	0	2	3	20/May/2003	26/Jun/2003
+Mongolia	9	0	0	9	6/May/2003	2/Jun/2003
+New Zealand	1	0	0	1	30/Apr/2003	25/Jun/2003
+Philippines	14	0	2	12	15/May/2003	1/Jul/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	12/Jun/2003
+Republic of Korea	3	0	0	3	14/May/2003	23/Jun/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Russian Federation	1	0	0	0	31/May/2003	31/May/2003
+Singapore	206	0	32	171	18/May/2003	27/Jun/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	5/Jun/2003
+Sweden	3	0	0	3	18/Apr/2003	13/May/2003
+Switzerland	1	0	0	1	17/Mar/2003	16/May/2003
+Thailand	9	0	2	7	7/Jun/2003	29/Jun/2003
+United Kingdom	4	0	0	4	29/Apr/2003	30/Jun/2003
+United States^7	73	0	0	63	23/Jun/2003	30/Jun/2003
+Viet Nam	63	0	5	58	14/Apr/2003	7/Jun/2003
+
+Total	8445	0	812	7422		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. The date of onset of the most recent probable SARS case in Canada was 12 June, the last date of isolation of a probable SARS case was also 12 June.
+5. The date of onset of the most recent probable SARS case in China was 3 June 2003. The date of isolation of this case was 6 June 2003.
+6. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+7. From 26 June 2003, the number of recovered represents all probable cases who were never hospitalized or who were hospitalized and reported as discharged from the hospital. The previous reports only counted those who had been hospitalized and discharged.
+
+
+
+From: 1 Nov 2002 To: 2 July 2003, 17:00 GMT+2
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update^2	Number of deaths	Number recovered^3	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	5	0	0	5	12/May/2003	27/Jun/2003
+Brazil	1	0	0	1	9/Jun/2003	1/Jul/2003
+Canada^4	252	0	38	192	27/Jun/2003	30/Jun/2003
+China^5	5327	0	348	4933	25/Jun/2003	2/Jul/2003
+China, Hong Kong Special Administrative Region^6	1755	0	298	1429	11/Jun/2003	2/Jul/2003
+China, Macao Special Administrative Region	1	0	0	1	21/May/2003	2/Jul/2003
+China, Taiwan	676	0	84	498	19/Jun/2003	2/Jul/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	1	7/May/2003	20/May/2003
+France	7	0	0	6	9/May/2003	22/May/2003
+Germany	10	0	0	9	4/Jun/2003	23/Jun/2003
+India	3	0	0	3	13/May/2003	14/May/2003
+Indonesia	2	0	0	2	23/Apr/2003	19/Jun/2003
+Italy	4	0	0	4	29/Apr/2003	27/Jun/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	5	0	2	3	20/May/2003	26/Jun/2003
+Mongolia	9	0	0	9	6/May/2003	2/Jun/2003
+New Zealand	1	0	0	1	30/Apr/2003	25/Jun/2003
+Philippines	14	0	2	12	15/May/2003	1/Jul/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	12/Jun/2003
+Republic of Korea	3	0	0	3	14/May/2003	2/Jul/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Russian Federation	1	0	0	0	31/May/2003	31/May/2003
+Singapore	206	0	32	171	18/May/2003	27/Jun/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	5/Jun/2003
+Sweden	3	0	0	3	18/Apr/2003	13/May/2003
+Switzerland	1	0	0	1	17/Mar/2003	16/May/2003
+Thailand	9	0	2	7	7/Jun/2003	1/Jul/2003
+United Kingdom	4	0	0	4	29/Apr/2003	30/Jun/2003
+United States^7	73	0	0	63	23/Jun/2003	1/Jul/2003
+Viet Nam	63	0	5	58	14/Apr/2003	7/Jun/2003
+
+Total	8442	0	812	7424		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. The date of onset of the most recent probable SARS case in Canada was 12 June, the last date of isolation of a probable SARS case was also 12 June.
+5. The date of onset of the most recent probable SARS case in China was 3 June 2003. The date of isolation of this case was 6 June 2003.
+6. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+7. From 26 June 2003, the number of recovered represents all probable cases who were never hospitalized or who were hospitalized and reported as discharged from the hospital. The previous reports only counted those who had been hospitalized and discharged.
+
+
+
+From: 1 Nov 2002 To: 3 July 2003, 17:00 GMT+2
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update^2	Number of deaths	Number recovered^3	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	5	0	0	5	12/May/2003	27/Jun/2003
+Brazil	1	0	0	1	9/Jun/2003	1/Jul/2003
+Canada^4	251	0	38	193	27/Jun/2003	2/Jul/2003
+China^5	5327	0	348	4933	25/Jun/2003	3/Jul/2003
+China, Hong Kong Special Administrative Region^6	1755	0	298	1429	11/Jun/2003	3/Jul/2003
+China, Macao Special Administrative Region	1	0	0	1	21/May/2003	3/Jul/2003
+China, Taiwan	674	0	84	498	19/Jun/2003	3/Jul/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	1	7/May/2003	20/May/2003
+France	7	0	0	6	9/May/2003	22/May/2003
+Germany	10	0	0	9	4/Jun/2003	23/Jun/2003
+India	3	0	0	3	13/May/2003	14/May/2003
+Indonesia	2	0	0	2	23/Apr/2003	19/Jun/2003
+Italy	4	0	0	4	29/Apr/2003	3/Jul/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	5	0	2	3	20/May/2003	26/Jun/2003
+Mongolia	9	0	0	9	6/May/2003	2/Jun/2003
+New Zealand	1	0	0	1	30/Apr/2003	25/Jun/2003
+Philippines	14	0	2	12	15/May/2003	1/Jul/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	12/Jun/2003
+Republic of Korea	3	0	0	3	14/May/2003	2/Jul/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Russian Federation	1	0	0	0	31/May/2003	31/May/2003
+Singapore	206	0	32	171	18/May/2003	27/Jun/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	5/Jun/2003
+Sweden	3	0	0	3	18/Apr/2003	13/May/2003
+Switzerland	1	0	0	1	17/Mar/2003	16/May/2003
+Thailand	9	0	2	7	7/Jun/2003	1/Jul/2003
+United Kingdom	4	0	0	4	29/Apr/2003	30/Jun/2003
+United States^7	73	0	0	65	23/Jun/2003	2/Jul/2003
+Viet Nam	63	0	5	58	14/Apr/2003	7/Jun/2003
+
+Total	8439	0	812	7427		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. The date of onset of the most recent probable SARS case in Canada was 12 June, the last date of isolation of a probable SARS case was also 12 June.
+5. The date of onset of the most recent probable SARS case in China was 3 June 2003. The date of isolation of this case was 6 June 2003.
+6. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+7. From 26 June 2003, the number of recovered represents all probable cases who were never hospitalized or who were hospitalized and reported as discharged from the hospital. The previous reports only counted those who had been hospitalized and discharged.
+
+
+
+From: 1 Nov 2002 To: 4 July 2003, 17:00 GMT+2
+
+
+Country	Cumulative number of cases^2	Number of new cases since last WHO update^2	Number of deaths	Number recovered^3	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	5	0	0	5	12/May/2003	27/Jun/2003
+Brazil	1	0	0	1	9/Jun/2003	1/Jul/2003
+Canada^4	251	0	38	193	27/Jun/2003	3/Jul/2003
+China^5	5327	0	348	4934	25/Jun/2003	4/Jul/2003
+China, Hong Kong Special Administrative Region^6	1755	0	298	1430	11/Jun/2003	4/Jul/2003
+China, Macao Special Administrative Region	1	0	0	1	21/May/2003	3/Jul/2003
+China, Taiwan	674	0	84	500	19/Jun/2003	4/Jul/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	1	7/May/2003	20/May/2003
+France	7	0	0	6	9/May/2003	22/May/2003
+Germany	10	0	0	9	4/Jun/2003	23/Jun/2003
+India	3	0	0	3	13/May/2003	14/May/2003
+Indonesia	2	0	0	2	23/Apr/2003	19/Jun/2003
+Italy	4	0	0	4	29/Apr/2003	3/Jul/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	5	0	2	3	20/May/2003	26/Jun/2003
+Mongolia	9	0	0	9	6/May/2003	2/Jun/2003
+New Zealand	1	0	0	1	30/Apr/2003	25/Jun/2003
+Philippines	14	0	2	12	15/May/2003	1/Jul/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	12/Jun/2003
+Republic of Korea	3	0	0	3	14/May/2003	2/Jul/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Russian Federation	1	0	0	0	31/May/2003	31/May/2003
+Singapore	206	0	32	171	18/May/2003	27/Jun/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	5/Jun/2003
+Sweden	3	0	0	3	18/Apr/2003	13/May/2003
+Switzerland	1	0	0	1	17/Mar/2003	16/May/2003
+Thailand	9	0	2	7	7/Jun/2003	1/Jul/2003
+United Kingdom	4	0	0	4	29/Apr/2003	30/Jun/2003
+United States^7	73	0	0	65	23/Jun/2003	2/Jul/2003
+Viet Nam	63	0	5	58	14/Apr/2003	7/Jun/2003
+
+Total	8439	0	812	7431		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. The date of onset of the most recent probable SARS case in Canada was 12 June, the last date of isolation of a probable SARS case was also 12 June.
+5. The date of onset of the most recent probable SARS case in China was 3 June 2003. The date of isolation of this case was 6 June 2003.
+6. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+7. From 26 June 2003, the number of recovered represents all probable cases who were never hospitalized or who were hospitalized and reported as discharged from the hospital. The previous reports only counted those who had been hospitalized and discharged.
+
+
+
+From: 1 Nov 2002 To: 7 July 2003, 17:00 GMT+2
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update^2	Number of deaths	Number recovered^3	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	5	0	0	5	12/May/2003	27/Jun/2003
+Brazil	1	0	0	1	9/Jun/2003	1/Jul/2003
+Canada^4	251	0	38	193	27/Jun/2003	4/Jul/2003
+China^5	5327	0	348	4934	25/Jun/2003	4/Jul/2003
+China, Hong Kong Special Administrative Region^6	1755	0	298	1430	11/Jun/2003	7/Jul/2003
+China, Macao Special Administrative Region	1	0	0	1	21/May/2003	7/Jul/2003
+China, Taiwan	674	0	84	500	19/Jun/2003	4/Jul/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	1	7/May/2003	20/May/2003
+France	7	0	0	6	9/May/2003	22/May/2003
+Germany	10	0	0	9	4/Jun/2003	23/Jun/2003
+India	3	0	0	3	13/May/2003	14/May/2003
+Indonesia	2	0	0	2	23/Apr/2003	19/Jun/2003
+Italy	4	0	0	4	29/Apr/2003	3/Jul/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	5	0	2	3	20/May/2003	26/Jun/2003
+Mongolia	9	0	0	9	6/May/2003	2/Jun/2003
+New Zealand	1	0	0	1	30/Apr/2003	25/Jun/2003
+Philippines	14	0	2	12	15/May/2003	1/Jul/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	12/Jun/2003
+Republic of Korea	3	0	0	3	14/May/2003	2/Jul/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Russian Federation	1	0	0	0	31/May/2003	31/May/2003
+Singapore	206	0	32	171	18/May/2003	27/Jun/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	5/Jun/2003
+Sweden	3	0	0	3	18/Apr/2003	13/May/2003
+Switzerland	1	0	0	1	17/Mar/2003	16/May/2003
+Thailand	9	0	2	7	7/Jun/2003	1/Jul/2003
+United Kingdom	4	0	0	4	29/Apr/2003	30/Jun/2003
+United States^7	73	0	0	65	23/Jun/2003	3/Jul/2003
+Viet Nam	63	0	5	58	14/Apr/2003	7/Jun/2003
+
+Total	8439	0	812	7431		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. The date of onset of the most recent probable SARS case in Canada was 12 June, the last date of isolation of a probable SARS case was also 12 June.
+5. The date of onset of the most recent probable SARS case in China was 3 June 2003. The date of isolation of this case was 6 June 2003.
+6. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+7. From 26 June 2003, the number of recovered represents all probable cases who were never hospitalized or who were hospitalized and reported as discharged from the hospital. The previous reports only counted those who had been hospitalized and discharged.
+
+
+
+From: 1 Nov 2002 To: 8 July 2003, 16:00 GMT+2
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update^2	Number of deaths	Number recovered^3	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	5	0	0	5	12/May/2003	27/Jun/2003
+Brazil	1	0	0	1	9/Jun/2003	1/Jul/2003
+Canada^4	250	0	38	194	27/Jun/2003	7/Jul/2003
+China^5	5327	0	348	4934	25/Jun/2003	4/Jul/2003
+China, Hong Kong Special Administrative Region^6	1755	0	298	1430	11/Jun/2003	7/Jul/2003
+China, Macao Special Administrative Region	1	0	0	1	21/May/2003	7/Jul/2003
+China, Taiwan	671	0	84	502	19/Jun/2003	8/Jul/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	1	7/May/2003	20/May/2003
+France	7	0	0	6	9/May/2003	22/May/2003
+Germany	10	0	0	9	4/Jun/2003	23/Jun/2003
+India	3	0	0	3	13/May/2003	14/May/2003
+Indonesia	2	0	0	2	23/Apr/2003	19/Jun/2003
+Italy	4	0	0	4	29/Apr/2003	3/Jul/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	5	0	2	3	20/May/2003	26/Jun/2003
+Mongolia	9	0	0	9	6/May/2003	2/Jun/2003
+New Zealand	1	0	0	1	30/Apr/2003	25/Jun/2003
+Philippines	14	0	2	12	15/May/2003	1/Jul/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	12/Jun/2003
+Republic of Korea	3	0	0	3	14/May/2003	2/Jul/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Russian Federation	1	0	0	0	31/May/2003	31/May/2003
+Singapore	206	0	32	171	18/May/2003	27/Jun/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	5/Jun/2003
+Sweden	3	0	0	3	18/Apr/2003	13/May/2003
+Switzerland	1	0	0	1	17/Mar/2003	16/May/2003
+Thailand	9	0	2	7	7/Jun/2003	1/Jul/2003
+United Kingdom	4	0	0	4	29/Apr/2003	30/Jun/2003
+United States^7	74	0	0	64	23/Jun/2003	7/Jul/2003
+Viet Nam	63	0	5	58	14/Apr/2003	7/Jun/2003
+
+Total	8436	0	812	7433		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. The date of onset of the most recent probable SARS case in Canada was 12 June, the last date of isolation of a probable SARS case was also 12 June.
+5. The date of onset of the most recent probable SARS case in China was 3 June 2003. The date of isolation of this case was 6 June 2003.
+6. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+7. From 26 June 2003, the number of recovered represents all probable cases who were never hospitalized or who were hospitalized and reported as discharged from the hospital. The previous reports only counted those who had been hospitalized and discharged.
+
+
+
+From: 1 Nov 2002 To: 9 July 2003, 12:00 GMT+2
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update^2	Number of deaths	Number recovered^3	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	5	0	0	5	12/May/2003	27/Jun/2003
+Brazil	1	0	0	1	9/Jun/2003	1/Jul/2003
+Canada^4	249	0	38	193	27/Jun/2003	8/Jul/2003
+China^5	5327	0	348	4939	25/Jun/2003	9/Jul/2003
+China, Hong Kong Special Administrative Region^6	1755	0	298	1431	11/Jun/2003	9/Jul/2003
+China, Macao Special Administrative Region	1	0	0	1	21/May/2003	7/Jul/2003
+China, Taiwan	671	0	84	504	19/Jun/2003	9/Jul/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	1	7/May/2003	20/May/2003
+France	7	0	0	6	9/May/2003	22/May/2003
+Germany	10	0	0	9	4/Jun/2003	23/Jun/2003
+India	3	0	0	3	13/May/2003	14/May/2003
+Indonesia	2	0	0	2	23/Apr/2003	19/Jun/2003
+Italy	4	0	0	4	29/Apr/2003	8/Jul/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	5	0	2	3	20/May/2003	26/Jun/2003
+Mongolia	9	0	0	9	6/May/2003	2/Jun/2003
+New Zealand	1	0	0	1	30/Apr/2003	25/Jun/2003
+Philippines	14	0	2	12	15/May/2003	9/Jul/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	12/Jun/2003
+Republic of Korea	3	0	0	3	14/May/2003	2/Jul/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Russian Federation	1	0	0	0	31/May/2003	31/May/2003
+Singapore	206	0	32	171	18/May/2003	27/Jun/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	5/Jun/2003
+Sweden	3	0	0	3	18/Apr/2003	13/May/2003
+Switzerland	1	0	0	1	17/Mar/2003	16/May/2003
+Thailand	9	0	2	7	7/Jun/2003	1/Jul/2003
+United Kingdom	4	0	0	4	29/Apr/2003	30/Jun/2003
+United States^7	75	2	0	67	23/Jun/2003	8/Jul/2003
+Viet Nam	63	0	5	58	14/Apr/2003	7/Jun/2003
+
+Total	8436	2	812	7443		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. The date of onset of the most recent probable SARS case in Canada was 12 June, the last date of isolation of a probable SARS case was also 12 June.
+5. The date of onset of the most recent probable SARS case in China was 3 June 2003. The date of isolation of this case was 6 June 2003.
+6. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+7. From 26 June 2003, the number of recovered represents all probable cases who were never hospitalized or who were hospitalized and reported as discharged from the hospital. The previous reports only counted those who had been hospitalized and discharged.
+
+
+
+From: 1 Nov 2002 To: 10 July 2003, 17:00 GMT+2
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update^2	Number of deaths	Number recovered^3	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	5	0	0	5	12/May/2003	27/Jun/2003
+Brazil	1	0	0	1	9/Jun/2003	1/Jul/2003
+Canada^4	250	1	38	194	9/Jul/2003	9/Jul/2003
+China^5	5327	0	348	4941	25/Jun/2003	10/Jul/2003
+China, Hong Kong Special Administrative Region^6	1755	0	298	1431	11/Jun/2003	10/Jul/2003
+China, Macao Special Administrative Region	1	0	0	1	21/May/2003	10/Jul/2003
+China, Taiwan	671	0	84	506	19/Jun/2003	10/Jul/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	1	7/May/2003	20/May/2003
+France	7	0	0	6	9/May/2003	22/May/2003
+Germany	10	0	0	9	4/Jun/2003	23/Jun/2003
+India	3	0	0	3	13/May/2003	14/May/2003
+Indonesia	2	0	0	2	23/Apr/2003	19/Jun/2003
+Italy	4	0	0	4	29/Apr/2003	8/Jul/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	5	0	2	3	20/May/2003	4/Jul/2003
+Mongolia	9	0	0	9	6/May/2003	2/Jun/2003
+New Zealand	1	0	0	1	30/Apr/2003	25/Jun/2003
+Philippines	14	0	2	12	15/May/2003	9/Jul/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	12/Jun/2003
+Republic of Korea	3	0	0	3	14/May/2003	2/Jul/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Russian Federation	1	0	0	0	31/May/2003	31/May/2003
+Singapore	206	0	32	172	18/May/2003	7/Jul/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	5/Jun/2003
+Sweden	3	0	0	3	18/Apr/2003	13/May/2003
+Switzerland	1	0	0	1	17/Mar/2003	16/May/2003
+Thailand	9	0	2	7	7/Jun/2003	1/Jul/2003
+United Kingdom	4	0	0	4	29/Apr/2003	30/Jun/2003
+United States^7	75	0	0	67	23/Jun/2003	8/Jul/2003
+Viet Nam	63	0	5	58	14/Apr/2003	7/Jun/2003
+
+Total	8437	1	812	7449		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. The date of onset of the most recent probable SARS case in Canada was 12 June, the last date of isolation of a probable case SARS case was also June 12.
+5. The date of onset of the most recent probable SARS case in China was June 3. The date of isolation of this case was June
+6. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+7. From 26 June 2003, the number of recovered represents all probable cases who were never hospitalized or who were hospitalized and reported as discharged from the hospital. The previous reports only counted those who had been hospitalized and discharged.
+
+
+
+From: 1 Nov 2002 To: 11 July 2003, 17:00 GMT+2
+
+Country	Cumulative number of case(s)^2	Number of new cases since last WHO update^2	Number of deaths	Number recovered^3	Date last probable case reported	Date for which cumulative number of cases is current
+Australia	5	0	0	5	12/May/2003	27/Jun/2003
+Brazil	1	0	0	1	9/Jun/2003	1/Jul/2003
+Canada^4	250	0	38	194	9/Jul/2003	10/Jul/2003
+China^5	5327	0	348	4941	25/Jun/2003	11/Jul/2003
+China, Hong Kong Special Administrative Region^6	1755	0	298	1433	11/Jun/2003	11/Jul/2003
+China, Macao Special Administrative Region	1	0	0	1	21/May/2003	10/Jul/2003
+China, Taiwan	671	0	84	507	19/Jun/2003	11/Jul/2003
+Colombia	1	0	0	1	5/May/2003	5/May/2003
+Finland	1	0	0	1	7/May/2003	20/May/2003
+France	7	0	1	6	9/May/2003	11/Jul/2003
+Germany	10	0	0	9	4/Jun/2003	23/Jun/2003
+India	3	0	0	3	13/May/2003	14/May/2003
+Indonesia	2	0	0	2	23/Apr/2003	19/Jun/2003
+Italy	4	0	0	4	29/Apr/2003	8/Jul/2003
+Kuwait	1	0	0	1	9/Apr/2003	20/Apr/2003
+Malaysia	5	0	2	3	20/May/2003	4/Jul/2003
+Mongolia	9	0	0	9	6/May/2003	2/Jun/2003
+New Zealand	1	0	0	1	30/Apr/2003	25/Jun/2003
+Philippines	14	0	2	12	15/May/2003	11/Jul/2003
+Republic of Ireland	1	0	0	1	21/Mar/2003	12/Jun/2003
+Republic of Korea	3	0	0	3	14/May/2003	2/Jul/2003
+Romania	1	0	0	1	27/Mar/2003	22/Apr/2003
+Russian Federation	1	0	0	0	31/May/2003	31/May/2003
+Singapore	206	0	32	172	18/May/2003	7/Jul/2003
+South Africa	1	0	1	0	9/Apr/2003	3/May/2003
+Spain	1	0	0	1	2/Apr/2003	5/Jun/2003
+Sweden	3	0	0	3	18/Apr/2003	13/May/2003
+Switzerland	1	0	0	1	17/Mar/2003	16/May/2003
+Thailand	9	0	2	7	7/Jun/2003	1/Jul/2003
+United Kingdom	4	0	0	4	29/Apr/2003	30/Jun/2003
+United States^7	75	0	0	67	23/Jun/2003	9/Jul/2003
+Viet Nam	63	0	5	58	14/Apr/2003	7/Jun/2003
+
+Total	8437	0	813	7452		
+
+2. A decrease in the number of cumulative cases and discrepancies in the difference between cumulative number of cases of the last and the current WHO update are attributed to the discarding of cases.
+3. Includes cases who are "discharged" or "recovered" as reported by the national public health authorities.
+4. The date of onset of the most recent probable SARS case in Canada was 12 June, the last date of isolation of a probable case SARS case was also June 12.
+5. The date of onset of the most recent probable SARS case in China was June 3. The date of isolation of this case was 6 June 2003.
+6. One death attributed to Hong Kong Special Administrative Region of China occurred in a case medically transferred from Viet Nam.
+7. From 26 June 2003, the number of recovered represents all probable cases who were never hospitalized or who were hospitalized and reported as discharged from the hospital. The previous reports only counted those who had been hospitalized and discharged.
