@@ -5,8 +5,8 @@
     <description>A modeller's random adventures in data-land</description>
     <link>https://julien-arino.github.io/</link>
     <atom:link href="https://julien-arino.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 18 Jun 2019 12:30:20 -0500</pubDate>
-    <lastBuildDate>Tue, 18 Jun 2019 12:30:20 -0500</lastBuildDate>
+    <pubDate>Tue, 18 Jun 2019 12:41:41 -0500</pubDate>
+    <lastBuildDate>Tue, 18 Jun 2019 12:41:41 -0500</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -105,9 +105,9 @@
 
 &lt;p&gt;One city service that contributes to this system is &lt;a href=&quot;https://winnipegtransit.com/en&quot;&gt;Winnipeg Transit&lt;/a&gt;. They have several types of data. In a later entry, I will discuss the use of online queries; here, I use some static data that is available &lt;a href=&quot;http://gtfs.winnipegtransit.com/google_transit.zip&quot;&gt;here&lt;/a&gt;. A description of the different files in the archive can be found &lt;a href=&quot;https://developers.google.com/transit/gtfs/reference/?csw=1&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;As a regular bus user, public transit afficionado and someone interested in population movement, I was curious to use this data to study some ideas about population movement. The first step was to do a simple, somewhat fun representation of the information.&lt;/p&gt;
+&lt;p&gt;As a regular bus user, public transit afficionado and someone interested in population movement, I was curious to use this data to study some ideas about population movement. The first step was to do a simple, somewhat fun representation of the information. The most recent version of the code used in this page (which might be a little different from the one here) can be found &lt;a href=&quot;https://raw.githubusercontent.com/julien-arino/R-code/master/plotWpgStopSchedules_v1.R&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;We will use three libraries: &lt;code class=&quot;highlighter-rouge&quot;&gt;lubridate&lt;/code&gt;, which helps with date manipulation, &lt;code class=&quot;highlighter-rouge&quot;&gt;OpenStreetMap&lt;/code&gt; for both getting maps and converting coordinates and &lt;code class=&quot;highlighter-rouge&quot;&gt;animation&lt;/code&gt;, as a way to create a movie. So make sure these are installed.&lt;/p&gt;
+&lt;p&gt;We will use three libraries: &lt;code class=&quot;highlighter-rouge&quot;&gt;lubridate&lt;/code&gt;, which helps with date manipulation, &lt;code class=&quot;highlighter-rouge&quot;&gt;OpenStreetMap&lt;/code&gt; for getting maps and converting coordinates and &lt;code class=&quot;highlighter-rouge&quot;&gt;animation&lt;/code&gt;, as a way to create a movie. So make sure these are installed. You will also need the program &lt;code class=&quot;highlighter-rouge&quot;&gt;convert&lt;/code&gt;, part of the ImageMagick suite. Installing the latter under Linux is easy; for Windows users, the situation is a bit more tricky, although you may want to consider the Linux subsystem. More on that later.&lt;/p&gt;
 
 &lt;p&gt;To keep things easy, let us change the directory to the one where the code lies and below which both the data and the figures directories will be located.
 I am assuming that you downloaded the file from the link above and unzipped it in a subdirectory called &lt;code class=&quot;highlighter-rouge&quot;&gt;staticSchedule&lt;/code&gt;. If generating a gif image, you will also need to create a subdirectory called &lt;code class=&quot;highlighter-rouge&quot;&gt;tmpFig&lt;/code&gt;.&lt;/p&gt;
