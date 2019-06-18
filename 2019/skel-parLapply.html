@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+    <title>A parLapply example</title>
+    <meta name="description" content="Still moving here stuff I have already posted elsewhere..">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="https://julien-arino.github.io/2019/skel-parLapply">
+    <link rel="alternate" type="application/rss+xml" title="Daahtaah or Daytaah?" href="https://julien-arino.github.io/feed.xml" />
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-1943806-5', 'auto');
+      ga('send', 'pageview');
+    </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: [
+      "MathMenu.js",
+      "MathZoom.js",
+      "AssistiveMML.js",
+      "a11y/accessibility-menu.js"
+    ],
+    jax: ["input/TeX", "output/CommonHTML"],
+    TeX: {
+      extensions: [
+        "AMSmath.js",
+        "AMSsymbols.js",
+        "noErrors.js",
+        "noUndefined.js",
+      ]
+    }
+  });
+</script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+</head>
+
+
+<body>
+  <aside class="main-header">
+  <header class="module">
+    <h1><a href="/">Daahtaah or Daytaah?</a></h1>
+  </header>
+  <div class="module color2">
+    A modeller's random adventures in data-land
+  </div>
+  <nav class="module color4">
+    <a href="/">Home</a>
+    <a href="/about/">About</a>
+    <a href="/contact/">Contact</a>
+  </nav>
+  <div class="module color3">
+    github/julien-arino
+    <br>twitter/julien_arino
+    <br>Julien.Arino@umanitoba.ca
+  </div>
+</aside>
+
+
+  <section class="main-content">
+    <article class="color3 module">
+  <a href="/2019/skel-parLapply"><h1>A parLapply example</h1></a>
+  <hr>
+  <time>Jun 16, 2019</time>
+  <p>Still moving here stuff I have already posted elsewhere..</p>
+
+<p>When working with students and postdocs, I often provide “skeletons”, i.e., pieces of code that illustrate something that I want them to do in another context. Case in point: running some code in parallel. Here, I will carry out a very simple and naive sensitivity analysis of the value of the basic reproduction number $R_0$ in the basic Kermack and McKendrick SIR model.</p>
+
+<p>First, we need the function that we will evaluate for a given point in parameter space. Note that we pass parameters as a list rather than an ordered t-uple of parameters; this allows to not have to worry about the order in which parameters are presented.</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">R</span><span class="m">0</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">function</span><span class="p">(</span><span class="n">p</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+  </span><span class="nf">return</span><span class="p">(</span><span class="n">p</span><span class="o">$</span><span class="n">beta</span><span class="o">*</span><span class="n">p</span><span class="o">$</span><span class="n">S</span><span class="m">0</span><span class="o">/</span><span class="p">(</span><span class="n">p</span><span class="o">$</span><span class="n">d</span><span class="o">+</span><span class="n">p</span><span class="o">$</span><span class="n">gamma</span><span class="p">))</span><span class="w">
+</span><span class="p">}</span></code></pre></figure>
+
+<p>The following function converts one or several parameter values given in the list by <code class="highlighter-rouge">lapply</code> or <code class="highlighter-rouge">parLapply</code> into a value of $R_0$. Note the little trick, which allows to set as many parameters as are provided in the element of the list received as argument.</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">one_run_R0</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">function</span><span class="p">(</span><span class="n">p</span><span class="p">,</span><span class="n">param</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+  </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">pp</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="nf">names</span><span class="p">(</span><span class="n">p</span><span class="p">))</span><span class="w">
+    </span><span class="n">param</span><span class="p">[[</span><span class="n">pp</span><span class="p">]]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">p</span><span class="p">[[</span><span class="n">pp</span><span class="p">]]</span><span class="w">
+  </span><span class="nf">return</span><span class="p">(</span><span class="n">R</span><span class="m">0</span><span class="p">(</span><span class="n">param</span><span class="p">))</span><span class="w">
+</span><span class="p">}</span></code></pre></figure>
+
+<p>Set up parameters by default. If not changed by the function above, they take these values.</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">param</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">list</span><span class="p">()</span><span class="w">
+</span><span class="n">param</span><span class="o">$</span><span class="n">beta</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1e-6</span><span class="w">
+</span><span class="n">param</span><span class="o">$</span><span class="n">S</span><span class="m">0</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">10000</span><span class="w">
+</span><span class="n">param</span><span class="o">$</span><span class="n">d</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1</span><span class="o">/</span><span class="p">(</span><span class="m">70</span><span class="o">*</span><span class="m">365.25</span><span class="p">)</span><span class="w"> </span><span class="c1"># Average duration of life</span><span class="w">
+</span><span class="n">param</span><span class="o">$</span><span class="n">gamma</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1</span><span class="o">/</span><span class="m">4.5</span><span class="w"> </span><span class="c1"># Average duration of infection</span></code></pre></figure>
+
+<p>Set up the list of parameters that are going to vary. For illustration, we do 10,000 computations for varying values of $\beta$, 10,000 for varying values of $S_0$ and 10,000 simulations for varying values of both $\beta$ and $S_0$.</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">nb_sims</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">10000</span><span class="w"> </span><span class="c1"># nb of simulations of each type</span><span class="w">
+</span><span class="n">param_vary</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">list</span><span class="p">()</span><span class="w">
+</span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">i</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="m">1</span><span class="o">:</span><span class="n">nb_sims</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+  </span><span class="n">param_vary</span><span class="p">[[</span><span class="n">i</span><span class="p">]]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">list</span><span class="p">()</span><span class="w">
+  </span><span class="n">param_vary</span><span class="p">[[</span><span class="n">i</span><span class="p">]]</span><span class="o">$</span><span class="n">beta</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">runif</span><span class="p">(</span><span class="m">1</span><span class="p">,</span><span class="w"> </span><span class="n">min</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1e-9</span><span class="p">,</span><span class="w"> </span><span class="n">max</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1e-4</span><span class="p">)</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">i</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="n">nb_sims</span><span class="m">+1</span><span class="o">:</span><span class="m">2</span><span class="o">*</span><span class="n">nb_sims</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+  </span><span class="n">param_vary</span><span class="p">[[</span><span class="n">i</span><span class="p">]]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">list</span><span class="p">()</span><span class="w">
+  </span><span class="n">param_vary</span><span class="p">[[</span><span class="n">i</span><span class="p">]]</span><span class="o">$</span><span class="n">S</span><span class="m">0</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">runif</span><span class="p">(</span><span class="m">1</span><span class="p">,</span><span class="w"> </span><span class="n">min</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1000</span><span class="p">,</span><span class="w"> </span><span class="n">max</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">100000</span><span class="p">)</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">i</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="p">(</span><span class="m">2</span><span class="o">*</span><span class="n">nb_sims</span><span class="m">+1</span><span class="o">:</span><span class="m">3</span><span class="o">*</span><span class="n">nb_sims</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+  </span><span class="n">param_vary</span><span class="p">[[</span><span class="n">i</span><span class="p">]]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">list</span><span class="p">()</span><span class="w">
+  </span><span class="n">param_vary</span><span class="p">[[</span><span class="n">i</span><span class="p">]]</span><span class="o">$</span><span class="n">beta</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">runif</span><span class="p">(</span><span class="m">1</span><span class="p">,</span><span class="w"> </span><span class="n">min</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1e-9</span><span class="p">,</span><span class="w"> </span><span class="n">max</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1e-4</span><span class="p">)</span><span class="w">
+  </span><span class="n">param_vary</span><span class="p">[[</span><span class="n">i</span><span class="p">]]</span><span class="o">$</span><span class="n">S</span><span class="m">0</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">runif</span><span class="p">(</span><span class="m">1</span><span class="p">,</span><span class="w"> </span><span class="n">min</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1000</span><span class="p">,</span><span class="w"> </span><span class="n">max</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">100000</span><span class="p">)</span><span class="w">
+</span><span class="p">}</span></code></pre></figure>
+
+<p>The code can be run in parallel or iteratively. Note one interesting quirk: the function argument to <code class="highlighter-rouge">parLapply</code> is called <code class="highlighter-rouge">fun</code>, while that to <code class="highlighter-rouge">lapply</code> is called <code class="highlighter-rouge">FUN</code>. You have to love <code class="highlighter-rouge">R</code>. One core is set aside to avoid rendering the computer completely unresponsive; on a cluster with head node, you would of course be able to devote all cores to computations. (But then again, on a cluster with head node, you might also be using a scheduler.)</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">RUN_PARALLEL</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">TRUE</span><span class="w">
+</span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">RUN_PARALLEL</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+  </span><span class="c1"># Detect number of cores, use all but 1</span><span class="w">
+  </span><span class="n">no_cores</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">parallel</span><span class="o">::</span><span class="n">detectCores</span><span class="p">()</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="m">1</span><span class="w">
+  </span><span class="c1"># Initiate cluster</span><span class="w">
+  </span><span class="n">tictoc</span><span class="o">::</span><span class="n">tic</span><span class="p">()</span><span class="w">
+  </span><span class="n">cl</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">parallel</span><span class="o">::</span><span class="n">makeCluster</span><span class="p">(</span><span class="n">no_cores</span><span class="p">)</span><span class="w">
+  </span><span class="c1"># Export needed variables</span><span class="w">
+  </span><span class="n">parallel</span><span class="o">::</span><span class="n">clusterExport</span><span class="p">(</span><span class="n">cl</span><span class="p">,</span><span class="w">
+                </span><span class="nf">c</span><span class="p">(</span><span class="s2">"R0"</span><span class="p">,</span><span class="w">
+                  </span><span class="s2">"one_run_R0"</span><span class="p">,</span><span class="w">
+                  </span><span class="s2">"param"</span><span class="p">))</span><span class="w">
+  </span><span class="c1"># Run computation</span><span class="w">
+  </span><span class="n">result</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">parallel</span><span class="o">::</span><span class="n">parLapply</span><span class="p">(</span><span class="n">cl</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">cl</span><span class="p">,</span><span class="w"> </span><span class="n">X</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">param_vary</span><span class="p">,</span><span class="w">
+                               </span><span class="n">fun</span><span class="w"> </span><span class="o">=</span><span class="w">  </span><span class="k">function</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="w"> </span><span class="n">one_run_R0</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">param</span><span class="p">))</span><span class="w">
+  </span><span class="c1"># Stop cluster</span><span class="w">
+  </span><span class="n">parallel</span><span class="o">::</span><span class="n">stopCluster</span><span class="p">(</span><span class="n">cl</span><span class="p">)</span><span class="w">
+  </span><span class="n">tictoc</span><span class="o">::</span><span class="n">toc</span><span class="p">()</span><span class="w">
+</span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span><span class="w">
+  </span><span class="n">tictoc</span><span class="o">::</span><span class="n">tic</span><span class="p">()</span><span class="w">
+  </span><span class="n">result</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">lapply</span><span class="p">(</span><span class="n">X</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">param_vary</span><span class="p">,</span><span class="w">
+                  </span><span class="n">FUN</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">function</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="w"> </span><span class="n">one_run_R0</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">param</span><span class="p">))</span><span class="w">
+  </span><span class="n">tictoc</span><span class="o">::</span><span class="n">toc</span><span class="p">()</span><span class="w">
+</span><span class="p">}</span></code></pre></figure>
+
+<p>Last little piece: let us plot the range of values taken by $R_0$ when the various parameters are varied, to show sensitivity of $R_0$.</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">result</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">unlist</span><span class="p">(</span><span class="n">result</span><span class="p">)</span><span class="w">
+</span><span class="n">result.df</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">data.frame</span><span class="p">(</span><span class="n">beta</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">result</span><span class="p">[</span><span class="m">1</span><span class="o">:</span><span class="n">nb_sims</span><span class="p">],</span><span class="w">
+                       </span><span class="n">S</span><span class="m">0</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">result</span><span class="p">[(</span><span class="n">nb_sims</span><span class="m">+1</span><span class="p">)</span><span class="o">:</span><span class="p">(</span><span class="m">2</span><span class="o">*</span><span class="n">nb_sims</span><span class="p">)],</span><span class="w">
+                       </span><span class="n">beta_S0</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">result</span><span class="p">[(</span><span class="m">2</span><span class="o">*</span><span class="n">nb_sims</span><span class="m">+1</span><span class="p">)</span><span class="o">:</span><span class="p">(</span><span class="m">3</span><span class="o">*</span><span class="n">nb_sims</span><span class="p">)])</span><span class="w">
+</span><span class="n">boxplot</span><span class="p">(</span><span class="n">result.df</span><span class="p">)</span></code></pre></figure>
+
+
+</article>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1943806-5', 'auto');
+  ga('send', 'pageview');
+</script>
+
+      <footer class="module color3">
+  &copy; <span class="right">Subscribe <a href="/feed.xml">via RSS</a></span>
+</footer>
+
+  </section>
+
+</body>
+</html>

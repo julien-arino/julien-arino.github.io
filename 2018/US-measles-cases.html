@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+    <title>US measles cases data</title>
+    <meta name="description" content="I am currently finishing up some work started ages ago that deals with spatial aspects in vaccination. The work was motivated by an outbreak of polio that st...">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="https://julien-arino.github.io/2018/US-measles-cases">
+    <link rel="alternate" type="application/rss+xml" title="Daahtaah or Daytaah?" href="https://julien-arino.github.io/feed.xml" />
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-1943806-5', 'auto');
+      ga('send', 'pageview');
+    </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: [
+      "MathMenu.js",
+      "MathZoom.js",
+      "AssistiveMML.js",
+      "a11y/accessibility-menu.js"
+    ],
+    jax: ["input/TeX", "output/CommonHTML"],
+    TeX: {
+      extensions: [
+        "AMSmath.js",
+        "AMSsymbols.js",
+        "noErrors.js",
+        "noUndefined.js",
+      ]
+    }
+  });
+</script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+</head>
+
+
+<body>
+  <aside class="main-header">
+  <header class="module">
+    <h1><a href="/">Daahtaah or Daytaah?</a></h1>
+  </header>
+  <div class="module color2">
+    A modeller's random adventures in data-land
+  </div>
+  <nav class="module color4">
+    <a href="/">Home</a>
+    <a href="/about/">About</a>
+    <a href="/contact/">Contact</a>
+  </nav>
+  <div class="module color3">
+    github/julien-arino
+    <br>twitter/julien_arino
+    <br>Julien.Arino@umanitoba.ca
+  </div>
+</aside>
+
+
+  <section class="main-content">
+    <article class="color3 module">
+  <a href="/2018/US-measles-cases"><h1>US measles cases data</h1></a>
+  <hr>
+  <time>Dec 9, 2018</time>
+  <p>I am currently finishing up some work started ages ago that deals with spatial aspects in vaccination. The work was motivated by an outbreak of polio that started in northern Nigeria in 2002-2003, following a vaccine scare episode. In order to illustrate the benefits of vaccination, in these days of elevated anti-vaccine activity, I like to use the example of measles. The US data is available online, although like the SARS data that I discussed elsewhere, getting the entire dataset requires a bit of editing. So this post will serve as a means to disseminate the result of my editing of that data. And produce a graph of said data.</p>
+
+<p>Measles strikes close to home for me: as a six year old kid, despite having received vaccination, I caught measles. (The vaccine, especially in early years, was not always most efficacious. This is one of the reasons it was later recommended to administer a booster shot, which makes the vaccine extremely efficacious. The booster shot recommendation came in 1989 in the US. I was in my last year of high school at the time.) Even though I did not require hospitalisation, I had to spend quite some time at home (both for me and to avoid contaminating others).</p>
+
+<p><strong>Update:</strong> as of 6 June, there had been 1,022 cases of measles in the US in 2019. That is the most cases since the effect of the double dose of vaccine kicked in in the early nineties! The data and figures were updated accordingly.</p>
+
+<h2 id="two-plots">Two plots</h2>
+
+<p>The first plot is of the reported measles cases in the US during the entire period covered by the data.</p>
+
+<p><img src="/~jarino/blog/assets_pics/measles_US_1944_2019.png" alt="Reported cases of measles in the USA 1944-2019" /></p>
+
+<p>Illustrated are the three main eras in measles in this data:</p>
+<ol>
+  <li>The pre-vaccine era, which lasted until vaccination started in earnest in 1963.</li>
+  <li>The single-dose vaccine era, from 1963 to 1989.</li>
+  <li>After 1989, it was recommended to use two shots (an initial shot and a booster shot).</li>
+</ol>
+
+<p>The second plot focuses on recent events, with particular focus on one of the roots of anti-vaccine activism.</p>
+
+<p><img src="/~jarino/blog/assets_pics/measles_US_1992_2019.png" alt="Reported cases of measles in the USA 1992-2019" /></p>
+
+<p>Here, I show the behaviour of measles since 1992. Of particular note here is the publication in the 28 February 1998 issue of The Lancet of an infamous paper by Wakefield and others that purported to show a link between the MMR vaccine and autism.
+It took a few years for the effect to be felt, but now, we see regular small outbreaks. The situation is often the following: unvaccinated (US) individual goes abroad, gets infected, comes home and infects a few unvaccinated people.</p>
+
+<p>The Wakefield paper has since been retracted, Wakefield himself has been discredited (although he does retain some influential supporters) and banned from practising medicine in the UK (his country), but as often with vaccine scares, the scars remain.</p>
+
+<h2 id="files">Files</h2>
+
+<ul>
+  <li>Concatenated US Centers for Disease Control and Prevention Morbidity and Mortality Weekly Report for notifiable diseases, aggregated by year, from 1944 to 1993 and by month for 1994 and 1995: <a href="/~jarino/blog/assets_data/CDC_MMWR_notifiableDiseasesYearly_1944_1995.txt">file</a>. This file contains the raw data.</li>
+  <li>Yearly number of reported cases of measles in the USA from 1944 to 2019: <a href="/~jarino/blog/assets_data/measles_reportedCases_USA_1944_2019.csv">file</a>. For the period 1944 to 1995, the data comes from the file above. For the years following, data origates from more dynamic pages at <a href="https://www.cdc.gov/measles/cases-outbreaks.html">CDC</a>.</li>
+</ul>
+
+<h2 id="some-remarks-about-the-plots">Some remarks about the plots</h2>
+
+<h3 id="making-a-nice-y-axis-for-plots">Making a nice y axis for plots</h3>
+
+<p>The y-axis on the plots use a function that I adapted from another I found somewhere on the web (Stack Overflow, almost surely). There is most likely a prettier way to do this, but this one works.</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">make_y_axis</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="k">function</span><span class="p">(</span><span class="n">yrange</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+  </span><span class="n">y_max</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">yrange</span><span class="p">[</span><span class="m">2</span><span class="p">]</span><span class="w">
+  </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">y_max</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="m">1000</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="c1"># Do almost nothing</span><span class="w">
+    </span><span class="n">factor</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="m">1</span><span class="w">
+    </span><span class="n">ticks</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">pretty</span><span class="p">(</span><span class="n">yrange</span><span class="p">)</span><span class="w">
+    </span><span class="n">labels</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">format</span><span class="p">(</span><span class="n">ticks</span><span class="p">,</span><span class="w"> </span><span class="n">big.mark</span><span class="o">=</span><span class="s2">","</span><span class="p">,</span><span class="w"> </span><span class="n">scientific</span><span class="o">=</span><span class="kc">FALSE</span><span class="p">)</span><span class="w">
+  </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">y_max</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="m">10000</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="c1"># Label with ab,cde</span><span class="w">
+    </span><span class="n">factor</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="m">1</span><span class="w">
+    </span><span class="n">ticks</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">pretty</span><span class="p">(</span><span class="n">yrange</span><span class="p">)</span><span class="w">
+    </span><span class="n">labels</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">format</span><span class="p">(</span><span class="n">ticks</span><span class="p">,</span><span class="w"> </span><span class="n">big.mark</span><span class="o">=</span><span class="s2">","</span><span class="p">,</span><span class="w"> </span><span class="n">scientific</span><span class="o">=</span><span class="kc">FALSE</span><span class="p">)</span><span class="w">
+  </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">y_max</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="m">1000000</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="c1"># Label with K</span><span class="w">
+    </span><span class="n">factor</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="m">1</span><span class="o">/</span><span class="m">1000</span><span class="w">
+    </span><span class="n">ticks</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">pretty</span><span class="p">(</span><span class="n">yrange</span><span class="o">*</span><span class="n">factor</span><span class="p">)</span><span class="w">
+    </span><span class="n">labels</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">paste</span><span class="p">(</span><span class="n">ticks</span><span class="p">,</span><span class="s2">"K"</span><span class="p">,</span><span class="n">sep</span><span class="o">=</span><span class="s2">""</span><span class="p">)</span><span class="w">
+  </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">y_max</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="m">1000000000</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="c1"># Label with M</span><span class="w">
+    </span><span class="n">factor</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="m">1</span><span class="o">/</span><span class="m">1000000</span><span class="w">
+    </span><span class="n">ticks</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">pretty</span><span class="p">(</span><span class="n">yrange</span><span class="o">*</span><span class="n">factor</span><span class="p">)</span><span class="w">
+    </span><span class="n">labels</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">paste</span><span class="p">(</span><span class="n">ticks</span><span class="p">,</span><span class="s2">"M"</span><span class="p">,</span><span class="n">sep</span><span class="o">=</span><span class="s2">""</span><span class="p">)</span><span class="w">
+  </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="c1"># Label with B</span><span class="w">
+    </span><span class="n">factor</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="m">1</span><span class="o">/</span><span class="m">1000000000</span><span class="w">
+    </span><span class="n">ticks</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">pretty</span><span class="p">(</span><span class="n">yrange</span><span class="o">*</span><span class="n">factor</span><span class="p">)</span><span class="w">
+    </span><span class="n">labels</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">paste</span><span class="p">(</span><span class="n">ticks</span><span class="p">,</span><span class="s2">"B"</span><span class="p">,</span><span class="n">sep</span><span class="o">=</span><span class="s2">""</span><span class="p">)</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+  </span><span class="c1"># Remove 0unit, just have 0</span><span class="w">
+  </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="s2">"0K"</span><span class="w"> </span><span class="o">%in%</span><span class="w"> </span><span class="n">labels</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="n">labels</span><span class="p">[</span><span class="n">which</span><span class="p">(</span><span class="n">labels</span><span class="o">==</span><span class="s2">"0K"</span><span class="p">)]</span><span class="o">=</span><span class="s2">"0"</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+  </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="s2">"0M"</span><span class="w"> </span><span class="o">%in%</span><span class="w"> </span><span class="n">labels</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="n">labels</span><span class="p">[</span><span class="n">which</span><span class="p">(</span><span class="n">labels</span><span class="o">==</span><span class="s2">"0M"</span><span class="p">)]</span><span class="o">=</span><span class="s2">"0"</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+  </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="s2">"0B"</span><span class="w"> </span><span class="o">%in%</span><span class="w"> </span><span class="n">labels</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="n">labels</span><span class="p">[</span><span class="n">which</span><span class="p">(</span><span class="n">labels</span><span class="o">==</span><span class="s2">"0B"</span><span class="p">)]</span><span class="o">=</span><span class="s2">"0"</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+  </span><span class="n">y_axis</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">list</span><span class="p">(</span><span class="n">factor</span><span class="o">=</span><span class="n">factor</span><span class="p">,</span><span class="n">ticks</span><span class="o">=</span><span class="n">ticks</span><span class="p">,</span><span class="n">labels</span><span class="o">=</span><span class="n">labels</span><span class="p">)</span><span class="w">
+  </span><span class="nf">return</span><span class="p">(</span><span class="n">y_axis</span><span class="p">)</span><span class="w">
+</span><span class="p">}</span></code></pre></figure>
+
+<p>To make the function easier to use, let us call it from within a modified plot function. The function returns the parameters for the modified y-axis, so that they can be further used in the plot.</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="c1"># PLOT_HR_YAXIS</span><span class="w">
+</span><span class="c1">#</span><span class="w">
+</span><span class="c1"># Plot data using a human readable y-axis</span><span class="w">
+</span><span class="n">plot_hr_yaxis</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="k">function</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="p">,</span><span class="w"> </span><span class="n">...</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+  </span><span class="n">y_range</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">range</span><span class="p">(</span><span class="n">y</span><span class="p">,</span><span class="w"> </span><span class="n">na.rm</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">TRUE</span><span class="p">)</span><span class="w">
+  </span><span class="n">y_axis</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">make_y_axis</span><span class="p">(</span><span class="n">y_range</span><span class="p">)</span><span class="w">
+  </span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="o">*</span><span class="n">y_axis</span><span class="o">$</span><span class="n">factor</span><span class="p">,</span><span class="w">
+       </span><span class="n">yaxt</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"n"</span><span class="p">,</span><span class="w"> </span><span class="n">...</span><span class="p">)</span><span class="w">
+  </span><span class="n">axis</span><span class="p">(</span><span class="m">2</span><span class="p">,</span><span class="w"> </span><span class="n">at</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">y_axis</span><span class="o">$</span><span class="n">ticks</span><span class="p">,</span><span class="w">
+       </span><span class="n">labels</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">y_axis</span><span class="o">$</span><span class="n">labels</span><span class="p">,</span><span class="w">
+       </span><span class="n">las</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1</span><span class="p">,</span><span class="w"> </span><span class="n">cex.axis</span><span class="o">=</span><span class="m">0.8</span><span class="p">)</span><span class="w">
+  </span><span class="nf">return</span><span class="p">(</span><span class="n">y_axis</span><span class="p">)</span><span class="w">
+</span><span class="p">}</span></code></pre></figure>
+
+<p>For plots that are simpler than the one above, it is a good idea to just wrap the above operations in a function.
+To use this function, you need to call it on your data. I show the use with the code for the first of the two plots above. The data frame <code class="highlighter-rouge">measles</code> contains the loaded measles data.</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">png</span><span class="p">(</span><span class="n">file</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"measles_US_1944_2019.png"</span><span class="p">,</span><span class="w">
+    </span><span class="n">width</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1280</span><span class="p">,</span><span class="w"> </span><span class="n">height</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">720</span><span class="p">)</span><span class="w">
+</span><span class="n">y_axis</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">plot_hr_yaxis</span><span class="p">(</span><span class="n">measles</span><span class="o">$</span><span class="n">year</span><span class="p">,</span><span class="w"> </span><span class="n">measles</span><span class="o">$</span><span class="n">reported_cases</span><span class="p">,</span><span class="w">
+                        </span><span class="n">type</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"b"</span><span class="p">,</span><span class="w"> </span><span class="n">lwd</span><span class="o">=</span><span class="m">1</span><span class="p">,</span><span class="w"> </span><span class="n">lty</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">2</span><span class="p">,</span><span class="w">
+                        </span><span class="n">xlab</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"Year"</span><span class="p">,</span><span class="w">
+                        </span><span class="n">ylab</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"Reported # cases of measles / year"</span><span class="p">,</span><span class="w">
+                        </span><span class="n">xaxt</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"n"</span><span class="p">)</span><span class="w">
+</span><span class="n">axis</span><span class="p">(</span><span class="m">1</span><span class="p">,</span><span class="w"> </span><span class="n">at</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">c</span><span class="p">(</span><span class="m">1944</span><span class="p">,</span><span class="m">1960</span><span class="p">,</span><span class="m">1980</span><span class="p">,</span><span class="m">2000</span><span class="p">,</span><span class="m">2019</span><span class="p">))</span><span class="w">
+</span><span class="c1"># Vaccination started in 1963</span><span class="w">
+</span><span class="n">polygon</span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">c</span><span class="p">(</span><span class="m">1962.5</span><span class="p">,</span><span class="nf">max</span><span class="p">(</span><span class="n">measles</span><span class="o">$</span><span class="n">year</span><span class="p">)</span><span class="m">+0.5</span><span class="p">,</span><span class="nf">max</span><span class="p">(</span><span class="n">measles</span><span class="o">$</span><span class="n">year</span><span class="p">)</span><span class="m">+0.5</span><span class="p">,</span><span class="m">1962.5</span><span class="p">),</span><span class="w">
+        </span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">c</span><span class="p">(</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="n">par</span><span class="p">(</span><span class="s2">"usr"</span><span class="p">)[</span><span class="m">4</span><span class="p">],</span><span class="n">par</span><span class="p">(</span><span class="s2">"usr"</span><span class="p">)[</span><span class="m">4</span><span class="p">]),</span><span class="w">
+        </span><span class="n">col</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"grey85"</span><span class="p">,</span><span class="w"> </span><span class="n">border</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"grey85"</span><span class="p">)</span><span class="w">
+</span><span class="c1"># Recommended second dose started in 1989</span><span class="w">
+</span><span class="n">polygon</span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">c</span><span class="p">(</span><span class="m">1988.5</span><span class="p">,</span><span class="nf">max</span><span class="p">(</span><span class="n">measles</span><span class="o">$</span><span class="n">year</span><span class="p">)</span><span class="m">+0.5</span><span class="p">,</span><span class="nf">max</span><span class="p">(</span><span class="n">measles</span><span class="o">$</span><span class="n">year</span><span class="p">)</span><span class="m">+0.5</span><span class="p">,</span><span class="m">1988.5</span><span class="p">),</span><span class="w">
+        </span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">c</span><span class="p">(</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="n">par</span><span class="p">(</span><span class="s2">"usr"</span><span class="p">)[</span><span class="m">4</span><span class="p">],</span><span class="n">par</span><span class="p">(</span><span class="s2">"usr"</span><span class="p">)[</span><span class="m">4</span><span class="p">]),</span><span class="w">
+        </span><span class="n">col</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"grey75"</span><span class="p">,</span><span class="w"> </span><span class="n">border</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"grey75"</span><span class="p">)</span><span class="w">
+</span><span class="c1"># Redraw stuff covered by the polygons</span><span class="w">
+</span><span class="n">abline</span><span class="w"> </span><span class="p">(</span><span class="n">h</span><span class="o">=</span><span class="m">0</span><span class="p">,</span><span class="w"> </span><span class="n">lty</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">3</span><span class="p">)</span><span class="w">
+</span><span class="n">abline</span><span class="w"> </span><span class="p">(</span><span class="n">h</span><span class="o">=</span><span class="n">par</span><span class="p">(</span><span class="s2">"usr"</span><span class="p">)[</span><span class="m">4</span><span class="p">])</span><span class="w">
+</span><span class="n">abline</span><span class="w"> </span><span class="p">(</span><span class="n">v</span><span class="o">=</span><span class="n">par</span><span class="p">(</span><span class="s2">"usr"</span><span class="p">)[</span><span class="m">2</span><span class="p">])</span><span class="w">
+</span><span class="n">lines</span><span class="p">(</span><span class="n">measles</span><span class="o">$</span><span class="n">year</span><span class="p">,</span><span class="w"> </span><span class="n">measles</span><span class="o">$</span><span class="n">reported_cases</span><span class="o">*</span><span class="n">y_axis</span><span class="o">$</span><span class="n">factor</span><span class="p">,</span><span class="w">
+      </span><span class="n">type</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"b"</span><span class="p">,</span><span class="w"> </span><span class="n">lwd</span><span class="o">=</span><span class="m">1.5</span><span class="p">,</span><span class="w"> </span><span class="n">lty</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">2</span><span class="p">)</span><span class="w">
+</span><span class="n">dev.off</span><span class="p">()</span></code></pre></figure>
+
+<h3 id="cropping-pdf-and-png-results">Cropping pdf and png results</h3>
+
+<p>The following function is called with the same file name as used for the plot output just after the call to <code class="highlighter-rouge">dev.off()</code>. Of course, this requires to have functioning <code class="highlighter-rouge">pdftk</code> and <code class="highlighter-rouge">convert</code> program line commands available. (Windows people: it can be done. Not my problem here. Maybe I will explain elsewhere.)</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">crop_figure</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">function</span><span class="p">(</span><span class="n">fileFull</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+  </span><span class="n">fileName</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">tools</span><span class="o">::</span><span class="n">file_path_sans_ext</span><span class="p">(</span><span class="n">fileFull</span><span class="p">)</span><span class="w">
+  </span><span class="n">fileExt</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">tools</span><span class="o">::</span><span class="n">file_ext</span><span class="p">(</span><span class="n">fileFull</span><span class="p">)</span><span class="w">
+  </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">fileExt</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s2">"pdf"</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="n">command_str</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">sprintf</span><span class="p">(</span><span class="s2">"pdfcrop %s"</span><span class="p">,</span><span class="n">fileFull</span><span class="p">)</span><span class="w">
+    </span><span class="n">system</span><span class="p">(</span><span class="n">command_str</span><span class="p">)</span><span class="w">
+    </span><span class="n">command_str</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">sprintf</span><span class="p">(</span><span class="s2">"mv %s-crop.pdf %s.pdf"</span><span class="p">,</span><span class="n">fileName</span><span class="p">,</span><span class="n">fileFull</span><span class="p">)</span><span class="w">
+    </span><span class="n">system</span><span class="p">(</span><span class="n">command_str</span><span class="p">)</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+  </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">fileExt</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s2">"png"</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="n">command_str</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">sprintf</span><span class="p">(</span><span class="s2">"convert %s -trim %s-trim.png"</span><span class="p">,</span><span class="n">fileFull</span><span class="p">,</span><span class="n">fileName</span><span class="p">)</span><span class="w">
+    </span><span class="n">system</span><span class="p">(</span><span class="n">command_str</span><span class="p">)</span><span class="w">
+    </span><span class="n">command_str</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">sprintf</span><span class="p">(</span><span class="s2">"mv %s-trim.png %s"</span><span class="p">,</span><span class="n">fileName</span><span class="p">,</span><span class="n">fileFull</span><span class="p">)</span><span class="w">
+    </span><span class="n">system</span><span class="p">(</span><span class="n">command_str</span><span class="p">)</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span></code></pre></figure>
+
+
+</article>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1943806-5', 'auto');
+  ga('send', 'pageview');
+</script>
+
+      <footer class="module color3">
+  &copy; <span class="right">Subscribe <a href="/feed.xml">via RSS</a></span>
+</footer>
+
+  </section>
+
+</body>
+</html>

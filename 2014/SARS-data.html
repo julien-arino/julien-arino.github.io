@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+    <title>Some SARS data</title>
+    <meta name="description" content="(This is reposted from my web page, where it has been since the indicated date.)">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="https://julien-arino.github.io/2014/SARS-data">
+    <link rel="alternate" type="application/rss+xml" title="Daahtaah or Daytaah?" href="https://julien-arino.github.io/feed.xml" />
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-1943806-5', 'auto');
+      ga('send', 'pageview');
+    </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: [
+      "MathMenu.js",
+      "MathZoom.js",
+      "AssistiveMML.js",
+      "a11y/accessibility-menu.js"
+    ],
+    jax: ["input/TeX", "output/CommonHTML"],
+    TeX: {
+      extensions: [
+        "AMSmath.js",
+        "AMSsymbols.js",
+        "noErrors.js",
+        "noUndefined.js",
+      ]
+    }
+  });
+</script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+</head>
+
+
+<body>
+  <aside class="main-header">
+  <header class="module">
+    <h1><a href="/">Daahtaah or Daytaah?</a></h1>
+  </header>
+  <div class="module color2">
+    A modeller's random adventures in data-land
+  </div>
+  <nav class="module color4">
+    <a href="/">Home</a>
+    <a href="/about/">About</a>
+    <a href="/contact/">Contact</a>
+  </nav>
+  <div class="module color3">
+    github/julien-arino
+    <br>twitter/julien_arino
+    <br>Julien.Arino@umanitoba.ca
+  </div>
+</aside>
+
+
+  <section class="main-content">
+    <article class="color3 module">
+  <a href="/2014/SARS-data"><h1>Some SARS data</h1></a>
+  <hr>
+  <time>Aug 19, 2014</time>
+  <p>(This is reposted from my web page, where it has been since the indicated date.)</p>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>As part of my work on the spatio-temporal spread of infectious diseases, I have had to use the Severe Acute
+Respiratory Syndrome (SARS) data available on the WHO website (<a href="http://www.who.int/csr/sars/country/en/">here</a>).
+This data comes in a challenging form: each page contains the report for a single day and the information
+presented evolves through time. The latter is to be expected: as the epidemic unfolded, the type of information
+that was required to deal with the problem evolved. However, in order to be able to use the data, some processing
+was necessary.</p>
+
+<p>Formatting the data to make it easier to use was a somewhat long and rather annoying process and since this is
+publicly available data, I thought I would save others interested in this type of problems the time that it took
+me to do this, by making this processed data public as well. I ask just two things in return:</p>
+
+<ul>
+  <li>
+    <p>If you make use of the data, I would appreciate being told about it. It will help convince me that I did not do
+this in vain.</p>
+  </li>
+  <li>
+    <p>If you find issues in the data, I would also appreciate being told, so that I can fix the problem. If you have
+ideas on how to better organize it, let me know.</p>
+  </li>
+</ul>
+
+<h2 id="caveat">Caveat</h2>
+<p>The WHO data was obtained during the course of the SARS epidemic. Some of the data was revised, but only a few
+days after it was initially posted. Therefore, compared to more thorough post-epidemic investigation and data
+gathering, the data here cannot be considered as the most up to date.</p>
+
+<h2 id="epochs-in-the-data">Epochs in the data</h2>
+<p>There are three main phases in the data, characterized by different variables being reported. In the processed
+data, all these variables are present, although they are empty for data in an epoch that does not report about
+given variables.</p>
+
+<ul>
+  <li>
+    <p><em>17 March to 9 April</em>. During this period, the variables considered are, for each country, the total number of
+cases, the number of deaths and the presence or absence of local transmission.</p>
+  </li>
+  <li>
+    <p><em>10 April to 1 May</em>. To the variables already mentioned are added the number of new cases since the
+last WHO update and the number of recovered individuals. From 17 April, the date of the last report for each
+country is listed.</p>
+  </li>
+  <li>
+    <p><em>2 May to 11 July</em>. The last epoch in the dataset drops the local transmission information (an additional
+dataset, that I have not processed yet, lists for each country affected, the regions where transmission is taking
+place) but adds a variable that indicates the date for which the cumulative number of cases is current.</p>
+  </li>
+</ul>
+
+<h2 id="tidying-up-the-data">Tidying up the data</h2>
+
+<p>As much of the information as possible was retained, with a few exceptions; see below. Dates were formatted
+consistently. The times at which the reports were posted are also available. When notes were relative to a given
+country on a given day, they are included as notes. The only notes that were omitted are relative to the general
+handling of the data. They are available in the full file, though.</p>
+
+<h2 id="downloads">Downloads</h2>
+<p>Several files are available.</p>
+
+<ul>
+  <li>
+    <p>The main cleaned-up file, in CSV format (<a href="/~jarino/blog/assets_data/SARS_data.csv">file</a>).</p>
+  </li>
+  <li>
+    <p>A processed file with coutry by country dates of <em>events</em>, i.e., dates at which the cumulative number
+of cases, the number of deaths or the number of recovered changes.</p>
+  </li>
+  <li>
+    <p>The raw, almost unprocessed <a href="/~jarino/blog/assets_data/SARS_data.raw.txt">file</a> obtained by cutting and pasting the content of all the
+pages on the WHO site into a single file. The notes omitted in the cleaned-up file are present in this version.</p>
+  </li>
+</ul>
+
+
+</article>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1943806-5', 'auto');
+  ga('send', 'pageview');
+</script>
+
+      <footer class="module color3">
+  &copy; <span class="right">Subscribe <a href="/feed.xml">via RSS</a></span>
+</footer>
+
+  </section>
+
+</body>
+</html>

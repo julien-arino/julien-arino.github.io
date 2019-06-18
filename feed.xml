@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://julien-arino.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://julien-arino.github.io/" rel="alternate" type="text/html" /><updated>2019-06-18T02:12:22-05:00</updated><id>https://julien-arino.github.io/feed.xml</id><title type="html">Daahtaah or daytaah?</title><subtitle>A modeller's random adventures in data.</subtitle><entry><title type="html">An example of parLapply</title><link href="https://julien-arino.github.io/simulation/2019/06/16/skel-parLapply.html" rel="alternate" type="text/html" title="An example of parLapply" /><published>2019-06-16T14:00:22-05:00</published><updated>2019-06-16T14:00:22-05:00</updated><id>https://julien-arino.github.io/simulation/2019/06/16/skel-parLapply</id><content type="html" xml:base="https://julien-arino.github.io/simulation/2019/06/16/skel-parLapply.html">&lt;p&gt;Still moving to this blog some stuff I have already posted here or there.. When working with students and postdocs, I often provide ‘skeletons’, i.e., pieces of code that do something that I want them to do in another context. Case in point: running some code in parallel. Here, I will carry out a very simple and naive sensitivity analysis of the value of the basic reproduction number $R_0$ in the basic Kermack and McKendrick SIR model.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Daahtaah or Daytaah?</title>
+    <description>A modeller's random adventures in data-land</description>
+    <link>https://julien-arino.github.io/</link>
+    <atom:link href="https://julien-arino.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 18 Jun 2019 11:08:01 -0500</pubDate>
+    <lastBuildDate>Tue, 18 Jun 2019 11:08:01 -0500</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>A parLapply example</title>
+        <description>&lt;p&gt;Still moving here stuff I have already posted elsewhere..&lt;/p&gt;
+
+&lt;p&gt;When working with students and postdocs, I often provide “skeletons”, i.e., pieces of code that illustrate something that I want them to do in another context. Case in point: running some code in parallel. Here, I will carry out a very simple and naive sensitivity analysis of the value of the basic reproduction number $R_0$ in the basic Kermack and McKendrick SIR model.&lt;/p&gt;
 
 &lt;p&gt;First, we need the function that we will evaluate for a given point in parameter space. Note that we pass parameters as a list rather than an ordered t-uple of parameters; this allows to not have to worry about the order in which parameters are presented.&lt;/p&gt;
 
@@ -73,7 +88,21 @@
 &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;result.df&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data.frame&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;beta&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nb_sims&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
                        &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;S&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nb_sims&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;+1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nb_sims&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
                        &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;beta_S0&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nb_sims&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;+1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nb_sims&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)])&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;boxplot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;result.df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name></name></author><summary type="html">Still moving to this blog some stuff I have already posted here or there.. When working with students and postdocs, I often provide ‘skeletons’, i.e., pieces of code that do something that I want them to do in another context. Case in point: running some code in parallel. Here, I will carry out a very simple and naive sensitivity analysis of the value of the basic reproduction number $R_0$ in the basic Kermack and McKendrick SIR model.</summary></entry><entry><title type="html">Buses or ants</title><link href="https://julien-arino.github.io/winnipeg/2018/12/16/winnipeg-bus-schedules.html" rel="alternate" type="text/html" title="Buses or ants" /><published>2018-12-16T00:39:22-06:00</published><updated>2018-12-16T00:39:22-06:00</updated><id>https://julien-arino.github.io/winnipeg/2018/12/16/winnipeg-bus-schedules</id><content type="html" xml:base="https://julien-arino.github.io/winnipeg/2018/12/16/winnipeg-bus-schedules.html">&lt;p&gt;The city of Winnipeg has some interresting data available online as part of its open data initiative. The main entry point into that data is this &lt;a href=&quot;https://data.winnipeg.ca/&quot; title=&quot;Winnipeg Open Data portal&quot;&gt;page&lt;/a&gt;.&lt;/p&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;boxplot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;result.df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+</description>
+        <pubDate>Sun, 16 Jun 2019 14:00:22 -0500</pubDate>
+        <link>https://julien-arino.github.io/2019/skel-parLapply</link>
+        <guid isPermaLink="true">https://julien-arino.github.io/2019/skel-parLapply</guid>
+        
+        
+        <category>simulation</category>
+        
+      </item>
+    
+      <item>
+        <title>Buses or ants?</title>
+        <description>&lt;p&gt;The city of Winnipeg has some interresting data available online as part of its open data initiative. The main entry point into that data is this &lt;a href=&quot;https://data.winnipeg.ca/&quot; title=&quot;Winnipeg Open Data portal&quot;&gt;page&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;One city service that contributes to this system is &lt;a href=&quot;https://winnipegtransit.com/en&quot;&gt;Winnipeg Transit&lt;/a&gt;. They have several types of data. In a later entry, I will discuss the use of online queries; here, I use some static data that is available &lt;a href=&quot;http://gtfs.winnipegtransit.com/google_transit.zip&quot;&gt;here&lt;/a&gt;. A description of the different files in the archive can be found &lt;a href=&quot;https://developers.google.com/transit/gtfs/reference/?csw=1&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
@@ -232,7 +261,20 @@ bus stops along the route.&lt;/p&gt;
 
 &lt;h2 id=&quot;second-animation-method---using-animation&quot;&gt;Second animation method - using animation&lt;/h2&gt;
 
-&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;animation&lt;/code&gt; library uses &lt;code class=&quot;highlighter-rouge&quot;&gt;ffmpeg&lt;/code&gt;, so this should be installed on your machine. (As often, this is a trivial task under Linux, it might be a bit more of a headache under Windows.)&lt;/p&gt;</content><author><name></name></author><summary type="html">The city of Winnipeg has some interresting data available online as part of its open data initiative. The main entry point into that data is this page.</summary></entry><entry><title type="html">US measles cases data</title><link href="https://julien-arino.github.io/datasets/2018/12/09/US-measles-cases.html" rel="alternate" type="text/html" title="US measles cases data" /><published>2018-12-09T00:39:22-06:00</published><updated>2018-12-09T00:39:22-06:00</updated><id>https://julien-arino.github.io/datasets/2018/12/09/US-measles-cases</id><content type="html" xml:base="https://julien-arino.github.io/datasets/2018/12/09/US-measles-cases.html">&lt;p&gt;I am currently finishing up some work started ages ago that deals with spatial aspects in vaccination. The work was motivated by an outbreak of polio that started in northern Nigeria in 2002-2003, following a vaccine scare episode. In order to illustrate the benefits of vaccination, in these days of elevated anti-vaccine activity, I like to use the example of measles. The US data is available online, although like the SARS data that I discussed elsewhere, getting the entire dataset requires a bit of editing. So this post will serve as a means to disseminate the result of my editing of that data. And produce a graph of said data.&lt;/p&gt;
+&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;animation&lt;/code&gt; library uses &lt;code class=&quot;highlighter-rouge&quot;&gt;ffmpeg&lt;/code&gt;, so this should be installed on your machine. (As often, this is a trivial task under Linux, it might be a bit more of a headache under Windows.)&lt;/p&gt;
+</description>
+        <pubDate>Sun, 16 Dec 2018 00:39:22 -0600</pubDate>
+        <link>https://julien-arino.github.io/2018/winnipeg-bus-schedules</link>
+        <guid isPermaLink="true">https://julien-arino.github.io/2018/winnipeg-bus-schedules</guid>
+        
+        
+        <category>winnipeg</category>
+        
+      </item>
+    
+      <item>
+        <title>US measles cases data</title>
+        <description>&lt;p&gt;I am currently finishing up some work started ages ago that deals with spatial aspects in vaccination. The work was motivated by an outbreak of polio that started in northern Nigeria in 2002-2003, following a vaccine scare episode. In order to illustrate the benefits of vaccination, in these days of elevated anti-vaccine activity, I like to use the example of measles. The US data is available online, although like the SARS data that I discussed elsewhere, getting the entire dataset requires a bit of editing. So this post will serve as a means to disseminate the result of my editing of that data. And produce a graph of said data.&lt;/p&gt;
 
 &lt;p&gt;Measles strikes close to home for me: as a six year old kid, despite having received vaccination, I caught measles. (The vaccine, especially in early years, was not always most efficacious. This is one of the reasons it was later recommended to administer a booster shot, which makes the vaccine extremely efficacious. The booster shot recommendation came in 1989 in the US. I was in my last year of high school at the time.) Even though I did not require hospitalisation, I had to spend quite some time at home (both for me and to avoid contaminating others).&lt;/p&gt;
 
@@ -377,7 +419,21 @@ To use this function, you need to call it on your data. I show the use with the 
     &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;command_str&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sprintf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;mv %s-trim.png %s&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fileName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fileFull&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
     &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;system&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;command_str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
   &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name></name></author><summary type="html">I am currently finishing up some work started ages ago that deals with spatial aspects in vaccination. The work was motivated by an outbreak of polio that started in northern Nigeria in 2002-2003, following a vaccine scare episode. In order to illustrate the benefits of vaccination, in these days of elevated anti-vaccine activity, I like to use the example of measles. The US data is available online, although like the SARS data that I discussed elsewhere, getting the entire dataset requires a bit of editing. So this post will serve as a means to disseminate the result of my editing of that data. And produce a graph of said data.</summary></entry><entry><title type="html">Some SARS data</title><link href="https://julien-arino.github.io/datasets/2014/08/19/SARS-data.html" rel="alternate" type="text/html" title="Some SARS data" /><published>2014-08-19T01:39:22-05:00</published><updated>2014-08-19T01:39:22-05:00</updated><id>https://julien-arino.github.io/datasets/2014/08/19/SARS-data</id><content type="html" xml:base="https://julien-arino.github.io/datasets/2014/08/19/SARS-data.html">&lt;p&gt;(This is reposted from my web page, where it has been since the indicated date.)&lt;/p&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+</description>
+        <pubDate>Sun, 09 Dec 2018 00:39:22 -0600</pubDate>
+        <link>https://julien-arino.github.io/2018/US-measles-cases</link>
+        <guid isPermaLink="true">https://julien-arino.github.io/2018/US-measles-cases</guid>
+        
+        
+        <category>datasets</category>
+        
+      </item>
+    
+      <item>
+        <title>Some SARS data</title>
+        <description>&lt;p&gt;(This is reposted from my web page, where it has been since the indicated date.)&lt;/p&gt;
 
 &lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
 
@@ -452,4 +508,17 @@ of cases, the number of deaths or the number of recovered changes.&lt;/p&gt;
     &lt;p&gt;The raw, almost unprocessed &lt;a href=&quot;/~jarino/blog/assets_data/SARS_data.raw.txt&quot;&gt;file&lt;/a&gt; obtained by cutting and pasting the content of all the
 pages on the WHO site into a single file. The notes omitted in the cleaned-up file are present in this version.&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">(This is reposted from my web page, where it has been since the indicated date.)</summary></entry></feed>
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Tue, 19 Aug 2014 01:39:22 -0500</pubDate>
+        <link>https://julien-arino.github.io/2014/SARS-data</link>
+        <guid isPermaLink="true">https://julien-arino.github.io/2014/SARS-data</guid>
+        
+        
+        <category>datasets</category>
+        
+      </item>
+    
+  </channel>
+</rss>
