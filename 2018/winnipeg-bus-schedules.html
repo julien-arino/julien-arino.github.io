@@ -7,7 +7,7 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
     <title>Buses or ants?</title>
-    <meta name="description" content="The city of Winnipeg has some interresting data available online as part of its open data initiative. The main entry point into that data is this page.">
+    <meta name="description" content="The most recent version of the code used in this page (which might be a little different from the one here) can be found here.">
     <link rel="stylesheet" href="/css/main.css">
     <link rel="canonical" href="https://julien-arino.github.io/2018/winnipeg-bus-schedules">
     <link rel="alternate" type="application/rss+xml" title="Daahtaah or Daytaah?" href="https://julien-arino.github.io/feed.xml" />
@@ -69,11 +69,13 @@
   <a href="/2018/winnipeg-bus-schedules"><h1>Buses or ants?</h1></a>
   <hr>
   <time>Dec 16, 2018</time>
-  <p>The city of Winnipeg has some interresting data available online as part of its open data initiative. The main entry point into that data is this <a href="https://data.winnipeg.ca/" title="Winnipeg Open Data portal">page</a>.</p>
+  <p>The most recent version of the code used in this page (which might be a little different from the one here) can be found <a href="https://raw.githubusercontent.com/julien-arino/R-code/master/plotWpgStopSchedules_v1.R">here</a>.</p>
+
+<p>The city of Winnipeg has some interresting data available online as part of its open data initiative. The main entry point into that data is this <a href="https://data.winnipeg.ca/" title="Winnipeg Open Data portal">page</a>.</p>
 
 <p>One city service that contributes to this system is <a href="https://winnipegtransit.com/en">Winnipeg Transit</a>. They have several types of data. In a later entry, I will discuss the use of online queries; here, I use some static data that is available <a href="http://gtfs.winnipegtransit.com/google_transit.zip">here</a>. A description of the different files in the archive can be found <a href="https://developers.google.com/transit/gtfs/reference/?csw=1">here</a>.</p>
 
-<p>As a regular bus user, public transit afficionado and someone interested in population movement, I was curious to use this data to study some ideas about population movement. The first step was to do a simple, somewhat fun representation of the information. The most recent version of the code used in this page (which might be a little different from the one here) can be found <a href="https://raw.githubusercontent.com/julien-arino/R-code/master/plotWpgStopSchedules_v1.R">here</a>.</p>
+<p>As a regular bus user, public transit afficionado and someone interested in population movement, I was curious to use this data to study some ideas about population movement. The first step was to do a simple, somewhat fun representation of the information.</p>
 
 <p>We will use three libraries: <code class="highlighter-rouge">lubridate</code>, which helps with date manipulation, <code class="highlighter-rouge">OpenStreetMap</code> for getting maps and converting coordinates and <code class="highlighter-rouge">animation</code>, as a way to create a movie. So make sure these are installed. You will also need the program <code class="highlighter-rouge">convert</code>, part of the ImageMagick suite. Installing the latter under Linux is easy; for Windows users, the situation is a bit more tricky, although you may want to consider the Linux subsystem. More on that later.</p>
 
@@ -152,10 +154,10 @@ around 5:00 to end of movement around 2:00 next day, it will be useful to have t
 
 <p>Note that since the list is sorted by time, this allows for much faster processing during plotting. Now prepare the plots: download the map from OpenStreetMap.</p>
 
-<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">Winnipeg_upperLeft</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">c</span><span class="p">(</span><span class="nf">max</span><span class="p">(</span><span class="n">monster_frame</span><span class="o">$</span><span class="n">stop_lat</span><span class="p">)</span><span class="m">+0.01</span><span class="p">,</span><span class="w">
-                       </span><span class="nf">min</span><span class="p">(</span><span class="n">monster_frame</span><span class="o">$</span><span class="n">stop_lon</span><span class="p">)</span><span class="m">-0.01</span><span class="p">)</span><span class="w">
-</span><span class="n">Winnipeg_lowerRight</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">c</span><span class="p">(</span><span class="nf">min</span><span class="p">(</span><span class="n">monster_frame</span><span class="o">$</span><span class="n">stop_lat</span><span class="p">)</span><span class="m">-0.01</span><span class="p">,</span><span class="w">
-                        </span><span class="nf">max</span><span class="p">(</span><span class="n">monster_frame</span><span class="o">$</span><span class="n">stop_lon</span><span class="p">)</span><span class="m">+0.01</span><span class="p">)</span><span class="w">
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">Winnipeg_upperLeft</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">c</span><span class="p">(</span><span class="nf">max</span><span class="p">(</span><span class="n">monster_frame</span><span class="o">$</span><span class="n">stop_lat</span><span class="p">),</span><span class="w">
+                       </span><span class="nf">min</span><span class="p">(</span><span class="n">monster_frame</span><span class="o">$</span><span class="n">stop_lon</span><span class="p">))</span><span class="w">
+</span><span class="n">Winnipeg_lowerRight</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">c</span><span class="p">(</span><span class="nf">min</span><span class="p">(</span><span class="n">monster_frame</span><span class="o">$</span><span class="n">stop_lat</span><span class="p">),</span><span class="w">
+                        </span><span class="nf">max</span><span class="p">(</span><span class="n">monster_frame</span><span class="o">$</span><span class="n">stop_lon</span><span class="p">))</span><span class="w">
 </span><span class="n">Winnipeg_map</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">OpenStreetMap</span><span class="o">::</span><span class="n">openmap</span><span class="p">(</span><span class="n">upperLeft</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Winnipeg_upperLeft</span><span class="p">,</span><span class="w">
                                        </span><span class="n">lowerRight</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Winnipeg_lowerRight</span><span class="p">,</span><span class="w">
                                        </span><span class="n">type</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"osm-public-transport"</span><span class="p">)</span></code></pre></figure>
