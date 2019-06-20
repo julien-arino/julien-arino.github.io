@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Daahtaah or Daytaah?</title>
-    <description>A modeller's random adventures in data-land</description>
-    <link>https://julien-arino.github.io/</link>
-    <atom:link href="https://julien-arino.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 20 Jun 2019 09:46:06 -0500</pubDate>
-    <lastBuildDate>Thu, 20 Jun 2019 09:46:06 -0500</lastBuildDate>
+    <description>Musings about data, R, epidemiological and ecological modelling..</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 20 Jun 2019 10:34:15 -0500</pubDate>
+    <lastBuildDate>Thu, 20 Jun 2019 10:34:15 -0500</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -91,8 +91,8 @@
 
 </description>
         <pubDate>Sun, 16 Jun 2019 14:00:22 -0500</pubDate>
-        <link>https://julien-arino.github.io/2019/skel-parLapply</link>
-        <guid isPermaLink="true">https://julien-arino.github.io/2019/skel-parLapply</guid>
+        <link>http://localhost:4000/2019/skel-parLapply</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/skel-parLapply</guid>
         
         
         <category>simulation</category>
@@ -265,8 +265,8 @@ bus stops along the route.&lt;/p&gt;
 &lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;animation&lt;/code&gt; library uses &lt;code class=&quot;highlighter-rouge&quot;&gt;ffmpeg&lt;/code&gt;, so this should be installed on your machine. (As often, this is a trivial task under Linux, it might be a bit more of a headache under Windows.)&lt;/p&gt;
 </description>
         <pubDate>Sun, 16 Dec 2018 00:39:22 -0600</pubDate>
-        <link>https://julien-arino.github.io/2018/winnipeg-bus-schedules</link>
-        <guid isPermaLink="true">https://julien-arino.github.io/2018/winnipeg-bus-schedules</guid>
+        <link>http://localhost:4000/2018/winnipeg-bus-schedules</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/winnipeg-bus-schedules</guid>
         
         
         <category>winnipeg</category>
@@ -424,8 +424,8 @@ To use this function, you need to call it on your data. I show the use with the 
 
 </description>
         <pubDate>Sun, 09 Dec 2018 00:39:22 -0600</pubDate>
-        <link>https://julien-arino.github.io/2018/US-measles-cases</link>
-        <guid isPermaLink="true">https://julien-arino.github.io/2018/US-measles-cases</guid>
+        <link>http://localhost:4000/2018/US-measles-cases</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/US-measles-cases</guid>
         
         
         <category>datasets</category>
@@ -509,8 +509,8 @@ pages on the WHO site into a single file. The notes omitted in the cleaned-up fi
 
 </description>
         <pubDate>Tue, 19 Aug 2014 01:39:22 -0500</pubDate>
-        <link>https://julien-arino.github.io/2014/SARS-data</link>
-        <guid isPermaLink="true">https://julien-arino.github.io/2014/SARS-data</guid>
+        <link>http://localhost:4000/2014/SARS-data</link>
+        <guid isPermaLink="true">http://localhost:4000/2014/SARS-data</guid>
         
         
         <category>datasets</category>
