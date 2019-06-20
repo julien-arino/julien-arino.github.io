@@ -3,14 +3,14 @@
   <channel>
     <title>Daahtaah or Daytaah?</title>
     <description>Musings about data, R, epidemiological and ecological modelling..</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 20 Jun 2019 14:41:21 -0500</pubDate>
-    <lastBuildDate>Thu, 20 Jun 2019 14:41:21 -0500</lastBuildDate>
+    <link>https://julien-arino.github.io/</link>
+    <atom:link href="https://julien-arino.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 20 Jun 2019 14:51:21 -0500</pubDate>
+    <lastBuildDate>Thu, 20 Jun 2019 14:51:21 -0500</lastBuildDate>
     <generator>Jekyll v3.6.3</generator>
     
       <item>
-        <title>Lowering the alpha value on an OSM map (R)</title>
+        <title>Lowering the alpha value on an OSM map (R,mapping)</title>
         <description>&lt;p&gt;Working on a poster with my postdoc, a problem came up where we wanted to increase the transparency of a map downloaded (and plotted) with &lt;code class=&quot;highlighter-rouge&quot;&gt;OpenStreetMap&lt;/code&gt;, because the points we were plotting on it were not really visible. The solution is very simple. It goes without saying that you will need the &lt;code class=&quot;highlighter-rouge&quot;&gt;OpenStreetMap&lt;/code&gt; library installed.&lt;/p&gt;
 
 &lt;p&gt;The first thing to do is to create a function to add an alpha value to the hexadecimal colour codes used in the &lt;code class=&quot;highlighter-rouge&quot;&gt;OpenStreetMap&lt;/code&gt; library. Note that we assume an alpha value in [0,1].&lt;/p&gt;
@@ -65,8 +65,8 @@
 
 </description>
         <pubDate>Thu, 20 Jun 2019 10:52:00 -0500</pubDate>
-        <link>http://localhost:4000/2019/lowering-OSM-alpha</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/lowering-OSM-alpha</guid>
+        <link>https://julien-arino.github.io/2019/lowering-OSM-alpha</link>
+        <guid isPermaLink="true">https://julien-arino.github.io/2019/lowering-OSM-alpha</guid>
         
         
         <category>mapping</category>
@@ -74,7 +74,7 @@
       </item>
     
       <item>
-        <title>A parLapply example</title>
+        <title>A parLapply example (R)</title>
         <description>&lt;p&gt;Still moving here stuff I have already posted elsewhere..&lt;/p&gt;
 
 &lt;p&gt;When working with students and postdocs, I often provide “skeletons”, i.e., pieces of code that illustrate something that I want them to do in another context. Case in point: running some code in parallel. Here, I will carry out a very simple and naive sensitivity analysis of the value of the basic reproduction number $R_0$ in the basic Kermack and McKendrick SIR model.&lt;/p&gt;
@@ -155,8 +155,8 @@
 
 </description>
         <pubDate>Sun, 16 Jun 2019 14:00:22 -0500</pubDate>
-        <link>http://localhost:4000/2019/skel-parLapply</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/skel-parLapply</guid>
+        <link>https://julien-arino.github.io/2019/skel-parLapply</link>
+        <guid isPermaLink="true">https://julien-arino.github.io/2019/skel-parLapply</guid>
         
         
         <category>simulation</category>
@@ -164,7 +164,7 @@
       </item>
     
       <item>
-        <title>Buses or ants?</title>
+        <title>Buses or ants? (R,data,mapping)</title>
         <description>&lt;p&gt;The most recent version of the code used in this page (which might be a little different from the one here) can be found &lt;a href=&quot;https://raw.githubusercontent.com/julien-arino/R-code/master/plotWpgStopSchedules_v1.R&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;The city of Winnipeg has some interresting data available online as part of its open data initiative. The main entry point into that data is this &lt;a href=&quot;https://data.winnipeg.ca/&quot; title=&quot;Winnipeg Open Data portal&quot;&gt;page&lt;/a&gt;.&lt;/p&gt;
@@ -329,8 +329,8 @@ bus stops along the route.&lt;/p&gt;
 &lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;animation&lt;/code&gt; library uses &lt;code class=&quot;highlighter-rouge&quot;&gt;ffmpeg&lt;/code&gt;, so this should be installed on your machine. (As often, this is a trivial task under Linux, it might be a bit more of a headache under Windows.)&lt;/p&gt;
 </description>
         <pubDate>Sun, 16 Dec 2018 00:39:22 -0600</pubDate>
-        <link>http://localhost:4000/2018/winnipeg-bus-schedules</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/winnipeg-bus-schedules</guid>
+        <link>https://julien-arino.github.io/2018/winnipeg-bus-schedules</link>
+        <guid isPermaLink="true">https://julien-arino.github.io/2018/winnipeg-bus-schedules</guid>
         
         
         <category>winnipeg</category>
@@ -488,8 +488,8 @@ To use this function, you need to call it on your data. I show the use with the 
 
 </description>
         <pubDate>Sun, 09 Dec 2018 00:39:22 -0600</pubDate>
-        <link>http://localhost:4000/2018/US-measles-cases</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/US-measles-cases</guid>
+        <link>https://julien-arino.github.io/2018/US-measles-cases</link>
+        <guid isPermaLink="true">https://julien-arino.github.io/2018/US-measles-cases</guid>
         
         
         <category>datasets</category>
@@ -573,8 +573,8 @@ pages on the WHO site into a single file. The notes omitted in the cleaned-up fi
 
 </description>
         <pubDate>Tue, 19 Aug 2014 01:39:22 -0500</pubDate>
-        <link>http://localhost:4000/2014/SARS-data</link>
-        <guid isPermaLink="true">http://localhost:4000/2014/SARS-data</guid>
+        <link>https://julien-arino.github.io/2014/SARS-data</link>
+        <guid isPermaLink="true">https://julien-arino.github.io/2014/SARS-data</guid>
         
         
         <category>datasets</category>
