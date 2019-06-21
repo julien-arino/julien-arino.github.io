@@ -5,8 +5,8 @@
     <description>Musings about data, R, epidemiological and ecological modelling</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 20 Jun 2019 23:29:00 -0500</pubDate>
-    <lastBuildDate>Thu, 20 Jun 2019 23:29:00 -0500</lastBuildDate>
+    <pubDate>Fri, 21 Jun 2019 00:19:12 -0500</pubDate>
+    <lastBuildDate>Fri, 21 Jun 2019 00:19:12 -0500</lastBuildDate>
     <generator>Jekyll v3.6.3</generator>
     
       <item>
@@ -78,9 +78,7 @@
     
       <item>
         <title>A parLapply example (R)</title>
-        <description>&lt;p&gt;Still moving here stuff I have already posted elsewhere..&lt;/p&gt;
-
-&lt;p&gt;When working with students and postdocs, I often provide “skeletons”, i.e., pieces of code that illustrate something that I want them to do in another context. Case in point: running some code in parallel. Here, I will carry out a very simple and naive sensitivity analysis of the value of the basic reproduction number $R_0$ in the basic Kermack and McKendrick SIR model.&lt;/p&gt;
+        <description>&lt;p&gt;When working with students and postdocs, I often provide “skeletons”, i.e., canonical examples of code that illustrate something that I want them to do in another context. Example: running some code in parallel. Here, I will carry out a very simple and naive sensitivity analysis of the value of the basic reproduction number $R_0$ in the basic Kermack and McKendrick SIR model.&lt;/p&gt;
 
 &lt;p&gt;First, we need the function that we will evaluate for a given point in parameter space. Note that we pass parameters as a list rather than an ordered t-uple of parameters; this allows to not have to worry about the order in which parameters are presented.&lt;/p&gt;
 

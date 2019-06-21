@@ -20,26 +20,7 @@
 
       gtag('config', 'UA-1943806-8');
     </script>
-    <script type="text/x-mathjax-config">
-      MathJax.Hub.Config({
-        extensions: [
-          "MathMenu.js",
-          "MathZoom.js",
-          "AssistiveMML.js",
-          "a11y/accessibility-menu.js"
-        ],
-        jax: ["input/TeX", "output/CommonHTML"],
-        TeX: {
-          extensions: [
-            "AMSmath.js",
-            "AMSsymbols.js",
-            "noErrors.js",
-            "noUndefined.js",
-          ]
-        }
-      });
-    </script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+    <script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
 </head>
 
 
@@ -66,9 +47,7 @@
   <a href="/2019/skel-parLapply"><h1>A parLapply example (R)</h1></a>
   <hr>
   <time>Jun 16, 2019</time>
-  <p>Still moving here stuff I have already posted elsewhere..</p>
-
-<p>When working with students and postdocs, I often provide “skeletons”, i.e., pieces of code that illustrate something that I want them to do in another context. Case in point: running some code in parallel. Here, I will carry out a very simple and naive sensitivity analysis of the value of the basic reproduction number $R_0$ in the basic Kermack and McKendrick SIR model.</p>
+  <p>When working with students and postdocs, I often provide “skeletons”, i.e., canonical examples of code that illustrate something that I want them to do in another context. Example: running some code in parallel. Here, I will carry out a very simple and naive sensitivity analysis of the value of the basic reproduction number $R_0$ in the basic Kermack and McKendrick SIR model.</p>
 
 <p>First, we need the function that we will evaluate for a given point in parameter space. Note that we pass parameters as a list rather than an ordered t-uple of parameters; this allows to not have to worry about the order in which parameters are presented.</p>
 
