@@ -186,9 +186,9 @@ It is not unlikely that you will get an error when executing this last command. 
 The result is not the movement of buses themselves, but the activity of
 bus stops along the route.
 
-![Buses or ants?](https://server.math.umanitoba.ca/~jarino/blog/assets_pics/Winnipeg_buses.gif "Buses moving around")
+![Buses or ants?](https://server.math.umanitoba.ca/~jarino/images/Winnipeg_buses.gif "Buses moving around")
 
-The problem here is file size (so much so that I have had to remove it from this github version of the blog). Also, the conversion itself can be quite lengthy. The next method addresses some of these issues.
+The problem here is file size (so much so that I could not post it on github). Also, the conversion itself can be quite time consuming. The next method addresses some of these issues.
 
 ## Second animation method - using animation
 

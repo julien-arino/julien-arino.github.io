@@ -3,10 +3,10 @@
   <channel>
     <title>Is it daahtaah or daytaah?</title>
     <description>Musings about data, R, epidemiological and ecological modelling</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 21 Jun 2019 00:24:35 -0500</pubDate>
-    <lastBuildDate>Fri, 21 Jun 2019 00:24:35 -0500</lastBuildDate>
+    <link>https://julien-arino.github.io/</link>
+    <atom:link href="https://julien-arino.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 21 Jun 2019 00:39:28 -0500</pubDate>
+    <lastBuildDate>Fri, 21 Jun 2019 00:39:28 -0500</lastBuildDate>
     <generator>Jekyll v3.6.3</generator>
     
       <item>
@@ -68,8 +68,8 @@
 
 </description>
         <pubDate>Thu, 20 Jun 2019 10:52:00 -0500</pubDate>
-        <link>http://localhost:4000/2019/lowering-OSM-alpha</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/lowering-OSM-alpha</guid>
+        <link>https://julien-arino.github.io/2019/lowering-OSM-alpha</link>
+        <guid isPermaLink="true">https://julien-arino.github.io/2019/lowering-OSM-alpha</guid>
         
         
         <category>mapping</category>
@@ -156,8 +156,8 @@
 
 </description>
         <pubDate>Sun, 16 Jun 2019 14:00:22 -0500</pubDate>
-        <link>http://localhost:4000/2019/skel-parLapply</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/skel-parLapply</guid>
+        <link>https://julien-arino.github.io/2019/skel-parLapply</link>
+        <guid isPermaLink="true">https://julien-arino.github.io/2019/skel-parLapply</guid>
         
         
         <category>simulation</category>
@@ -321,17 +321,17 @@ create a gif file with all the indidivual, minute by minute plots.&lt;/p&gt;
 &lt;p&gt;The result is not the movement of buses themselves, but the activity of
 bus stops along the route.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://server.math.umanitoba.ca/~jarino/blog/assets_pics/Winnipeg_buses.gif&quot; alt=&quot;Buses or ants?&quot; title=&quot;Buses moving around&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://server.math.umanitoba.ca/~jarino/images/Winnipeg_buses.gif&quot; alt=&quot;Buses or ants?&quot; title=&quot;Buses moving around&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;The problem here is file size (so much so that I have had to remove it from this github version of the blog). Also, the conversion itself can be quite lengthy. The next method addresses some of these issues.&lt;/p&gt;
+&lt;p&gt;The problem here is file size (so much so that I could not post it on github). Also, the conversion itself can be quite time consuming. The next method addresses some of these issues.&lt;/p&gt;
 
 &lt;h2 id=&quot;second-animation-method---using-animation&quot;&gt;Second animation method - using animation&lt;/h2&gt;
 
 &lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;animation&lt;/code&gt; library uses &lt;code class=&quot;highlighter-rouge&quot;&gt;ffmpeg&lt;/code&gt;, so this should be installed on your machine. (As often, this is a trivial task under Linux, it might be a bit more of a headache under Windows.)&lt;/p&gt;
 </description>
         <pubDate>Sun, 16 Dec 2018 00:39:22 -0600</pubDate>
-        <link>http://localhost:4000/2018/winnipeg-bus-schedules</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/winnipeg-bus-schedules</guid>
+        <link>https://julien-arino.github.io/2018/winnipeg-bus-schedules</link>
+        <guid isPermaLink="true">https://julien-arino.github.io/2018/winnipeg-bus-schedules</guid>
         
         
         <category>winnipeg</category>
@@ -342,7 +342,7 @@ bus stops along the route.&lt;/p&gt;
         <title>US measles cases data (epidemiology,R)</title>
         <description>&lt;p&gt;I am currently finishing up some work started ages ago that deals with spatial aspects in vaccination. The work was motivated by an outbreak of polio that started in northern Nigeria in 2002-2003, following a vaccine scare episode. In order to illustrate the benefits of vaccination, in these days of elevated anti-vaccine activity, I like to use the example of measles. The US data is available online, although like the SARS data that I discussed elsewhere, getting the entire dataset requires a bit of editing. So this post will serve as a means to disseminate the result of my editing of that data. And produce a graph of said data.&lt;/p&gt;
 
-&lt;p&gt;Measles strikes close to home for me: as a six year old kid, despite having received vaccination, I caught measles. (The vaccine, especially in early years, was not always most efficacious. This is one of the reasons it was later recommended to administer a booster shot, which makes the vaccine extremely efficacious. The booster shot recommendation came in 1989 in the US. I was in my last year of high school at the time.) Even though I did not require hospitalisation, I had to spend quite some time at home (both for me and to avoid contaminating others).&lt;/p&gt;
+&lt;p&gt;Measles strikes close to home for me: as a six year old kid, despite having received vaccination, I caught measles. (The vaccine, especially in early years, was not always most efficacious. This is one of the reasons it was later recommended to administer a booster shot, which makes the vaccine extremely efficacious; see below.)&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt; as of 6 June, there had been 1,022 cases of measles in the US in 2019. That is the most cases since the effect of the double dose of vaccine kicked in in the early nineties! The data and figures were updated accordingly.&lt;/p&gt;
 
@@ -350,7 +350,7 @@ bus stops along the route.&lt;/p&gt;
 
 &lt;p&gt;The first plot is of the reported measles cases in the US during the entire period covered by the data.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/~jarino/blog/assets_pics/measles_US_1944_2019.png&quot; alt=&quot;Reported cases of measles in the USA 1944-2019&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets_pics/measles_US_1944_2019.png&quot; alt=&quot;Reported cases of measles in the USA 1944-2019&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Illustrated are the three main eras in measles in this data:&lt;/p&gt;
 &lt;ol&gt;
@@ -361,21 +361,21 @@ bus stops along the route.&lt;/p&gt;
 
 &lt;p&gt;The second plot focuses on recent events, with particular focus on one of the roots of anti-vaccine activism.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/~jarino/blog/assets_pics/measles_US_1992_2019.png&quot; alt=&quot;Reported cases of measles in the USA 1992-2019&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets_pics/measles_US_1992_2019.png&quot; alt=&quot;Reported cases of measles in the USA 1992-2019&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Here, I show the behaviour of measles since 1992. Of particular note here is the publication in the 28 February 1998 issue of The Lancet of an infamous paper by Wakefield and others that purported to show a link between the MMR vaccine and autism.
 It took a few years for the effect to be felt, but now, we see regular small outbreaks. The situation is often the following: unvaccinated (US) individual goes abroad, gets infected, comes home and infects a few unvaccinated people.&lt;/p&gt;
 
 &lt;p&gt;The Wakefield paper has since been retracted, Wakefield himself has been discredited (although he does retain some influential supporters) and banned from practising medicine in the UK (his country), but as often with vaccine scares, the scars remain.&lt;/p&gt;
 
-&lt;h2 id=&quot;files&quot;&gt;Files&lt;/h2&gt;
+&lt;h2 id=&quot;data-files&quot;&gt;Data files&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Concatenated US Centers for Disease Control and Prevention Morbidity and Mortality Weekly Report for notifiable diseases, aggregated by year, from 1944 to 1993 and by month for 1994 and 1995: &lt;a href=&quot;https://raw.githubusercontent.com/julien-arino/datasets/master/CDC_MMWR_notifiableDiseasesYearly_1944_1995.txt&quot;&gt;file&lt;/a&gt;. This file contains the raw data.&lt;/li&gt;
   &lt;li&gt;Yearly number of reported cases of measles in the USA from 1944 to 2019: &lt;a href=&quot;https://raw.githubusercontent.com/julien-arino/datasets/master/measles_reportedCases_USA_1944_2019.csv&quot;&gt;file&lt;/a&gt;. For the period 1944 to 1995, the data comes from the file above. For the years following, data originates from more dynamic pages at &lt;a href=&quot;https://www.cdc.gov/measles/cases-outbreaks.html&quot;&gt;CDC&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;some-remarks-about-the-plots&quot;&gt;Some remarks about the plots&lt;/h2&gt;
+&lt;h2 id=&quot;some-remarks-about-making-the-plots&quot;&gt;Some remarks about making the plots&lt;/h2&gt;
 
 &lt;h3 id=&quot;making-a-nice-y-axis-for-plots&quot;&gt;Making a nice y axis for plots&lt;/h3&gt;
 
@@ -489,8 +489,8 @@ To use this function, you need to call it on your data. I show the use with the 
 
 </description>
         <pubDate>Sun, 09 Dec 2018 00:39:22 -0600</pubDate>
-        <link>http://localhost:4000/2018/US-measles-cases</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/US-measles-cases</guid>
+        <link>https://julien-arino.github.io/2018/US-measles-cases</link>
+        <guid isPermaLink="true">https://julien-arino.github.io/2018/US-measles-cases</guid>
         
         
         <category>datasets</category>
@@ -574,8 +574,8 @@ pages on the WHO site into a single file. The notes omitted in the cleaned-up fi
 
 </description>
         <pubDate>Tue, 19 Aug 2014 01:39:22 -0500</pubDate>
-        <link>http://localhost:4000/2014/SARS-data</link>
-        <guid isPermaLink="true">http://localhost:4000/2014/SARS-data</guid>
+        <link>https://julien-arino.github.io/2014/SARS-data</link>
+        <guid isPermaLink="true">https://julien-arino.github.io/2014/SARS-data</guid>
         
         
         <category>datasets</category>
