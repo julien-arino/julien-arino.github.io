@@ -3,10 +3,10 @@
   <channel>
     <title>Is it daahtaah or daytaah?</title>
     <description>Musings about data, R, epidemiological and ecological modelling</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 21 Jun 2019 01:15:57 -0500</pubDate>
-    <lastBuildDate>Fri, 21 Jun 2019 01:15:57 -0500</lastBuildDate>
+    <link>https://julien-arino.github.io/</link>
+    <atom:link href="https://julien-arino.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 21 Jun 2019 07:47:56 -0500</pubDate>
+    <lastBuildDate>Fri, 21 Jun 2019 07:47:56 -0500</lastBuildDate>
     <generator>Jekyll v3.6.3</generator>
     
       <item>
@@ -68,8 +68,8 @@
 
 </description>
         <pubDate>Thu, 20 Jun 2019 10:52:00 -0500</pubDate>
-        <link>http://localhost:4000/2019/lowering-OSM-alpha</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/lowering-OSM-alpha</guid>
+        <link>https://julien-arino.github.io/2019/lowering-OSM-alpha</link>
+        <guid isPermaLink="true">https://julien-arino.github.io/2019/lowering-OSM-alpha</guid>
         
         
         <category>mapping</category>
@@ -86,7 +86,7 @@
   &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;beta&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;S&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gamma&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;The following function converts one or several parameter values given in the list by &lt;code class=&quot;highlighter-rouge&quot;&gt;lapply&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;parLapply&lt;/code&gt; into a value of $R_0$. Note the little trick, which allows to set as many parameters as are provided in the element of the list received as argument.&lt;/p&gt;
+&lt;p&gt;The following function converts one or several parameter values given in the list by &lt;code class=&quot;highlighter-rouge&quot;&gt;lapply&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;parLapply&lt;/code&gt; into a value of $\mathcal{R}_0$. Note the little trick, which allows to set as many parameters as are provided in the element of the list received as argument.&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;n&quot;&gt;one_run_R0&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;param&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
   &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pp&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;in&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;names&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
@@ -146,7 +146,7 @@
   &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tictoc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;toc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Last little piece: let us plot the range of values taken by $R_0$ when the various parameters are varied, to show sensitivity of $R_0$.&lt;/p&gt;
+&lt;p&gt;Last little piece: let us plot the range of values taken by $\mathcal{R}_0$ when the various parameters are varied, to show sensitivity of $\mathcal{R}_0$.&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;unlist&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;result.df&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data.frame&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;beta&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nb_sims&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
@@ -156,8 +156,8 @@
 
 </description>
         <pubDate>Sun, 16 Jun 2019 14:00:22 -0500</pubDate>
-        <link>http://localhost:4000/2019/skel-parLapply</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/skel-parLapply</guid>
+        <link>https://julien-arino.github.io/2019/skel-parLapply</link>
+        <guid isPermaLink="true">https://julien-arino.github.io/2019/skel-parLapply</guid>
         
         
         <category>simulation</category>
@@ -330,8 +330,8 @@ bus stops along the route.&lt;/p&gt;
 &lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;animation&lt;/code&gt; library uses &lt;code class=&quot;highlighter-rouge&quot;&gt;ffmpeg&lt;/code&gt;, so this should be installed on your machine. (As often, this is a trivial task under Linux, it might be a bit more of a headache under Windows.)&lt;/p&gt;
 </description>
         <pubDate>Sun, 16 Dec 2018 00:39:22 -0600</pubDate>
-        <link>http://localhost:4000/2018/winnipeg-bus-schedules</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/winnipeg-bus-schedules</guid>
+        <link>https://julien-arino.github.io/2018/winnipeg-bus-schedules</link>
+        <guid isPermaLink="true">https://julien-arino.github.io/2018/winnipeg-bus-schedules</guid>
         
         
         <category>winnipeg</category>
@@ -454,8 +454,8 @@ bus stops along the route.&lt;/p&gt;
 
 </description>
         <pubDate>Mon, 10 Dec 2018 00:39:22 -0600</pubDate>
-        <link>http://localhost:4000/2018/US-plotting-nice-axes-and-cropping</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/US-plotting-nice-axes-and-cropping</guid>
+        <link>https://julien-arino.github.io/2018/US-plotting-nice-axes-and-cropping</link>
+        <guid isPermaLink="true">https://julien-arino.github.io/2018/US-plotting-nice-axes-and-cropping</guid>
         
         
         <category>R-code</category>
@@ -505,8 +505,8 @@ It took a few years for the effect to be felt, but now, we see regular small out
 
 </description>
         <pubDate>Sun, 09 Dec 2018 00:39:22 -0600</pubDate>
-        <link>http://localhost:4000/2018/US-measles-cases</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/US-measles-cases</guid>
+        <link>https://julien-arino.github.io/2018/US-measles-cases</link>
+        <guid isPermaLink="true">https://julien-arino.github.io/2018/US-measles-cases</guid>
         
         
         <category>datasets</category>
@@ -590,8 +590,8 @@ pages on the WHO site into a single file. The notes omitted in the cleaned-up fi
 
 </description>
         <pubDate>Tue, 19 Aug 2014 01:39:22 -0500</pubDate>
-        <link>http://localhost:4000/2014/SARS-data</link>
-        <guid isPermaLink="true">http://localhost:4000/2014/SARS-data</guid>
+        <link>https://julien-arino.github.io/2014/SARS-data</link>
+        <guid isPermaLink="true">https://julien-arino.github.io/2014/SARS-data</guid>
         
         
         <category>datasets</category>

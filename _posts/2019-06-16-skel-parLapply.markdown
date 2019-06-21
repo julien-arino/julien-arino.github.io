@@ -16,7 +16,7 @@ R0 = function(p) {
 }
 {% endhighlight %}
 
-The following function converts one or several parameter values given in the list by `lapply` or `parLapply` into a value of $R_0$. Note the little trick, which allows to set as many parameters as are provided in the element of the list received as argument.
+The following function converts one or several parameter values given in the list by `lapply` or `parLapply` into a value of $\mathcal{R}_0$. Note the little trick, which allows to set as many parameters as are provided in the element of the list received as argument.
 
 {% highlight r %}
 one_run_R0 = function(p,param) {
@@ -84,7 +84,7 @@ if (RUN_PARALLEL) {
 }
 {% endhighlight %}
 
-Last little piece: let us plot the range of values taken by $R_0$ when the various parameters are varied, to show sensitivity of $R_0$.
+Last little piece: let us plot the range of values taken by $\mathcal{R}_0$ when the various parameters are varied, to show sensitivity of $\mathcal{R}_0$.
 
 {% highlight r %}
 result = unlist(result)
