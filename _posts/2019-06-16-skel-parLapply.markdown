@@ -6,7 +6,7 @@ date:   2019-06-16 13:00:22 -0600
 categories: simulation
 ---
 
-When working with students and postdocs, I often provide "skeletons", i.e., canonical examples of code that illustrate something that I want them to do in another context. Example: running some code in parallel. Here, I will carry out a very simple and naive sensitivity analysis of the value of the basic reproduction number {% raw %}$R_0${% endraw %} in the basic Kermack and McKendrick SIR model.
+When working with students and postdocs, I often provide "skeletons", i.e., canonical examples of code that illustrate something that I want them to do in another context. Example: running some code in parallel. Here, I will carry out a very simple and naive sensitivity analysis of the value of the basic reproduction number $\mathcal{R}_0$ in the basic Kermack and McKendrick SIR model.
 
 First, we need the function that we will evaluate for a given point in parameter space. Note that we pass parameters as a list rather than an ordered t-uple of parameters; this allows to not have to worry about the order in which parameters are presented.
 
