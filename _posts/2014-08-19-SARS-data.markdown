@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Some SARS data"
+title:  "Some SARS data (epi data)"
 description: "Severe Acute Respiratory Syndrome (SARS) data for international spread collated from the WHO website maintained during the 2003 epidemic."
 date:   2014-08-19 00:39:22 -0600
 categories: datasets

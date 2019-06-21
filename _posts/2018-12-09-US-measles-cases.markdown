@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "US measles cases data (epidemiology)"
+title:  "US measles cases data (epi data)"
 description: "Historical data for the number of cases of measles in the USA from 1944 to the current day, collated from the US CDC data."
 date:   2018-12-09 00:39:22 -0600
 categories: datasets
