@@ -1,10 +1,9 @@
 ---
 layout: post
 title:  "US measles cases data (epi data)"
-description: "Historical data for the number of cases of measles in the USA from 1944 to the current day, collated from the US CDC data."
+description: "Historical data for the yearly number of cases of measles in the USA from 1944 to the current day, collated from the US CDC data."
 date:   2018-12-09 00:39:22 -0600
 categories: datasets
-description: blable
 ---
 
 I am currently finishing up some work started ages ago that deals with spatial aspects in vaccination. The work was motivated by an outbreak of polio that started in northern Nigeria in 2002-2003, following a vaccine scare episode. In order to illustrate the benefits of vaccination, in these days of elevated anti-vaccine activity, I like to use the example of measles. The US data is available online, although like the SARS data that I discussed elsewhere, getting the entire dataset requires a bit of editing. So this post will serve as a means to disseminate the result of my editing of that data. And produce a graph of said data.

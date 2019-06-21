@@ -5,8 +5,8 @@
     <description>Musings about data, R, epidemiological and ecological modelling</description>
     <link>https://julien-arino.github.io/</link>
     <atom:link href="https://julien-arino.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 21 Jun 2019 07:52:31 -0500</pubDate>
-    <lastBuildDate>Fri, 21 Jun 2019 07:52:31 -0500</lastBuildDate>
+    <pubDate>Fri, 21 Jun 2019 08:38:56 -0500</pubDate>
+    <lastBuildDate>Fri, 21 Jun 2019 08:38:56 -0500</lastBuildDate>
     <generator>Jekyll v3.6.3</generator>
     
       <item>
@@ -524,22 +524,11 @@ Respiratory Syndrome (SARS) data available on the WHO website (&lt;a href=&quot;
 This data comes in a challenging form: each page contains the report for a single day and the information
 presented evolves through time. The latter is to be expected: as the epidemic unfolded, the type of information
 that was required to deal with the problem evolved. However, in order to be able to use the data, some processing
-was necessary.&lt;/p&gt;
+is necessary.&lt;/p&gt;
 
 &lt;p&gt;Formatting the data to make it easier to use was a somewhat long and rather annoying process and since this is
 publicly available data, I thought I would save others interested in this type of problems the time that it took
-me to do this, by making this processed data public as well. I ask just two things in return:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;If you make use of the data, I would appreciate being told about it. It will help convince me that I did not do
-this in vain.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;If you find issues in the data, I would also appreciate being told, so that I can fix the problem. If you have
-ideas on how to better organize it, let me know.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+me to do this, by making this processed data public as well.&lt;/p&gt;
 
 &lt;h2 id=&quot;caveat&quot;&gt;Caveat&lt;/h2&gt;
 &lt;p&gt;The WHO data was obtained during the course of the SARS epidemic. Some of the data was revised, but only a few
@@ -575,8 +564,8 @@ consistently. The times at which the reports were posted are also available. Whe
 country on a given day, they are included as notes. The only notes that were omitted are relative to the general
 handling of the data. They are available in the full file, though.&lt;/p&gt;
 
-&lt;h2 id=&quot;downloads&quot;&gt;Downloads&lt;/h2&gt;
-&lt;p&gt;Several files are available.&lt;/p&gt;
+&lt;h2 id=&quot;data-files&quot;&gt;Data files&lt;/h2&gt;
+&lt;p&gt;Several data files are available.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;

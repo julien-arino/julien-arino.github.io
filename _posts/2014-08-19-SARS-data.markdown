@@ -14,18 +14,12 @@ Respiratory Syndrome (SARS) data available on the WHO website ([here](http://www
 This data comes in a challenging form: each page contains the report for a single day and the information
 presented evolves through time. The latter is to be expected: as the epidemic unfolded, the type of information
 that was required to deal with the problem evolved. However, in order to be able to use the data, some processing
-was necessary.
+is necessary.
 
 
 Formatting the data to make it easier to use was a somewhat long and rather annoying process and since this is
 publicly available data, I thought I would save others interested in this type of problems the time that it took
-me to do this, by making this processed data public as well. I ask just two things in return:
-
-+ If you make use of the data, I would appreciate being told about it. It will help convince me that I did not do
-this in vain.
-
-+ If you find issues in the data, I would also appreciate being told, so that I can fix the problem. If you have
-ideas on how to better organize it, let me know.
+me to do this, by making this processed data public as well.
 
 ## Caveat
 The WHO data was obtained during the course of the SARS epidemic. Some of the data was revised, but only a few
@@ -55,8 +49,8 @@ consistently. The times at which the reports were posted are also available. Whe
 country on a given day, they are included as notes. The only notes that were omitted are relative to the general
 handling of the data. They are available in the full file, though.
 
-## Downloads
-Several files are available.
+## Data files
+Several data files are available.
 
 + The main cleaned-up file, in CSV format ([file](https://raw.githubusercontent.com/julien-arino/datasets/master/SARS_data.csv)).
 
