@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A parLapply example (R)"
-description: "A simple but working example of using parLapply in R to perform a very basic sensitivity analysis."
+description: "A simple working example of using parLapply in R to perform a very basic sensitivity analysis (here, of a static function)."
 date:   2019-06-16 13:00:22 -0600
 categories: simulation
 ---
