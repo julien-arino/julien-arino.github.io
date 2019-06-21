@@ -1,0 +1,22 @@
+# Site settings
+title:        "Is it daahtaah or daytaah?"
+subtitle:     "A modeller's random adventures in data-land"
+author:       "Julien Arino"
+description:  "Musings about data, R, epidemiological and ecological modelling"
+baseurl:      "" # the subpath of your site, e.g. /blog/
+url:          "https://julien-arino.github.io" # the base hostname & protocol for your site
+permalink:    /:year/:title
+github:       "julien-arino"
+twitter:      ""
+email:        "Julien.Arino@umanitoba.ca"
+disqus-id:    "" #leave blank if you dont want comments.
+
+# Build settings
+markdown:     kramdown
+sass:
+    style: :compressed
+
+# Make site map
+plugins:
+  - jekyll-sitemap
+  - jekyll-octicons

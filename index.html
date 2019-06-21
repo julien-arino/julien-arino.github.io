@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+{% for post in site.posts limit:6 %}
+  <article class="module color3">
+    <h2>
+      <a class="red" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </h2>
+    <time>{{ post.date| date: "%Y-%m-%d" }}</time>
+    <p>
+      {{ post.content | strip_html | truncate: 250 }}
+    </p>
+  </article>
+{% endfor %}
+
+{% for post in site.posts offset:6 limit:10 %}
+  <article class="module color3">
+    <h2>
+      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </h2>
+    <time>{{ post.date| date: "%Y-%m-%d" }}</time>
+</article>
+{% endfor %}
+
+{% if site.posts > 10 %}
+  <section class="module color3">
+    <a href="{{ 'archives' | prepend: site.baseurl }}">More Posts &rarr;</a>
+  </section>
+{% endif %}

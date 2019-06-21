@@ -1,0 +1,25 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+
+// Our variables
+$base-font-family:  sans-serif;
+$base-font-size:    24px;
+$base-line-height:  1.5;
+$link-hover:        rgba(210, 23, 23, 0.7);
+$spacing-unit:      1.5em;
+$blue:              rgba(25, 117, 229, 0.3);
+$red:               rgba(192, 0, 0, 0.9);
+$yellow:            rgba(255, 217, 142, 1);
+$green:             rgba(26, 153, 136, 1);
+$body-background:   #f2f2f2;
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "normalize",
+        "layout",
+        "syntax-highlighting"
+;

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+    <title>Buses or ants? (R,data,mapping)</title>
+    <meta name="description" content="R code for plotting the activity of bus stops during a typical day in Winnipeg, using data downloaded from Winnipeg Transit. Shows how to make movies from the results using convert (ImageMagick) and animation (R library).">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://localhost:4000/2018/winnipeg-bus-schedules">
+    <link rel="alternate" type="application/rss+xml" title="Is it daahtaah or daytaah?" href="http://localhost:4000/feed.xml" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-1943806-8"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-1943806-8');
+    </script>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        extensions: [
+          "MathMenu.js",
+          "MathZoom.js",
+          "AssistiveMML.js",
+          "a11y/accessibility-menu.js"
+        ],
+        jax: ["input/TeX", "output/CommonHTML"],
+        TeX: {
+          extensions: [
+            "AMSmath.js",
+            "AMSsymbols.js",
+            "noErrors.js",
+            "noUndefined.js",
+          ]
+        }
+      });
+    </script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+</head>
+
+
+<body>
+  <aside class="main-header">
+  <header class="module color2">
+    <h1><a href="/">Is it daahtaah or daytaah?</a></h1>
+    <h3><a href="/">A modeller's random adventures in data-land</a></h3>
+  </header>
+  <div class="module color2">
+    Musings about data, R, epidemiological and ecological modelling
+  </div>
+  <div class="module color4">
+    <a href="/">Home</a>
+    <br><a href="/about/">About</a>
+    <br><a href="mailto:Julien.Arino@umanitoba.ca"><svg height="32" class="octicon octicon-mail" viewBox="0 0 14 16" version="1.1" width="28" aria-hidden="true"><path fill-rule="evenodd" d="M0 4v8c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V4c0-.55-.45-1-1-1H1c-.55 0-1 .45-1 1zm13 0L7 9 1 4h12zM1 5.5l4 3-4 3v-6zM2 12l3.5-3L7 10.5 8.5 9l3.5 3H2zm11-.5l-4-3 4-3v6z"/></svg></a>
+    <a href="https://github.com/julien-arino"><svg height="32" class="octicon octicon-mark-github right left" aria-label="hi" viewBox="0 0 16 16" version="1.1" width="32" role="img"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg></a>
+  </div>
+</aside>
+
+
+  <section class="main-content">
+    <article class="color3 module">
+  <a href="/2018/winnipeg-bus-schedules"><h1>Buses or ants? (R,data,mapping)</h1></a>
+  <hr>
+  <time>Dec 16, 2018</time>
+  <p>The most recent version of the code used in this page (which might be a little different from the one here) can be found <a href="https://raw.githubusercontent.com/julien-arino/R-code/master/plotWpgStopSchedules_v1.R">here</a>.</p>
+
+<p>The city of Winnipeg has some interresting data available online as part of its open data initiative. The main entry point into that data is this <a href="https://data.winnipeg.ca/" title="Winnipeg Open Data portal">page</a>.</p>
+
+<p>One city service that contributes to this system is <a href="https://winnipegtransit.com/en">Winnipeg Transit</a>. They have several types of data. In a later entry, I will discuss the use of online queries; here, I use some static data that is available <a href="http://gtfs.winnipegtransit.com/google_transit.zip">here</a>. A description of the different files in the archive can be found <a href="https://developers.google.com/transit/gtfs/reference/?csw=1">here</a>.</p>
+
+<p>As a regular bus user, public transit afficionado and someone interested in population movement, I was curious to use this data to study some ideas about population movement. The first step was to do a simple, somewhat fun representation of the information.</p>
+
+<p>We will use three libraries: <code class="highlighter-rouge">lubridate</code>, which helps with date manipulation, <code class="highlighter-rouge">OpenStreetMap</code> for getting maps and converting coordinates and <code class="highlighter-rouge">animation</code>, as a way to create a movie. So make sure these are installed. You will also need the program <code class="highlighter-rouge">convert</code>, part of the ImageMagick suite. Installing the latter under Linux is easy; for Windows users, the situation is a bit more tricky, although you may want to consider the Linux subsystem. More on that later.</p>
+
+<p>To keep things easy, let us change the directory to the one where the code lies and below which both the data and the figures directories will be located.
+I am assuming that you downloaded the file from the link above and unzipped it in a subdirectory called <code class="highlighter-rouge">staticSchedule</code>. If generating a gif image, you will also need to create a subdirectory called <code class="highlighter-rouge">tmpFig</code>.</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">setwd</span><span class="p">(</span><span class="s2">"~/Documents/DATA/WinnipegTransit"</span><span class="p">)</span></code></pre></figure>
+
+<p>We set the day of the query (updated recently). Because we want one “day” worth of transport, from start of movement
+around 5:00 to end of movement around 2:00 next day, it will be useful to have the next day as well.</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">YYYY</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">2019</span><span class="w">
+</span><span class="n">MM</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">07</span><span class="w">
+</span><span class="n">DD</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">04</span><span class="w">
+</span><span class="n">Q_date</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">lubridate</span><span class="o">::</span><span class="n">ymd</span><span class="p">(</span><span class="n">sprintf</span><span class="p">(</span><span class="s2">"%s-%s-%s"</span><span class="p">,</span><span class="n">YYYY</span><span class="p">,</span><span class="n">MM</span><span class="p">,</span><span class="n">DD</span><span class="p">))</span><span class="w">
+</span><span class="n">Q_date_p1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">lubridate</span><span class="o">::</span><span class="n">ymd</span><span class="p">(</span><span class="n">Q_date</span><span class="p">)</span><span class="m">+1</span></code></pre></figure>
+
+<p>We now load and process <code class="highlighter-rouge">calendar.txt</code>, one of the components of the static schedule. This is a short file, giving the code of the type of operation (weekday, Saturday, Sunday), which is then used in the main stop schedule to single out the stop schedule for that type of operation. Note that when determining day of the week, <code class="highlighter-rouge">lubridate</code> starts with 1 on Sundays.</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">calendar</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">read.csv</span><span class="p">(</span><span class="s2">"staticSchedule/calendar.txt"</span><span class="p">,</span><span class="w">
+                     </span><span class="n">stringsAsFactors</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">FALSE</span><span class="p">)</span><span class="w">
+</span><span class="n">calendar</span><span class="o">$</span><span class="n">start_date</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">lubridate</span><span class="o">::</span><span class="n">ymd</span><span class="p">(</span><span class="n">calendar</span><span class="o">$</span><span class="n">start_date</span><span class="p">)</span><span class="w">
+</span><span class="n">calendar</span><span class="o">$</span><span class="n">end_date</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">lubridate</span><span class="o">::</span><span class="n">ymd</span><span class="p">(</span><span class="n">calendar</span><span class="o">$</span><span class="n">end_date</span><span class="p">)</span><span class="w">
+</span><span class="n">idx</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">intersect</span><span class="p">(</span><span class="n">which</span><span class="p">(</span><span class="n">calendar</span><span class="o">$</span><span class="n">start_date</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="n">Q_date</span><span class="p">),</span><span class="w">
+                </span><span class="n">which</span><span class="p">(</span><span class="n">calendar</span><span class="o">$</span><span class="n">end_date</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="n">Q_date_p1</span><span class="p">))</span><span class="w">
+</span><span class="n">calendar</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">calendar</span><span class="p">[</span><span class="n">idx</span><span class="p">,]</span><span class="w">
+</span><span class="n">day_week</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">lubridate</span><span class="o">::</span><span class="n">wday</span><span class="p">(</span><span class="n">Q_date</span><span class="p">)</span><span class="w">
+</span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">day_week</span><span class="w"> </span><span class="o">%in%</span><span class="w"> </span><span class="n">seq</span><span class="p">(</span><span class="m">2</span><span class="p">,</span><span class="m">6</span><span class="p">))</span><span class="w">
+  </span><span class="c1"># Weekday service</span><span class="w">
+  </span><span class="n">idx</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">which</span><span class="p">(</span><span class="n">calendar</span><span class="o">$</span><span class="n">monday</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="m">1</span><span class="p">)</span><span class="w">
+</span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">day_week</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="m">7</span><span class="p">)</span><span class="w">
+  </span><span class="c1"># Saturday service</span><span class="w">
+  </span><span class="n">idx</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">which</span><span class="p">(</span><span class="n">calendar</span><span class="o">$</span><span class="n">saturday</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="m">1</span><span class="p">)</span><span class="w">
+</span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">day_week</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="m">1</span><span class="p">)</span><span class="w">
+  </span><span class="c1"># Sunday service</span><span class="w">
+  </span><span class="n">idx</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">which</span><span class="p">(</span><span class="n">calendar</span><span class="o">$</span><span class="n">sunday</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="m">1</span><span class="p">)</span><span class="w">
+</span><span class="n">calendar</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">calendar</span><span class="p">[</span><span class="n">idx</span><span class="p">,]</span></code></pre></figure>
+
+<p>At this point, <code class="highlighter-rouge">calendar</code> should be reduced to a single line. We now load the remaining files that are needed for the plot. (Note that during Fall and Winter terms for universities, not all weekdays are the same, so the tests above should actually differentiate between Monday, Wednesday, Friday on the one hand and Tuesday, Thursday on the other. This was written when school was not in session..)</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">stop_times</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">read.csv</span><span class="p">(</span><span class="s2">"staticSchedule/stop_times.txt"</span><span class="p">,</span><span class="w">
+                       </span><span class="n">stringsAsFactors</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">FALSE</span><span class="p">)</span><span class="w">
+</span><span class="n">stops</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">read.csv</span><span class="p">(</span><span class="s2">"staticSchedule/stops.txt"</span><span class="p">,</span><span class="w">
+                  </span><span class="n">stringsAsFactors</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">FALSE</span><span class="p">)</span><span class="w">
+</span><span class="n">trips</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">read.csv</span><span class="p">(</span><span class="s2">"staticSchedule/trips.txt"</span><span class="p">,</span><span class="w">
+                  </span><span class="n">stringsAsFactors</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">FALSE</span><span class="p">)</span></code></pre></figure>
+
+<p>The files are loaded, we use merge (i.e., JOIN in the SQL world) to make a data frame containing all the required information. Note that this step is not necessary, it just makes plotting much easier.</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">monster_frame</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">merge</span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">stop_times</span><span class="p">,</span><span class="w">
+                      </span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">stops</span><span class="p">,</span><span class="w">
+                      </span><span class="n">by.x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"stop_id"</span><span class="p">,</span><span class="w">
+                      </span><span class="n">by.y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"stop_id"</span><span class="p">)</span><span class="w">
+</span><span class="n">monster_frame</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">merge</span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">monster_frame</span><span class="p">,</span><span class="w">
+                      </span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">trips</span><span class="p">,</span><span class="w">
+                      </span><span class="n">by.x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"trip_id"</span><span class="p">,</span><span class="w">
+                      </span><span class="n">by.y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"trip_id"</span><span class="p">)</span></code></pre></figure>
+
+<p>Now we have a data frame with many columns. We select the rows (over 300,000 of them) corresponding to the chosen type of service selected in <code class="highlighter-rouge">calendar</code>. We then order the entries and make explicit the hour and minutes.</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">idx</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">which</span><span class="p">(</span><span class="n">monster_frame</span><span class="o">$</span><span class="n">service_id</span><span class="w"> </span><span class="o">%in%</span><span class="w"> </span><span class="n">calendar</span><span class="o">$</span><span class="n">service_id</span><span class="p">)</span><span class="w">
+</span><span class="n">monster_frame</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">monster_frame</span><span class="p">[</span><span class="n">idx</span><span class="p">,]</span><span class="w">
+</span><span class="n">monster_frame</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">monster_frame</span><span class="p">[</span><span class="n">order</span><span class="p">(</span><span class="n">monster_frame</span><span class="o">$</span><span class="n">arrival_time</span><span class="p">),]</span><span class="w">
+</span><span class="n">monster_frame</span><span class="o">$</span><span class="n">HH</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">as.numeric</span><span class="p">(</span><span class="n">substr</span><span class="p">(</span><span class="n">monster_frame</span><span class="o">$</span><span class="n">arrival_time</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">2</span><span class="p">))</span><span class="w">
+</span><span class="n">monster_frame</span><span class="o">$</span><span class="n">MM</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">as.numeric</span><span class="p">(</span><span class="n">substr</span><span class="p">(</span><span class="n">monster_frame</span><span class="o">$</span><span class="n">arrival_time</span><span class="p">,</span><span class="m">4</span><span class="p">,</span><span class="m">5</span><span class="p">))</span><span class="w">
+</span><span class="n">monster_frame</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">monster_frame</span><span class="p">[,</span><span class="nf">c</span><span class="p">(</span><span class="s2">"arrival_time"</span><span class="p">,</span><span class="s2">"HH"</span><span class="p">,</span><span class="s2">"MM"</span><span class="p">,</span><span class="w">
+                                 </span><span class="s2">"stop_lat"</span><span class="p">,</span><span class="w">
+                                 </span><span class="s2">"stop_lon"</span><span class="p">)]</span></code></pre></figure>
+
+<p>Finally, we add latitude and longitude in Mercator format, which is used for plotting.</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">monster_frame</span><span class="o">$</span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">OpenStreetMap</span><span class="o">::</span><span class="n">projectMercator</span><span class="p">(</span><span class="n">monster_frame</span><span class="o">$</span><span class="n">stop_lat</span><span class="p">,</span><span class="w">
+                                                 </span><span class="n">monster_frame</span><span class="o">$</span><span class="n">stop_lon</span><span class="p">)[,</span><span class="m">1</span><span class="p">]</span><span class="w">
+</span><span class="n">monster_frame</span><span class="o">$</span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">OpenStreetMap</span><span class="o">::</span><span class="n">projectMercator</span><span class="p">(</span><span class="n">monster_frame</span><span class="o">$</span><span class="n">stop_lat</span><span class="p">,</span><span class="w">
+                                                 </span><span class="n">monster_frame</span><span class="o">$</span><span class="n">stop_lon</span><span class="p">)[,</span><span class="m">2</span><span class="p">]</span></code></pre></figure>
+
+<p>Note that since the list is sorted by time, this allows for much faster processing during plotting. Now prepare the plots: download the map from OpenStreetMap.</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">Winnipeg_upperLeft</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">c</span><span class="p">(</span><span class="nf">max</span><span class="p">(</span><span class="n">monster_frame</span><span class="o">$</span><span class="n">stop_lat</span><span class="p">),</span><span class="w">
+                       </span><span class="nf">min</span><span class="p">(</span><span class="n">monster_frame</span><span class="o">$</span><span class="n">stop_lon</span><span class="p">))</span><span class="w">
+</span><span class="n">Winnipeg_lowerRight</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">c</span><span class="p">(</span><span class="nf">min</span><span class="p">(</span><span class="n">monster_frame</span><span class="o">$</span><span class="n">stop_lat</span><span class="p">),</span><span class="w">
+                        </span><span class="nf">max</span><span class="p">(</span><span class="n">monster_frame</span><span class="o">$</span><span class="n">stop_lon</span><span class="p">))</span><span class="w">
+</span><span class="n">Winnipeg_map</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">OpenStreetMap</span><span class="o">::</span><span class="n">openmap</span><span class="p">(</span><span class="n">upperLeft</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Winnipeg_upperLeft</span><span class="p">,</span><span class="w">
+                                       </span><span class="n">lowerRight</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Winnipeg_lowerRight</span><span class="p">,</span><span class="w">
+                                       </span><span class="n">type</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"osm-public-transport"</span><span class="p">)</span></code></pre></figure>
+
+<h2 id="first-animation-method---using-convert">First animation method - using convert</h2>
+
+<p>Finally, the plot itself. We plot minute by minute, generating one image for each.</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">curr_MM</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">-1</span><span class="w">
+</span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">i</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="m">1</span><span class="o">:</span><span class="nf">length</span><span class="p">(</span><span class="n">monster_frame</span><span class="o">$</span><span class="n">arrival_time</span><span class="p">))</span><span class="w"> </span><span class="p">{</span><span class="w">
+  </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">monster_frame</span><span class="o">$</span><span class="n">MM</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="n">curr_MM</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">i</span><span class="o">&gt;</span><span class="m">1</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="n">dev.off</span><span class="p">()</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">monster_frame</span><span class="o">$</span><span class="n">HH</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="m">23</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="n">date_time</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">sprintf</span><span class="p">(</span><span class="s2">"%s %02d:%02d"</span><span class="p">,</span><span class="w">
+                          </span><span class="n">Q_date</span><span class="p">,</span><span class="w">
+                          </span><span class="n">monster_frame</span><span class="o">$</span><span class="n">HH</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="w">
+                          </span><span class="n">monster_frame</span><span class="o">$</span><span class="n">MM</span><span class="p">[</span><span class="n">i</span><span class="p">])</span><span class="w">
+      </span><span class="n">plotName</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">sprintf</span><span class="p">(</span><span class="s2">"tmpFig/%s_%02d:%02d.png"</span><span class="p">,</span><span class="w">
+                         </span><span class="n">Q_date</span><span class="p">,</span><span class="w">
+                         </span><span class="n">monster_frame</span><span class="o">$</span><span class="n">HH</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="w">
+                         </span><span class="n">monster_frame</span><span class="o">$</span><span class="n">MM</span><span class="p">[</span><span class="n">i</span><span class="p">])</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">monster_frame</span><span class="o">$</span><span class="n">HH</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="m">23</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="n">date_time</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">sprintf</span><span class="p">(</span><span class="s2">"%s %02d:%02d"</span><span class="p">,</span><span class="w">
+                          </span><span class="n">Q_date_p1</span><span class="p">,</span><span class="w">
+                          </span><span class="p">(</span><span class="n">monster_frame</span><span class="o">$</span><span class="n">HH</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="m">-24</span><span class="p">),</span><span class="w">
+                          </span><span class="n">monster_frame</span><span class="o">$</span><span class="n">MM</span><span class="p">[</span><span class="n">i</span><span class="p">])</span><span class="w">
+      </span><span class="n">plotName</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">sprintf</span><span class="p">(</span><span class="s2">"tmpFig/%s_%02d:%02d.png"</span><span class="p">,</span><span class="w">
+                         </span><span class="n">Q_date_p1</span><span class="p">,</span><span class="w">
+                         </span><span class="n">monster_frame</span><span class="o">$</span><span class="n">HH</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="w">
+                         </span><span class="n">monster_frame</span><span class="o">$</span><span class="n">MM</span><span class="p">[</span><span class="n">i</span><span class="p">])</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+    </span><span class="c1"># Just to know where we are currently as it takes a while</span><span class="w">
+    </span><span class="n">print</span><span class="p">(</span><span class="n">date_time</span><span class="p">)</span><span class="w">
+    </span><span class="c1"># Set up the plot</span><span class="w">
+    </span><span class="n">png</span><span class="p">(</span><span class="n">plotName</span><span class="p">)</span><span class="w">
+    </span><span class="n">plot</span><span class="p">(</span><span class="n">Winnipeg_map</span><span class="p">)</span><span class="w">
+    </span><span class="n">title</span><span class="p">(</span><span class="n">main</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">sprintf</span><span class="p">(</span><span class="s2">"%s"</span><span class="p">,</span><span class="n">date_time</span><span class="p">))</span><span class="w">
+    </span><span class="c1"># Update current time/date</span><span class="w">
+    </span><span class="n">curr_MM</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">monster_frame</span><span class="o">$</span><span class="n">MM</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+  </span><span class="n">points</span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">round</span><span class="p">(</span><span class="nf">as.numeric</span><span class="p">(</span><span class="nf">as.character</span><span class="p">(</span><span class="n">monster_frame</span><span class="o">$</span><span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="p">]))),</span><span class="w">
+         </span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">round</span><span class="p">(</span><span class="nf">as.numeric</span><span class="p">(</span><span class="nf">as.character</span><span class="p">(</span><span class="n">monster_frame</span><span class="o">$</span><span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="p">]))),</span><span class="w">
+         </span><span class="n">pch</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">19</span><span class="p">)</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span><span class="n">dev.off</span><span class="p">()</span></code></pre></figure>
+
+<p>Last piece: make an external call to <code class="highlighter-rouge">convert</code> (from <code class="highlighter-rouge">ImageMagick</code>) to
+create a gif file with all the indidivual, minute by minute plots.</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">my_command</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="s1">'convert tmpFig/*.png -delay 3 -loop 0 Winnipeg_buses.gif'</span><span class="w">
+</span><span class="n">system</span><span class="p">(</span><span class="n">my_command</span><span class="p">)</span></code></pre></figure>
+
+<p>It is not unlikely that you will get an error when executing this last command. This is due to the default policy of ImageMagick in terms of memory allocation. In this case, under Linux, you need to edit <code class="highlighter-rouge">/etc/ImageMagick-6/policy.xml</code>. Here is what the relevant lines read on my machine:</p>
+
+<figure class="highlight"><pre><code class="language-xml" data-lang="xml"><span class="nt">&lt;policymap&gt;</span>
+  <span class="c">&lt;!-- &lt;policy domain="resource" name="temporary-path" value="/tmp"/&gt; --&gt;</span>
+  <span class="nt">&lt;policy</span> <span class="na">domain=</span><span class="s">"resource"</span> <span class="na">name=</span><span class="s">"memory"</span> <span class="na">value=</span><span class="s">"2GiB"</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;policy</span> <span class="na">domain=</span><span class="s">"resource"</span> <span class="na">name=</span><span class="s">"disk"</span> <span class="na">value=</span><span class="s">"2GiB"</span><span class="nt">/&gt;</span>
+<span class="nt">&lt;/policymap&gt;</span></code></pre></figure>
+
+<p>The result is not the movement of buses themselves, but the activity of
+bus stops along the route.</p>
+
+<p><img src="https://server.math.umanitoba.ca/~jarino/blog/assets_pics/Winnipeg_buses.gif" alt="Buses or ants?" title="Buses moving around" /></p>
+
+<p>The problem here is file size (so much so that I have had to remove it from this github version of the blog). Also, the conversion itself can be quite lengthy. The next method addresses some of these issues.</p>
+
+<h2 id="second-animation-method---using-animation">Second animation method - using animation</h2>
+
+<p>The <code class="highlighter-rouge">animation</code> library uses <code class="highlighter-rouge">ffmpeg</code>, so this should be installed on your machine. (As often, this is a trivial task under Linux, it might be a bit more of a headache under Windows.)</p>
+
+</article>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-1943806-8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-1943806-8');
+ </script>
+
+      <footer class="module color3">
+  &copy; Julien Arino - <span class="right">Subscribe <a href="/feed.xml">via RSS</a></span>
+</footer>
+
+  </section>
+
+</body>
+</html>
