@@ -58,13 +58,14 @@ for (alpha in seq(0.1, 1, by = 0.1)) {
 {% endhighlight %}
 
 Here are a few examples. First, the unaltered map (with alpha=1).
-![Winnipeg neighbourhood alpha=1.0](/assets_pics/Winnipeg_part_alpha1.00.png "Winnipeg neighbourhood alpha=1.0")
+
+![Winnipeg neighbourhood alpha=1.0](/assets_pics/Winnipeg_part_alpha1.00.png?style=centered "Winnipeg neighbourhood alpha=1.0")
 
 Second, the map when alpha=0.5.
 
-![Winnipeg neighbourhood alpha=0.5](/assets_pics/Winnipeg_part_alpha0.50.png "Winnipeg neighbourhood alpha=0.5")
+![Winnipeg neighbourhood alpha=0.5](/assets_pics/Winnipeg_part_alpha0.50.png?style=centered "Winnipeg neighbourhood alpha=0.5")
 
 Finally, a very light map where alpha=0.1.
 
-![Winnipeg neighbourhood alpha=0.1](/assets_pics/Winnipeg_part_alpha0.10.png "Winnipeg neighbourhood alpha=0.1")
+![Winnipeg neighbourhood alpha=0.1](/assets_pics/Winnipeg_part_alpha0.10.png?style=centered "Winnipeg neighbourhood alpha=0.1")
 
