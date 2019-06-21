@@ -13,6 +13,7 @@ disqus-id:    "" #leave blank if you dont want comments.
 
 # Build settings
 markdown:     kramdown
+    mathjax: true
 sass:
     style: :compressed
 
