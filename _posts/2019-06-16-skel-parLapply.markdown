@@ -8,7 +8,7 @@ categories: simulation
 
 Still moving here stuff I have already posted elsewhere.. 
 
-When working with students and postdocs, I often provide "skeletons", i.e., pieces of code that illustrate something that I want them to do in another context. Case in point: running some code in parallel. Here, I will carry out a very simple and naive sensitivity analysis of the value of the basic reproduction number $R_0$ in the basic Kermack and McKendrick SIR model.
+When working with students and postdocs, I often provide "skeletons", i.e., pieces of code that illustrate something that I want them to do in another context. Case in point: running some code in parallel. Here, I will carry out a very simple and naive sensitivity analysis of the value of the basic reproduction number <span>$R_0$</span> in the basic Kermack and McKendrick SIR model.
 
 First, we need the function that we will evaluate for a given point in parameter space. Note that we pass parameters as a list rather than an ordered t-uple of parameters; this allows to not have to worry about the order in which parameters are presented.
 
