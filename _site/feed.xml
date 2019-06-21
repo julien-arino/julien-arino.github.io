@@ -5,12 +5,12 @@
     <description>Musings about data, R, epidemiological and ecological modelling</description>
     <link>https://julien-arino.github.io/</link>
     <atom:link href="https://julien-arino.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 21 Jun 2019 09:16:16 -0500</pubDate>
-    <lastBuildDate>Fri, 21 Jun 2019 09:16:16 -0500</lastBuildDate>
+    <pubDate>Fri, 21 Jun 2019 09:22:15 -0500</pubDate>
+    <lastBuildDate>Fri, 21 Jun 2019 09:22:15 -0500</lastBuildDate>
     <generator>Jekyll v3.6.3</generator>
     
       <item>
-        <title>Lowering the alpha value on an OSM map (R,mapping)</title>
+        <title>Lowering the alpha value in an OSM map (R,mapping)</title>
         <description>&lt;p&gt;The most recent version of the code used in this page (which might be a little different from the one here) can be found &lt;a href=&quot;https://raw.githubusercontent.com/julien-arino/R-code/master/change_alpha_in_OSM_map.R&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Working on a poster with my postdoc, a problem came up where we wanted to increase the transparency of a map downloaded (and plotted) with &lt;code class=&quot;highlighter-rouge&quot;&gt;OpenStreetMap&lt;/code&gt;, because the points we were plotting on it were not really visible. The solution is very simple. It goes without saying that you will need the &lt;code class=&quot;highlighter-rouge&quot;&gt;OpenStreetMap&lt;/code&gt; library installed.&lt;/p&gt;
