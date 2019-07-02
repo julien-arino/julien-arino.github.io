@@ -1,3 +1,4 @@
+---
 layout: post
 title:  "Thucydides and epidemiology (epi)"
 description: "The plague of Athens of 430 BCE as told by Thucydides in the History of the Peloponnesian War."
