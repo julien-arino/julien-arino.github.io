@@ -33,7 +33,7 @@ Anyway, let us now turn to the text itself. Notes present in the text were remov
 ### The plague is in Athens
 There are a few references to the plague in Book I. However, the description proper starts in
 [Book II, Chapter 47](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0200:book=2:chapter=47).
-> [..] Not many days after their [Lacedaemonians and their allies] arrival in Attica the plague first began to show itself among the Athenians. It was said that it had broken out in many places previously in the neighborhood of Lemnos and elsewhere; but a pestilence of such extent and mortality was nowhere remembered.
+> [..] Not many days after their [Lacedaemonians] arrival in Attica the plague first began to show itself among the Athenians. It was said that it had broken out in many places previously in the neighborhood of Lemnos and elsewhere; but a pestilence of such extent and mortality was nowhere remembered.
 
 Note one very interesting passage:
 
