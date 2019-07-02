@@ -39,7 +39,7 @@ Note one very interesting passage:
 
 > Neither were the physicians at first of any service, ignorant as they were of the proper way to treat it, but they died themselves the most thickly, as they visited the sick most often [..]
 
-This is still very much the case almost 2,500 years later. For instance, during the SARS crisis of 2003, . During the West Africa Ebola Virus Disease crisis of 2014,.
+This is still very much the case almost 2,500 years later. For instance, during the SARS crisis of 2003, 44% of cases in Toronto were health care workers (HCW); see [this paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3323242/) for instance. During the West Africa Ebola Virus Disease crisis of 2014-2016, 881 HCW were infected, of which 513 died; see [here](https://www.cdc.gov/vhf/ebola/pdf/impact-ebola-healthcare.pdf).
 
 > Supplications in the temples, divinations, and so forth were found equally futile, till the overwhelming nature of the disaster at last put a stop to them altogether.
 
