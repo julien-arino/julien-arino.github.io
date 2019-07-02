@@ -10,9 +10,7 @@ Those who have suffered through one of my talks know that when talking about the
 
 ![Thucydides](/assets_pics/Thucydides_quote.png)
 
-I usually remark on the fact that this means the issue I am considering is not new and that almost two and a half millenia ago, Thucydides already gave a pretty "spatial" description of spread.
-
-I often advocate reading Thucydides to see how modern he is, epidemiology-wise. So I thought "why not make a blog post about this?".. and here is said post.
+I usually remark on the fact that this means the issue I am considering is not new and that almost two and a half millenia ago, Thucydides already gave a pretty "spatial" description of spread. I often advocate reading Thucydides. So I thought "why not make a blog post about this?".. and here is said post.
 
 ## Thucydides
 Regarding Thucydides himself, let me be lazy and just point to the [Wikipedia page about him](https://en.wikipedia.org/wiki/Thucydides). Thucydides was an Athenian General and Historian who lived from circa 460 BCE to circa 400 BCE. His *History of the Peloponnesian War* is often considered as the first *scholarly* history book. The book gives an account of the Peloponnesian War (431–404 BCE) between the Peloponnesian League (led by Sparta) and the Delian League (led by Athens). Thucydides himself fought in that war.
@@ -36,7 +34,6 @@ There are a few references to the plague in Book I. However, the description pro
 > [..] Not many days after their [Lacedaemonians] arrival in Attica the plague first began to show itself among the Athenians. It was said that it had broken out in many places previously in the neighborhood of Lemnos and elsewhere; but a pestilence of such extent and mortality was nowhere remembered.
 
 Note one very interesting passage:
-
 > Neither were the physicians at first of any service, ignorant as they were of the proper way to treat it, but they died themselves the most thickly, as they visited the sick most often [..]
 
 This is still very much the case almost 2,500 years later. For instance, during the SARS crisis of 2003, 44% of cases in Toronto were health care workers (HCW); see [this paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3323242/) for instance. During the West Africa Ebola Virus Disease crisis of 2014-2016, 881 HCW were infected, of which 513 died; see [here](https://www.cdc.gov/vhf/ebola/pdf/impact-ebola-healthcare.pdf).
