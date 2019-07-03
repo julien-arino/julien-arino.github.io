@@ -8,11 +8,11 @@ categories: winnipeg
 The most recent version of the code used in this page (which might be a little different from the one here) can be found [here](https://raw.githubusercontent.com/julien-arino/R-code/master/plotWpgStopSchedules_v1.R).
 
 
-The city of Winnipeg has some interresting data available online as part of its open data initiative. The main entry point into that data is this [page](https://data.winnipeg.ca/ "Winnipeg Open Data portal").
+The city of Winnipeg has some interesting data available online as part of its open data initiative. The main entry point into that data is this [page](https://data.winnipeg.ca/ "Winnipeg Open Data portal").
 
 One city service that contributes to this system is [Winnipeg Transit](https://winnipegtransit.com/en). They have several types of data. In a later entry, I will discuss the use of online queries; here, I use some static data that is available [here](http://gtfs.winnipegtransit.com/google_transit.zip). A description of the different files in the archive can be found [here](https://developers.google.com/transit/gtfs/reference/?csw=1).
 
-As a regular bus user, public transit afficionado and someone interested in population movement, I was curious to use this data to study some ideas about population movement. The first step was to do a simple, somewhat fun representation of the information. 
+As a regular bus user, public transit afficionado and someone interested in population movement, I was curious to use this data to study some ideas about population movement. The first step was to do a simple, somewhat fun representation of the information.
 
 We will use three libraries: `lubridate`, which helps with date manipulation, `OpenStreetMap` for getting maps and converting coordinates and `animation`, as a way to create a movie. So make sure these are installed. You will also need the program `convert`, part of the ImageMagick suite. Installing the latter under Linux is easy; for Windows users, the situation is a bit more tricky, although you may want to consider the Linux subsystem. More on that later.
 
@@ -165,7 +165,7 @@ dev.off()
 {% endhighlight %}
 
 Last piece: make an external call to `convert` (from `ImageMagick`) to
-create a gif file with all the indidivual, minute by minute plots.
+create a gif file with all the individual, minute by minute plots.
 
 {% highlight r %}
 my_command <- 'convert tmpFig/*.png -delay 3 -loop 0 Winnipeg_buses.gif'

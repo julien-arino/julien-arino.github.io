@@ -30,7 +30,7 @@ The second plot focuses on recent events, with particular focus on one of the ro
 Here, I show the behaviour of measles since 1992. Of particular note here is the publication in the 28 February 1998 issue of The Lancet of an infamous paper by Wakefield and others that purported to show a link between the MMR vaccine and autism.
 It took a few years for the effect to be felt, but now, we see regular small outbreaks. The situation is often the following: unvaccinated (US) individual goes abroad, gets infected, comes home and infects a few unvaccinated people.
 
-The Wakefield paper has since been retracted, Wakefield himself has been discredited (although he does retain some influential supporters) and banned from practising medicine in the UK (his country), but as often with vaccine scares, the scars remain.
+The Wakefield paper has since been retracted, Wakefield himself has been discredited (although he does retain some influential supporters) and banned from practicing medicine in the UK (his country), but as often with vaccine scares, the scars remain.
 
 ## Data files
 
@@ -41,4 +41,3 @@ The Wakefield paper has since been retracted, Wakefield himself has been discred
 ## Some remarks about making the plots
 
 I recently split this post in two. The part explaining how to make axes legible by humans is now [here](/2018/US-plotting-nice-axes-and-cropping).
-

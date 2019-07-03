@@ -6,11 +6,11 @@ date:   2019-07-02 09:00:00 -0600
 categories: epidemiology
 ---
 
-Those who have suffered through one of my talks know that when talking about the spatial and temporal spread of infectious diseases (i.e., most of the time), I typically start by showing a slide similar to this:
+Those who have suffered through one of my talks know that when discussing the spatial and temporal spread of infectious diseases (i.e., most of the time), I typically start by showing a slide similar to this:
 
 ![Thucydides](/assets_pics/Thucydides_quote.png)
 
-I usually remark on the fact that this means the issue I am considering is not new and that almost two and a half millenia ago, Thucydides already gave a pretty "spatial" description of spread. I often advocate reading Thucydides. So I thought "why not make a blog post about this?".. and here is said post.
+I usually remark on the fact that this means the issue I am considering is not new and that almost two and a half millennia ago, Thucydides already gave a pretty "spatial" description of spread. I often advocate reading Thucydides. So I thought "why not make a blog post about this?".. and here is said post.
 
 ## Thucydides
 Regarding Thucydides himself, let me be lazy and just point to the [Wikipedia page about him](https://en.wikipedia.org/wiki/Thucydides). Thucydides was an Athenian General and Historian who lived from circa 460 BCE to circa 400 BCE. His *History of the Peloponnesian War* is often considered as the first *scholarly* history book. The book gives an account of the Peloponnesian War (431–404 BCE) between the Peloponnesian League (led by Sparta) and the Delian League (led by Athens). Thucydides himself fought in that war.
