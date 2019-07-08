@@ -44,11 +44,11 @@ for (i in 1:nb_sims) {
   param_vary[[i]] = list()
   param_vary[[i]]$beta = runif(1, min = 1e-9, max = 1e-4)
 }
-for (i in nb_sims+1:2*nb_sims) {
+for (i in (nb_sims+1):(2*nb_sims)) {
   param_vary[[i]] = list()
   param_vary[[i]]$S0 = runif(1, min = 1000, max = 100000)
 }
-for (i in (2*nb_sims+1:3*nb_sims) {
+for (i in (2*nb_sims+1):(3*nb_sims)) {
   param_vary[[i]] = list()
   param_vary[[i]]$beta = runif(1, min = 1e-9, max = 1e-4)
   param_vary[[i]]$S0 = runif(1, min = 1000, max = 100000)
