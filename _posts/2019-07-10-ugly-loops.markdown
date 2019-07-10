@@ -76,16 +76,16 @@ timings <- cbind(nb_sims,
                         nrow = length(nb_sims),
                         ncol = 3,
                         byrow = TRUE))
-colnames(timings) <- c("n","loopTime","vectorTime","convertTime")
+colnames(timings) <- c("n","loopT","vectT","convT")
 timings <- as.data.frame(timings)
 {% endhighlight %}
 
 Add a few additional pieces of information about timing: the total time in the second case (making the vectors and converting them to lists) as well as acceleration factors when making the vector and in total of the second method.
 
 {% highlight r %}
-timings$sumVector <- timings$vectorT+timings$convertT
-timings$multVector <- round(timings$loopT/timings$vectorT,2)
-timings$multSumVector <- round(timings$loopT/timings$sumVector,2)
+timings$sumVect <- timings$vectT+timings$convT
+timings$multVect <- round(timings$loopT/timings$vectT,2)
+timings$multSVect <- round(timings$loopT/timings$sumVect,2)
 {% endhighlight %}
 
 Finally, use `knitr` to make a decent looking table of the results.
@@ -96,15 +96,17 @@ knitr::kable(timings,format.args = list(big.mark = ",",scientific=FALSE))
 
 Here is a subset of the results:
 
-|          n| loopT| vectorTime| convertTime| sumVector| multVector| multSumVector|
-|----------:|--------:|----------:|-----------:|---------:|----------:|-------------:|
-|     10,000|    0.111|      0.001|       0.035|     0.036|     111.00|          3.08|
-|     50,000|    0.337|      0.005|       0.137|     0.142|      67.40|          2.37|
-|    100,000|    0.941|      0.011|       0.232|     0.243|      85.55|          3.87|
-|    500,000|    5.137|      0.051|       1.422|     1.473|     100.73|          3.49|
-|  1,000,000|    8.356|      0.101|       2.420|     2.521|      82.73|          3.31|
-|  5,000,000|   72.179|      5.044|      21.246|    26.290|      14.31|          2.75|
-| 10,000,000|  203.776|     14.890|      36.895|    51.785|      13.69|          3.94|
+|          n|   loopT| vectT|  convT| sumVect| multVect| multSVect|
+|----------:|-------:|-----:|------:|-------:|--------:|---------:|
+|     10,000|   0.138| 0.001|  0.046|   0.047|   138.00|      2.94|
+|     50,000|   0.545| 0.006|  0.327|   0.333|    90.83|      1.64|
+|    100,000|   1.207| 0.008|  0.346|   0.354|   150.88|      3.41|
+|    500,000|   8.587| 0.453|  1.712|   2.165|    18.96|      3.97|
+|  1,000,000|  19.130| 1.597|  3.832|   5.429|    11.98|      3.52|
+|  5,000,000| 122.943| 4.359| 22.746|  27.105|    28.20|      4.54|
+| 10,000,000| 277.161| 8.648| 40.261|  48.909|    32.05|      5.67|
+
+Clearly, it would be better here to use a parallel version of `apply` operating on matrix rows than on lists. But the cases are not always this structured.
 
 
 Ah, yes, one last thing: when $n$ is large, some of the variables can become quite large (the last matrix by itself is 10.1 Gb). Unless you have pretty decent RAM, don't try this at home.
