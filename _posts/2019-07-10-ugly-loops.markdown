@@ -94,7 +94,7 @@ Finally, use `knitr` to make a decent looking table of the results.
 knitr::kable(timings,format.args = list(big.mark = ",",scientific=FALSE))
 {% endhighlight %}
 
-Here is a subset of the results:
+Here are the results:
 
 |          n|   loopT| vectT|  convT| sumVect| multVect| multSVect|
 |----------:|-------:|-----:|------:|-------:|--------:|---------:|
@@ -106,7 +106,7 @@ Here is a subset of the results:
 |  5,000,000| 122.943| 4.359| 22.746|  27.105|    28.20|      4.54|
 | 10,000,000| 277.161| 8.648| 40.261|  48.909|    32.05|      5.67|
 
-Clearly, it would be better here to use a parallel version of `apply` operating on matrix rows than on lists. But the cases are not always this structured.
+Clearly, it would be better here to use a parallel version of `apply` operating on matrix rows than on lists, since this would not require a further conversion to a list. But the cases are not always this structured.
 
 
 Ah, yes, one last thing: when $n$ is large, some of the variables can become quite large (the last matrix by itself is 10.1 Gb). Unless you have pretty decent RAM, don't try this at home.
