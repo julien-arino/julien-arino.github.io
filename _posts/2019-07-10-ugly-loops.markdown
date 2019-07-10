@@ -29,8 +29,9 @@ Now loop on the number of cases. First, clear the `tictoc` log, in case it alrea
 {% highlight r %}
 tictoc::tic.clearlog()
 for (n in nb_sims) {
-  # The loop
+  # Just for info in case things get longish
   print(sprintf("%d - %d",n,which(nb_sims==n)))
+  # The loop version
   tictoc::tic(sprintf("loop_%d",n))
   param_vary = list()
   for (i in 1:n) {
@@ -82,9 +83,9 @@ timings <- as.data.frame(timings)
 Add a few additional pieces of information about timing: the total time in the second case (making the vectors and converting them to lists) as well as acceleration factors when making the vector and in total of the second method.
 
 {% highlight r %}
-timings$sumVector <- timings$vectorTime+timings$convertTime
-timings$multVector <- round(timings$loopTime/timings$vectorTime,2)
-timings$multSumVector <- round(timings$loopTime/timings$sumVector,2)
+timings$sumVector <- timings$vectorT+timings$convertT
+timings$multVector <- round(timings$loopT/timings$vectorT,2)
+timings$multSumVector <- round(timings$loopT/timings$sumVector,2)
 {% endhighlight %}
 
 Finally, use `knitr` to make a decent looking table of the results.
@@ -95,7 +96,7 @@ knitr::kable(timings,format.args = list(big.mark = ",",scientific=FALSE))
 
 Here is a subset of the results:
 
-|          n| loopTime| vectorTime| convertTime| sumVector| multVector| multSumVector|
+|          n| loopT| vectorTime| convertTime| sumVector| multVector| multSumVector|
 |----------:|--------:|----------:|-----------:|---------:|----------:|-------------:|
 |     10,000|    0.111|      0.001|       0.035|     0.036|     111.00|          3.08|
 |     50,000|    0.337|      0.005|       0.137|     0.142|      67.40|          2.37|
