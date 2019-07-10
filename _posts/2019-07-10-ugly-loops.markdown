@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Ugly loops (R)"
-description: "Comparison of loops and vectorised operations in R using the tictoc library."
+title:  "Ugly loops versus pretty vectors (R)"
+description: "A comparison of the execution times of loops and vector operations in R using the tictoc library."
 date:   2019-07-10
 categories: simulation
 ---
