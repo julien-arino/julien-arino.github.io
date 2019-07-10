@@ -49,7 +49,7 @@ for (n in nb_sims) {
   }
   # Vector version
   tictoc::toc(log = TRUE, quiet = TRUE)
-    tictoc::tic(sprintf("vect_%d",n))
+  tictoc::tic(sprintf("vect_%d",n))
   param_vary <- rbind(cbind(runif(n, min = 1e-9, max = 1e-4),
                             rep(param$S0,n)),
                       cbind(rep(param$beta,n),
