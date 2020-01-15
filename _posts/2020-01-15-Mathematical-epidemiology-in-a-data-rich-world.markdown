@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Mathematical epidemiology in a data rich world (R)"
-description: "Comments on the paper Mathematical epidemiology in a data rich world, Infectious Diseases Modelling (2020)."
+description: "Comments on the paper *Mathematical epidemiology in a data rich world*, Infectious Diseases Modelling **5** (2020)."
 date:   2020-01-15
 categories: simulation
 ---
