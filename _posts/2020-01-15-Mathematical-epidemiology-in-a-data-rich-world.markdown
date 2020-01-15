@@ -14,5 +14,8 @@ The paper is part of a special issue on [*Confronting Infectious Disease Models 
 
 The paper was supposed to come with an electronic appendix, which at present is not included. Also, some edition related quirks were added because of the journal style, with in particular, the `R` code appearing as images rather than text and therefore not being selectable. As a consequence, I have made a copy available as a repository [here](https://github.com/julien-arino/modelling-with-data). My plan is to keep the file there up to date if links given in the paper were to change.
 
-# Writing a scientific paper in `Rmarkdown`
-While I have been using `Rmarkdown` for a while to generate reports about some of the work I do in the context of the global spread of infectious diseases, I had never actually tried to produce a proper paper using this model. I will share some of my experiences here.
+## Writing a scientific paper in `Rmarkdown`
+While I have been using `Rmarkdown` for a while to generate reports about some of the work I do in the context of the global spread of infectious diseases, I had never actually tried to produce a proper paper using this model. I will share some ideas here and in particular, some recommendations based on (sometimes painful) experience developed in the process.
+
+1. Save a local copy of your data. You can be editing your file while onboard a plane with no wifi, or in a country that filters some sites, or with very poor Internet access..
+2. Producing a pdf is easy. Using a publisher's tex style is not as easy. For now, I have included a stripped down version of my `Rmarkdown` file that should work out of the box. I will later include in the repository the file that uses the Elsevier document class `elsarticle`. 
