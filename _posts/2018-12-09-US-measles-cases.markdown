@@ -12,6 +12,8 @@ Measles strikes close to home for me: as a six year old kid, despite having rece
 
 **Update:** as of 6 June, there had been 1,022 cases of measles in the US in 2019. That is the most cases since the effect of the double dose of vaccine kicked in in the early nineties! The data and figures were updated accordingly.
 
+**Update:** In 2019, there were a total of 1,282 cases of measles in the US, occurring in 31 states.
+
 ## Two plots
 
 The first plot is of the reported measles cases in the US during the entire period covered by the data.
