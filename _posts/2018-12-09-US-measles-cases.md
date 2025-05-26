@@ -21,7 +21,7 @@ The first plot is of the reported measles cases in the US during the entire peri
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="/assets/img/measles_US_1944_2019.png" title="Reported cases of measles in the USA 1944-2019" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/img/measles_US_1944_2019.png" title="Reported cases of measles in the USA 1944-2019" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -34,7 +34,7 @@ The second plot focuses on recent events, with particular focus on one of the ro
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="/assets/img/measles_US_1992_2019.png" title="Reported cases of measles in the USA 1992-2019" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/img/measles_US_1992_2019.png" title="Reported cases of measles in the USA 1992-2019" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

@@ -81,7 +81,7 @@ legend(x = "bottomright", legend = c("2019", "2020", "2021", "2022"),
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="/assets/img/TSA_screens.png" title="TSA checks" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/img/TSA_screens.png" title="TSA checks" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -151,7 +151,7 @@ We get the following figure, in which the red is the moving average
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="/assets/img/TSA_screens_ts.png" title="TSA checks as time series" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/img/TSA_screens_ts.png" title="TSA checks as time series" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

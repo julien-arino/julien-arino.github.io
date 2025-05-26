@@ -61,7 +61,7 @@ Here are a few examples. First, the unaltered map (with alpha=1).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="/assets/img/Winnipeg_part_alpha1.00.png" title="Winnipeg neighbourhood alpha=1.0" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/img/Winnipeg_part_alpha1.00.png" title="Winnipeg neighbourhood alpha=1.0" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -70,7 +70,7 @@ Second, the map when alpha=0.5.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="/assets/img/Winnipeg_part_alpha0.50.png" title="Winnipeg neighbourhood alpha=0.5" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/img/Winnipeg_part_alpha0.50.png" title="Winnipeg neighbourhood alpha=0.5" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -78,7 +78,7 @@ Finally, a very light map where alpha=0.1.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="/assets/img/Winnipeg_part_alpha0.10.png" title="Winnipeg neighbourhood alpha=0.1" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/img/Winnipeg_part_alpha0.10.png" title="Winnipeg neighbourhood alpha=0.1" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
