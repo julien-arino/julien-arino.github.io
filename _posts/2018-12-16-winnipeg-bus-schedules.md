@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Buses or ants?"
+title: "Buses or ants?"
 description: "R code for plotting the activity of bus stops during a typical day in Winnipeg, using data downloaded from Winnipeg Transit. Shows how to make movies from the results using convert (ImageMagick) and animation (R library)."
-date:   2018-12-16 00:39:22 -0600
+date: 2018-12-16 00:39:22 -0600
 categories: r-code data winnipeg mapping
 ---
-The most recent version of the code used in this page (which might be a little different from the one here) can be found [here](https://raw.githubusercontent.com/julien-arino/R-code/master/plotWpgStopSchedules_v1.R).
 
+The most recent version of the code used in this page (which might be a little different from the one here) can be found [here](https://raw.githubusercontent.com/julien-arino/R-code/master/plotWpgStopSchedules_v1.R).
 
 The city of Winnipeg has some interesting data available online as part of its open data initiative. The main entry point into that data is this [page](https://data.winnipeg.ca/ "Winnipeg Open Data portal").
 
@@ -38,7 +38,7 @@ We now load and process `calendar.txt`, one of the components of the static sche
 
 {% highlight r %}
 calendar <- read.csv("staticSchedule/calendar.txt",
-                     stringsAsFactors = FALSE)
+stringsAsFactors = FALSE)
 calendar$start_date = lubridate::ymd(calendar$start_date)
 calendar$end_date = lubridate::ymd(calendar$end_date)
 idx = intersect(which(calendar$start_date <= Q_date),
@@ -46,14 +46,20 @@ idx = intersect(which(calendar$start_date <= Q_date),
 calendar = calendar[idx,]
 day_week = lubridate::wday(Q_date)
 if (day_week %in% seq(2,6))
-  # Weekday service
-  idx = which(calendar$monday == 1)
+
+# Weekday service
+
+idx = which(calendar$monday == 1)
 if (day_week == 7)
-  # Saturday service
-  idx = which(calendar$saturday == 1)
+
+# Saturday service
+
+idx = which(calendar$saturday == 1)
 if (day_week == 1)
-  # Sunday service
-  idx = which(calendar$sunday == 1)
+
+# Sunday service
+
+idx = which(calendar$sunday == 1)
 calendar = calendar[idx,]
 {% endhighlight %}
 
@@ -61,24 +67,24 @@ At this point, `calendar` should be reduced to a single line. We now load the re
 
 {% highlight r %}
 stop_times <- read.csv("staticSchedule/stop_times.txt",
-                       stringsAsFactors = FALSE)
+stringsAsFactors = FALSE)
 stops <- read.csv("staticSchedule/stops.txt",
-                  stringsAsFactors = FALSE)
+stringsAsFactors = FALSE)
 trips <- read.csv("staticSchedule/trips.txt",
-                  stringsAsFactors = FALSE)
+stringsAsFactors = FALSE)
 {% endhighlight %}
 
 The files are loaded, we use merge (i.e., JOIN in the SQL world) to make a data frame containing all the required information. Note that this step is not necessary, it just makes plotting much easier.
 
 {% highlight r %}
 monster_frame = merge(x = stop_times,
-                      y = stops,
-                      by.x = "stop_id",
-                      by.y = "stop_id")
+y = stops,
+by.x = "stop_id",
+by.y = "stop_id")
 monster_frame = merge(x = monster_frame,
-                      y = trips,
-                      by.x = "trip_id",
-                      by.y = "trip_id")
+y = trips,
+by.x = "trip_id",
+by.y = "trip_id")
 {% endhighlight %}
 
 Now we have a data frame with many columns. We select the rows (over 300,000 of them) corresponding to the chosen type of service selected in `calendar`. We then order the entries and make explicit the hour and minutes.
@@ -90,19 +96,18 @@ monster_frame = monster_frame[order(monster_frame$arrival_time),]
 monster_frame$HH = as.numeric(substr(monster_frame$arrival_time,1,2))
 monster_frame$MM = as.numeric(substr(monster_frame$arrival_time,4,5))
 monster_frame = monster_frame[,c("arrival_time","HH","MM",
-                                 "stop_lat",
-                                 "stop_lon")]
+"stop_lat",
+"stop_lon")]
 {% endhighlight %}
 
 Finally, we add latitude and longitude in Mercator format, which is used for plotting.
 
 {% highlight r %}
 monster_frame$x = OpenStreetMap::projectMercator(monster_frame$stop_lat,
-                                                 monster_frame$stop_lon)[,1]
+monster_frame$stop_lon)[,1]
 monster_frame$y = OpenStreetMap::projectMercator(monster_frame$stop_lat,
                                                  monster_frame$stop_lon)[,2]
 {% endhighlight %}
-
 
 Note that since the list is sorted by time, this allows for much faster processing during plotting. Now prepare the plots: download the map from OpenStreetMap.
 
@@ -112,54 +117,50 @@ Winnipeg_upperLeft = c(max(monster_frame$stop_lat),
 Winnipeg_lowerRight = c(min(monster_frame$stop_lat),
                         max(monster_frame$stop_lon))
 Winnipeg_map <- OpenStreetMap::openmap(upperLeft = Winnipeg_upperLeft,
-                                       lowerRight = Winnipeg_lowerRight,
-                                       type = "osm-public-transport")
+lowerRight = Winnipeg_lowerRight,
+type = "osm-public-transport")
 {% endhighlight %}
-
 
 ## First animation method - using convert
 
 Finally, the plot itself. We plot minute by minute, generating one image for each.
 
 {% highlight r %}
-curr_MM = -1
+curr*MM = -1
 for (i in 1:length(monster_frame$arrival_time)) {
   if (monster_frame$MM[i] != curr_MM) {
-    if (i>1) {
-      dev.off()
-    }
-    if (monster_frame$HH[i] <= 23) {
+if (i>1) {
+dev.off()
+}
+if (monster_frame$HH[i] <= 23) {
       date_time = sprintf("%s %02d:%02d",
                           Q_date,
                           monster_frame$HH[i],
-                          monster_frame$MM[i])
-      plotName = sprintf("tmpFig/%s_%02d:%02d.png",
-                         Q_date,
-                         monster_frame$HH[i],
+monster_frame$MM[i])
+plotName = sprintf("tmpFig/%s*%02d:%02d.png",
+Q*date,
+monster_frame$HH[i],
                          monster_frame$MM[i])
-    }
-    if (monster_frame$HH[i] > 23) {
+}
+if (monster_frame$HH[i] > 23) {
       date_time = sprintf("%s %02d:%02d",
                           Q_date_p1,
                           (monster_frame$HH[i]-24),
-                          monster_frame$MM[i])
-      plotName = sprintf("tmpFig/%s_%02d:%02d.png",
-                         Q_date_p1,
-                         monster_frame$HH[i],
+monster_frame$MM[i])
+plotName = sprintf("tmpFig/%s*%02d:%02d.png",
+Q_date_p1,
+monster_frame$HH[i],
                          monster_frame$MM[i])
-    }
-    # Just to know where we are currently as it takes a while
-    print(date_time)
-    # Set up the plot
-    png(plotName)
-    plot(Winnipeg_map)
-    title(main = sprintf("%s",date_time))
-    # Update current time/date
-    curr_MM = monster_frame$MM[i]
+} # Just to know where we are currently as it takes a while
+print(date_time) # Set up the plot
+png(plotName)
+plot(Winnipeg_map)
+title(main = sprintf("%s",date_time)) # Update current time/date
+curr_MM = monster_frame$MM[i]
   }
   points(x = round(as.numeric(as.character(monster_frame$x[i]))),
-         y = round(as.numeric(as.character(monster_frame$y[i]))),
-         pch = 19)
+y = round(as.numeric(as.character(monster_frame$y[i]))),
+pch = 19)
 }
 dev.off()
 {% endhighlight %}
@@ -168,20 +169,19 @@ Last piece: make an external call to `convert` (from `ImageMagick`) to
 create a gif file with all the individual, minute by minute plots.
 
 {% highlight r %}
-my_command <- 'convert tmpFig/*.png -delay 3 -loop 0 Winnipeg_buses.gif'
+my_command <- 'convert tmpFig/\*.png -delay 3 -loop 0 Winnipeg_buses.gif'
 system(my_command)
 {% endhighlight %}
 
 It is not unlikely that you will get an error when executing this last command. This is due to the default policy of ImageMagick in terms of memory allocation. In this case, under Linux, you need to edit `/etc/ImageMagick-6/policy.xml`. Here is what the relevant lines read on my machine:
 {% highlight xml %}
 <policymap>
+
   <!-- <policy domain="resource" name="temporary-path" value="/tmp"/> -->
   <policy domain="resource" name="memory" value="2GiB"/>
   <policy domain="resource" name="disk" value="2GiB"/>
 </policymap>
 {% endhighlight %}
-
-
 
 The result is not the movement of buses themselves, but the activity of
 bus stops along the route.

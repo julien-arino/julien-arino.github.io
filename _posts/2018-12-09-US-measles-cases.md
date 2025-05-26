@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "US measles cases data"
+title: "US measles cases data"
 description: "Historical data for the yearly number of cases of measles in the USA from 1944 to the current day, collated from the US CDC data."
-date:   2018-12-09 00:39:22 -0600
+date: 2018-12-09 00:39:22 -0600
 categories: data datasets epidemiology
 featured: true
 ---
@@ -26,6 +26,7 @@ The first plot is of the reported measles cases in the US during the entire peri
 </div>
 
 Illustrated are the three main eras in measles in this data:
+
 1. The pre-vaccine era, which lasted until vaccination started in earnest in 1963.
 2. The single-dose vaccine era, from 1963 to 1989.
 3. After 1989, it was recommended to use two shots (an initial shot and a booster shot).
@@ -45,9 +46,8 @@ The Wakefield paper has since been retracted, Wakefield himself has been discred
 
 ## Data files
 
-+ Concatenated US Centers for Disease Control and Prevention Morbidity and Mortality Weekly Report for notifiable diseases, aggregated by year, from 1944 to 1993 and by month for 1994 and 1995: [file](https://raw.githubusercontent.com/julien-arino/datasets/master/CDC_MMWR_notifiableDiseasesYearly_1944_1995.txt). This file contains the raw data.
-+ Yearly number of reported cases of measles in the USA from 1944 to 2020: [file](https://raw.githubusercontent.com/julien-arino/datasets/master/measles_reportedCases_USA_1944_2019.csv). For the period 1944 to 1995, the data comes from the file above. For the years following, data originates from more dynamic pages at [CDC](https://www.cdc.gov/measles/cases-outbreaks.html).
-
+- Concatenated US Centers for Disease Control and Prevention Morbidity and Mortality Weekly Report for notifiable diseases, aggregated by year, from 1944 to 1993 and by month for 1994 and 1995: [file](https://raw.githubusercontent.com/julien-arino/datasets/master/CDC_MMWR_notifiableDiseasesYearly_1944_1995.txt). This file contains the raw data.
+- Yearly number of reported cases of measles in the USA from 1944 to 2020: [file](https://raw.githubusercontent.com/julien-arino/datasets/master/measles_reportedCases_USA_1944_2019.csv). For the period 1944 to 1995, the data comes from the file above. For the years following, data originates from more dynamic pages at [CDC](https://www.cdc.gov/measles/cases-outbreaks.html).
 
 ## Some remarks about making the plots
 

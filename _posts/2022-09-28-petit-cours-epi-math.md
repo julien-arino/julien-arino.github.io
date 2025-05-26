@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Un petit cours d'épidémiologie mathématique"
+title: "Un petit cours d'épidémiologie mathématique"
 description: "Notes de cours d'un cours d'épidémiologie mathématique donné à N'Djaména (Tchad) en juin et juillet 2022."
-date:   2022-04-29
+date: 2022-04-29
 categories: presentations
 ---
 

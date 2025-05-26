@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Compiling R on a Raspberry Pi and getting rid of the 128 threads limitation"
+title: "Compiling R on a Raspberry Pi and getting rid of the 128 threads limitation"
 description: "Some considerations on compiling R on a Raspberry Pi to get rid of the 128 threads limitation"
-date:   2023-02-05
+date: 2023-02-05
 categories: r-code
 featured: true
 ---
@@ -23,25 +23,28 @@ The 3790X have 32 cores/64 threads, the 3990X has 64/128. So my little space hea
 
 ## My original usage
 
-With some tweaking of the BIOS, I gently overclocked the Threadrippers (the 3990X, in particular, is a little sluggish for the type of computations I run) and convinced the motherboards to recognise all the RAM at its posted speed. I started using in production right away, which means I did not bother with my configuration and kept things as simple as possible. 
+With some tweaking of the BIOS, I gently overclocked the Threadrippers (the 3990X, in particular, is a little sluggish for the type of computations I run) and convinced the motherboards to recognise all the RAM at its posted speed. I started using in production right away, which means I did not bother with my configuration and kept things as simple as possible.
 
-This is when I hit the "125+3 sockets in `R`" issue the first time: my code was running fine on the 3970X but refusing to run on the 3990X. Dug into it and worked out that setting the number of CPUs to 125 in my calls to `makeCluster` on the 3990X did the trick. With 4 perfectly capable compute nodes and easily parallelisable tasks, it is easy enough to produce a job list and have the Pi distribute it between nodes, have the nodes save the results locally upon completion and have the Pi running periodic "`rsync` repatriations" of the results from the nodes to the NAS. Once the computations were done, I used one of the compute nodes to bring the pieces together. 
+This is when I hit the "125+3 sockets in `R`" issue the first time: my code was running fine on the 3970X but refusing to run on the 3990X. Dug into it and worked out that setting the number of CPUs to 125 in my calls to `makeCluster` on the 3990X did the trick. With 4 perfectly capable compute nodes and easily parallelisable tasks, it is easy enough to produce a job list and have the Pi distribute it between nodes, have the nodes save the results locally upon completion and have the Pi running periodic "`rsync` repatriations" of the results from the nodes to the NAS. Once the computations were done, I used one of the compute nodes to bring the pieces together.
 
 ## Compiling `R` to remove the 125+3 sockets limitation
 
-Besides using **all** threads on the 3990X, I am also keen to drive all computations from a single designated node (when warranted, of course). I have been meaning to do this for quite a while, but this was rather low on my priority list. (I also want to play around with solutions such as `slurm` or `htcondor`, but this will be for later.)  And here, the 125+3 sockets pops up again: as far as I understand it, the head node needs as many sockets as threads it is talking to, i.e., 320 in my case. 
+Besides using **all** threads on the 3990X, I am also keen to drive all computations from a single designated node (when warranted, of course). I have been meaning to do this for quite a while, but this was rather low on my priority list. (I also want to play around with solutions such as `slurm` or `htcondor`, but this will be for later.) And here, the 125+3 sockets pops up again: as far as I understand it, the head node needs as many sockets as threads it is talking to, i.e., 320 in my case.
 
-I have an old refurbished Dell Precision T7600 with two 8 cores E5-2690 Xeons and 128 GB of RAM that can be the head node. But what is the fun in that when I also have a Pi to play with? So, now that I have a bit more time, I decided to bite the bullet and try things out. 
+I have an old refurbished Dell Precision T7600 with two 8 cores E5-2690 Xeons and 128 GB of RAM that can be the head node. But what is the fun in that when I also have a Pi to play with? So, now that I have a bit more time, I decided to bite the bullet and try things out.
 
 First step, remove the 128 sockets limitation. Extremely easy: just compile `R` from sources. Which was deceptively easy, even on the Pi. This should not have been a surprise for someone coming from the days of yore when Linux did not have `deb` or `rpm` and every program installation required compilation. I took some inspiration [here](https://www.psyctc.org/Rblog/posts/2021-03-26-compiling-r-on-a-raspberry-pi-4/), but will point out that I had virtually none of the steps described there to follow, as I had had to install most of the software required for compilations prior to that.
 
 The process is easy. Download the `R` source code from [here](https://cran.r-project.org/sources.html). (I used the [patched release](https://stat.ethz.ch/R/daily/R-patched.tar.gz).) Extract the tarball and move into the resulting directory. See some information [here](https://parallelly.futureverse.org/reference/availableConnections.html) about setting the maximum allowed number of connections, but in short: edit the file `src/main/connections.c` and replace
+
 ```c
 #define NCONNECTIONS 128
 ```
+
 with whatever limit you want to impose. There is some discussion [here](https://github.com/HenrikBengtsson/Wishlist-for-R/issues/28) on potential issues related to the number chosen; completely ignoring these issues, I decided to pick 1024.
 
 Then `configure`, `make` (`make -j4`, perhaps) and `sudo make install` and you are in business. One remark, though: I prefer for the `R` executables and libraries to reside in `/usr` rather than `/usr/local` (for consistency with `deb` install of the standard code). Also, if you are going to run `rstudio-server`, you **must** compile for a shared `R` library. So, in short, instead of a simple `./configure`, I ran
+
 ```bash
 ./configure --prefix=/usr --enable-R-shlib
 ```
@@ -59,38 +62,40 @@ node2 <- '192.168.0.52'
 node3 <- '192.168.0.53'
 node4 <- '192.168.0.54'
 machineAddresses <- list(
-  list(host = node0, user = 'jarino', ncore = 2),
-  list(host = node1, user = 'jarino', ncore = 64),
-  list(host = node2, user = 'jarino', ncore = 64),
-  list(host = node3, user = 'jarino', ncore = 64),
-  list(host = node4, user = 'jarino', ncore = 125)
+list(host = node0, user = 'jarino', ncore = 2),
+list(host = node1, user = 'jarino', ncore = 64),
+list(host = node2, user = 'jarino', ncore = 64),
+list(host = node3, user = 'jarino', ncore = 64),
+list(host = node4, user = 'jarino', ncore = 125)
 )
 spec <- lapply(machineAddresses,
-               function(machine) {
-                 rep(list(list(host=machine$host, user=machine$user)),
-                     machine$ncore)
-               })
+function(machine) {
+rep(list(list(host=machine$host, user=machine$user)),
+machine$ncore)
+})
 spec <- unlist(spec, recursive=FALSE)
 parallelCluster <- parallel::makeCluster(type = 'PSOCK',
-                                         master = node0,
-                                         spec = spec)
+master = node0,
+spec = spec)
 print(parallelCluster)
 if(!is.null(parallelCluster)) {
-  parallel::stopCluster(parallelCluster)
-  parallelCluster <- c()
+parallel::stopCluster(parallelCluster)
+parallelCluster <- c()
 }
 {% endhighlight %}
 
-
 Then, calling `test_cluster.R` this code and running it from the command line,
+
 ```bash
-jarino@node0:~/CODE$ Rscript test_cluster.R 
+jarino@node0:~/CODE$ Rscript test_cluster.R
 socket cluster with 319 nodes on hosts ‘192.168.0.50’, ‘192.168.0.51’, ‘192.168.0.52’, ‘192.168.0.53’, ‘192.168.0.54’
 ```
+
 So we are good! For comparison, running from a node with a "standard" `R` without the number of sockets increased (modifying the head node to be `node1`), we get the usual error:
+
 ```bash
-jarino@node1:~/CODE$ Rscript test_cluster.R 
-Error in socketConnection("localhost", port = port, server = TRUE, blocking = TRUE,  : 
+jarino@node1:~/CODE$ Rscript test_cluster.R
+Error in socketConnection("localhost", port = port, server = TRUE, blocking = TRUE,  :
   all connections are in use
 Calls: <Anonymous> ... makePSOCKcluster -> newPSOCKnode -> socketConnection
 Execution halted
@@ -99,5 +104,6 @@ Calls: <Anonymous> -> cleanup -> loadNamespace -> readRDS -> gzfile
 ```
 
 Two final remarks.
+
 1. The call to `makeCluster` can be quite lengthy (several minutes), even in this simple case with no functions or libraries to declare to the workers, so it is important to decide whether this level of parallelisation is required; if not, things may run much faster on 4 separate computers with result agregation as described earlier.
 2. Clearly, this setup will require, in most instances, to have the code running on the compute nodes store the result locally there rather than return results to the head node. Indeed, only small sized return values would not quickly overwhelm the Pi's small RAM.

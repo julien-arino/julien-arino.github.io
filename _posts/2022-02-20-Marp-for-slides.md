@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Using Marp to make cool html presentation slides"
+title: "Using Marp to make cool html presentation slides"
 description: "How to use Marp to make nice looking presentation slides, from the perspective of an only-partly-savvy computer user."
-date:   2022-02-20
+date: 2022-02-20
 categories: presentations
 ---
 
@@ -12,14 +12,14 @@ For the file links, skip directly to the end of this post.
 
 Giving presentations about my research work is something I seem to do quite a lot. Perhaps because my MSc supervisor was a physician who put great emphasis on slide content and form, I have always spent a lot of time on my presentation files. I am often asked to give talks about my work on the spatio-temporal spread of infectious diseases using metapopulations; however, except in rare instances such as giving three times the same talk in three different universities over the course of two days, I always try to change things between two talks even if they have the same title. There is always something that did not flow well, some typo that appeared, some new idea to throw in, etc.
 
-All that to say: finding the good tool for preparing presentations has been an ongoing project. 
+All that to say: finding the good tool for preparing presentations has been an ongoing project.
 
 Let me start with the elephant in the room: I avoid like the plague tools like PowerPoint or LibreOffice Impress. This is a consequence of the epoch at which I started giving talks: back in the late 1990s, PowerPoint did very poorly with mathematics and only a few brave souls used it in talks.
 
 For efficiency, using a LaTeX based approach always seemed the best. You can copy and paste your content directly from your papers, thereby saving a lot of time. While it is possible to hack together a presentation, it is easier to use existing packages and through the years, I used several different tools.
 
 - `inriaslides`, back when I was working on my PhD at.. INRIA (now [Inria](https://www.inria.fr/en/inria-centre-universite-cote-azur)).
-- After I left Inria in 2001, it became silly to use their slide package (which put the logo everywhere, etc.) and so for a while, I actually used a simple model that I came up with. Key word being *simple*. I used this for about 2 years.
+- After I left Inria in 2001, it became silly to use their slide package (which put the logo everywhere, etc.) and so for a while, I actually used a simple model that I came up with. Key word being _simple_. I used this for about 2 years.
 - In 2003, I started using [`prosper`](https://ctan.org/pkg/prosper), which was a major step forward for LaTeX slides.
 - Then, in the summer of 2005, I stumbled upon [`Beamer`](https://ctan.org/pkg/beamer). `Beamer` was a revolution, because you compile your text directly using `pdflatex` instead of having to run through a sequence of conversions like with `prosper`.
 
@@ -44,12 +44,12 @@ The main thing to know is that your file needs to contain a `YAML` header to set
 - **YAML header**. This is where you define such things as the title that will appear in the browser tab (in the case of an `html` render), the slides form factor, inclusions, etc.
 - **Separate slides with ---**. Beware to leave an empty line after and above the separators.
 - **Markdown content**. That makes things very easy.
-- **Mathematics support**. Probably the most important characteristic for modellers. Marp allows to choose whether you use [MathJax](https://www.mathjax.org/) or [KaTeX](https://katex.org/), with KaTeX used by default. KaTeX seems to be faster than MathJax and is quite similar in practice to MathJax anyway. The biggest difference in my recent experience is that 
+- **Mathematics support**. Probably the most important characteristic for modellers. Marp allows to choose whether you use [MathJax](https://www.mathjax.org/) or [KaTeX](https://katex.org/), with KaTeX used by default. KaTeX seems to be faster than MathJax and is quite similar in practice to MathJax anyway. The biggest difference in my recent experience is that
 
 ```
 \begin{align*}
 x & xx \\
-y & yy 
+y & yy
 \end{align*}
 ```
 
@@ -70,8 +70,8 @@ as KaTeX in Marp does not recognise ``\begin{align*}`` and similar environments.
 </ul>
 
 ## Additional styling elements
-Note that it is possible to use `html` or `css` constructs in the code to obtain results that are more elaborate than what is allowed by basic `markdown`. This goes a bit against the philosophy that underlies LaTeX and `markdown`, but is useful.
 
+Note that it is possible to use `html` or `css` constructs in the code to obtain results that are more elaborate than what is allowed by basic `markdown`. This goes a bit against the philosophy that underlies LaTeX and `markdown`, but is useful.
 
 # Where to find my presentation files
 
@@ -79,4 +79,4 @@ Note that it is possible to use `html` or `css` constructs in the code to obtain
 
 - The `markdown` files, `pdf` and raw `html` files, as well as the figure and movie files, are located in the repo.
 - The `html` files can be viewed in a browser by instead following the link to the GitHub pages [version of the repo](https://julien-arino.github.io/presentations/).
-- 
+-
