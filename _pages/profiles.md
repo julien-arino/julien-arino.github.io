@@ -33,10 +33,10 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>PhD student</p>
-      <p>University of N'Djaména</p>
-      <p>N'Djaména, Chad</p>
+      <p>University of Manitoba</p>
+      <p>Winnipeg, Manitoba, Canada</p>
   ##
-  - align: right
+  - align: left
     image: student_pics_hippolyte.jpg
     content: students_hippolyte.md
     image_circular: false # crops the image to make it circular
@@ -45,7 +45,7 @@ profiles:
       <p>University of N'Djaména</p>
       <p>N'Djaména, Chad</p>
   ##
-  - align: left
+  - align: right
     image: student_pics_clotilde.jpg
     content: students_clotilde.md
     image_circular: false # crops the image to make it circular
