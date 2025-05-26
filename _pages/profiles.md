@@ -2,7 +2,7 @@
 layout: profiles
 permalink: /people/
 title: people
-description: members of the group
+description: Current members of the group
 nav: true
 nav_order: 7
 
@@ -17,6 +17,7 @@ profiles:
       <p>Professor</p>
       <p>University of Manitoba</p>
       <p>Winnipeg, Manitoba, Canada</p>
+  ##
   - align: left
     image: student_pic_abdramane.jpg
     content: about_abdramane.md
@@ -25,6 +26,7 @@ profiles:
       <p>PhD student</p>
       <p>University of N'Djaména</p>
       <p>N'Djaména, Chad</p>
+  ##
   - align: right
     image: student_pic_hippolyte.jpg
     content: about_hippolyte.md
@@ -33,6 +35,7 @@ profiles:
       <p>PhD student</p>
       <p>University of N'Djaména</p>
       <p>N'Djaména, Chad</p>
+  ##
   - align: left
     image: student_pic_clotilde.jpg
     content: about_clotilde.md
@@ -41,4 +44,6 @@ profiles:
       <p>Postdoctoral fellow</p>
       <p>University of Manitoba</p>
       <p>Winnipeg, Manitoba, Canada</p>
+    ##
+      
 ---
