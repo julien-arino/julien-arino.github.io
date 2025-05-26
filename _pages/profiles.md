@@ -19,8 +19,8 @@ profiles:
       <p>Winnipeg, Manitoba, Canada</p>
   ##
   - align: left
-    image: student_pic_abdramane.jpg
-    content: about_abdramane.md
+    image: student_pics_abdramane.jpg
+    content: students_abdramane.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>PhD student</p>
@@ -28,8 +28,17 @@ profiles:
       <p>N'Djaména, Chad</p>
   ##
   - align: right
-    image: student_pic_hippolyte.jpg
-    content: about_hippolyte.md
+    image: student_pics_adriana.jpg
+    content: students_adriana.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>PhD student</p>
+      <p>University of N'Djaména</p>
+      <p>N'Djaména, Chad</p>
+  ##
+  - align: right
+    image: student_pics_hippolyte.jpg
+    content: students_hippolyte.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>PhD student</p>
@@ -37,8 +46,8 @@ profiles:
       <p>N'Djaména, Chad</p>
   ##
   - align: left
-    image: student_pic_clotilde.jpg
-    content: about_clotilde.md
+    image: student_pics_clotilde.jpg
+    content: students_clotilde.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Postdoctoral fellow</p>
