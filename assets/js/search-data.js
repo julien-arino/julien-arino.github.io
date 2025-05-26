@@ -72,29 +72,7 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/renewed-website/blog/";
               },
-            },{id: "post-a-post-with-plotly-js",
-        
-          title: "a post with plotly.js",
-        
-        description: "this is what included plotly.js code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/renewed-website/blog/2025/plotly/";
-          
-        },
-      },{id: "post-a-post-with-image-galleries",
-        
-          title: "a post with image galleries",
-        
-        description: "this is what included image galleries could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/renewed-website/blog/2024/photo-gallery/";
-          
-        },
-      },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
+            },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
         
           title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
@@ -105,224 +83,37 @@ ninja.data = [{
             window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
           
         },
-      },{id: "post-a-post-with-tabs",
+      },{id: "post-compiling-r-on-a-raspberry-pi-and-getting-rid-of-the-128-threads-limitation",
         
-          title: "a post with tabs",
+          title: "Compiling R on a Raspberry Pi and getting rid of the 128 threads...",
         
-        description: "this is what included tabs in a post could look like",
+        description: "Some considerations on compiling R on a Raspberry Pi to get rid of the 128 threads limitation",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/renewed-website/blog/2024/tabs/";
+            window.location.href = "/renewed-website/blog/2023/R-on-raspberri-pi-and-more-than-128-threads/";
           
         },
-      },{id: "post-a-post-with-typograms",
+      },{id: "post-un-petit-cours-d-39-épidémiologie-mathématique",
         
-          title: "a post with typograms",
+          title: "Un petit cours d&#39;épidémiologie mathématique",
         
-        description: "this is what included typograms code could look like",
+        description: "Notes de cours d&#39;un cours d&#39;épidémiologie mathématique donné à N&#39;Djaména (Tchad) en juin et juillet 2022.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/renewed-website/blog/2024/typograms/";
+            window.location.href = "/renewed-website/blog/2022/petit-cours-epi-math/";
           
         },
-      },{id: "post-a-post-that-can-be-cited",
+      },{id: "post-a-short-mathematical-epidemiology-course",
         
-          title: "a post that can be cited",
+          title: "A short Mathematical Epidemiology course",
         
-        description: "this is what a post that can be cited looks like",
+        description: "Lecture notes and videos of the 3MC short course on Mathematical Epidemiology I taught at NWU, South Africa, in April 2022",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/renewed-website/blog/2024/post-citation/";
-          
-        },
-      },{id: "post-a-post-with-pseudo-code",
-        
-          title: "a post with pseudo code",
-        
-        description: "this is what included pseudo code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/renewed-website/blog/2024/pseudocode/";
-          
-        },
-      },{id: "post-a-post-with-code-diff",
-        
-          title: "a post with code diff",
-        
-        description: "this is how you can display code diffs",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/renewed-website/blog/2024/code-diff/";
-          
-        },
-      },{id: "post-a-post-with-advanced-image-components",
-        
-          title: "a post with advanced image components",
-        
-        description: "this is what advanced image components could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/renewed-website/blog/2024/advanced-images/";
-          
-        },
-      },{id: "post-a-post-with-vega-lite",
-        
-          title: "a post with vega lite",
-        
-        description: "this is what included vega lite code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/renewed-website/blog/2024/vega-lite/";
-          
-        },
-      },{id: "post-a-post-with-geojson",
-        
-          title: "a post with geojson",
-        
-        description: "this is what included geojson code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/renewed-website/blog/2024/geojson-map/";
-          
-        },
-      },{id: "post-a-post-with-echarts",
-        
-          title: "a post with echarts",
-        
-        description: "this is what included echarts code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/renewed-website/blog/2024/echarts/";
-          
-        },
-      },{id: "post-a-post-with-chart-js",
-        
-          title: "a post with chart.js",
-        
-        description: "this is what included chart.js code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/renewed-website/blog/2024/chartjs/";
-          
-        },
-      },{id: "post-a-post-with-tikzjax",
-        
-          title: "a post with TikZJax",
-        
-        description: "this is what included TikZ code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/renewed-website/blog/2023/tikzjax/";
-          
-        },
-      },{id: "post-a-post-with-bibliography",
-        
-          title: "a post with bibliography",
-        
-        description: "an example of a blog post with bibliography",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/renewed-website/blog/2023/post-bibliography/";
-          
-        },
-      },{id: "post-a-post-with-jupyter-notebook",
-        
-          title: "a post with jupyter notebook",
-        
-        description: "an example of a blog post with jupyter notebook",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/renewed-website/blog/2023/jupyter-notebook/";
-          
-        },
-      },{id: "post-a-post-with-custom-blockquotes",
-        
-          title: "a post with custom blockquotes",
-        
-        description: "an example of a blog post with custom blockquotes",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/renewed-website/blog/2023/custom-blockquotes/";
-          
-        },
-      },{id: "post-a-post-with-table-of-contents-on-a-sidebar",
-        
-          title: "a post with table of contents on a sidebar",
-        
-        description: "an example of a blog post with table of contents on a sidebar",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/renewed-website/blog/2023/sidebar-table-of-contents/";
-          
-        },
-      },{id: "post-a-post-with-audios",
-        
-          title: "a post with audios",
-        
-        description: "this is what included audios could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/renewed-website/blog/2023/audios/";
-          
-        },
-      },{id: "post-a-post-with-videos",
-        
-          title: "a post with videos",
-        
-        description: "this is what included videos could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/renewed-website/blog/2023/videos/";
-          
-        },
-      },{id: "post-displaying-beautiful-tables-with-bootstrap-tables",
-        
-          title: "displaying beautiful tables with Bootstrap Tables",
-        
-        description: "an example of how to use Bootstrap Tables",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/renewed-website/blog/2023/tables/";
-          
-        },
-      },{id: "post-a-post-with-table-of-contents",
-        
-          title: "a post with table of contents",
-        
-        description: "an example of a blog post with table of contents",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/renewed-website/blog/2023/table-of-contents/";
-          
-        },
-      },{id: "post-a-post-with-giscus-comments",
-        
-          title: "a post with giscus comments",
-        
-        description: "an example of a blog post with giscus comments",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/renewed-website/blog/2022/giscus-comments/";
+            window.location.href = "/renewed-website/blog/2022/3MC-short-course-math-epi/";
           
         },
       },{id: "post-displaying-external-posts-on-your-al-folio-blog",
@@ -336,103 +127,136 @@ ninja.data = [{
             window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
-      },{id: "post-a-post-with-redirect",
+      },{id: "post-some-useful-marp-stuff",
         
-          title: "a post with redirect",
+          title: "Some useful Marp stuff",
         
-        description: "you can also redirect to assets like pdf",
+        description: "Compendium of commands useful in Marp: two columns, centering figures, formatting theorems, etc.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/renewed-website/assets/pdf/example_pdf.pdf";
+            window.location.href = "/renewed-website/blog/2022/useful-Marp-stuff/";
           
         },
-      },{id: "post-a-post-with-diagrams",
+      },{id: "post-using-marp-to-make-cool-html-presentation-slides",
         
-          title: "a post with diagrams",
+          title: "Using Marp to make cool html presentation slides",
         
-        description: "an example of a blog post with diagrams",
+        description: "How to use Marp to make nice looking presentation slides, from the perspective of an only-partly-savvy computer user.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/renewed-website/blog/2021/diagrams/";
+            window.location.href = "/renewed-website/blog/2022/Marp-for-slides/";
           
         },
-      },{id: "post-a-distill-style-blog-post",
+      },{id: "post-spatio-temporal-spread-of-covid-19-considerations-and-modelling",
         
-          title: "a distill-style blog post",
+          title: "Spatio-temporal spread of COVID-19: considerations and modelling",
         
-        description: "an example of a distill-style blog post and main elements",
+        description: "A review of the spatio-temporal spread of COVID-19, both in terms of actual spread and in terms of modelling, that I wrote for Fields Institute Communications.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/renewed-website/blog/2021/distill/";
+            window.location.href = "/renewed-website/blog/2022/spatio-temporal-spread-of-covid-19-a-review/";
           
         },
-      },{id: "post-a-post-with-twitter",
+      },{id: "post-mathematical-epidemiology-in-a-data-rich-world",
         
-          title: "a post with twitter",
+          title: "Mathematical epidemiology in a data-rich world",
         
-        description: "an example of a blog post with twitter",
+        description: "Comments on and Rmarkdown source code of the paper Mathematical epidemiology in a data-rich world (Infectious Diseases Modelling, 2020).",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/renewed-website/blog/2020/twitter/";
+            window.location.href = "/renewed-website/blog/2020/mathematical-epidemiology-in-a-data-rich-world/";
           
         },
-      },{id: "post-a-post-with-disqus-comments",
+      },{id: "post-ugly-loops-versus-pretty-vectors",
         
-          title: "a post with disqus comments",
+          title: "Ugly loops versus pretty vectors",
         
-        description: "an example of a blog post with disqus comments",
+        description: "A comparison of the execution times of loops and vector operations in R using the tictoc library.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/renewed-website/blog/2015/disqus-comments/";
+            window.location.href = "/renewed-website/blog/2019/ugly-loops/";
           
         },
-      },{id: "post-a-post-with-math",
+      },{id: "post-thucydides-and-epidemiology",
         
-          title: "a post with math",
+          title: "Thucydides and epidemiology",
         
-        description: "an example of a blog post with some math",
+        description: "The plague of Athens of 430 BCE as told by Thucydides in the History of the Peloponnesian War.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/renewed-website/blog/2015/math/";
+            window.location.href = "/renewed-website/blog/2019/Thucydides-and-epidemiology/";
           
         },
-      },{id: "post-a-post-with-code",
+      },{id: "post-lowering-the-alpha-value-in-an-osm-map",
         
-          title: "a post with code",
+          title: "Lowering the alpha value in an OSM map",
         
-        description: "an example of a blog post with some code",
+        description: "Simple solution to change the alpha channel (that is, the opacity or transparency) in an OpenStreetMap map in R, using a function that adds an alpha value to a hexadecimal RGB colour specification.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/renewed-website/blog/2015/code/";
+            window.location.href = "/renewed-website/blog/2019/lowering-OSM-alpha/";
           
         },
-      },{id: "post-a-post-with-images",
+      },{id: "post-a-parlapply-example",
         
-          title: "a post with images",
+          title: "A parLapply example",
         
-        description: "this is what included images could look like",
+        description: "A simple working example of using parLapply in R to perform a very basic sensitivity analysis (here, of a static function).",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/renewed-website/blog/2015/images/";
+            window.location.href = "/renewed-website/blog/2019/skel-parLapply/";
           
         },
-      },{id: "post-a-post-with-formatting-and-links",
+      },{id: "post-buses-or-ants",
         
-          title: "a post with formatting and links",
+          title: "Buses or ants?",
         
-        description: "march &amp; april, looking forward to summer",
+        description: "R code for plotting the activity of bus stops during a typical day in Winnipeg, using data downloaded from Winnipeg Transit. Shows how to make movies from the results using convert (ImageMagick) and animation (R library).",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/renewed-website/blog/2015/formatting-and-links/";
+            window.location.href = "/renewed-website/blog/2018/winnipeg-bus-schedules/";
+          
+        },
+      },{id: "post-plotting-a-nice-y-axis-and-cropping-figures",
+        
+          title: "Plotting a nice y-axis and cropping figures",
+        
+        description: "R functions to make human readable y-axis and to crop figures.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/renewed-website/blog/2018/US-plotting-nice-axes-and-cropping/";
+          
+        },
+      },{id: "post-us-measles-cases-data",
+        
+          title: "US measles cases data",
+        
+        description: "Historical data for the yearly number of cases of measles in the USA from 1944 to the current day, collated from the US CDC data.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/renewed-website/blog/2018/US-measles-cases/";
+          
+        },
+      },{id: "post-some-sars-data",
+        
+          title: "Some SARS data",
+        
+        description: "Severe Acute Respiratory Syndrome (SARS) data for international spread collated from the WHO website maintained during the 2003 epidemic.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/renewed-website/blog/2014/SARS-data/";
           
         },
       },{id: "books-the-godfather",
@@ -501,35 +325,49 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%6A%75%6C%69%65%6E.%61%72%69%6E%6F-%55%4D@%70%6D.%6D%65", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
+          window.open("https://github.com/julien-arino", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
+        id: 'social-orcid',
+        title: 'ORCID',
         section: 'Socials',
         handler: () => {
-          window.open("/renewed-website/feed.xml", "_blank");
+          window.open("https://orcid.org/0000-0001-6409-5027", "_blank");
         },
       },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
+          window.open("https://scholar.google.com/citations?user=DUa7u60AAAAJ", "_blank");
         },
       },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
+        id: 'social-scopus',
+        title: 'Scopus',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("https://www.scopus.com/authid/detail.uri?authorId=56265395400", "_blank");
+        },
+      },{
+        id: 'social-semanticscholar',
+        title: 'Semantic Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.semanticscholar.org/author/31605569", "_blank");
+        },
+      },{
+        id: 'social-youtube',
+        title: 'YouTube',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://youtube.com/@you-say-data", "_blank");
         },
       },{
       id: 'light-theme',
