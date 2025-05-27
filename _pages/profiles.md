@@ -19,7 +19,7 @@ profiles:
       <p>PhD student</p>
       <p>University of N'Djaména</p>
   - align: left
-    image: prof-pic.jpg
+    image: prof_pic.jpg
     content: about-julien.md
     image_circular: false # crops the image to make it circular
     more_info: >

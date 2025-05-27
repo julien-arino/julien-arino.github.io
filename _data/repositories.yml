@@ -1,14 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
-
-repo_description_lines_max: 2
+  - julien-arino
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - julien-arino/modelling-with-data
+  - julien-arino/3MC-course-epidemiological-modelling
+  - julien-arino/petit-cours-epidemio-mathematique
+  
