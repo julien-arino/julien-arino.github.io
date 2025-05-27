@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/renewed-website/";
     },
-  },{id: "nav-blog",
+  },{id: "nav-teaching",
+          title: "teaching",
+          description: "Material for some courses both current or recent and past. For ongoing courses, information specific to a term is on UMLearn.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/renewed-website/teaching/";
+          },
+        },{id: "nav-blog",
           title: "blog",
           description: "",
           section: "Navigation",
@@ -43,13 +50,6 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/renewed-website/cv/";
-          },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/renewed-website/teaching/";
           },
         },{id: "nav-people",
           title: "people",
@@ -298,6 +298,96 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/renewed-website/projects/9_project/";
+            },},{id: "teaching-short-course-on-mathematical-epidemiology-arba-minch-2023",
+          title: 'Short course on Mathematical Epidemiology (Arba Minch 2023)',
+          description: "A short course on Mathematical Epidemiology taught at Arba Minch (Ethiopia) in December 2023",
+          section: "Teaching",handler: () => {
+              window.location.href = "/renewed-website/teaching/grad-3MC-2023-12-Arba-Minch/";
+            },},{id: "teaching-3mc-african-mathematical-school-on-quantitative-biology",
+          title: '3MC African Mathematical School on Quantitative Biology',
+          description: "3MC African Mathematical School on Quantitative Biology - Applications in Epidemiology, Ecology and Cancer",
+          section: "Teaching",handler: () => {
+              window.location.href = "/renewed-website/teaching/grad-3MC-2024-02-Potch/";
+            },},{id: "teaching-introduction-to-mathematical-epidemiology-icms-edinburgh-2024",
+          title: 'Introduction to Mathematical Epidemiology (ICMS Edinburgh 2024)',
+          description: "A short course on Mathematical Epidemiology taught at ICMS (Edinburgh) in December 2024",
+          section: "Teaching",handler: () => {
+              window.location.href = "/renewed-website/teaching/grad-3MC-2024-12-ICMS/";
+            },},{id: "teaching-mathematical-epidemiology",
+          title: 'Mathematical Epidemiology',
+          description: "3MC course taught in South Africa in April 2022",
+          section: "Teaching",handler: () => {
+              window.location.href = "/renewed-website/teaching/grad-3MC-course-2022/";
+            },},{id: "teaching-mathematical-biology",
+          title: 'Mathematical Biology',
+          description: "3MC African Mathematical School South Africa in March 2023",
+          section: "Teaching",handler: () => {
+              window.location.href = "/renewed-website/teaching/grad-3MC-school-2023/";
+            },},{id: "teaching-short-course-on-mathematical-epidemiology-ukzn-2023",
+          title: 'Short course on Mathematical Epidemiology (UKZN 2023)',
+          description: "A short course on Mathematical Epidemiology taught at UKZN (Durban) in 2023",
+          section: "Teaching",handler: () => {
+              window.location.href = "/renewed-website/teaching/grad-Durban-2023/";
+            },},{id: "teaching-r-for-modellers",
+          title: 'R for modellers',
+          description: "A few short vignettes about the use of R in modelling",
+          section: "Teaching",handler: () => {
+              window.location.href = "/renewed-website/teaching/grad-R-for-modellers/";
+            },},{id: "teaching-one-health-modelling-for-eid",
+          title: 'One Health Modelling for EID',
+          description: "OMNI/RÉUNIS Course on One Health Modelling for Emerging Infectious Diseases",
+          section: "Teaching",handler: () => {
+              window.location.href = "/renewed-website/teaching/grad-omni-course/";
+            },},{id: "teaching-épidémiologie-mathématique",
+          title: 'Épidémiologie mathématique',
+          description: "Petit cours d&#39;épidémiologie mathématique enseigné à N&#39;Djaména en juin 2022",
+          section: "Teaching",handler: () => {
+              window.location.href = "/renewed-website/teaching/grad-petit-cours-epimath-2022/";
+            },},{id: "teaching-math-1300",
+          title: 'MATH 1300',
+          description: "Vector Geometry and Linear Algebra",
+          section: "Teaching",handler: () => {
+              window.location.href = "/renewed-website/teaching/math1300/";
+            },},{id: "teaching-math-2720",
+          title: 'MATH 2720',
+          description: "Multivariable Calculus",
+          section: "Teaching",handler: () => {
+              window.location.href = "/renewed-website/teaching/math2720/";
+            },},{id: "teaching-math-2740",
+          title: 'MATH 2740',
+          description: "Mathematics of Data Science",
+          section: "Teaching",handler: () => {
+              window.location.href = "/renewed-website/teaching/math2740/";
+            },},{id: "teaching-math-3610",
+          title: 'MATH 3610',
+          description: "Introduction to Mathematical Modelling",
+          section: "Teaching",handler: () => {
+              window.location.href = "/renewed-website/teaching/math3610/";
+            },},{id: "teaching-math-3820",
+          title: 'MATH 3820',
+          description: "Introduction to Mathematical Modelling",
+          section: "Teaching",handler: () => {
+              window.location.href = "/renewed-website/teaching/math3820/";
+            },},{id: "teaching-math-4730-7370",
+          title: 'MATH 4730-7370',
+          description: "Linear Algebra and Matrix Analysis",
+          section: "Teaching",handler: () => {
+              window.location.href = "/renewed-website/teaching/math4730/";
+            },},{id: "teaching-math-4800",
+          title: 'MATH 4800',
+          description: "Dynamical Systems",
+          section: "Teaching",handler: () => {
+              window.location.href = "/renewed-website/teaching/math4800/";
+            },},{id: "teaching-math-8410",
+          title: 'MATH 8410',
+          description: "Mathematics Biology / Epidemiology",
+          section: "Teaching",handler: () => {
+              window.location.href = "/renewed-website/teaching/math8410/";
+            },},{id: "teaching-math-8430",
+          title: 'MATH 8430',
+          description: "Fundamentals of ODE",
+          section: "Teaching",handler: () => {
+              window.location.href = "/renewed-website/teaching/math8430/";
             },},{
         id: 'social-email',
         title: 'email',
