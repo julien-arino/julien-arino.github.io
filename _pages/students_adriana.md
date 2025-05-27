@@ -1,0 +1,1 @@
+Adriana-Stefania Ciupenu is an Individual Interdisciplinary Studies program PhD student at the University of Manitoba, with main department the Department of Mathematics and other department the Department of Statistics.
