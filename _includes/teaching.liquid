@@ -1,4 +1,4 @@
-<!-- _includes/teaching.html -->
+<!-- _includes/teaching.liquid -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
   {% if teaching.redirect -%}
@@ -8,7 +8,7 @@
   {%- endif %}
   <div class="card hoverable">
   {%- if teaching.img %}
-    {%- include figure.html
+    {%- include figure.liquid
       path=teaching.img
       alt="teaching thumbnail" -%}
   {%- endif %}
