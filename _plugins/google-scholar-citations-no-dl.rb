@@ -22,11 +22,12 @@ module Jekyll
       citations = {}
       if File.exist?(csv_path)
         CSV.foreach(csv_path, headers: true) do |row|
-          citations[row['pub_id']] = row['citations']
+          citations[row['pub_id'].to_s.strip] = row['citations'].to_s.strip
         end
       end
-      puts "[DEBUG] Looking up pub_id: #{@article_id}, found: #{citations[@article_id]}"
-      citations.fetch(@article_id, "?")
+      article_id = @article_id.to_s.strip
+      puts "[DEBUG] Looking up pub_id: #{article_id}, found: #{citations[article_id]}"
+      citations.fetch(article_id, "N/A")
     end
   end
 end
