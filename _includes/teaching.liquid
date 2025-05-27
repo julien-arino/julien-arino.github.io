@@ -1,36 +1,38 @@
 <!-- _includes/teaching.liquid -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  {% if teaching.redirect -%}
-    <a href="{{ teaching.redirect }}">
-  {%- else -%}
-    <a href="{{ teaching.url | relative_url }}">
-  {%- endif %}
   <div class="card hoverable">
-  {%- if teaching.img %}
-    {%- include figure.liquid
-      path=teaching.img
-      alt="teaching thumbnail" -%}
-  {%- endif %}
-  <div class="card-body">
-    <h2 class="card-title text-lowercase">{{ teaching.title }}</h2>
+    {%- if teaching.img %}
+      {%- include figure.liquid
+        path=teaching.img
+        alt="teaching thumbnail" -%}
+    {%- endif %}
+    <div class="card-body">
+      {%- if teaching.redirect -%}
+        <a href="{{ teaching.redirect }}">
+      {%- else -%}
+        <a href="{{ teaching.url | relative_url }}">
+      {%- endif %}
+        <h2 class="card-title text-lowercase">{{ teaching.title }}</h2>
+      </a>
       <p class="card-text">{{ teaching.description }}</p>
-        <div class="row ml-1 mr-1 p-0">
-          {%- if teaching.github -%}
-            <div class="github-icon">
-              <div class="icon" data-toggle="tooltip" title="Code Repository">
-                <a href="{{ teaching.github }}"><i class="fab fa-github gh-icon"></i></a>
-              </div>
+      <div class="row ml-1 mr-1 p-0">
+        {%- if teaching.github -%}
+          <div class="github-icon">
+            <div class="icon" data-toggle="tooltip" title="Code Repository">
+              <button type="button" onclick="window.open('{{ teaching.github }}', '_blank');" style="background:none;border:none;padding:0;">
+                <i class="fab fa-github gh-icon"></i>
+              </button>
+            </div>
             {%- if teaching.github_stars -%}
               <span class="stars" data-toggle="tooltip" title="GitHub Stars">
                 <i class="fas fa-star"></i>
                 <span id="{{ teaching.github_stars }}-stars"></span>
               </span>
             {%- endif %}
-            </div>
-          {%- endif %}
-        </div>
+          </div>
+        {%- endif %}
       </div>
     </div>
-  </a>
+  </div>
 </div>
