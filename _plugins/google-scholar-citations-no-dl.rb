@@ -32,4 +32,4 @@ module Jekyll
   end
 end
 
-Liquid::Template.register_tag('google_scholar_citations', Jekyll::GoogleScholarCitationsTag)
+Liquid::Template.register_tag('google_scholar_citations_no_dl', Jekyll::GoogleScholarCitationsTag)
