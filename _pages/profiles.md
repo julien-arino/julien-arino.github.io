@@ -18,7 +18,6 @@ profiles:
       <p>Abdramane Annour Saad</p>
       <p>PhD student</p>
       <p>University of N'Djaména</p>
-      <p>N'Djaména, Chad</p>
   - align: left
     image: prof-pic.jpg
     content: about-julien.md
@@ -27,7 +26,6 @@ profiles:
       <p>Julien Arino</p>
       <p>Professor</p>
       <p>University of Manitoba</p>
-      <p>Winnipeg, Manitoba, Canada</p>
   ##
   - align: right
     image: student-pics-adriana.jpg
@@ -37,7 +35,6 @@ profiles:
       <p>Adriana-Stefania Ciupeanu</p>
       <p>PhD student</p>
       <p>University of Manitoba</p>
-      <p>Winnipeg, Manitoba, Canada</p>
   ##
   - align: left
     image: student-pics-hippolyte.jpg
@@ -47,7 +44,6 @@ profiles:
       <p>Hippolyte Djimramadji</p>
       <p>PhD student</p>
       <p>University of N'Djaména</p>
-      <p>N'Djaména, Chad</p>
   ##
   - align: right
     image: student-pics-clotilde.jpg
@@ -57,7 +53,6 @@ profiles:
       <p>Clotilde Djuikem</p>
       <p>Postdoctoral fellow</p>
       <p>University of Manitoba</p>
-      <p>Winnipeg, Manitoba, Canada</p>
   ##
   - align: left
     image: student-pics-ghazale.jpg
@@ -67,7 +62,6 @@ profiles:
       <p>Ghazale Farjam</p>
       <p>PhD student</p>
       <p>University of Manitoba</p>
-      <p>Winnipeg, Manitoba, Canada</p>
   ##
   - align: right
     image: student-pics-mehadi.jpg
@@ -77,7 +71,6 @@ profiles:
       <p>Md Mehadi Hasan</p>
       <p>MSc student</p>
       <p>University of Manitoba</p>
-      <p>Winnipeg, Manitoba, Canada</p>
   ##
   - align: left
     image: student-pics-solomon.jpg
@@ -87,6 +80,5 @@ profiles:
       <p>Solomon Mensah</p>
       <p>MSc student</p>
       <p>University of Manitoba</p>
-      <p>Winnipeg, Manitoba, Canada</p>
       
 ---
