@@ -1,1 +1,3 @@
-Clotilde Djuikem is a postdoctoral fellow working in the Department of Mathematics at the University of Manitoba. She has a PhD from the Université de Nice (France) and an MSc from the the Université de Douala (Cameroon).
+Clotilde is a postdoctoral fellow working in the Department of Mathematics at the University of Manitoba. She has a PhD from the Université de Nice (France) and an MSc from the the Université de Douala (Cameroon).
+
+Clotilde has worked on coffee leaf rust, a fungal disease of coffee. She has also been working with Julien Arino on problems related to infectious disease modelling, with particular focus on the spread of diseases in fish.

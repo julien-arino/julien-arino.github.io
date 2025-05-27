@@ -1,1 +1,3 @@
-Adriana-Stefania Ciupenu is an Individual Interdisciplinary Studies program PhD student at the University of Manitoba, with main department the Department of Mathematics and other department the Department of Statistics.
+Adriana-Stefania is an Individual Interdisciplinary Studies program PhD student at the University of Manitoba, with main department the Department of Mathematics and other department the Department of Statistics. She is co-supervised by Julien Arino (main supervisor) and Saman Muthukumarana (Department of Statistics). She has also been heavily involved with the team of Michael Yi Li (Mathematical and Statistical Sciences, University of Alberta).
+
+Adriana has worked on a variety of topics ranging from mathematical modelling in epidemiology to data science related issues.
