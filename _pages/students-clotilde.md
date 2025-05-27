@@ -1,0 +1,1 @@
+Clotilde Djuikem is a postdoctoral fellow working in the Department of Mathematics at the University of Manitoba. She has a PhD from the Université de Nice (France) and an MSc from the the Université de Douala (Cameroon).
