@@ -143,11 +143,11 @@ newsletter:
 
 collections:
   books:
-    output: true
+    output: false
   news:
     defaults:
       layout: post
-    output: true
+    output: false
   projects:
     output: true
     permalink: /projects/:path/
