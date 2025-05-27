@@ -312,15 +312,17 @@
             ></span>
           {% endif %}
           {% if site.enable_publication_badges.google_scholar and entry_has_google_scholar_badge %}
-            {% assign scholar_citations = google_scholar_citations_no_dl site.data.socials.scholar_userid entry.google_scholar_id %}
             <a
               href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user={{ site.data.socials.scholar_userid }}&citation_for_view={{ site.data.socials.scholar_userid }}:{{ entry.google_scholar_id }}"
               aria-label="Google Scholar link"
               role="button"
             >
+              {% capture scholar_citations %}
+                {% google_scholar_citations_no_dl site.data.socials.scholar_userid entry.google_scholar_id %}
+              {% endcapture %}
               <img
-                src="https://img.shields.io/badge/scholar-{{ scholar_citations }}-4285F4?logo=googlescholar&labelColor=beige"
-                alt="{{ scholar_citations }} Google Scholar citations"
+                src="https://img.shields.io/badge/scholar-{{ scholar_citations | strip }}-4285F4?logo=googlescholar&labelColor=beige"
+                alt="{{ scholar_citations | strip }} Google Scholar citations"
               >
             </a>
           {% endif %}
