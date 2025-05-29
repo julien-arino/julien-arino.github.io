@@ -295,6 +295,21 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-disease-importation",
+          title: 'disease importation',
+          description: "understanding the mechanisms of disease importation",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/case_importations/";
+            },},{id: "projects-cmpd6",
+          title: 'CMPD6',
+          description: "Computational and Mathematical Population Dynamics 6 conference, Winnipeg 23-27 May 2023",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/cmpd6/";
+            },},{id: "projects-spatio-temporal-spread-of-diseases",
+          title: 'Spatio-temporal spread of diseases',
+          description: "dynamics of metapopulation disease models",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/spatio-temporal-spread-diseases/";
             },},{id: "teaching-short-course-on-mathematical-epidemiology-arba-minch-2023",
           title: 'Short course on Mathematical Epidemiology (Arba Minch 2023)',
           description: "A short course on Mathematical Epidemiology taught at Arba Minch (Ethiopia) in December 2023",
