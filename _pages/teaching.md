@@ -5,7 +5,7 @@ permalink: /teaching/
 description: Material for some courses both current or recent and past. For ongoing courses, information specific to a term is on UMLearn.
 nav: true
 display_categories: [recent, older]
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/teaching.md -->
