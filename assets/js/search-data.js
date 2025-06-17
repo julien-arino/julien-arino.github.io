@@ -308,6 +308,11 @@ ninja.data = [{
           description: "dynamics of metapopulation disease models",
           section: "Projects",handler: () => {
               window.location.href = "/projects/spatio-temporal-spread-diseases/";
+            },},{id: "teaching-introduction-to-mathematical-epidemiology-populate-summer-school-2025",
+          title: 'Introduction to Mathematical Epidemiology (Populate Summer School 2025)',
+          description: "A short course on Mathematical Epidemiology taught in Grasse in June 2025",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/grad-2025-populate-school/";
             },},{id: "teaching-short-course-on-mathematical-epidemiology-arba-minch-2023",
           title: 'Short course on Mathematical Epidemiology (Arba Minch 2023)',
           description: "A short course on Mathematical Epidemiology taught at Arba Minch (Ethiopia) in December 2023",
