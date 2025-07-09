@@ -253,6 +253,21 @@
       {% if entry.website %}
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
       {% endif %}
+      {% if site.enable_publication_badges.google_scholar and entry.google_scholar_id %}
+        <a
+          href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user={{ site.data.socials.scholar_userid }}&citation_for_view={{ site.data.socials.scholar_userid }}:{{ entry.google_scholar_id }}"
+          aria-label="Google Scholar link"
+          role="button"
+        >
+          {% capture scholar_citations %}
+            {% google_scholar_citations_no_dl 'dummy' entry.google_scholar_id %}
+          {% endcapture %}
+          <img
+            src="https://img.shields.io/badge/scholar-{{ scholar_citations | strip }}-4285F4?logo=googlescholar&labelColor=beige"
+            alt="{{ scholar_citations | strip }} Google Scholar citations"
+          >
+        </a>
+      {% endif %}
     </div>
     {% if site.enable_publication_badges %}
       {% assign entry_has_altmetric_badge = false %}
@@ -310,21 +325,6 @@
               data-legend="hover-right"
               style="margin-bottom: 3px;"
             ></span>
-          {% endif %}
-          {% if site.enable_publication_badges.google_scholar and entry_has_google_scholar_badge %}
-            <a
-              href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user={{ site.data.socials.scholar_userid }}&citation_for_view={{ site.data.socials.scholar_userid }}:{{ entry.google_scholar_id }}"
-              aria-label="Google Scholar link"
-              role="button"
-            >
-              {% capture scholar_citations %}
-                {% google_scholar_citations_no_dl 'dummy' entry.google_scholar_id %}
-              {% endcapture %}
-              <img
-                src="https://img.shields.io/badge/scholar-{{ scholar_citations | strip }}-4285F4?logo=googlescholar&labelColor=beige"
-                alt="{{ scholar_citations | strip }} Google Scholar citations"
-              >
-            </a>
           {% endif %}
           {% if site.enable_publication_badges.inspirehep and entry_has_inspirehep_badge %}
             <a
