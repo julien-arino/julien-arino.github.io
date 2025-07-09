@@ -318,7 +318,7 @@
               role="button"
             >
               {% capture scholar_citations %}
-                {% google_scholar_citations_no_dl site.data.socials.scholar_userid entry.google_scholar_id %}
+                {% google_scholar_citations_no_dl 'dummy' entry.google_scholar_id %}
               {% endcapture %}
               <img
                 src="https://img.shields.io/badge/scholar-{{ scholar_citations | strip }}-4285F4?logo=googlescholar&labelColor=beige"
