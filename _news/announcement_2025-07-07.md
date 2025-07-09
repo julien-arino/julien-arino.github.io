@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Paper of Hippolyte is published @ Mathematical Biosciences ([https://doi.org/10.1016/j.mbs.2025.109503](link)))
+Paper of Hippolyte is published @ Mathematical Biosciences ([link](https://doi.org/10.1016/j.mbs.2025.109503))
