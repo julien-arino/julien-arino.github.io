@@ -3,6 +3,8 @@ from scholarly import scholarly
 from fuzzywuzzy import fuzz
 import argparse
 import time
+import csv
+import random
 
 BIB_PATH = '_bibliography/papers.bib'
 SCHOLAR_USER_ID = 'DUa7u60AAAAJ'
@@ -30,7 +32,7 @@ def fetch_scholar_pubs(user_id):
             scholarly.fill(pub)
         except Exception as e:
             print(f"    Error filling publication: {e}")
-        time.sleep(0.5)  # 0.5 second delay to avoid throttling
+        time.sleep(random.uniform(0.5, 2.0))  # random delay to avoid throttling
     print("Finished fetching publication details.")
     return pubs
 
@@ -62,6 +64,25 @@ def sort_bib_entries(entries):
         return entry.get('author', '').lower()
     # Sort by year (descending), then author (ascending)
     return sorted(entries, key=lambda e: (-get_year(e), get_author(e)))
+
+def write_citations_csv(bib_entries, scholar_pubs, csv_path):
+    # Build a mapping from scholar_id to citation count
+    scholar_citations = {}
+    for pub in scholar_pubs:
+        scholar_id = pub.get('author_pub_id', '')
+        if ':' in scholar_id:
+            scholar_id = scholar_id.split(':', 1)[1]
+        if scholar_id:
+            citations = pub.get('num_citations', 0)
+            scholar_citations[scholar_id] = citations
+
+    with open(csv_path, 'w', newline='') as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerow(['pub_id', 'citations'])
+        for entry in bib_entries:
+            pub_id = entry.get('google_scholar_id', '')
+            citations = scholar_citations.get(pub_id, 0)
+            writer.writerow([pub_id, citations])
 
 def main(dry_run=False):
     bib_entries = load_bib_entries(BIB_PATH)
@@ -99,6 +120,8 @@ def main(dry_run=False):
     sorted_entries = sort_bib_entries(bib_entries)
     if not dry_run:
         save_bib_entries(sorted_entries, BIB_PATH)
+        # Write citations CSV with only pub_id and citations
+        write_citations_csv(sorted_entries, scholar_pubs, '_data/scholar_citations.csv')
     else:
         print("\nDry run mode: No changes were written to the bib file.")
 
