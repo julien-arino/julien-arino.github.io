@@ -251,6 +251,9 @@ ninja.data = [{
           section: "News",},{id: "news-paper-of-hippolyte-is-published-mathematical-biosciences-link",
           title: 'Paper of Hippolyte is published @ Mathematical Biosciences (link)',
           description: "",
+          section: "News",},{id: "news-abdramane-and-hippolyte-have-both-defended-successfully-their-theses-at-the-université-de-n-djaména-both-obtained-the-grade-très-honorable-avec-félicitations-du-jury",
+          title: 'Abdramane and Hippolyte have both defended successfully their theses at the Université de...',
+          description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
@@ -341,6 +344,11 @@ ninja.data = [{
           description: "3MC African Mathematical School South Africa in March 2023",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/grad-3MC-school-2023/";
+            },},{id: "teaching-introduction-à-l-39-épidémiologie-mathématique-cimad-n-39-djaména-2025",
+          title: 'Introduction à l&amp;#39;épidémiologie mathématique (CIMAD N&amp;#39;Djaména 2025)',
+          description: "Un petit cours d&#39;épidémiologie mathématique enseigné en novembre 2025 à N&#39;Djaména (Tchad) au cours de la CIMAD 2025",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/grad-CIMAD-2025-11-NDjamena/";
             },},{id: "teaching-short-course-on-mathematical-epidemiology-ukzn-2023",
           title: 'Short course on Mathematical Epidemiology (UKZN 2023)',
           description: "A short course on Mathematical Epidemiology taught at UKZN (Durban) in 2023",
