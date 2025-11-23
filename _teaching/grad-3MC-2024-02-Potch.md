@@ -5,5 +5,5 @@ description: 3MC African Mathematical School on Quantitative Biology - Applicati
 img: https://julien-arino.github.io/3MC-2024-02-Potch/assets/img/3MC-2024-CellsEcoEpi.jpeg
 redirect: /3MC-2024-02-Potch/
 importance: 2
-category: recent
+category: "Others"
 ---

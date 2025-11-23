@@ -5,5 +5,5 @@ description: A short course on Mathematical Epidemiology taught at Arba Minch (E
 img: https://julien-arino.github.io/3MC-2023-12-Arba-Minch/assets/img/vibrio-cholerae.jpeg
 redirect: /3MC-2023-12-Arba-Minch/
 importance: 3
-category: recent
+category: "Others"
 ---
