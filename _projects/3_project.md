@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 3 with very long name
+title: Modelling the transmission of aquatic pathogens
 description: a project that redirects to another website
 img: assets/img/7.jpg
-redirect: https://unsplash.com
+redirect: https://julien-arino.github.io/modelling-aquatic-pathogens-transmission/
 importance: 3
 category: work
 ---
