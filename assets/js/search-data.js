@@ -264,8 +264,8 @@ ninja.data = [{
           description: "a project with a background image and giscus comments",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
+            },},{id: "projects-modelling-the-transmission-of-aquatic-pathogens",
+          title: 'Modelling the transmission of aquatic pathogens',
           description: "a project that redirects to another website",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
@@ -299,6 +299,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-aquatic-pathogen-transmission",
+          title: 'Aquatic pathogen transmission',
+          description: "Work on transmission of aquatic pathogens",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/aquatic-pathogen-transmission_project/";
             },},{id: "projects-disease-importation",
           title: 'disease importation',
           description: "understanding the mechanisms of disease importation",
