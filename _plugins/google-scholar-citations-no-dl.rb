@@ -25,9 +25,28 @@ module Jekyll
           citations[row['pub_id'].to_s.strip] = row['citations'].to_s.strip
         end
       end
-      # Evaluate article_id from context. It might be a nested variable like 'entry.google_scholar_id'
-      article_id = Liquid::Template.parse("{{ #{@article_id.strip} }}").render(context)
-      article_id = @article_id.strip if article_id.nil? || article_id.strip.empty?
+      # Evaluate article_id from context manually
+      article_id_var = @article_id.strip
+      article_id = nil
+      
+      if article_id_var.include?('.')
+        parts = article_id_var.split('.')
+        base = context[parts[0]]
+        if base
+          # Handle both Hash-like and Object-like base objects
+          if base.respond_to?(:[]) && !base[parts[1]].nil?
+            article_id = base[parts[1]]
+          elsif base.respond_to?(parts[1])
+            article_id = base.send(parts[1])
+          end
+        end
+      else
+        article_id = context[article_id_var]
+      end
+      
+      # Fallback to the raw string if nothing was found
+      article_id = article_id_var if article_id.nil? || article_id.to_s.strip.empty?
+      article_id = article_id.to_s.strip
       
       puts "[DEBUG] Looking up pub_id: #{article_id}, found: #{citations[article_id]}"
       citations.fetch(article_id, "N/A")
