@@ -25,7 +25,10 @@ module Jekyll
           citations[row['pub_id'].to_s.strip] = row['citations'].to_s.strip
         end
       end
-      article_id = context[@article_id.strip] || @article_id.strip
+      # Evaluate article_id from context. It might be a nested variable like 'entry.google_scholar_id'
+      article_id = Liquid::Template.parse("{{ #{@article_id.strip} }}").render(context)
+      article_id = @article_id.strip if article_id.nil? || article_id.strip.empty?
+      
       puts "[DEBUG] Looking up pub_id: #{article_id}, found: #{citations[article_id]}"
       citations.fetch(article_id, "N/A")
     end
