@@ -25,7 +25,7 @@ module Jekyll
           citations[row['pub_id'].to_s.strip] = row['citations'].to_s.strip
         end
       end
-      article_id = @article_id.to_s.strip
+      article_id = context[@article_id.strip] || @article_id.strip
       puts "[DEBUG] Looking up pub_id: #{article_id}, found: #{citations[article_id]}"
       citations.fetch(article_id, "N/A")
     end
