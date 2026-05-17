@@ -73,7 +73,7 @@ profiles:
       <p>University of Manitoba</p>
   ##
   - align: left
-    image: student-pics-solomon.jpg
+    image: #$student-pics-solomon.jpg
     content: students-solomon.md
     image_circular: false # crops the image to make it circular
     more_info: >

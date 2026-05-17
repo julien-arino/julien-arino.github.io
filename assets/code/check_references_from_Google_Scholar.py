@@ -1,5 +1,5 @@
 import bibtexparser
-from scholarly import scholarly
+from scholarly import scholarly, ProxyGenerator
 from fuzzywuzzy import fuzz
 import argparse
 import time
@@ -19,20 +19,29 @@ def save_bib_entries(entries, path):
     db.entries = entries
     with open(path, 'w') as bibfile:
         writer = bibtexparser.bwriter.BibTexWriter()
+        writer.order_entries_by = None  # Preserve the custom sorting order
+        writer.align_values = False     # Do not insert large spaces for vertical alignment
         bibfile.write(writer.write(db))
 
 def fetch_scholar_pubs(user_id):
+    print("Configuring proxies to avoid Google Scholar rate limiting...")
+    pg = ProxyGenerator()
+    pg.FreeProxies()
+    scholarly.use_proxy(pg)
+    
     author = scholarly.search_author_id(user_id)
     pubs = list(scholarly.fill(author, sections=['publications'])['publications'])
     print(f"Found {len(pubs)} publications. Fetching details for each (this may take a while)...")
     for idx, pub in enumerate(pubs, 1):
-        title = pub.get('bib', {}).get('title', '[No title]')
-        print(f"  [{idx}/{len(pubs)}] Filling details for: {title}")
+        # We can get the details directly from the author profile without filling the publication
+        print(f"  [{idx}/{len(pubs)}] Processing: {pub.get('bib', {}).get('title', '')}")
         try:
-            scholarly.fill(pub)
+            scholar_title = pub.get('bib', {}).get('title', '')
+            citations = pub.get('num_citations', 0)
+            pub_year = pub.get('bib', {}).get('pub_year', '')
         except Exception as e:
-            print(f"    Error filling publication: {e}")
-        time.sleep(random.uniform(0.5, 2.0))  # random delay to avoid throttling
+            print(f"    Error processing publication: {e}")
+            continue
     print("Finished fetching publication details.")
     return pubs
 
@@ -79,10 +88,36 @@ def write_citations_csv(bib_entries, scholar_pubs, csv_path):
     with open(csv_path, 'w', newline='') as csvfile:
         writer = csv.writer(csvfile)
         writer.writerow(['pub_id', 'citations'])
+        seen_ids = set()
         for entry in bib_entries:
             pub_id = entry.get('google_scholar_id', '')
-            citations = scholar_citations.get(pub_id, 0)
-            writer.writerow([pub_id, citations])
+            if pub_id and pub_id not in seen_ids:
+                citations = scholar_citations.get(pub_id, 0)
+                writer.writerow([pub_id, citations])
+                seen_ids.add(pub_id)
+
+def write_issues_csv(scholar_pubs, final_scholar_ids, duplicated_ids, csv_path):
+    with open(csv_path, 'w', newline='') as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerow(['title', 'pub_year', 'citations', 'google_scholar_id', 'status'])
+        for pub in scholar_pubs:
+            scholar_id = pub.get('author_pub_id', '')
+            if ':' in scholar_id:
+                scholar_id = scholar_id.split(':', 1)[1]
+            if not scholar_id:
+                continue
+                
+            status = None
+            if scholar_id not in final_scholar_ids:
+                status = 'missing'
+            elif scholar_id in duplicated_ids:
+                status = 'duplicated'
+                
+            if status:
+                title = pub.get('bib', {}).get('title', '')
+                pub_year = pub.get('bib', {}).get('pub_year', '')
+                citations = pub.get('num_citations', 0)
+                writer.writerow([title, pub_year, citations, scholar_id, status])
 
 def main(dry_run=False):
     bib_entries = load_bib_entries(BIB_PATH)
@@ -118,10 +153,22 @@ def main(dry_run=False):
             print(f"No Scholar match for: {entry.get('title')}")
 
     sorted_entries = sort_bib_entries(bib_entries)
+    
+    final_scholar_ids = set()
+    duplicated_ids = set()
+    for entry in sorted_entries:
+        pub_id = entry.get('google_scholar_id', '')
+        if pub_id:
+            if pub_id in final_scholar_ids:
+                duplicated_ids.add(pub_id)
+            else:
+                final_scholar_ids.add(pub_id)
+
     if not dry_run:
         save_bib_entries(sorted_entries, BIB_PATH)
         # Write citations CSV with only pub_id and citations
         write_citations_csv(sorted_entries, scholar_pubs, '_data/scholar_citations.csv')
+        write_issues_csv(scholar_pubs, final_scholar_ids, duplicated_ids, '_data/missing_or_issues_with_Scholar_citations.csv')
     else:
         print("\nDry run mode: No changes were written to the bib file.")
 
