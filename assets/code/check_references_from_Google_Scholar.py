@@ -19,6 +19,8 @@ def save_bib_entries(entries, path):
     db.entries = entries
     with open(path, 'w') as bibfile:
         writer = bibtexparser.bwriter.BibTexWriter()
+        writer.order_entries_by = None  # Preserve the custom sorting order
+        writer.align_values = False     # Do not insert large spaces for vertical alignment
         bibfile.write(writer.write(db))
 
 def fetch_scholar_pubs(user_id):
@@ -31,13 +33,15 @@ def fetch_scholar_pubs(user_id):
     pubs = list(scholarly.fill(author, sections=['publications'])['publications'])
     print(f"Found {len(pubs)} publications. Fetching details for each (this may take a while)...")
     for idx, pub in enumerate(pubs, 1):
-        title = pub.get('bib', {}).get('title', '[No title]')
-        print(f"  [{idx}/{len(pubs)}] Filling details for: {title}")
+        # We can get the details directly from the author profile without filling the publication
+        print(f"  [{idx}/{len(pubs)}] Processing: {pub.get('bib', {}).get('title', '')}")
         try:
-            scholarly.fill(pub)
+            scholar_title = pub.get('bib', {}).get('title', '')
+            citations = pub.get('num_citations', 0)
+            pub_year = pub.get('bib', {}).get('pub_year', '')
         except Exception as e:
-            print(f"    Error filling publication: {e}")
-        time.sleep(random.uniform(0.5, 2.0))  # random delay to avoid throttling
+            print(f"    Error processing publication: {e}")
+            continue
     print("Finished fetching publication details.")
     return pubs
 
