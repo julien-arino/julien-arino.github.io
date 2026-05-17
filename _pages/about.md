@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Professor with the Department of Mathematics at the [University of Manitoba](https://umanitoba.ca/) and a member of the (informal) [Mathematical Biology group](https://umanitoba-mathbio.github.io/).
+I am a Professor with the Department of Mathematics at the [University of Manitoba](https://umanitoba.ca/) and a member of the (informal) [MathBio@UM group](https://umanitoba-mathbio.github.io/).
 
 My research is in mathematical biology, with particular focus on the role of movement in epidemiology and epizootiology. As part of my work, I have become more and more interested in data scientific aspects.
 
