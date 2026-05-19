@@ -15,7 +15,7 @@ profiles:
     content: students-abdramane.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>Abdramane Annour Saad</p>
+      <p>Annour Saad Abdramane</p>
       <p>PhD student</p>
       <p>University of N'Djaména</p>
   - align: left
@@ -33,7 +33,7 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Adriana-Stefania Ciupeanu</p>
-      <p>PhD student</p>
+      <p>Postdoctoral fellow</p>
       <p>University of Manitoba</p>
   ##
   - align: left
