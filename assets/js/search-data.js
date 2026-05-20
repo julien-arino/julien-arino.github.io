@@ -72,20 +72,9 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-",
+            },{id: "post-compiling-r-on-raspberry-pi-128-threads-limitation",
         
-          title: "",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/2022-02-15-spatio-temporal-spread-of-covid-19-a-review/";
-          
-        },
-      },{id: "post-compiling-r-on-a-raspberry-pi-and-getting-rid-of-the-128-threads-limitation",
-        
-          title: "Compiling R on a Raspberry Pi and getting rid of the 128 threads...",
+          title: "Compiling R on Raspberry Pi: 128 Threads Limitation",
         
         description: "Some considerations on compiling R on a Raspberry Pi.",
         section: "Posts",
@@ -136,6 +125,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2022/Marp-for-slides/";
+          
+        },
+      },{id: "post-spatio-temporal-spread-of-covid-19-a-review",
+        
+          title: "Spatio-temporal spread of COVID-19: a review",
+        
+        description: "A review of the spatio-temporal spread of COVID-19 both in terms of actual spread and modelling.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2022/spatio-temporal-spread-of-covid-19-a-review/";
           
         },
       },{id: "post-mathematical-epidemiology-in-a-data-rich-world",
