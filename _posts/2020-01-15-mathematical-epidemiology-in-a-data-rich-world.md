@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Mathematical epidemiology in a data-rich world"
-description: "Comments on and Rmarkdown source code of the paper Mathematical epidemiology in a data-rich world (Infectious Diseases Modelling, 2020)."
+title: Mathematical epidemiology in a data-rich world
+description: Comments on and Rmarkdown source code of the paper Mathematical epidemiology in a data-rich world.
 date: 2020-01-15
 categories: r-code data simulation
 ---

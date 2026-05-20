@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Mathematical epidemiologist
 
@@ -25,6 +25,7 @@ latest_posts:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
+description: Julien Arino is a Professor of Mathematics at the University of Manitoba specializing in mathematical biology, epidemiology and movement modelling.
 ---
 
 I am a Professor with the Department of Mathematics at the [University of Manitoba](https://umanitoba.ca/) and a member of the (informal) [MathBio@UM group](https://umanitoba-mathbio.github.io/).

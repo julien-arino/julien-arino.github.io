@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Spatio-temporal spread of COVID-19: considerations and modelling"
-description: "A review of the spatio-temporal spread of COVID-19, both in terms of actual spread and in terms of modelling, that I wrote for Fields Institute Communications."
+title: Spatio-temporal spread of COVID-19: considerations and modelling
+description: A review of the spatio-temporal spread of COVID-19 both in terms of actual spread and modelling.
 date: 2022-02-15
 categories: data R
 ---
