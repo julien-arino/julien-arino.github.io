@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Compiling R on a Raspberry Pi and getting rid of the 128 threads limitation
+title: "Compiling R on Raspberry Pi: 128 Threads Limitation"
 description: Some considerations on compiling R on a Raspberry Pi.
 date: 2023-02-05
 categories: r-code
