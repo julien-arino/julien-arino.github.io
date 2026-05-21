@@ -331,7 +331,7 @@ ninja.data = [{
               window.location.href = "/teaching/grad-3MC-2023-12-Arba-Minch/";
             },},{id: "teaching-3mc-african-mathematical-school-on-quantitative-biology",
           title: '3MC African Mathematical School on Quantitative Biology',
-          description: "3MC African Mathematical School on Quantitative Biology - Applications in Epidemiology, Ecology and Cancer.",
+          description: "3MC African Mathematical School on Quantitative Biology - Applications in Epidemiology, Ecology and Cancer",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/grad-3MC-2024-02-Potch/";
             },},{id: "teaching-introduction-to-mathematical-epidemiology-icms-edinburgh-2024",
