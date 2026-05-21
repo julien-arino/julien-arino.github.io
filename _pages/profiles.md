@@ -1,8 +1,8 @@
 ---
 layout: profiles
 permalink: /people/
-title: people
-description: Current members of the group (in alphabetical order of last name)
+title: People
+description: Current members of the group in alphabetical order of last name.
 nav: true
 nav_order: 7
 

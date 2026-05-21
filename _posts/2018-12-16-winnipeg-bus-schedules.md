@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Buses or ants?"
-description: "R code for plotting the activity of bus stops during a typical day in Winnipeg, using data downloaded from Winnipeg Transit. Shows how to make movies from the results using convert (ImageMagick) and animation (R library)."
+title: Buses or ants?
+description: R code for plotting the activity of bus stops during a typical day in Winnipeg.
 date: 2018-12-16 00:39:22 -0600
 categories: r-code data winnipeg mapping
 ---

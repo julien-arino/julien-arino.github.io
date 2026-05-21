@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Some useful Marp stuff"
-description: "Compendium of commands useful in Marp: two columns, centering figures, formatting theorems, etc."
+title: Some useful Marp stuff
+description: Compendium of commands useful in Marp for presentations.
 date: 2022-03-17
 categories: presentations
 ---

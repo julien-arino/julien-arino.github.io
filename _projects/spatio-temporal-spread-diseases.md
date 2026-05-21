@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Spatio-temporal spread of diseases
-description: dynamics of metapopulation disease models
+description: Dynamics of metapopulation disease models.
 img: assets/img/figure_variant_importation_base_model_with_stimulations.png
 importance: 1
 category: current

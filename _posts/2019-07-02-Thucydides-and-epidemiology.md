@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Thucydides and epidemiology"
-description: "The plague of Athens of 430 BCE as told by Thucydides in the History of the Peloponnesian War."
+title: Thucydides and epidemiology
+description: The plague of Athens of 430 BCE as told by Thucydides in the History of the Peloponnesian War.
 date: 2019-07-02 09:00:00 -0600
 categories: epidemiology
 ---

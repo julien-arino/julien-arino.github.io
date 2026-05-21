@@ -1,0 +1,16 @@
+name: "IndexNow"
+on:
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  check-and-submit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: IndexNow Action
+        uses: bojieyang/indexnow-action@v2
+        with:
+          sitemap-location: 'https://julien-arino.github.io/sitemap.xml'
+          key: '1b096dd9f6d5f7e39d123985ee543515'

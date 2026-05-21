@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "US measles cases data"
-description: "Historical data for the yearly number of cases of measles in the USA from 1944 to the current day, collated from the US CDC data."
+title: US measles cases data
+description: Historical data for the yearly number of cases of measles in the USA from 1944 to the current day.
 date: 2018-12-09 00:39:22 -0600
 categories: data datasets epidemiology
 featured: true

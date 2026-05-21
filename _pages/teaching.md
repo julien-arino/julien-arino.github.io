@@ -1,8 +1,8 @@
 ---
 layout: page
-title: teaching
+title: Teaching
 permalink: /teaching/
-description: Material for some courses both current or recent and past. For ongoing courses, information specific to a term is on UMLearn.
+description: Material for some courses both current or recent and past.
 nav: true
 display_categories: ["University of Manitoba", "Others", "Older UM"]
 horizontal: true

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Using Marp to make cool html presentation slides"
-description: "How to use Marp to make nice looking presentation slides, from the perspective of an only-partly-savvy computer user."
+title: Using Marp to make cool html presentation slides
+description: How to use Marp to make nice looking presentation slides.
 date: 2022-02-20
 categories: presentations
 ---

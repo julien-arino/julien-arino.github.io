@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "A short Mathematical Epidemiology course"
-description: "Lecture notes and videos of the 3MC short course on Mathematical Epidemiology I taught at NWU, South Africa, in April 2022"
+title: A short Mathematical Epidemiology course
+description: Lecture notes and videos of the 3MC short course on Mathematical Epidemiology.
 date: 2022-04-29
 categories: presentations
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Plotting a nice y-axis and cropping figures"
-description: "R functions to make human readable y-axis and to crop figures."
+title: Plotting a nice y-axis and cropping figures
+description: R functions to make human readable y-axis and to crop figures.
 date: 2018-12-10 00:39:22 -0600
 categories: r-code
 ---
