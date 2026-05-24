@@ -23,27 +23,40 @@ def save_bib_entries(entries, path):
         writer.align_values = False     # Do not insert large spaces for vertical alignment
         bibfile.write(writer.write(db))
 
-def fetch_scholar_pubs(user_id):
-    print("Configuring proxies to avoid Google Scholar rate limiting...")
-    pg = ProxyGenerator()
-    pg.FreeProxies()
-    scholarly.use_proxy(pg)
-    
-    author = scholarly.search_author_id(user_id)
-    pubs = list(scholarly.fill(author, sections=['publications'])['publications'])
-    print(f"Found {len(pubs)} publications. Fetching details for each (this may take a while)...")
-    for idx, pub in enumerate(pubs, 1):
-        # We can get the details directly from the author profile without filling the publication
-        print(f"  [{idx}/{len(pubs)}] Processing: {pub.get('bib', {}).get('title', '')}")
+def fetch_scholar_pubs(user_id, max_retries=5):
+    for attempt in range(max_retries):
         try:
-            scholar_title = pub.get('bib', {}).get('title', '')
-            citations = pub.get('num_citations', 0)
-            pub_year = pub.get('bib', {}).get('pub_year', '')
+            print(f"Attempt {attempt + 1} of {max_retries} to configure proxies and fetch author profile...")
+            pg = ProxyGenerator()
+            success = pg.FreeProxies()
+            if not success:
+                print("  Warning: FreeProxies() returned False, proxies might not be configured properly.")
+            scholarly.use_proxy(pg)
+            
+            author = scholarly.search_author_id(user_id)
+            pubs = list(scholarly.fill(author, sections=['publications'])['publications'])
+            print(f"Found {len(pubs)} publications. Fetching details for each (this may take a while)...")
+            for idx, pub in enumerate(pubs, 1):
+                # We can get the details directly from the author profile without filling the publication
+                print(f"  [{idx}/{len(pubs)}] Processing: {pub.get('bib', {}).get('title', '')}")
+                try:
+                    scholar_title = pub.get('bib', {}).get('title', '')
+                    citations = pub.get('num_citations', 0)
+                    pub_year = pub.get('bib', {}).get('pub_year', '')
+                except Exception as e:
+                    print(f"    Error processing publication: {e}")
+                    continue
+            print("Finished fetching publication details.")
+            return pubs
         except Exception as e:
-            print(f"    Error processing publication: {e}")
-            continue
-    print("Finished fetching publication details.")
-    return pubs
+            print(f"Error fetching scholar pubs on attempt {attempt + 1}: {e}")
+            if attempt < max_retries - 1:
+                sleep_time = random.uniform(5, 15)
+                print(f"Waiting {sleep_time:.1f} seconds before retrying...")
+                time.sleep(sleep_time)
+            else:
+                print("Max retries reached. Failing.")
+                raise
 
 def match_entry(bib_entry, scholar_pubs):
     bib_title = bib_entry.get('title', '').lower()
