@@ -2,6 +2,7 @@
 layout: page
 title: About Julien Arino
 description: Julien Arino is a Professor with the Department of Mathematics at the University of Manitoba and a member of the MathBio@UM group.
+sitemap: false
 ---
 
 Julien Arino is a Professor with the Department of Mathematics at the [University of Manitoba](https://umanitoba.ca/) and a member of the (informal) [Mathematical Biology group](https://umanitoba-mathbio.github.io/).
