@@ -237,12 +237,7 @@ ninja.data = [{
             window.location.href = "/blog/2014/SARS-data/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-paper-1-of-abdramane-submitted-arxiv",
+      },{id: "news-paper-1-of-abdramane-submitted-arxiv",
           title: 'Paper (1) of Abdramane submitted (arXiv)',
           description: "",
           section: "News",},{id: "news-paper-2-of-abdramane-submitted-arxiv",
