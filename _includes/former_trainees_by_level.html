@@ -1,0 +1,56 @@
+<ul>
+    {% for trainee in site.data.trainees %}
+    {% if trainee.ongoing == include.ongoing %}
+    {% assign match = false %}
+    {% if include.level and trainee.program contains include.level %}{% assign match = true %}{% endif %}
+    {% if include.level2 and trainee.program contains include.level2 %}{% assign match = true %}{% endif %}
+    {% if include.level3 and trainee.program contains include.level3 %}{% assign match = true %}{% endif %}
+    {% if include.level4 and trainee.program contains include.level4 %}{% assign match = true %}{% endif %}
+    {% if include.level5 and trainee.program contains include.level5 %}{% assign match = true %}{% endif %}
+
+    {% if match %}
+    <li>
+        {% if trainee.website and trainee.website != empty %}
+        <a href="{{ trainee.website }}">{{ trainee.first_name }} {{ trainee.last_name }}</a>.
+        {% else %}
+        {{ trainee.first_name }} {{ trainee.last_name }}.
+        {% endif %}
+        {% if trainee.affiliation_um and trainee.affiliation_um != empty %}{{ trainee.affiliation_um }}.{% endif %}
+        {% assign sups = "" %}
+        {% assign num_sups = 0 %}
+        {% if trainee.supervisor1 and trainee.supervisor1 != empty %}{% assign sups = trainee.supervisor1 %}{% assign
+        num_sups = 1 %}{% endif %}
+        {% if trainee.supervisor2 and trainee.supervisor2 != empty %}
+        {% if sups != "" %}{% assign sups = sups | append: " & " %}{% endif %}
+        {% assign sups = sups | append: trainee.supervisor2 %}
+        {% assign num_sups = num_sups | plus: 1 %}
+        {% endif %}
+        {% if trainee.supervisor3 and trainee.supervisor3 != empty %}
+        {% if sups != "" %}{% assign sups = sups | append: " & " %}{% endif %}
+        {% assign sups = sups | append: trainee.supervisor3 %}
+        {% assign num_sups = num_sups | plus: 1 %}
+        {% endif %}
+        {% if num_sups > 1 %}
+        Co-supervision by {{ sups }}.
+        {% elsif num_sups == 1 %}
+        Supervision by {{ sups }}.
+        {% endif %}
+        {% if trainee.thesis_title and trainee.thesis_title != empty %}
+        {% if trainee.thesis_url and trainee.thesis_url != empty %}
+        <a href="{{ trainee.thesis_url }}">{{ trainee.thesis_title }}</a>.
+        {% else %}
+        {{ trainee.thesis_title }}.
+        {% endif %}
+        {% endif %}
+        {% if trainee.current_position and trainee.current_position != empty %}
+        Currently {{ trainee.current_position }}{% if trainee.affiliation_current and trainee.affiliation_current !=
+        empty %}, {{ trainee.affiliation_current }}{% endif %}.
+        {% elsif trainee.affiliation_current and trainee.affiliation_current != empty %}
+        Currently at {{ trainee.affiliation_current }}.
+        {% endif %}
+        {% if trainee.other and trainee.other != empty %} {{ trainee.other }}{% endif %}
+    </li>
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+</ul>
