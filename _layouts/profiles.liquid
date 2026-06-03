@@ -25,6 +25,12 @@ layout: page
         <div class="clearfix">
           {% if profile.content %}
             {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
+            {% assign profile_content_parts = profile_content | split: '---' %}
+            {% assign first_part = profile_content_parts[0] | strip %}
+            {% if first_part == "" and profile_content_parts[1] contains "layout:" %}
+              {% assign front_matter = profile_content_parts[1] | prepend: '---' | append: '---' %}
+              {% assign profile_content = profile_content | remove_first: front_matter %}
+            {% endif %}
             {{ profile_content | markdownify }}
           {% else %}
             {{ content }}
