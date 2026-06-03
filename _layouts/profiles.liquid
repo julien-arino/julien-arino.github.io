@@ -7,7 +7,7 @@ layout: page
       {% for profile in site.data.people %}
         {% if profile.current == "TRUE" or profile.current == true %}
           <hr>
-          <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
+          <div class="profile float-{% cycle 'left', 'right' %}">
             {% if profile.image and profile.image != "" %}
               {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
               {% if profile.image_circular == "TRUE" or profile.image_circular == true %}
