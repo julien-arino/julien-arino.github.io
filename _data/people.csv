@@ -1,7 +1,7 @@
 first_name,last_name,program,supervisor1,supervisor2,supervisor3,date_start,date_end,website,affiliation_current,affiliation_um,current_position,thesis_title,thesis_url,ongoing,other,current,image,content,image_circular,more_info
 Julien,Arino,Professor,,,,,,https://julien-arino.github.io,,Department of Mathematics,Professor,,,TRUE,,TRUE,prof_pic.jpg,people/people-julien.md,FALSE,<p>Julien Arino</p><p>Professor</p><p>University of Manitoba</p>
 Adriana-Stefania,Ciupeanu,Postdoctoral fellow,J. Arino,,,,,,,Departments of Mathematics,,,,TRUE,,TRUE,student-pics-adriana.jpg,people/people-adriana.md,FALSE,<p>Adriana-Stefania Ciupeanu</p><p>Postdoctoral fellow</p><p>University of Manitoba</p>
-Clotilde,Djuikem,Postdoctoral fellow,J. Arino,,,,,https://djuikem-clotilde.netlify.app/,,Department of Mathematics,,,,FALSE,,FALSE,student-pics-clotilde.jpg,people/people-clotilde.md,FALSE,<p>Clotilde Djuikem</p><p>Postdoctoral fellow</p><p>University of Manitoba</p>
+Clotilde,Djuikem,Postdoctoral fellow,J. Arino then S. Portet,,,,,https://djuikem-clotilde.netlify.app/,,Department of Mathematics,,,,FALSE,,FALSE,student-pics-clotilde.jpg,people/people-clotilde.md,FALSE,<p>Clotilde Djuikem</p><p>Postdoctoral fellow</p><p>University of Manitoba</p>
 Ghazale,Farjam,Ph.D. (IIS),J. Arino,,,,,,,Department of Mathematics,,,,TRUE,Former VADA student,TRUE,student-pics-ghazale.jpg,people/people-ghazale.md,FALSE,<p>Ghazale Farjam</p><p>PhD student</p><p>University of Manitoba</p>
 Md Mehadi,Hasan,M.Sc. and VADA Program student,J. Arino,,,,,https://sites.google.com/view/mmhmiad,,Department of Mathematics,Ph.D. student,,,FALSE,,FALSE,,,FALSE,
 Md Mehadi,Hasan,Ph.D. IIS),J. Arino,,,,,https://sites.google.com/view/mmhmiad,,Departments of Mathematics and Statistics,,,,TRUE,,TRUE,student-pics-mehadi.jpg,people/people-mehadi.md,FALSE,<p>Md Mehadi Hasan</p><p>PhD student</p><p>University of Manitoba</p>
@@ -26,7 +26,7 @@ Liliana,Menjivar,M.Sc.,J. Arino,,,,,,University of Manitoba,Department of Mathem
 Negin,Pasban Roozbahani,M.Sc.,J. Arino,S. Kirkland,,,,,,Department of Mathematics,,A model for Arctic Charr populations in Cambridge Bay considering fluctuating environment,http://hdl.handle.net/1993/32496,FALSE,,FALSE,,,FALSE,
 Stephanie,Richards,M.Sc. student,J. Arino,,,,,,,Department of Mathematics,,,,FALSE,,FALSE,,,FALSE,
 Jason,Rose,M.Sc.,J. Arino,,,,,,,Department of Mathematics,,The effect of movement on the early phase of an epidemic,http://hdl.handle.net/1993/31899,FALSE,,FALSE,,,FALSE,
-Iman,Soliman,Ph.D.,J. Arino,,,,,,Internationcal College of Manitoba,Department of Mathematics,Instructor,Mathematical analysis of the role of movement in the spread of Tuberculosis,http://hdl.handle.net/1993/22198,FALSE,,FALSE,,,FALSE,
+Iman,Soliman,Ph.D.,J. Arino,,,,,,International College of Manitoba,Department of Mathematics,Instructor,Mathematical analysis of the role of movement in the spread of Tuberculosis,http://hdl.handle.net/1993/22198,FALSE,,FALSE,,,FALSE,
 Nicolas,Verrier,M.Sc.,J. Arino,,,,,,,"Université de la Méditerranée, Marseille, France",,,,FALSE,,FALSE,,,FALSE,
 Lindsay,Wessel,M.Sc.,J. Arino,,,,,,,Department of Mathematics,,Impact of vaccination and mobility on disease dynamics: a two patch model for measles,http://hdl.handle.net/1993/31809,FALSE,,FALSE,,,FALSE,
 Jane,MacDonald,Undergraduate,J. Arino,,,,,,University of Oregon,,Postdoctoral Fellow,,,FALSE,,FALSE,,,FALSE,
