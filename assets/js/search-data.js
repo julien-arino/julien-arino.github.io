@@ -51,21 +51,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/books/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/blog/";
-              },
-            },{id: "post-compiling-r-on-raspberry-pi-128-threads-limitation",
+        },{id: "post-compiling-r-on-raspberry-pi-128-threads-limitation",
         
           title: "Compiling R on Raspberry Pi: 128 Threads Limitation",
         
