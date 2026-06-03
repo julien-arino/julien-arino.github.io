@@ -1,6 +1,6 @@
 <ul>
-    {% for trainee in site.data.trainees %}
-    {% if trainee.ongoing == include.ongoing %}
+    {% for trainee in site.data.people %}
+    {% if trainee.current == "FALSE" or trainee.current == false %}
     {% assign match = false %}
     {% if include.level and trainee.program contains include.level %}{% assign match = true %}{% endif %}
     {% if include.level2 and trainee.program contains include.level2 %}{% assign match = true %}{% endif %}

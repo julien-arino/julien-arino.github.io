@@ -10,16 +10,16 @@ Here is an alphabetical list of former group members (trainees, postdoctoral fel
 
 ## Postdoctoral fellows
 
-{% include former_trainees_by_level.html level="Postdoctoral" ongoing="FALSE" %}
+{% include former_trainees_by_level.html level="Postdoctoral" %}
 
 ## Ph.D. students
 
-{% include former_trainees_by_level.html level="Ph.D." ongoing="FALSE" %}
+{% include former_trainees_by_level.html level="Ph.D." %}
 
 ## Master's students
 
-{% include former_trainees_by_level.html level="M.Sc." ongoing="FALSE" %}
+{% include former_trainees_by_level.html level="M.Sc." %}
 
 ## Undergraduate students
 
-{% include former_trainees_by_level.html level="Undergraduate" level2="USRA" ongoing="FALSE" %}
+{% include former_trainees_by_level.html level="Undergraduate" level2="USRA" %}
