@@ -46,7 +46,7 @@ ninja.data = [{
           },
         },{id: "nav-people",
           title: "People",
-          description: "Current members of the Arino group in alphabetical order of last name. See also former members and alumni.",
+          description: "Current members of the Arino group in alphabetical order of last name.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/people/";
