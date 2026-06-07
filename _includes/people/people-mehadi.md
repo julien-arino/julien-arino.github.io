@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Md Mehadi Hasan
-description: Mehadi is an MSc student with the Department of Mathematics at the University of Manitoba.
+description: Mehadi is an Individual Interdisciplinary Studies program PhD student with the Departments of Mathematics and Statistics at the University of Manitoba.
 sitemap: false
 ---
 
-Mehadi is an MSc student with the Department of Mathematics at the University of Manitoba. In Fall 2025, he will become an Individual Interdisciplinary Studies program PhD student at the University of Manitoba, with main department the Department of Mathematics and other department the Department of Statistics.
+Mehadi is an Individual Interdisciplinary Studies program PhD student with the Departments of Mathematics and Statistics at the University of Manitoba.
+Prior to this, he was an MSc student and VADA program student with the Department of Mathematics at the University of Manitoba.
