@@ -1,0 +1,35 @@
+first_name,last_name,program,supervisor1,supervisor2,supervisor3,date_start,date_end,website,affiliation_current,affiliation_um,current_position,thesis_title,thesis_url,ongoing,other,current,image,content,image_circular,more_info
+Julien,Arino,Professor,,,,,,https://julien-arino.github.io,,Department of Mathematics,Professor,,,TRUE,,TRUE,prof_pic.jpg,people/people-julien.md,FALSE,<p>Julien Arino</p><p>Professor</p><p>University of Manitoba</p>
+Adriana-Stefania,Ciupeanu,Postdoctoral fellow,J. Arino,,,,,,,Departments of Mathematics,,,,TRUE,,TRUE,student-pics-adriana.jpg,people/people-adriana.md,FALSE,<p>Adriana-Stefania Ciupeanu</p><p>Postdoctoral fellow</p><p>University of Manitoba</p>
+Clotilde,Djuikem,Postdoctoral fellow,J. Arino then S. Portet,,,,,https://djuikem-clotilde.netlify.app/,,Department of Mathematics,,,,FALSE,,FALSE,student-pics-clotilde.jpg,people/people-clotilde.md,FALSE,<p>Clotilde Djuikem</p><p>Postdoctoral fellow</p><p>University of Manitoba</p>
+Ghazale,Farjam,Ph.D. (IIS),J. Arino,,,,,,,Department of Mathematics,,,,TRUE,Former VADA student,TRUE,student-pics-ghazale.jpg,people/people-ghazale.md,FALSE,<p>Ghazale Farjam</p><p>PhD student</p><p>University of Manitoba</p>
+Md Mehadi,Hasan,M.Sc. and VADA Program student,J. Arino,,,,,https://sites.google.com/view/mmhmiad,,Department of Mathematics,Ph.D. student,,,FALSE,,FALSE,,,FALSE,
+Md Mehadi,Hasan,Ph.D. IIS),J. Arino,,,,,https://sites.google.com/view/mmhmiad,,Departments of Mathematics and Statistics,,,,TRUE,,TRUE,student-pics-mehadi.jpg,people/people-mehadi.md,FALSE,<p>Md Mehadi Hasan</p><p>PhD student</p><p>University of Manitoba</p>
+Solomon,Mensah,M.Sc. student,J. Arino,K.-L. Liao,,,,,,Department of Mathematics,,,,TRUE,,TRUE,,people/people-solomon.md,FALSE,<p>Solomon Mensah</p><p>MSc student</p><p>University of Manitoba</p>
+Felix,Vo,Undergraduate student,J. Arino,,,,,,,,,,,TRUE,,FALSE,,,FALSE,
+Nicolas,Bajeux,Postdoctoral fellow,J. Arino then S. Portet,,,,,,,,,,,FALSE,,FALSE,,,FALSE,
+Suzan,Farhang Sardroodi,Postdoctoral fellow,J. Arino,K.-L. Liao,S. Portet,,,https://scholar.google.ca/citations?user=BCo2Q7IAAAAJ&hl=en,,Department of Mathematics. Co-supervision with M. Craig (Université de Montréal).,,,,FALSE,,FALSE,,,FALSE,
+Sehjeong,Kim,Postdoctoral fellow,J. Arino,K. Khan (Bluedot),,,,https://research.uaeu.ac.ae/en/persons/sehjeong-kim,United Arab Emirates University,,Associate Professor,,,FALSE,,FALSE,,,FALSE,
+Jhoana,Romero,Postdoctoral fellow,J. Arino,Bouchra Nasri (Université de Montréal),,,,https://jhoanapromeroleiton.com/,University of Puerto Rico at Mayagüez,Department of Mathematics,Assistant Professor,,,FALSE,,FALSE,,,FALSE,
+Chengjun,Sun,Postdoctoral fellow,J. Arino then S. Portet,,,,,,Kunming University of Science and Technology,,Associate Professor,,,FALSE,,FALSE,,,FALSE,
+Ling,Xue,PIMS Postdoctoral Fellow,J. Arino,F. Magpantay (Queen's University),,,,https://www.researchgate.net/profile/Ling_Xue8,"Harbin Engineering University, Harbin",,Associate Professor,,,FALSE,,FALSE,,,FALSE,
+Annour Saad,Abdramane,Ph.D. student,J. Arino,"Patrick Tchepmo (NWU, South Africa)","Mahamat Saleh Daoussa Haggar (Université de N'Djaména, Chad)",,,,,,,,,FALSE,"Department of Mathematics, Université de N'Djaména (Chad)",FALSE,student-pics-abdramane.jpg,people/people-annour-saad.md,FALSE,<p>Annour Saad Abdramane</p><p>PhD student</p><p>University of N'Djaména</p>
+Adriana-Stefania,Ciupeanu,IIS Ph.D. and VADA Program student,J. Arino,S. Muthukumarana,,,,,,Departments of Mathematics and Statistics,,Mathematical and statistical modelling during a pandemic event,http://hdl.handle.net/1993/39525,FALSE,,FALSE,,,FALSE,
+Hippolyte,Djimramadji,Ph.D. student,J. Arino,"Patrick Tchepmo (NWU, South Africa)","Mahamat Saleh Daoussa Haggar (Université de N'Djaména, Chad)",,,,,,,,,FALSE,"Department of Mathematics, Université de N'Djaména (Chad)",FALSE,student-pics-hippolyte.jpg,people/people-hippolyte.md,FALSE,<p>Hippolyte Djimramadji</p><p>PhD student</p><p>University of N'Djaména</p>
+Agnes,Adefisan,M.Sc.,J. Arino,,,,,,,Department of Mathematics,,A mathematical model of Ebola Virus Disease,http://hdl.handle.net/1993/33422,FALSE,,FALSE,,,FALSE,
+Mahnaz,Alavinejad,M.Sc.,J. Arino,,,,,,Ministry of Health (Ontario),Department of Mathematics,Senior Methodologist,Transmission dynamics of an infectious disease with treatment,http://hdl.handle.net/1993/31760,FALSE,,FALSE,,,FALSE,
+Flora,Cordoléani,M.Sc.,J. Arino,,,,,,"Southwest Fisheries Science Center, CA, USA","Université de la Méditerranée, Marseille, France",Assistant Project Scientist,,,FALSE,,FALSE,,,FALSE,
+Charlotte,Giraud-Carrier,Ph.D.,J. Arino,D. Gillis (Biological Sciences),,,,,,"Université de la Méditerranée, Marseille, France. Biological Sciences",,,,FALSE,Withdrew,FALSE,,,FALSE,
+Charlotte,Giraud-Carrier,M.Sc. (M2),J. Arino,,,,,,,"Université de la Méditerranée, Marseille, France",,,,FALSE,,FALSE,,,FALSE,
+Edwige,Maléka,Ph.D. student,J. Arino,G. Sallet,A. Sene,,,,,"Université Gaston Berger, Saint Louis, Senegal",,,,FALSE,Withdrew,FALSE,,,FALSE,
+Liliana,Menjivar,M.Sc.,J. Arino,,,,,,University of Manitoba,Department of Mathematics,Sessional Instructor,"A metapopulation model for mass gatherings. Application: global travel, Hajj and the spread of measles",http://hdl.handle.net/1993/22178,FALSE,,FALSE,,,FALSE,
+Negin,Pasban Roozbahani,M.Sc.,J. Arino,S. Kirkland,,,,,,Department of Mathematics,,A model for Arctic Charr populations in Cambridge Bay considering fluctuating environment,http://hdl.handle.net/1993/32496,FALSE,,FALSE,,,FALSE,
+Stephanie,Richards,M.Sc. student,J. Arino,,,,,,,Department of Mathematics,,,,FALSE,,FALSE,,,FALSE,
+Jason,Rose,M.Sc.,J. Arino,,,,,,,Department of Mathematics,,The effect of movement on the early phase of an epidemic,http://hdl.handle.net/1993/31899,FALSE,,FALSE,,,FALSE,
+Iman,Soliman,Ph.D.,J. Arino,,,,,,International College of Manitoba,Department of Mathematics,Instructor,Mathematical analysis of the role of movement in the spread of Tuberculosis,http://hdl.handle.net/1993/22198,FALSE,,FALSE,,,FALSE,
+Nicolas,Verrier,M.Sc.,J. Arino,,,,,,,"Université de la Méditerranée, Marseille, France",,,,FALSE,,FALSE,,,FALSE,
+Lindsay,Wessel,M.Sc.,J. Arino,,,,,,,Department of Mathematics,,Impact of vaccination and mobility on disease dynamics: a two patch model for measles,http://hdl.handle.net/1993/31809,FALSE,,FALSE,,,FALSE,
+Jane,MacDonald,Undergraduate,J. Arino,,,,,,University of Oregon,,Postdoctoral Fellow,,,FALSE,,FALSE,,,FALSE,
+Liliana,Menjivar,Undergraduate,J. Arino,,,,,,U of M,,graduate student,,,FALSE,,FALSE,,,FALSE,
+J.,Sherbo,NSERC USRA student,J. Arino,,,,,,,,,,,FALSE,Summer 2016 and Summer 2017.,FALSE,,,FALSE,
+Lindsay,Wessel,Undergraduate,J. Arino,,,,,,U of M,,graduate student,,,FALSE,,FALSE,,,FALSE,

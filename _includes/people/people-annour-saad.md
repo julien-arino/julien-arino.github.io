@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Annour Saad Abdramane
-description: Annour Saad Abdramane is a PhD student in Mathematics at the Université de N'Djaména in Chad.
+description: Annour Saad Abdramane was a PhD student in Mathematics at the Université de N'Djaména in Chad.
 sitemap: false
 ---
 
