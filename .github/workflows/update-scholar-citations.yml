@@ -24,7 +24,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install bibtexparser "scholarly==1.7.11" "free-proxy==1.1.1" "httpx<0.28"
+          pip install bibtexparser "scholarly==1.7.11" "free-proxy==1.0.6" "httpx<0.28"
           
       - name: Run Scholar check script
         run: python assets/code/check_references_from_Google_Scholar.py
