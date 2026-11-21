@@ -1,6 +1,8 @@
 import bibtexparser
 from scholarly import scholarly, ProxyGenerator
+from fp.fp import FreeProxy
 import argparse
+import re
 import time
 import csv
 import random
@@ -13,16 +15,55 @@ def load_bib_entries(path):
         bib_database = bibtexparser.load(bibfile)
     return bib_database.entries
 
+def sanitize_proxy_url(raw_proxy):
+    """Strip malformed trailing :HTTP/:HTTPS suffixes from free-proxy strings."""
+    cleaned = re.sub(r':HTTPS?$', '', raw_proxy.strip(), flags=re.IGNORECASE)
+    if not cleaned.startswith(('http://', 'https://')):
+        cleaned = f'http://{cleaned}'
+    return cleaned
+
+
+def configure_free_proxy():
+    """Configure scholarly with a free proxy, sanitizing malformed proxy strings."""
+    pg = ProxyGenerator()
+    try:
+        if pg.FreeProxies():
+            scholarly.use_proxy(pg)
+            return True
+    except Exception as e:
+        print(f"  pg.FreeProxies() failed ({e}); falling back to sanitized FreeProxy...")
+
+    for _ in range(5):
+        try:
+            raw_proxy = FreeProxy(rand=True, timeout=2).get()
+            proxy_url = sanitize_proxy_url(raw_proxy)
+            pg = ProxyGenerator()
+            if pg.SingleProxy(http=proxy_url, https=proxy_url):
+                scholarly.use_proxy(pg)
+                print(f"  Configured sanitized proxy: {proxy_url}")
+                return True
+        except Exception as e:
+            print(f"  Sanitized proxy attempt failed: {e}")
+    return False
+
+
 def fetch_scholar_pubs(user_id, max_retries=5):
+    # Try direct connection first (often succeeds for a single profile fetch)
+    try:
+        print("Attempting direct connection to Google Scholar (no proxy)...")
+        author = scholarly.search_author_id(user_id)
+        pubs = list(scholarly.fill(author, sections=['publications'])['publications'])
+        print(f"Found {len(pubs)} publications on Google Scholar profile.")
+        return pubs
+    except Exception as e:
+        print(f"Direct connection failed ({e}); falling back to proxies...")
+
     for attempt in range(max_retries):
         try:
             print(f"Attempt {attempt + 1} of {max_retries} to configure proxies and fetch author profile...")
-            pg = ProxyGenerator()
-            success = pg.FreeProxies()
-            if not success:
-                print("  Warning: FreeProxies() returned False, proxies might not be configured properly.")
-            scholarly.use_proxy(pg)
-            
+            if not configure_free_proxy():
+                print("  Warning: could not configure a working proxy.")
+
             author = scholarly.search_author_id(user_id)
             pubs = list(scholarly.fill(author, sections=['publications'])['publications'])
             print(f"Found {len(pubs)} publications on Google Scholar profile.")
