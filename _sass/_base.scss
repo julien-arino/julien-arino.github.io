@@ -697,6 +697,8 @@ footer.sticky-bottom {
 .publications {
   margin-top: 2rem;
 
+  counter-reset: pub-counter;
+
   h1 {
     color: var(--global-theme-color);
     font-size: 2rem;
@@ -728,6 +730,20 @@ footer.sticky-bottom {
 
     li {
       margin-bottom: 1rem;
+      position: relative;
+      padding-left: 2.25rem;
+      counter-increment: pub-counter;
+
+      &::before {
+        content: counter(pub-counter) ".";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 1.75rem;
+        text-align: right;
+        color: var(--global-text-color-light);
+        font-weight: 500;
+      }
 
       .preview {
       }
