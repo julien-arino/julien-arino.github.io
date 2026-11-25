@@ -186,7 +186,14 @@ It is not unlikely that you will get an error when executing this last command. 
 The result is not the movement of buses themselves, but the activity of
 bus stops along the route.
 
-![Buses or ants?](https://server.math.umanitoba.ca/~jarino/images/Winnipeg_buses.gif "Buses moving around")
+<figure class="text-center">
+  <video class="img-fluid rounded z-depth-1" controls autoplay loop muted playsinline style="max-width: 100%;">
+    <source src="{{ '/assets/video/winnipeg-buses.mp4' | relative_url }}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</figure>
+
+[Edit: movie regenerated in 2026 as the original was lost.]
 
 The problem here is file size (so much so that I could not post it on github). Also, the conversion itself can be quite time consuming. The next method addresses some of these issues.
 
