@@ -195,8 +195,6 @@ bus stops along the route.
 
 [Edit: movie regenerated in 2026 as the original was lost.]
 
-The problem here is file size (so much so that I could not post it on github). Also, the conversion itself can be quite time consuming. The next method addresses some of these issues.
-
 ## Second animation method - using animation
 
 The `animation` library uses `ffmpeg`, so this should be installed on your machine. (As often, this is a trivial task under Linux, it might be a bit more of a headache under Windows.)
